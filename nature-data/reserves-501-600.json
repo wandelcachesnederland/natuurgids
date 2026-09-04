@@ -1,0 +1,702 @@
+[
+  {
+    "id": 501,
+    "nl": {},
+    "en": {},
+    "number": 501,
+    "name": "Vilsteren"
+  },
+  {
+    "id": 502,
+    "nl": {},
+    "en": {},
+    "number": 502,
+    "name": "De Wildhoek"
+  },
+  {
+    "id": 503,
+    "nl": {},
+    "en": {},
+    "number": 503,
+    "name": "Leusener Maan"
+  },
+  {
+    "id": 504,
+    "nl": {},
+    "en": {},
+    "number": 504,
+    "name": "Varsen"
+  },
+  {
+    "id": 505,
+    "nl": {},
+    "en": {},
+    "number": 505,
+    "name": "IJsselvliedt"
+  },
+  {
+    "id": 506,
+    "nl": {},
+    "en": {},
+    "number": 506,
+    "name": "Wezepse Heide"
+  },
+  {
+    "id": 507,
+    "nl": {},
+    "en": {},
+    "number": 507,
+    "name": "Vuursteenberg"
+  },
+  {
+    "id": 508,
+    "nl": {},
+    "en": {},
+    "number": 508,
+    "name": "Gemeentebos Hattem"
+  },
+  {
+    "id": 509,
+    "nl": {},
+    "en": {},
+    "number": 509,
+    "name": "Molecaten"
+  },
+  {
+    "id": 510,
+    "nl": {},
+    "en": {},
+    "number": 510,
+    "name": "Flip Hul"
+  },
+  {
+    "id": 511,
+    "nl": {},
+    "en": {},
+    "number": 511,
+    "name": "Klooster Hulsbergen"
+  },
+  {
+    "id": 512,
+    "nl": {},
+    "en": {},
+    "number": 512,
+    "name": "Hezenberg"
+  },
+  {
+    "id": 513,
+    "nl": {},
+    "en": {},
+    "number": 513,
+    "name": "Algemeen Veen"
+  },
+  {
+    "id": 514,
+    "nl": {},
+    "en": {},
+    "number": 514,
+    "name": "Hoenwaard"
+  },
+  {
+    "id": 515,
+    "nl": {},
+    "en": {},
+    "number": 515,
+    "name": "Oldeneel"
+  },
+  {
+    "id": 516,
+    "nl": {},
+    "en": {},
+    "number": 516,
+    "name": "Zandhove"
+  },
+  {
+    "id": 517,
+    "nl": {},
+    "en": {},
+    "number": 517,
+    "name": "Soeslo"
+  },
+  {
+    "id": 518,
+    "nl": {},
+    "en": {},
+    "number": 518,
+    "name": "Windesheim"
+  },
+  {
+    "id": 519,
+    "nl": {},
+    "en": {},
+    "number": 519,
+    "name": "Molenpolder"
+  },
+  {
+    "id": 520,
+    "nl": {},
+    "en": {},
+    "number": 520,
+    "name": "Den Alerdinck"
+  },
+  {
+    "id": 521,
+    "nl": {},
+    "en": {},
+    "number": 521,
+    "name": "Colckhof"
+  },
+  {
+    "id": 522,
+    "nl": {},
+    "en": {},
+    "number": 522,
+    "name": "Mandergrafveld"
+  },
+  {
+    "id": 523,
+    "nl": {},
+    "en": {},
+    "number": 523,
+    "name": "Dal van de Mosbeek"
+  },
+  {
+    "id": 524,
+    "nl": {},
+    "en": {},
+    "number": 524,
+    "name": "Springendal"
+  },
+  {
+    "id": 525,
+    "nl": {},
+    "en": {},
+    "number": 525,
+    "name": "Breckelenkamp"
+  },
+  {
+    "id": 526,
+    "nl": {},
+    "en": {},
+    "number": 526,
+    "name": "Schiphorst"
+  },
+  {
+    "id": 527,
+    "nl": {},
+    "en": {},
+    "number": 527,
+    "name": "Spaarnwoude"
+  },
+  {
+    "id": 528,
+    "nl": {},
+    "en": {},
+    "number": 528,
+    "name": "Recreatiegebied Het Twiske"
+  },
+  {
+    "id": 529,
+    "nl": {},
+    "en": {},
+    "number": 529,
+    "name": "Ratteneiland"
+  },
+  {
+    "id": 530,
+    "nl": {},
+    "en": {},
+    "number": 530,
+    "name": "Ilperveld"
+  },
+  {
+    "id": 531,
+    "nl": {},
+    "en": {},
+    "number": 531,
+    "name": "Varkensland"
+  },
+  {
+    "id": 532,
+    "nl": {},
+    "en": {},
+    "number": 532,
+    "name": "Waterland Oost"
+  },
+  {
+    "id": 533,
+    "nl": {},
+    "en": {},
+    "number": 533,
+    "name": "Udoorn"
+  },
+  {
+    "id": 534,
+    "nl": {},
+    "en": {},
+    "number": 534,
+    "name": "De Oeverlanden"
+  },
+  {
+    "id": 535,
+    "nl": {},
+    "en": {},
+    "number": 535,
+    "name": "Amsterdamse Bos"
+  },
+  {
+    "id": 536,
+    "nl": {},
+    "en": {},
+    "number": 536,
+    "name": "Jac.P. Thijssepark en De Braak"
+  },
+  {
+    "id": 537,
+    "nl": {},
+    "en": {},
+    "number": 537,
+    "name": "Amstelveense en Kleine Poel"
+  },
+  {
+    "id": 538,
+    "nl": {},
+    "en": {},
+    "number": 538,
+    "name": "Oosteinderpoel"
+  },
+  {
+    "id": 539,
+    "nl": {},
+    "en": {},
+    "number": 539,
+    "name": "Recreatiegebied Over-Amstel"
+  },
+  {
+    "id": 540,
+    "nl": {},
+    "en": {},
+    "number": 540,
+    "name": "Middelpolder"
+  },
+  {
+    "id": 541,
+    "nl": {},
+    "en": {},
+    "number": 541,
+    "name": "Wester-Amstel"
+  },
+  {
+    "id": 542,
+    "nl": {},
+    "en": {},
+    "number": 542,
+    "name": "Recreatiegebied Elsenhove"
+  },
+  {
+    "id": 543,
+    "nl": {},
+    "en": {},
+    "number": 543,
+    "name": "Recreatiegebied Ouderkerkerplas"
+  },
+  {
+    "id": 544,
+    "nl": {},
+    "en": {},
+    "number": 544,
+    "name": "Penbos"
+  },
+  {
+    "id": 545,
+    "nl": {},
+    "en": {},
+    "number": 545,
+    "name": "Gaasp en Diem"
+  },
+  {
+    "id": 546,
+    "nl": {},
+    "en": {},
+    "number": 546,
+    "name": "Recreatiegebied Gaasperplas"
+  },
+  {
+    "id": 547,
+    "nl": {},
+    "en": {},
+    "number": 547,
+    "name": "Riethoek"
+  },
+  {
+    "id": 548,
+    "nl": {},
+    "en": {},
+    "number": 548,
+    "name": "Gaasperzoom"
+  },
+  {
+    "id": 549,
+    "nl": {},
+    "en": {},
+    "number": 549,
+    "name": "Klarenbeek"
+  },
+  {
+    "id": 550,
+    "nl": {},
+    "en": {},
+    "number": 550,
+    "name": "Recreatiegebied De Hoge Dijk"
+  },
+  {
+    "id": 551,
+    "nl": {},
+    "en": {},
+    "number": 551,
+    "name": "Fort Nigtevecht"
+  },
+  {
+    "id": 552,
+    "nl": {},
+    "en": {},
+    "number": 552,
+    "name": "Umeer"
+  },
+  {
+    "id": 553,
+    "nl": {},
+    "en": {},
+    "number": 553,
+    "name": "Muiderbos"
+  },
+  {
+    "id": 554,
+    "nl": {},
+    "en": {},
+    "number": 554,
+    "name": "Zilverstrand en Muiderstrand"
+  },
+  {
+    "id": 555,
+    "nl": {},
+    "en": {},
+    "number": 555,
+    "name": "Echobos"
+  },
+  {
+    "id": 556,
+    "nl": {},
+    "en": {},
+    "number": 556,
+    "name": "Naardermeer"
+  },
+  {
+    "id": 557,
+    "nl": {},
+    "en": {},
+    "number": 557,
+    "name": "Uitermeer"
+  },
+  {
+    "id": 558,
+    "nl": {},
+    "en": {},
+    "number": 558,
+    "name": "Hinderdam"
+  },
+  {
+    "id": 559,
+    "nl": {},
+    "en": {},
+    "number": 559,
+    "name": "Spiegelplas"
+  },
+  {
+    "id": 560,
+    "nl": {},
+    "en": {},
+    "number": 560,
+    "name": "Ankeveense Plassen"
+  },
+  {
+    "id": 561,
+    "nl": {},
+    "en": {},
+    "number": 561,
+    "name": "Laegieskamp"
+  },
+  {
+    "id": 562,
+    "nl": {},
+    "en": {},
+    "number": 562,
+    "name": "Natuurgebied Uithoorn"
+  },
+  {
+    "id": 563,
+    "nl": {},
+    "en": {},
+    "number": 563,
+    "name": "Bovenlanden Mijdrecht"
+  },
+  {
+    "id": 564,
+    "nl": {},
+    "en": {},
+    "number": 564,
+    "name": "Fort Waver-Amstel"
+  },
+  {
+    "id": 565,
+    "nl": {},
+    "en": {},
+    "number": 565,
+    "name": "Polder Groot-Mijdrecht"
+  },
+  {
+    "id": 566,
+    "nl": {},
+    "en": {},
+    "number": 566,
+    "name": "Botshol"
+  },
+  {
+    "id": 567,
+    "nl": {},
+    "en": {},
+    "number": 567,
+    "name": "De Nes"
+  },
+  {
+    "id": 568,
+    "nl": {},
+    "en": {},
+    "number": 568,
+    "name": "Horstermeerpolder"
+  },
+  {
+    "id": 569,
+    "nl": {},
+    "en": {},
+    "number": 569,
+    "name": "Fort Kijkuit"
+  },
+  {
+    "id": 570,
+    "nl": {},
+    "en": {},
+    "number": 570,
+    "name": "Wijde Blik"
+  },
+  {
+    "id": 571,
+    "nl": {},
+    "en": {},
+    "number": 571,
+    "name": "Terra Nova"
+  },
+  {
+    "id": 572,
+    "nl": {},
+    "en": {},
+    "number": 572,
+    "name": "Kortenhoefse Plassen"
+  },
+  {
+    "id": 573,
+    "nl": {},
+    "en": {},
+    "number": 573,
+    "name": "Het Hol"
+  },
+  {
+    "id": 574,
+    "nl": {},
+    "en": {},
+    "number": 574,
+    "name": "Fransche Kampheide"
+  },
+  {
+    "id": 575,
+    "nl": {},
+    "en": {},
+    "number": 575,
+    "name": "Schaep en Burgh"
+  },
+  {
+    "id": 576,
+    "nl": {},
+    "en": {},
+    "number": 576,
+    "name": "Bantam"
+  },
+  {
+    "id": 577,
+    "nl": {},
+    "en": {},
+    "number": 577,
+    "name": "Fransche Kamp"
+  },
+  {
+    "id": 578,
+    "nl": {},
+    "en": {},
+    "number": 578,
+    "name": "Kamphoeve"
+  },
+  {
+    "id": 579,
+    "nl": {},
+    "en": {},
+    "number": 579,
+    "name": "Boekesteyn"
+  },
+  {
+    "id": 580,
+    "nl": {},
+    "en": {},
+    "number": 580,
+    "name": "Spanderswoud"
+  },
+  {
+    "id": 581,
+    "nl": {},
+    "en": {},
+    "number": 581,
+    "name": "Hilverbeek"
+  },
+  {
+    "id": 582,
+    "nl": {},
+    "en": {},
+    "number": 582,
+    "name": "Spiegelrust"
+  },
+  {
+    "id": 583,
+    "nl": {},
+    "en": {},
+    "number": 583,
+    "name": "Schoonoord"
+  },
+  {
+    "id": 584,
+    "nl": {},
+    "en": {},
+    "number": 584,
+    "name": "Gooilust"
+  },
+  {
+    "id": 585,
+    "nl": {},
+    "en": {},
+    "number": 585,
+    "name": "Conversbos"
+  },
+  {
+    "id": 586,
+    "nl": {},
+    "en": {},
+    "number": 586,
+    "name": "Heggenlandschap de Wildwallen"
+  },
+  {
+    "id": 587,
+    "nl": {},
+    "en": {},
+    "number": 587,
+    "name": "Karekietbos"
+  },
+  {
+    "id": 588,
+    "nl": {},
+    "en": {},
+    "number": 588,
+    "name": "Harderbos"
+  },
+  {
+    "id": 589,
+    "nl": {},
+    "en": {},
+    "number": 589,
+    "name": "Harderbroek"
+  },
+  {
+    "id": 590,
+    "nl": {},
+    "en": {},
+    "number": 590,
+    "name": "Kievitslanden"
+  },
+  {
+    "id": 591,
+    "nl": {},
+    "en": {},
+    "number": 591,
+    "name": "Spijk en Bremerberg"
+  },
+  {
+    "id": 592,
+    "nl": {},
+    "en": {},
+    "number": 592,
+    "name": "Stranden en Voorlanden Drontenmeer en Veluwemeer"
+  },
+  {
+    "id": 593,
+    "nl": {},
+    "en": {},
+    "number": 593,
+    "name": "Veluwerandmeren"
+  },
+  {
+    "id": 594,
+    "nl": {},
+    "en": {},
+    "number": 594,
+    "name": "Veluwemeerkust"
+  },
+  {
+    "id": 595,
+    "nl": {},
+    "en": {},
+    "number": 595,
+    "name": "Hulshorst"
+  },
+  {
+    "id": 596,
+    "nl": {},
+    "en": {},
+    "number": 596,
+    "name": "Groeneveld"
+  },
+  {
+    "id": 597,
+    "nl": {},
+    "en": {},
+    "number": 597,
+    "name": "De Ihorst"
+  },
+  {
+    "id": 598,
+    "nl": {},
+    "en": {},
+    "number": 598,
+    "name": "Oeverlanden Veluwemeer"
+  },
+  {
+    "id": 599,
+    "nl": {},
+    "en": {},
+    "number": 599,
+    "name": "Bos Klaterweg"
+  },
+  {
+    "id": 600,
+    "nl": {},
+    "en": {},
+    "number": 600,
+    "name": "De Haere"
+  }
+]

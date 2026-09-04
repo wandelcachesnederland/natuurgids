@@ -1,0 +1,125 @@
+{
+    "description": "Nature reserve data split into manageable chunks by ID range",
+    "chunk_size": 100,
+    "total_reserves": 1734,
+    "files": [
+        "reserves-1-100.json",
+        "reserves-101-200.json",
+        "reserves-201-300.json",
+        "reserves-301-400.json",
+        "reserves-401-500.json",
+        "reserves-501-600.json",
+        "reserves-601-700.json",
+        "reserves-701-800.json",
+        "reserves-801-901.json",
+        "reserves-902-1001.json",
+        "reserves-1002-1031.json",
+        "reserves-1032-1131.json",
+        "reserves-1132-1231.json",
+        "reserves-1232-1331.json",
+        "reserves-1332-1431.json",
+        "reserves-1432-1531.json",
+        "reserves-1532-1631.json",
+        "reserves-1632-1731.json",
+        "reserves-1732-1831.json"
+    ],
+    "chunks": [
+        {
+            "file": "reserves-1-100.json",
+            "id_range": "1-100",
+            "count": 100
+        },
+        {
+            "file": "reserves-101-200.json",
+            "id_range": "101-200",
+            "count": 100
+        },
+        {
+            "file": "reserves-201-300.json",
+            "id_range": "201-300",
+            "count": 100
+        },
+        {
+            "file": "reserves-301-400.json",
+            "id_range": "301-400",
+            "count": 100
+        },
+        {
+            "file": "reserves-401-500.json",
+            "id_range": "401-500",
+            "count": 100
+        },
+        {
+            "file": "reserves-501-600.json",
+            "id_range": "501-600",
+            "count": 100
+        },
+        {
+            "file": "reserves-601-700.json",
+            "id_range": "601-700",
+            "count": 100
+        },
+        {
+            "file": "reserves-701-800.json",
+            "id_range": "701-800",
+            "count": 100
+        },
+        {
+            "file": "reserves-801-901.json",
+            "id_range": "801-901",
+            "count": 101
+        },
+        {
+            "file": "reserves-902-1001.json",
+            "id_range": "902-1001",
+            "count": 100
+        },
+        {
+            "file": "reserves-1002-1031.json",
+            "id_range": "1002-1031",
+            "count": 30
+        },
+        {
+            "file": "reserves-1032-1131.json",
+            "id_range": "1032-1131",
+            "count": 100
+        },
+        {
+            "file": "reserves-1132-1231.json",
+            "id_range": "1132-1231",
+            "count": 100
+        },
+        {
+            "file": "reserves-1232-1331.json",
+            "id_range": "1232-1331",
+            "count": 100,
+            "note": "complete — 1232-1331"
+        },
+        {
+            "file": "reserves-1332-1431.json",
+            "id_range": "1332-1431",
+            "count": 100
+        },
+        {
+            "file": "reserves-1432-1531.json",
+            "id_range": "1432-1531",
+            "count": 100
+        },
+        {
+            "file": "reserves-1532-1631.json",
+            "id_range": "1532-1631",
+            "count": 100
+        },
+        {
+            "file": "reserves-1632-1731.json",
+            "id_range": "1632-1731",
+            "count": 100
+        },
+        {
+            "file": "reserves-1732-1831.json",
+            "id_range": "1732-1831",
+            "count": 3,
+            "note": "in progress — currently 1732-1734"
+        }
+    ]
+}

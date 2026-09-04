@@ -1,0 +1,2519 @@
+# Bronlijst uit "Complete Gids Natuur- en Wandelgebieden in Nederland"
+# formaat: groep|nr|naam|paginanummer
+19|1|Terschelling|384
+19|2|Landerumerkooi|264
+19|3|De Waddenzee, Staatsnatuurreservaat|410
+20|1|Terschelling|384
+20|2|Ameland|107
+20|3|'t Oerd|311
+20|4|De Waddenzee, Staatsnatuurreservaat|410
+20|5|Bildtpollen|128
+20|6|Noard Fryslân Bûtendyks|305
+21|1|Schiermonnikoog, Nationaal Park|356
+21|2|Engelsmanplaat|175
+21|3|De Waddenzee, Staatsnatuurreservaat|410
+21|4|Peazemerlannen|329
+21|5|Bantpolder|117
+21|6|Lauwersmeer, Staatsnatuurmonument|268
+21|7|Bochtjesplaat|131
+21|8|De Kolken|249
+21|9|Dongeradeel|161
+21|10|De Ommelanderzeedijk|314
+21|11|Eendenkooi Nieuw Onrust|169
+21|12|Feddema's Plasje|178
+21|13|Voormalige boerenerven|403
+21|14|Verhildersum|399
+21|15|Leenstertil|270
+21|16|Leens landschapselementen|270
+21|17|Wierdekerkhof Vliedorp|424
+22|1|Rottumerplaat|349
+22|2|Rottumeroog|349
+22|3|De Waddenzee, Staatsnatuurreservaat|410
+22|4|De Ommelanderzeedijk|314
+22|5|Kwelders Noord-Oost Groningen|260
+22|6|Kwelders Groninger Noordkust|260
+22|7|Uithuizerwad|391
+22|8|Botanische tuin Pieterburen|140
+22|9|Kloosterburen-Eenrum landschapselementen|248
+22|10|Middendijk|291
+22|11|Restant van Zeedijk|343
+22|12|Verhildersum en Borgweer|399
+22|13|Wehe-Eenrum landschapselementen|417
+22|14|Arboretum Eenrum|113
+22|15|Eenrumerbos|171
+22|16|Maarhuizen|281
+22|17|Baflo-Warffum landschapselementen|115
+22|18|Usquert|391
+22|19|Helwerder Wierden|213
+22|20|Uithuizen-Roodeschool landschapselementen|391
+22|21|Oosternieland en Oudeschip|318
+22|22|Middelstum-Kantens|291
+23|1|De Waddenzee, Staatsnatuurreservaat|410
+23|2|De Ommelanderzeedijk|314
+23|3|Biessum-Uitwierde|128
+24|1|Vlieland|402
+24|2|Duinen Texel|164
+24|3|Polder Wassenaar en 't Visje|334
+24|4|Krimbos|257
+24|5|Roggesloot|347
+24|6|Zeeburg|435
+24|7|Lage Land van Texel|262
+24|8|De Waddenzee, Staatsnatuurreservaat|410
+24|9|De Schorren|360
+25|1|De Waddenzee, Staatsnatuurreservaat|410
+25|2|Griend|196
+25|3|De Bjirmen|128
+25|4|Westerhitzumerbos|420
+25|5|Wûnseradiel|433
+26|1|De Waddenzee, Staatsnatuurreservaat|410
+26|2|Bildtpollen|128
+26|3|De Flieterpen|179
+26|4|De Noardwesthoeke|305
+26|5|Dekema-State|154
+26|6|De Trijnwâlden|388
+26|7|Grikelân en Turkije|197
+26|8|Heemstra State|209
+26|9|Grutte Wielen|202
+26|10|Bûtefjild|149
+26|11|Dobben Tytsjerksteradiel|159
+26|12|Lytse Geast|280
+26|13|De Meerpolders|287
+26|14|Fônejacht|180
+26|15|Alde Feanen|105
+26|16|Lionserpolder|277
+26|17|Skrok|365
+26|18|Skrins|365
+27|1|Lauwersmeer, Staatsnatuurmonument|268
+27|2|Zoutkamp|438
+27|3|Rinsma State|346
+27|4|De Dokkumer Wâlden|159
+27|5|De Kollumerwâlden|250
+27|6|It Reidfjild|342
+27|7|Fogelsangh-State|180
+27|8|De Mieden|292
+27|9|Westerhornerpolder|421
+27|10|Noorderland|306
+27|11|De Mieden|292
+27|12|De Bevervallei|126
+27|13|Doezumermieden en Polder de Kaleweg|159
+27|14|De Marren|285
+27|15|Poelen Opende|333
+27|16|Trimunt en Jilt Dijksheide|388
+27|17|De Haar|204
+27|18|Coendersborg|151
+27|19|Iwema Steenhuis|235
+27|20|Nanninga's Bos en Bolmeer|298
+28|1|Allersmaborg|106
+28|2|Reitdiepdal|342
+28|3|Bedum-Onderdendam|118
+28|4|Stedum-Loppersum landschapselementen|376
+28|5|Ekenstein|172
+28|6|Hoeksmeer|218
+28|7|Ten Boer|132
+28|8|Harkstederbroeklanden|208
+28|9|De Ae's|104
+28|10|Kolham-Slochteren landschapselementen|249
+28|11|De Drie Polders|164
+28|12|Oeverlanden Leekstermeer|312
+28|13|Leekstermeer|269
+28|14|Nienoord|303
+28|15|Maatlanden|281
+28|16|Mensinge|290
+28|17|Bunnerveen|147
+28|18|Kleibos|245
+28|19|Peizer- en Eeldermaden|330
+28|20|Peizermaden|330
+28|21|Paterswoldsemeer|329
+28|22|Elsburger Onland|173
+28|23|Kluivingsbos|248
+28|24|De Braak|142
+28|25|Vennebroek|398
+28|26|Friese Veen|183
+28|27|Polder het Oosterland|334
+28|28|De Duinen|164
+28|29|Vosbergen|406
+28|30|Polder Lappenvoort|334
+28|31|Scharlakenbos|355
+28|32|'t Hemrik|213
+28|33|Drentsche A|163
+28|34|Klein Bollenbult|246
+28|35|Appelbergen|112
+28|36|De Poll|335
+28|37|Noordlaarderbos|307
+28|38|Midlaarderbos|292
+28|39|Westerbroek|420
+28|40|Westerbroek|419
+28|41|Rietland westzijde Foxholstermeer|345
+28|42|Zuidlaardermeergebied|440
+28|43|Harense Wildernis|207
+28|44|Recreatiegebied Meerwijck|340
+28|45|Gorechtpark en Drevenbos|192
+29|1|Tuikwerderrak|388
+29|2|Meedhuizen landschapselementen|287
+29|3|Huisweersterpolder|230
+29|4|Schildmeer|358
+29|5|Slochteren landschapselementen|366
+29|6|Fraeylemaborg|183
+29|7|Baggerputten|115
+29|8|Korengarst|253
+29|9|Wagenborgen|410
+29|10|Hondshalstermeer|223
+29|11|Nieuwolderbos|304
+29|12|Woldendorp|431
+29|13|Dollard|160
+29|14|Kolken Oude Geut|249
+29|15|Oosterbroek landschapselementen|317
+29|16|Spoordijk|373
+29|17|Winschoterdiep|429
+29|18|Scheemda landschapselementen|356
+29|19|De Wiede|422
+29|20|Meeden landschapselementen|287
+29|21|Lagemeeden|262
+29|22|Scheemdermeer|356
+29|23|Ennemaborg|176
+29|24|Meerland|287
+29|25|Goldhoorn|191
+29|26|Beerta-Finsterwolde landschapselementen|119
+29|27|Tjamme|386
+29|28|Oostereinde landschapselementen|317
+29|29|Winschoten|429
+29|30|Westerwoldsche A Noord|421
+29|31|Boele Tijdenskanaal|132
+30|1|Duinen Texel|164
+30|2|Lage Land van Texel|262
+30|3|Grafelijkheidsduinen|193
+30|4|De Donkere Duinen|161
+30|5|De Duinstrook|166
+31|1|Duinen Texel|164
+31|2|Lage Land van Texel|262
+31|3|Korverskooi|254
+31|4|Waal en Burgerdijk|408
+31|5|Noorderkooi|306
+31|6|Hoge Berg|219
+31|7|Ceres|150
+31|8|De Schorren|360
+31|9|De Waddenzee, Staatsnatuurreservaat|410
+31|10|Balgzand|116
+31|11|Wieringen|425
+31|12|Wierdijk en Voorboezem|424
+31|13|Robbenoordbos en Dijkgatsbos|346
+32|1|De Waddenzee, Staatsnatuurreservaat|410
+32|2|Makkumer- en Koaiwaard|282
+32|3|Filenspolder|178
+32|4|Buismans Einekoai|147
+32|5|Westergoa's Iselmardiken|420
+32|6|Warkumerwaard|412
+32|7|Wûnseradiel|433
+32|8|Blauhúster Puollen|129
+32|9|Bocht fan Molkwar|131
+32|10|It Nylan|310
+32|11|De Fluessen|179
+32|12|De Fluezen|179
+32|13|Koudumerboskje|255
+32|14|It Swin|382
+32|15|Gaasterland|185
+33|1|Jongema-State|236
+33|2|Sorremorre|370
+33|3|Botmar|140
+33|4|It Eilân en de Burd|172
+33|5|It Unlân fan Jelsma en It Kobbelân|391
+33|6|Alde Feanen|105
+33|7|Petgatten de Feanhoop, Noarderkrite, Kraanlannen, Oskekop|330
+33|8|Lytse Marren|280
+33|9|Gouden Boaiem|192
+33|10|Wite en Swarte Brekken|429
+33|11|Snitsermar|369
+33|12|Hearesyl|209
+33|13|Terkaplesterpuollen|383
+33|14|De Deelen|154
+33|15|It Skar en Terbant|365
+33|16|Terdoelstersypen|384
+33|17|Eysinga-State|178
+33|18|Wilhelmina-oard|427
+33|19|Tjûkemar|386
+33|20|Haskerlân|208
+33|21|Easterskar|168
+33|22|Rotstergaast|348
+33|23|Taconisbosk|382
+33|24|Oranjestein|321
+34|1|Boornbergum|134
+34|2|Skiedingsboskje|365
+34|3|De Deelen|154
+34|4|Bossen van de Cornelia Stichting|138
+34|5|Hemsterbossen|213
+34|6|Achterbos en Bovenveld|103
+34|7|Huize Olterterp|230
+34|8|Wallebossen|411
+34|9|Olterterp-Lauswolt|314
+34|10|Van Oordt's Mersken|316
+34|11|Tolhekbos|386
+34|12|Liphústerheide|277
+34|13|Langezwaag|267
+34|14|De Scharren|355
+34|15|Stokersdobbe|379
+34|16|Bakkeveen|116
+34|17|Bakkeveen|115
+34|18|Allardsoog|106
+34|19|Gemeentebos Leek|187
+34|20|Kapellepôle|240
+34|21|Jubbega|236
+34|22|Haule|208
+34|23|Marke van Een|284
+34|24|Norg|308
+34|25|Haulerpolder|208
+34|26|Oosterwolde|318
+34|27|Fochteloërveen|179
+34|28|Tsjongerwâlen|388
+34|29|Oranjewoud|321
+34|30|Marijkemuaidobbe|284
+34|31|Nieuwehorne|304
+34|32|Ketliker Skar, Ketliker Heide en Tsjongerdellen|245
+34|33|Meulebos|291
+34|34|Nijeholtpade|304
+34|35|Lendevallei|272
+34|36|De Hoeve|219
+34|37|Jeudse Karkhof Noordwoolde|235
+34|38|Delleboersterheide en Catspoele|155
+34|39|Diakonieveene|157
+34|40|Twijtel|389
+34|41|Boschhoeve|136
+34|42|Zandhuizen|435
+34|43|Schoapedobbe|358
+34|44|Appelscha|112
+34|45|Boschoord, Wilhelminaoord en Frederiksoord|136
+34|46|Doldersummerveld|159
+34|47|Berkenheuvel|124
+34|48|Smilde|367
+35|1|Zuursche Duinen|441
+35|2|Steenbergerveld|376
+35|3|Oostervoortse Diep|318
+35|4|Donderse Veld|161
+35|5|Bongeveen|134
+35|6|Esveentjes Donderen|177
+35|7|Hondstongen|223
+35|8|Het Hoogeveen|225
+35|9|Agedaterrein|104
+35|10|Molenveen|295
+35|11|Schillenveen|358
+35|12|Roeghoorn|346
+35|13|Langeloërdunen|267
+35|14|Noordsche Veld|308
+35|15|Norger Esdorpen-landschap|309
+35|16|Norg|308
+35|17|Fochteloërveen|179
+35|18|De Twintig Bunders|389
+35|19|Huis ter Heide|229
+35|20|Heukersbos|215
+35|21|Smeerveen|367
+35|22|Zeijerstrubben|436
+35|23|De Holten|222
+35|24|Heideheim|211
+35|25|Groote Veld|201
+35|26|Slotveen|367
+35|27|Vijftig Bunder|400
+35|28|Dennenbos|156
+35|29|Laarwoud|261
+35|30|Oudemolen|325
+35|31|Van Weringsbos|418
+35|32|Hunzedal|231
+35|33|Schipborg|358
+35|34|Gasterse Duinen|186
+35|35|Drentsche A|163
+35|36|Evertsbos en Pinetum ter Borgh|177
+35|37|Anloo|110
+35|38|Ter Borghbos|134
+35|39|Hondsrug Noord|223
+35|40|Zwanemeer|442
+35|41|Balloërveld|116
+35|42|Kampsheide|239
+35|43|Overcingel|326
+35|44|'t Ruige Veld|350
+35|45|Gemeentebos Rolde|187
+35|46|Boerbos|132
+35|47|Amerdiep en Geelbroek|108
+35|48|Papenvoort|329
+35|49|Maria Hoeve|284
+35|50|Gieten|190
+35|51|Sekmeer|362
+35|52|Hondsrug Midden|223
+35|53|Borger|134
+35|54|Meindersveen|289
+35|55|Appelscha|112
+35|56|Kyllotsbos|260
+35|57|Hijkersmilde|216
+35|58|Kortewegsbos Diependal|254
+35|59|Hijkerveld|216
+35|60|Smilder Oosterveld|368
+35|61|Hijken|216
+35|62|Groote en Witte Zand|199
+35|63|Oosthalen|318
+35|64|Hiemstrastate|216
+35|65|Hooghalen|225
+35|66|Grolloo|198
+35|67|Schoonloo|359
+35|68|Elper Westerveld|173
+36|1|Polder Nieuwe Compagnie|334
+36|2|Blijhamsterbos|130
+36|3|Westerwoldsche A Zuid|421
+36|4|Bouten|141
+36|5|Hoetmansmeer|219
+36|6|Veenkoloniën|394
+36|7|Boerendiep|132
+36|8|De Broeklanden|144
+36|9|Pagebos|327
+36|10|Vledderveen|402
+36|11|Vledderhuizen landschapselementen|402
+36|12|Onstwedde|315
+36|13|Vlagtwedde landschapselementen|401
+36|14|Dal van de Ruiten A|153
+36|15|De Schans Bourtange|355
+36|16|Drouwenerzand|164
+36|17|Hondsrug Zuid|223
+36|18|Boswachterij Odoorn|139
+36|19|Veenstreek|394
+36|20|Braamberg|142
+36|21|Sellinger Bossen|363
+36|22|Bourtangerveen|141
+36|23|Ter Apel|111
+37|1|Nollenland bij Abbestede|306
+37|2|Kooibosch Luttickduin|252
+37|3|Zwanenwater|442
+37|4|Het Wildrijk|427
+37|5|Pettemerduinen|331
+37|6|Wielen Westfriese Zeedijk|424
+37|7|Abtskolk en Hazepolder|103
+37|8|De Putten|336
+37|9|Schoorlse Duinen|359
+37|10|Bosjes van Verwey|137
+37|11|Weitje van Pietje|417
+37|12|Proeftuin Geestmerambacht|336
+37|13|Noordhollands Duinreservaat|307
+37|14|Bergerbos|123
+37|15|'t Oude Hof en Maesdammerhof|323
+38|1|Balgzand|116
+38|2|Amstelmeer|108
+38|3|Robbenoordbos en Dijkgatsbos|346
+38|4|Eendenkooi 't Zand|170
+38|5|De Pikster|331
+38|6|Eendenkooi De Hoop|169
+38|7|Schagerwad en Weerepolder|354
+38|8|Benedenkolk|121
+38|9|Waardkanaal|409
+38|10|Wandelpad Woudmeer|412
+38|11|Drasse Dijkvoet Slootgaardpolder|163
+38|12|Boomerwaal|134
+38|13|De Weelpolder|414
+38|14|Kadetjesland Twisk|237
+38|15|Groote Vliet|201
+38|16|Kleimeer|246
+38|17|Oosterdel|317
+38|18|Obdammerweel|311
+38|19|Lage Hoek|262
+38|20|'t Laag|261
+38|21|Polder Westerveer|335
+38|22|Benningbroek|121
+39|1|Bocht fan Molkwar|131
+39|2|Sûdermarpolder|381
+39|3|Dijksfeart|158
+39|4|Mokkebank|293
+39|5|Rysterbosk en Murnzerklif|351
+39|6|Gaasterland|185
+39|7|Oudemirdumerklif|325
+39|8|Steile Bank|377
+39|9|Onderdijken|315
+39|10|De Weelen|414
+39|11|De Ven|397
+40|1|Gaasterland|185
+40|2|Wikelerbosk|426
+40|3|Boomkamp|134
+40|4|Wikkeler Ywert en Sleattemermar|426
+40|5|Joadetsjerkhof Teakesyl|236
+40|6|Bancopolder|116
+40|7|Huitebuersterbûtenpolder|230
+40|8|Steile Bank|377
+40|9|Grutte Brekken|202
+40|10|Tjûkemar-West|386
+40|11|Brandemeer|143
+40|12|Ychtenerfeanpolder|433
+40|13|Rottige Meente|349
+40|14|Sonnega|370
+40|15|Lendevallei|272
+40|16|Kuinderbos|259
+40|17|De Weerribben, Nationaal Park|415
+40|18|Kolken Zuiderzeedijk|250
+40|19|Rotterdamse Hoek|349
+40|20|Wegbeplanting A6|416
+40|21|Casteleijnsplas|150
+40|22|Emmelerbos|174
+40|23|Urkerbos|391
+40|24|Staartreservaat Urk|374
+40|25|Tollebekerbos|386
+40|26|Voorsterbos|405
+41|1|Lendevallei|272
+41|2|De Weerribben, Nationaal Park|415
+41|3|Braambos|142
+41|4|Krolsbergen|257
+41|5|Paasloo-Kerkbuurt landschapselementen|327
+41|6|Paaslo|327
+41|7|De Blesse|130
+41|8|Steenwijkerwold|377
+41|9|Fredeshiem|183
+41|10|Heerlijkheid De Eese|210
+41|11|Vledder|401
+41|12|Nijenslekerveld|305
+41|13|Noordwolde|308
+41|14|Boschoord, Wilhelminaoord en Frederiksoord|136
+41|15|Wapserveen|412
+41|16|Boswachterij Vledderveld|140
+41|17|De Vledderhof|401
+41|18|Bouwersveld|141
+41|19|Koelingsveld|249
+41|20|Vledder Aa|401
+41|21|Wapse|412
+41|22|Berkenheuvel|124
+41|23|Smilde|367
+41|24|Berkenheuvel|125
+41|25|Hezenesch|216
+41|26|Diever|157
+41|27|De Wieden|423
+41|28|Den Oldenhof|314
+41|29|Hoge Land van Vollenhove|220
+41|30|Bovenwiede|141
+41|31|Meppelerdieplanden|290
+41|32|Meppelerdiep|290
+41|33|Nijeveen|305
+41|34|Havelte-West|209
+41|35|Havelte|209
+41|36|Havelte-Oost|209
+41|37|Holtingerveld|222
+41|38|Ooster- en Westerzand|317
+41|39|Voormalige Startbaan en Waterbolkpark|403
+41|40|Overcinge|326
+41|41|Meeuwenveen en Konijnenbergen|287
+41|42|Uffelter Binnenveld|390
+41|43|Uffelterzand|390
+41|44|Wittelterveld|430
+41|45|Wittelte|430
+41|46|Rostwyck|348
+41|47|Broekenlaar|144
+41|48|Oldengaerde|314
+41|49|Nieuwe Bork-Stroovledder|303
+41|50|De Oude Bork|323
+41|51|Dwingelderveld, Nationaal Park|167
+41|52|Witteveen|431
+41|53|Rheebruggen|344
+41|54|Zure Venen|441
+41|55|Berghuizen|123
+41|56|Ruinerwold|351
+41|57|Boswachterij Ruinen|140
+41|58|De Reest|341
+41|59|Dickninge|157
+42|1|Leggelderveid|271
+42|2|Dwingeloo-Smalbroek|168
+42|3|Dwingelderveld, Nationaal Park|167
+42|4|Terhorst|383
+42|5|Baarwelsleek|115
+42|6|Makkum-Holthe|282
+42|7|Vossenberg|406
+42|8|Scharreveld|355
+42|9|Bos Beilerstraat|135
+42|10|Zwiggelte-Westerbork|443
+42|11|Padenbos|327
+42|12|Orvelte|321
+42|13|Elp|173
+42|14|Orvelterzand|322
+42|15|Schoonloo|359
+42|16|Korte Maten|254
+42|17|Nuiierveld|309
+42|18|Boswachterij Ruinen|140
+42|19|Gijsselte|190
+42|20|Boerveense Plassen|133
+42|21|Stuifzand|381
+42|22|Kremboong|257
+42|23|Drijber|164
+42|24|Mantingerveld|283
+42|25|Mantingerbos en -weiden|283
+42|26|Broekstreek|144
+42|27|Witteveen|431
+42|28|Sniphorsten|368
+42|29|Wezup|422
+42|30|Boswachterij Sleenerzand|140
+42|31|Boswachterij Gees|139
+42|32|Mepperdennen|291
+42|33|De Palmen|328
+42|34|Geeserstroom|186
+42|35|De Stroeten|381
+42|36|De Klencke|247
+42|37|Broeklanden|144
+42|38|Lage Veen|262
+42|39|Falieberg|178
+42|40|Steenberger Oosterveld|376
+42|41|Bosgebied Hollandscheveld|137
+42|42|Beukerswijk|125
+42|43|Hollandsche Veld|222
+42|44|Geeslo|186
+42|45|Jufferswijk|236
+42|46|Toldijk-Bolmerd|386
+42|47|Wachtum|409
+42|48|De Witten|430
+42|49|Dalerpeel|153
+43|1|Boswachterij Odoorn|139
+43|2|Bosch en Heide|136
+43|3|Roswinkel|348
+43|4|Boswachterij Sleenerzand|140
+43|5|Sleenerstroom|366
+43|6|Boschmaden en De Blikken|136
+43|7|Lutkeland|280
+43|8|Schietbaanbosje|357
+43|9|Emmerdennen en Valtherbos|174
+43|10|Noordbargerbos|306
+43|11|Oosterbos en Emmerschans|317
+43|12|Berkenrode|125
+43|13|Ermerzand|177
+43|14|Erm|176
+43|15|Ermerveen|177
+43|16|Dalen|153
+43|17|Rigterinkbos|345
+43|18|Dalerveen|153
+43|19|Schoonebeek|359
+43|20|Bargerveen|117
+44|1|Noordhollands Duinreservaat|307
+44|2|Damlanderpolder|154
+44|3|Loterijlanden|279
+44|4|Nijenburg|304
+44|5|Ter Coulster|152
+44|6|Zeerijdtsdijkje|436
+44|7|Het Die|157
+44|8|Limmerveentje|276
+44|9|Eendenkooi bij Uitgeest|169
+44|10|Wandelpad Dorregeesterpolder|412
+44|11|Alkmaardermeer|106
+44|12|Marquette en Huldtoneel|285
+44|13|Weijenbus en Vroonmeer|417
+44|14|Fort Krommeniedijk|181
+44|15|Ham en Crommenije|206
+44|16|Westerhout|421
+44|17|Lunetten|280
+44|18|Fort Veldhuis|182
+44|19|Liniedijken|277
+44|20|Fort St. Aagtendijk|182
+44|21|Wijkeroogpark|425
+44|22|Zuid-Kennemerland, Nationaal Park|439
+44|23|Velserbeek|396
+44|24|Schoonenberg, Hoogergeest en Lievendaal|359
+44|25|Beeckestijn|118
+44|26|Kennemergaarde|244
+44|27|Fort Zuidwijkermeer|182
+44|28|Spaarnwoude|371
+45|1|Waarderhout|409
+45|2|Westbeverkoog|418
+45|3|Mijzenpolder|292
+45|4|De Hulk|230
+45|5|Uiterdijken|390
+45|6|Kogen|249
+45|7|Eilandspolder|172
+45|8|Westelijke Eilandspolder|419
+45|9|Zeevang|436
+45|10|Westwouderpolder|422
+45|11|Fort Marken Binnen|182
+45|12|Krommenieërwoudpolder|257
+45|13|Fort bij Spijkerboor|181
+45|14|Fort aan de Jisperweg|180
+45|15|Fort aan de Middenweg|180
+45|16|Kwadijkker Vlot|260
+45|17|Fort Edam|181
+45|18|Wormer- en Jisperveld|432
+45|19|Purmerbos|336
+45|20|Rietland Katwoude|345
+45|21|Heitje van Katham|212
+45|22|Noorderveen|306
+45|23|Guisveld|203
+45|24|Kalverpolder|238
+45|25|De Reef en Westzijderveld|340
+45|26|Oostzanerveld|320
+45|27|Recreatiegebied Het Twiske|340
+45|28|Ilperveld|233
+45|29|Varkensland|393
+45|30|Waterland Oost|414
+46|1|Westfriesland|421
+46|2|Zuigerplasbos|441
+46|3|'t Zand A72|434
+46|4|Visvijverbos|401
+46|5|Rivierduingebied Lelystad|346
+46|6|Overijsselse Hout|326
+46|7|Gelderse Hout|187
+46|8|Natuurpark Lelystad|299
+46|9|Oostvaardersplassen|318
+46|10|Hollandse Hout|222
+46|11|Burchtkamp|148
+46|12|De Knar landschapselementen|248
+46|13|Larservaartbos|268
+47|1|Toppad Urk|387
+47|2|Schokland en Schokkerbos|358
+47|3|Voorsterbos|405
+47|4|Kamperhoek en Ketelbos|238
+47|5|Rivierduingebied Dronten|346
+47|6|Observatorium Robert Morris|311
+47|7|Swifterbos|382
+47|8|Dorpsbossen Swifterbant|162
+47|9|Roggebotzand|347
+47|10|Lage Vaartbos|262
+47|11|Wisentbos|429
+47|12|Dorpsbossen Dronten|162
+47|13|Reve-Abbert|344
+47|14|Oosterwolde|318
+47|15|De Enk|176
+47|16|Zalk-Wilsum|434
+47|17|Larserbos|268
+47|18|Biddingbos|126
+47|19|Dorpsbossen Biddinghuizen|162
+47|20|Flevoland landschapselementen|178
+47|21|Spijk en Bremerberg|372
+47|22|Greppelveld|195
+48|1|Voorsterbos|405
+48|2|De Zandkoele|435
+48|3|De Wieden|423
+48|4|Vogeleiland|403
+48|5|Zwarte Meer|443
+48|6|Mastenbroek landschapselementen|286
+48|7|Oldematen|312
+48|8|Uiterwaarden Zwarte Water|390
+48|9|Veerslootslanden|394
+48|10|Staphorst|375
+48|11|De Reest|341
+48|12|Reestdal|341
+48|13|Jutjesriet|237
+48|14|Stadsgaten Hasselt|375
+48|15|Holtenerbroek|222
+48|16|Oeverlanden langs de Vecht|311
+48|17|Buitenlanden Langenholte|147
+48|18|Westerveldse Bos|421
+48|19|'s-Heerenbroek landschapselementen|210
+48|20|Zalkerbos|434
+48|21|Vreugderijkerwaard|407
+48|22|Het Engelse Werk|175
+48|23|Engelse Werk en Spoolderbos|175
+48|24|Agnietenberg, Schrevenbos en Eierbelten|104
+48|25|De Kranenburg|256
+48|26|De Helmhorst|213
+48|27|Boschwijk|136
+48|28|De Horte|227
+48|29|Mataram|286
+48|30|De Leemcule|269
+48|31|Den Aalshorst|102
+48|32|Den Berg|122
+48|33|Rechterense Veld|339
+48|34|Plaggemars|331
+48|35|Hessum|215
+48|36|Vilsteren|400
+48|37|De Wildhoek|427
+48|38|Leusener Maan|273
+48|39|Varsen|393
+48|40|IJsselvliedt|233
+48|41|Wezepse Heide|422
+48|42|Vuursteenberg|408
+48|43|Gemeentebos Hattem|187
+48|44|Molecaten|294
+48|45|Flip Hul|179
+48|46|Klooster Hulsbergen|248
+48|47|Hezenberg|216
+48|48|Algemeen Veen|106
+48|49|Hoenwaard|219
+48|50|Oldeneel|313
+48|51|Zandhove|435
+48|52|Soeslo|369
+48|53|Windesheim|428
+48|54|Molenpolder|295
+48|55|Den Alerdinck|106
+48|56|Colckhof|151
+49|1|Schuinesloot landschapselementen|362
+49|2|De Slagen|366
+49|3|Esbosjes Zuidwolde|177
+49|4|Nolderveld|305
+49|5|Takkenhoogte|382
+49|6|Reestdal|341
+49|7|De Reest|341
+49|8|Reestdal|341
+49|9|Ommerschans|315
+49|10|Rheezerveen landschapselementen|344
+49|11|Hardenberg|207
+49|12|Recreatiebos Hardenberg|339
+49|13|Het Engelandsche Bosch|175
+49|14|Hardenberg-Oost landschapselementen|207
+49|15|Rheeze|344
+49|16|Vechtdal|394
+49|17|Bruchterveld landschapselementen|145
+49|18|Ommerbos|314
+49|19|Arriëveld|114
+49|20|Junner Koeland|236
+49|21|Stegeren|377
+49|22|Stegeren landschapselementen|377
+49|23|Junne|236
+49|24|Ommen|314
+49|25|Beerze|119
+49|26|Eerde|171
+49|27|Het Laar|261
+49|28|Vilsteren|400
+49|29|Klein Giethmen|246
+49|30|Giethmen|190
+49|31|Lemeler- en Archemerberg|271
+49|32|Archem|113
+49|33|Ten Have|208
+49|34|Park 1813|329
+49|35|De Zandstuve|435
+49|36|Daarle landschapselementen|152
+49|37|Engbertsdijksvenen|175
+49|38|De Bruine Haar|145
+50|1|Mandergrafveld|282
+50|2|Dal van de Mosbeek|152
+50|3|Springendal|374
+50|4|Breckelenkamp|143
+50|5|Schiphorst|358
+51|1|Zuid-Kennemerland, Nationaal Park|439
+51|2|Bosbeek, Burg. Rijkenspark en Spaarneberg|135
+51|3|Landgoed Schapenduinen Bloemendaal|266
+51|4|Bloemendaalsebos|131
+51|5|Thijsse's Hof|385
+51|6|Spaarnwoude|371
+51|7|Buitenhuizerbraak|147
+51|8|Houtrakbos|228
+51|9|Spaarnwouderven en Batterij|371
+51|10|Oeverlanden aan de Liede|311
+51|11|Wethouder van Gelukpark|422
+51|12|Middenduin|291
+51|13|Brouwerskolkpark|145
+51|14|Kraansvlak|255
+51|15|Elswout|174
+51|16|Koningshof|251
+51|17|Visserspad en Duinpieperpad|401
+51|18|Mr. H. Enschedépark|297
+51|19|Naaldenveld|297
+51|20|Amsterdamse Waterleidingduinen|110
+51|21|Leyduin, Vinkenduin en Oud Woestduin|275
+51|22|Groenendaal|197
+51|23|Eendenkooi Stokman|170
+51|24|Meerbos|287
+51|25|Haarlemmermeerse Bos|205
+51|26|Eikenrode|172
+51|27|Linnaeushof|277
+51|28|Bennebroekbos|121
+51|29|Huis te Vogelenzang|229
+51|30|Het Langeveld|267
+51|31|De Blink|130
+51|32|Noordwijk|308
+51|33|Wassergeest|413
+51|34|Nieuw Leeuwenhorst|303
+51|35|Leeuwenhorst|270
+51|36|Coepelduinen|151
+51|37|Westeinderplassen|419
+52|1|Spaarnwoude|371
+52|2|Recreatiegebied Het Twiske|340
+52|3|Ratteneiland|338
+52|4|Ilperveld|233
+52|5|Varkensland|393
+52|6|Waterland Oost|414
+52|7|Udoorn|232
+52|8|De Oeverlanden|311
+52|9|Amsterdamse Bos|109
+52|10|Jac.P. Thijssepark en De Braak|235
+52|11|Amstelveense en Kleine Poel|109
+52|12|Oosteinderpoel|317
+52|13|Recreatiegebied Over-Amstel|340
+52|14|Middelpolder|291
+52|15|Wester-Amstel|419
+52|16|Recreatiegebied Elsenhove|339
+52|17|Recreatiegebied Ouderkerkerplas|340
+52|18|Penbos|330
+52|19|Gaasp en Diem|184
+52|20|Recreatiegebied Gaasperplas|339
+52|21|Riethoek|345
+52|22|Gaasperzoom|184
+52|23|Klarenbeek|245
+52|24|Recreatiegebied De Hoge Dijk|339
+52|25|Fort Nigtevecht|182
+52|26|Umeer|233
+52|27|Muiderbos|297
+52|28|Zilverstrand en Muiderstrand|437
+52|29|Echobos|168
+52|30|Naardermeer|297
+52|31|Uitermeer|390
+52|32|Hinderdam|218
+52|33|Spiegelplas|372
+52|34|Ankeveense Plassen|110
+52|35|Laegieskamp|261
+52|36|Natuurgebied Uithoorn|299
+52|37|Bovenlanden Mijdrecht|141
+52|38|Fort Waver-Amstel|182
+52|39|Polder Groot-Mijdrecht|334
+52|40|Botshol|140
+52|41|De Nes|302
+52|42|Horstermeerpolder|226
+52|43|Fort Kijkuit|181
+52|44|Wijde Blik|425
+52|45|Terra Nova|384
+52|46|Kortenhoefse Plassen|254
+52|47|Het Hol|221
+52|48|Fransche Kampheide|183
+52|49|Schaep en Burgh|354
+52|50|Bantam|117
+52|51|Fransche Kamp|183
+52|52|Kamphoeve|239
+52|53|Boekesteyn|131
+52|54|Spanderswoud|371
+52|55|Spanderswoud|371
+52|56|Hilverbeek|217
+52|57|Spiegelrust|372
+52|58|Schoonoord|359
+52|59|Gooilust|191
+52|60|Conversbos|151
+53|1|Lepelaarplassen|272
+53|2|Wilgenbos en Wilgeneiland|427
+53|3|Oostvaardersplassen|318
+53|4|Landschappelijke beplanting Flevoland|266
+53|5|De Aardzee|103
+53|6|Wilgenreservaat|427
+53|7|Knarbos|248
+53|8|Hoge Vaartbos|220
+53|9|Pampushout|328
+53|10|Kromslootpark, Beginbos en Vroege Vogelbos|257
+53|11|Almeerderhout|106
+53|12|Gorzenveld|192
+53|13|Winkelse Zand|429
+53|14|Gruttoveld|203
+53|15|Horsterwold|226
+53|16|Hulkesteijnse Bos|230
+53|17|Gooimeer|191
+53|18|Oud Naarden|323
+53|19|Naarder Eng en Gooimeerkust|297
+53|20|Limitische Heide|276
+53|21|Nieuw Bussumerheide|303
+53|22|Vliegheide|402
+53|23|Luchtkasteel|280
+53|24|Oud Bussum|322
+53|25|De Beek en Reigerseiland|118
+53|26|IJzeren Veld, Bikbergen en Crailo|233
+53|27|Tafelberg-, Blaricummer- en Noorderheide|382
+53|28|Huizer Eng|230
+53|29|Eemmeer|169
+53|30|Eemland|169
+53|31|Mauvezand, Hondehei en Bosje van Six|286
+53|32|Bussummerheide|148
+53|33|De Snip|368
+53|34|Westerheide|420
+53|35|Postiljonheide en Laarder Eng|335
+53|36|Zuiderheide, Laarder Wasmeer en Lieberg|439
+53|37|Anna's Hoeve|111
+53|38|Arkemheen|113
+53|39|Oldenaller|313
+54|1|Heggenlandschap de Wildwallen|210
+54|2|Karekietbos|240
+54|3|Harderbos|207
+54|4|Harderbroek|207
+54|5|Kievitslanden|245
+54|6|Spijk en Bremerberg|372
+54|7|Stranden en Voorlanden Drontenmeer en Veluwemeer|380
+54|8|Veluwerandmeren|397
+54|9|Veluwemeerkust|396
+54|10|Hulshorst|231
+54|11|Groeneveld|197
+54|12|De Ihorst|232
+54|13|Oeverlanden Veluwemeer|312
+54|14|Bos Klaterweg|135
+54|15|De Haere|206
+54|16|Van 't Goorsveld|192
+54|17|Johannahoewe|236
+54|18|Schouwenburg|361
+54|19|Zwaluwenburg|442
+54|20|Oldebroek landschapselementen|312
+54|21|De Zwaluwenberg|441
+54|22|Gemeentebos Harderwijk|187
+54|23|Beekhuizerzand|119
+54|24|Leuvenumse Bos|274
+54|25|Leuvenhorst|273
+54|26|Het Willemsbos|428
+54|27|Boscomplex Nunspeet|136
+54|28|Elspeetsche Heide|173
+54|29|Stakenberg|375
+54|30|Schotkamp|361
+54|31|Nunspeet|309
+54|32|Boscomplex Vierhouten|137
+54|33|Saxenheim|353
+54|34|Vierhoutense Heide|400
+54|35|Het Feithenhof|178
+54|36|Tongerense Heide|387
+54|37|Wisselse Veen|429
+54|38|Tongeren|387
+54|39|Paalveen|327
+54|40|West-Raven|422
+54|41|Weeser Enk|416
+54|42|Scherpenberg en Morena|356
+54|43|Majuba|282
+54|44|Gemeentebossen Epe|187
+54|45|De Dellen en Ambtsbos|156
+54|46|Stormbroek|379
+54|47|Groevenbeekse Heide|198
+54|48|Oud Groevenbeek|322
+54|49|Bossen Ermelo|138
+54|50|Sparrendaal|371
+54|51|Ermelosche Heide|176
+54|52|Speulder- en Sprielderbos|372
+54|53|Schovenhorst|362
+54|54|Klein Veenhuizen|246
+54|55|Bergsham|124
+54|56|De Wakel|410
+54|57|Wilde Kamp|426
+54|58|Leuvenum|274
+54|59|Staverden|376
+54|60|De Grote Kolonie|201
+54|61|De Kleine Kolonie|247
+54|62|Boscomplex Elspeet|136
+54|63|Elspeterveld|174
+54|64|Houtdorperveld en Speulderveid|228
+54|65|'t Sol|369
+54|66|Elspeterbosch|174
+54|67|Elspeter Struiken|174
+54|68|Koninklijke Houtvesterij Het Loo|251
+54|69|Schaveren|355
+54|70|Wildlust|427
+54|71|Wildweg|427
+54|72|Cannenburgerbos|149
+54|73|Zandhegge|434
+54|74|Garderen|185
+54|75|Berg en Bos|122
+55|1|Petrea|330
+55|2|Zwolse Bos|444
+55|3|Kamperklippen|238
+55|4|Klein Stokkert|246
+55|5|Renderklippen en Gemeentebossen Heerde|343
+55|6|Boshoven|137
+55|7|Heerdersprengen|209
+55|8|Vosbergen|406
+55|9|Bonenburg|133
+55|10|Heerde landschapselementen|209
+55|11|Gemeentebossen Epe|187
+55|12|Groene Zee|197
+55|13|Kwelgebieden in de gemeente Epe|260
+55|14|Veesserwaarden|394
+55|15|Welsumerwaarden|418
+55|16|Fortmond|183
+55|17|Vorchterwaarden|405
+55|18|Buitenwaarden Wijhe|147
+55|19|'t Rozendael en 't Nijenhuis|350
+55|20|De Vlaminkhorst|401
+55|21|De Bril|144
+55|22|'t Reelaer|341
+55|23|Heideblok Heino|211
+55|24|Raalterwoold|337
+55|25|Hoge Broek|220
+55|26|Luttenbergerven|280
+55|27|Luttenberg|280
+55|28|Vossenbroek|406
+55|29|Katerstede|243
+55|30|Hoenlo|218
+55|31|Nijendal|304
+55|32|De Haere|205
+55|33|Hengforder Waarden|214
+55|34|Meintjes|289
+55|35|Boerdam|132
+55|36|Dorperwaarden|162
+55|37|Rande|338
+55|38|Twello landschapselementen|389
+55|39|Middel|291
+55|40|Boxbergen|141
+55|41|Zorgvliet|438
+55|42|De Hei|211
+55|43|Het Overvelde|327
+55|44|De Kranenkamp (Noord)|256
+55|45|De Kranenkamp|256
+55|46|De Hoek|218
+55|47|Frieswijk|184
+55|48|Wechelerveld|414
+55|49|Wechelerveld|414
+55|50|Het Neppelenbroek|302
+55|51|Groot Zwaaftink|199
+55|52|Boetelerveld|133
+55|53|Sprengenberg|373
+55|54|De Beernink en De Voorhorst|119
+55|55|'t Wesselink|418
+55|56|Lettele landschapselementen|272
+55|57|De Grote Schaersberg|202
+55|58|Oostermaet|318
+55|59|Landgoed Wezeveld|266
+55|60|Bruggenbosch|145
+55|61|Hunderen|231
+55|62|De Groote Noordijk|200
+55|63|Kleine Noordijk|247
+55|64|Epserwaarden|176
+55|65|Hassinkbos|208
+55|66|De Wijtenhorst|426
+55|67|De Bannink|116
+55|68|De Bannink|117
+55|69|Bathmen landschapselementen|117
+55|70|Bathmense Broek|117
+55|71|Oude Schipbeek|324
+55|72|Het Langenbergerveld|267
+55|73|Dorth|163
+56|1|Sallandse Heuvelrug|352
+56|2|Duivecate|166
+56|3|Wierdense Veld|424
+56|4|Het Lageveld|263
+56|5|Fayersheide|178
+56|6|Kooiplas Vriezenveen|252
+56|7|Schultenwolde|362
+56|8|Mekkelenberg|290
+56|9|Huize Almelo|230
+56|10|Sprengenberg|373
+56|11|Holterberg|222
+56|12|Holten landschapselementen|222
+56|13|Noorderbos en Stokkerskampje|306
+56|14|De Oosterhof en Volkspark|318
+56|15|Groene Kruisbossen|197
+56|16|De Borkeld|134
+56|17|Friezenberg|184
+56|18|Markelo landschapselementen|284
+56|19|Entenveen|176
+56|20|De Koepel|249
+56|21|Mokkelengoor|294
+56|22|Nijreesbos|305
+56|23|Krikkenhaar|257
+56|24|Het Weleveld|418
+56|25|Stroomesch|381
+56|26|Het Warmtink|413
+56|27|Twickel|389
+56|28|Verwolde|399
+56|29|Markelose Berg|285
+56|30|Weldam|417
+56|31|Wiene|
+57|1|Bergvennen|124
+57|2|Hazelbekke|209
+57|3|Vasserheide en Vassergrafveld|394
+57|4|Kuiperberg|259
+57|5|Haarlergrafveld|205
+57|6|Reutum|344
+57|7|Herinckhave|214
+57|8|Agelo-Reutum landschapselementen|104
+57|9|Achter de Voort|103
+57|10|Rossumermeden|348
+57|11|Agelerbroek|104
+57|12|Hunenborg|231
+57|13|Voltherbroek|403
+57|14|Erve Scholten Linde|177
+57|15|Singraven|363
+57|16|Dinkelland|158
+57|17|Dulder|166
+57|18|Molenven|295
+57|19|Gravenbos|194
+57|20|Gammelke|185
+57|21|Roderveld|346
+57|22|Hakenberg|206
+57|23|Egheria|171
+57|24|'t Hanhof|207
+57|25|Molterheurne|296
+57|26|Elfterheurne|173
+57|27|Berninkholt|125
+57|28|Het Beernink|119
+57|29|Arboretum Poort-Bulten|113
+57|30|Grevenmaat|196
+57|31|Boerskotten|132
+57|32|Hoge Venterink|221
+57|33|Het Hulsbeek|231
+57|34|Het Holthuis|222
+57|35|Duivelshof|166
+57|36|Hengelman|214
+57|37|Smoddebos|368
+57|38|Snippert|368
+57|39|Haagse Bos|204
+57|40|Val Sugana|393
+57|41|Lonnekerberg|278
+57|42|Weusthagpark|422
+57|43|De Wildernis|427
+57|44|Hof Espelo|219
+57|45|Het Stroot|381
+57|46|'t Bouwhuis|141
+57|47|De Vieker|399
+57|48|De Hooge Boekel|224
+57|49|Galgenven|185
+57|50|De Tip|386
+57|51|Penninkskotten|330
+57|52|Lindermaten|276
+57|53|De Krabbe|255
+58|1|Meijendel-Wassenaar|288
+58|2|Waalsdorp|408
+58|3|Haagse parken en buitenplaatsen|204
+58|4|Haagsche Bosch|203
+58|5|Van Leyden-Hof|275
+58|6|Park 't Hof|329
+58|7|Elsenburgerbos|173
+59|1|Pan van Persijn|328
+59|2|De Leidse Hout|271
+59|3|Oud Poelgeest|323
+59|4|Koudenhoorn|255
+59|5|Oostergeest|318
+59|6|Huys te Warmont|232
+59|7|Kagerplassen|238
+59|8|Blauwe Molen|129
+59|9|Braassemermeer|142
+59|10|Geerpolder|186
+59|11|Meijendel-Wassenaar|288
+59|12|Rust en Vreugd|351
+59|13|De Horsten|226
+59|14|Duivenvoordse Polder|166
+59|15|Rosenburgh|348
+59|16|Leidschendammerhout|271
+59|17|Westeinde|419
+59|18|De Wilck|426
+59|19|De Rijndijk|345
+59|20|Kruiskade|258
+59|21|Spijkerboorsekade en Coppierenkade|373
+59|22|Nieuwkoopse Plassen|304
+59|23|De Haaglanden|203
+59|24|Noorderhout|306
+59|25|Reeuwijk|342
+59|26|Het Steinse Groen|378
+60|1|Kamerik-Teylingens|238
+60|2|Polder Demmerik|334
+60|3|Armenland Ruwiel|114
+60|4|De Boterwal|140
+60|5|Fort Nieuwersluis|182
+60|6|Overplaats Sterreschans|327
+60|7|Over Holland|326
+60|8|Polder Mijnden|334
+60|9|Gunterstein|203
+60|10|Loosdrechtse Plassen|279
+60|11|Bos van Hacke 'Buitenplaats Eikenrode'|135
+60|12|Tienhovense Plassen|385
+60|13|Bethunepolder|125
+60|14|Nieuwkoopse Plassen|304
+60|15|Bovenlanden Kromme Mijdrecht|141
+60|16|Achttienhovense Polder|104
+60|17|De Haeck|205
+60|18|De Meije|288
+60|19|Kamerikse Nessen|238
+60|20|Oortjespad|316
+60|21|Kockengen|249
+60|22|Polderreservaat|335
+60|23|Rietlanden te Kockengen|345
+60|24|Kasteel De Haar|241
+60|25|De Bijleveld|128
+60|26|Vijverbos|400
+60|27|Maarsseveense Plassen|281
+60|28|Molenpolder|295
+60|29|Gagelpolder|185
+60|30|Amelisweerd|107
+60|31|Geriefbos te Waarder|189
+60|32|Draakpolder|163
+60|33|Zijdegat|437
+60|34|Benschopper Boezem|121
+60|35|Benschop|121
+60|36|Houtkaden Lopikerwaard|228
+60|37|Broek en Blokland|144
+60|38|Noord IJsseldijk|306
+60|39|IJsselbos|233
+60|40|Het Klaphek|245
+60|41|Hoge Grienden|220
+60|42|'t Waal|408
+60|43|Tull en 't Waal|388
+61|1|Groeneveld|197
+61|2|Klooster De Stad Gods|248
+61|3|Laapersheide|261
+61|4|Cronebos|152
+61|5|Laapersveld en Laapersbos|261
+61|6|Hoorneboegse Heide en Zwarte Berg|225
+61|7|Uytwijck|392
+61|8|Hilversums Wasmeer en De Zuid|217
+61|9|Smithuyserbos|368
+61|10|Einde Gooi|172
+61|11|Dassenveld|154
+61|12|Maartensdijkse Bos|281
+61|13|De Vuurschse|407
+61|14|Pijnenburg|331
+61|15|Eyckenstein|178
+61|16|Op Hees|320
+61|17|Soesterveen|369
+61|18|Coelhorst|150
+61|19|Schothorst|361
+61|20|Hoevelaken|219
+61|21|Zwarte Broek|443
+61|22|Appel|112
+61|23|Beukenburg|125
+61|24|De Leijen|271
+61|25|Ridderoordse Bossen|345
+61|26|Splinterenburg|373
+61|27|Willem Arntsz Bos en Vijverhof|428
+61|28|Pleinesbos en Oude Tol|333
+61|29|Bos- en Natuurterreinen Soest|135
+61|30|De Birkt|128
+61|31|Birkhoven en Bokkeduinen|128
+61|32|De Paltz|328
+61|33|Soesterberg|369
+61|34|De Vlasakkers|401
+61|35|Oude Kamp|324
+61|36|Klein Zwitserland|246
+61|37|Nimmerdor|305
+61|38|Lockhorsterbos|277
+61|39|Bossen achter Rusthof|138
+61|40|Erica-Noord|176
+61|41|Grote Veenderplas|202
+61|42|Houdringe, Beerschoten en Heyntjeskamp|227
+61|43|Panbos en Tannenberg|328
+61|44|Bosch en Duin|136
+61|45|Dijnselburg en Vollenhove|158
+61|46|Sandwyck|353
+61|47|Oostbroek|316
+61|48|Fort bij Rijnaauwen|181
+61|49|Niënhof|303
+61|50|Fort Vechten|182
+61|51|De Raaphorst|337
+61|52|Wulperhorst|433
+61|53|Buitenplaatsen Driebergseweg|147
+61|54|Zeisterbosch|436
+61|55|Zeisterwoud|436
+61|56|Austerlitz|114
+61|57|Kozakkenput en Krakeling|255
+61|58|Den Treek-Henschoten|387
+61|59|Heidestein, Bornia en Noordhout|211
+61|60|De Breul|143
+61|61|Beerschoten en Willinkshof|119
+61|62|Rijsenburgsebos|345
+61|63|Driebergsebos|164
+61|64|Sparrendaal|371
+61|65|De Kurk|259
+61|66|Mollenbos|296
+61|67|Het Heihuis|212
+61|68|Bos achter de Nieuwe Algemene Begraafplaats|135
+61|69|Ludenbos|280
+61|70|Hoog Moersbergen, Stameren, Bergweg en De Pol|224
+61|71|De Zonheuvel|437
+61|72|Huis te Maarn|229
+61|73|'t Stort|379
+61|74|Anderstein|110
+61|75|Broekkerbos|144
+61|76|Scherpenzeel-Berkhorst|356
+61|77|Breeschoten|143
+61|78|Kasteelbos Renswoude|242
+61|79|Grebbelinie|194
+61|80|Hardenbroek|207
+61|81|Leeuwenburgh|270
+61|82|Moersbergen|293
+61|83|Kaapse Bossen|237
+61|84|Sandenburg|353
+61|85|Darthuizen|154
+61|86|Voreneng|405
+61|87|Landgoed Sandenburg|265
+61|88|Grote Maat|201
+61|89|Broekhuizen|144
+61|90|Breeveen en Dartheide|143
+61|91|Lombokbossen|278
+61|92|Leersum|270
+61|93|Lambalgen en Het Hek|263
+61|94|De Laan|261
+61|95|Hoge Ginkel|220
+61|96|Amerongse Berg|108
+61|97|Kolland|250
+61|98|Kasteel Amerongen|241
+61|99|Amerongse Bos en Amerongse Bovenpolder|108
+61|100|Prattenburg|335
+62|1|Blarikshorst|129
+62|2|Speulder- en Sprielderbos|372
+62|3|Gemeentebos Putten|187
+62|4|Wilbrinkbos|426
+62|5|Johannabos|236
+62|6|Garderen|185
+62|7|De Wittenberg|431
+62|8|Stroese Zand|380
+62|9|Hoog-Westerwolde|224
+62|10|Dalkenschoten|153
+62|11|Koninklijke Houtvesterij Het Loo|251
+62|12|Orderbos|321
+62|13|Het Willemsbos|428
+62|14|Van der Huchtbos|228
+62|15|De Kooiberg|252
+62|16|Bruggelen|145
+62|17|Oosterbos|317
+62|18|Schaffelaar|354
+62|19|Kootwijk|252
+62|20|Ugcheln Hoenderloo|390
+62|21|Bos te Hoenderloo|135
+62|22|Het Spoek|373
+62|23|Kruisvoorde|258
+62|24|De Groote Woeste Hoeve|201
+62|25|Wekeromse Zand|417
+62|26|Het Luntersche Buurtbos|280
+62|27|Doesburgerheide|159
+62|28|Allemanskamp|106
+62|29|Kernhem|244
+62|30|Edese Bos|168
+62|31|Edese Heide|168
+62|32|Roekel|346
+62|33|De Zanding|435
+62|34|Otterlose Bos|322
+62|35|Planken Wambuis|331
+62|36|Hindenkamp|218
+62|37|Noord- en Zuid-Ginkel|306
+62|38|De Hoge Veluwe, Het Nationale Park|220
+62|39|Delerwoud|154
+62|40|Loenermark en Loenense Bos|278
+62|41|Veluwezoom, Nationaal Park|397
+62|42|Terletse Heide|383
+62|43|Arnhemsche Heide|114
+62|44|Kemperheide-Deelen|244
+62|45|Blauwe Hel|129
+62|46|De Hel|213
+62|47|Bennekomse Meent|121
+62|48|Sysselt|382
+62|49|Hoekelum|218
+62|50|Bennekomse Buurtheide|121
+62|51|De Renkumse Beek|343
+62|52|Quadenoord-Boschbeek|337
+62|53|Bennekomse Bos|121
+62|54|Oostereng|317
+62|55|Lange Hut en Grijsoord|266
+62|56|Reierscamp|342
+62|57|Westerheide|420
+62|58|Maasbergse Bossen|281
+62|59|Berkenhove|125
+62|60|Wolfheze|431
+62|61|Sonnenberg en Bilderberg|370
+62|62|Johannahoewe|236
+62|63|Lichtenbeek en Vijverberg|275
+62|64|Warnsborn en Hoog Erf|413
+62|65|Schaarsbergen|354
+62|66|Koningsheide|250
+62|67|De Waterberg|413
+62|68|Valkenhuizen|393
+62|69|Rozendaalse Veld|350
+62|70|Landgoed Rosendaal|265
+62|71|Rozendaal|350
+62|72|Rosendaal|348
+62|73|Sonsbeek, Zijpendaal en Gulden Bodem|370
+63|1|Het Woudhuis|432
+63|2|Beekbergse Beek|118
+63|3|Beekbergerwoud|118
+63|4|Lampenbroek|263
+63|5|Landgoed Klarenbeek|265
+63|6|Ekeby|172
+63|7|Appense Bos|113
+63|8|Beekzicht|119
+63|9|Veluwse Bandijk|397
+63|10|Wilperwaarden|428
+63|11|Ravenswaarden|339
+63|12|Rammelwaard|338
+63|13|Het Zand|434
+63|14|Herwalt|215
+63|15|Wogbos|431
+63|16|Het Joppe|236
+63|17|De Lange Oorden|266
+63|18|Gorsselse Heide|192
+63|19|Larense Broek|268
+63|20|Kasteel Oolde|242
+63|21|Esveldsbos|177
+63|22|Munsterman|297
+63|23|Reeënberg|340
+63|24|De Westerveldhuizen|421
+63|25|Loenerveld|278
+63|26|De Vrijenberg|407
+63|27|Hoeve Delle|219
+63|28|Ramenberg|337
+63|29|Loenermark en Loenense Bos|278
+63|30|Steilhul|377
+63|31|Groenouwe|197
+63|32|De Molenbeek|294
+63|33|Grootmoeshul|201
+63|34|De Steenputten|377
+63|35|Huis te Eerbeek|229
+63|36|Empese en Tondense Heide|174
+63|37|De Overmars|327
+63|38|Oude IJssel te Empe|324
+63|39|Voorstonden|405
+63|40|Leusveld|273
+63|41|Soerense Broek|369
+63|42|De Kievit en Denk en Werk|245
+63|43|Den Bosch|136
+63|44|Bronkhorst|145
+63|45|Cortenoever|151
+63|46|Bronsbergen|145
+63|47|Den Dam|153
+63|48|De Voorst|404
+63|49|'t Velde en Veldese Bos|395
+63|50|Oud Berkenroede|322
+63|51|De Ehze|171
+63|52|Velhorst|395
+63|53|Lacerta|261
+63|54|'t Waliën|410
+63|55|Grote Veld|202
+63|56|Den Bramel|142
+63|57|'t Enzerinck|176
+63|58|Dennenwater|156
+63|59|De Belten|120
+63|60|Oude Voorde|324
+63|61|De Boggelaar|133
+63|62|Hackfort|205
+63|63|Vorden|405
+63|64|Het Hissink|218
+63|65|Kieftskamp|245
+63|66|Het Maalderink|281
+63|67|'t Klooster|248
+63|68|Veluwezoom, Nationaal Park|397
+63|69|Hof te Dieren|219
+63|70|Rozendaalse Veld|350
+63|71|Beekhuizense Bossen|119
+63|72|Kasteel Biljoen|241
+63|73|Vaalwaard|392
+63|74|Landgoed Middachten|265
+63|75|Wallen van Doesburg|411
+63|76|Kasteel Ulenpas|242
+63|77|Hekenbroek|212
+63|78|Enghuizen|175
+63|79|Wassinkbrink|413
+64|1|Verwolde|399
+64|2|Ampsen|108
+64|3|Weldam|417
+64|4|Westerflier|420
+64|5|Huis te Diepenheim|229
+64|6|Nijenhuis|305
+64|7|Groot-Boerman|198
+64|8|Hengevelde|214
+64|9|Twickel|389
+64|10|Stepelerveld|378
+64|11|De Huttensmit en Koksbos|232
+64|12|Trekop|388
+64|13|Paaschberg|327
+64|14|Mariabos|284
+64|15|Nettelhorst|303
+64|16|Roeterinksbroek|347
+64|17|Lochemse Berg|277
+64|18|De Kale Berg|238
+64|19|Wanninkhof|412
+64|20|Needse Berg|301
+64|21|Het Olthaar|314
+64|22|Needse Achterveld|301
+64|23|Teeselinkven|383
+64|24|Wildenborch|426
+64|25|De Wiersse|425
+64|26|Beekvliet|119
+64|27|Overbiel|325
+64|28|Wolink|432
+64|29|Het Vinkennest|400
+64|30|Het Kerkloo|244
+64|31|Het Zwilbroek|444
+64|32|Lankheterbuiten|267
+64|33|Rekkense Heide|342
+64|34|Haaksbergerveen|204
+64|35|Ruurlo|351
+64|36|Ruurlose Broek|351
+64|37|'t Zand|434
+64|38|Oude Schot|324
+64|39|Ruurlo landschapselementen|351
+64|40|Het Zuidelijk Broek|438
+64|41|Koolmansdijk|252
+64|42|Lievelderbroek|275
+64|43|Mellinkmaat landschapselementen|290
+64|44|Hallse Heide|206
+64|45|Lievelderveld|275
+64|46|Reirinkbos|342
+64|47|Bos te Meddo|135
+64|48|Gelderesch|186
+64|49|Meddoscheveld|287
+64|50|Beurzerbeek|126
+64|51|Vragenderveld|406
+64|52|Bönnink|134
+64|53|Het Waliën|411
+64|54|Dottinkrade|163
+65|1|Teesinkbos|383
+65|2|De Weele|414
+65|3|Het Rutbeek|351
+65|4|Groot Brunink|198
+65|5|Smalenbroek|367
+65|6|Aamsveen|103
+65|7|De Zieppe|437
+65|8|Buurserzand|149
+65|9|Witte Veen|430
+65|10|Haaksbergerveen|204
+65|11|Bos bij de Duitse grens|135
+65|12|De Smalbraak|367
+65|13|Het Broeke|144
+65|14|Boeyink, Kössink en De Elzen|133
+65|15|Muggenhoek|297
+66|1|Springertduinen|374
+66|2|Onland|315
+66|3|Westduinen|418
+66|4|Kleistee|247
+66|5|Oude Stee|324
+66|6|Bosobjecten Goeree|137
+66|7|Oost- en Middelduinen|316
+66|8|De Schans|354
+66|9|Koudenhoek|255
+66|10|Preekhilpolder|336
+66|11|Oudelandse Zeedijk|325
+66|12|Grevelingen|195
+67|1|Kapittelduinen|240
+67|2|Staelduinse Bos|375
+67|3|Eendenkooi Schipluiden|170
+67|4|Vlietlanden|403
+67|5|Broekpolder|144
+67|6|Aalkeetbuitenpolder|102
+67|7|Ommeloop|314
+67|8|Kleine Beer|247
+67|9|Mildenburg|292
+67|10|Groene Strand|197
+67|11|Duinen van Oostvoorne|165
+67|12|Slikken van Voorne|366
+67|13|Overbosch|325
+67|14|Strypemonde|381
+67|15|Voornes Duin|404
+67|16|Gemeentelijk Duinterrein Rockanje|189
+67|17|Meertje de Waal|287
+67|18|Merrevliet|291
+67|19|Fort Penserdijk|182
+67|20|Holle Mare|222
+67|21|Blanke Waal|129
+67|22|Hillenhoek|217
+67|23|Bosobjecten Voorne|138
+67|24|Fort Noorddijk|182
+67|25|Quackgors|337
+67|26|Graswegbos|194
+67|27|Waalhoek|408
+67|28|Natuur- en recreatiegebied Bernisse|299
+67|29|Biert|126
+67|30|Spijkenisse Mallebos|372
+67|31|Kwade Hoek|260
+67|32|Kop van Goeree|252
+67|33|Scheelhoek|355
+67|34|Bosobjecten Stellendam|138
+67|35|Grevelingen|195
+67|36|Beningerslikken|121
+67|37|Korendijkse Slikken|253
+67|38|Kreken Hoekse Waard|256
+67|39|Bosobjecten Hoekse Waard|137
+68|1|Ackerdijkse Plassen|104
+68|2|Polder Noord-Kethel|334
+68|3|De Tempel|383
+68|4|Park Kethel|329
+68|5|Overschiese Plasjes|327
+68|6|Plaswijckpark|333
+68|7|Kralingse Bos|255
+68|8|Recreatiegebied Hitlandbos|339
+68|9|Blokboezemlanden|131
+68|10|Eendenkooi Kooilust|169
+68|11|Eendenkooi Nooitgedacht|170
+68|12|Berkenwoudse Boezem|125
+68|13|Spaansche Zee|370
+68|14|Commissarissenlanden|151
+68|15|Koolwijk|252
+68|16|Arboretum Trompenburg|113
+68|17|Natuurpark Polder De Esch|300
+68|18|Stormpoldervloedbos|379
+68|19|Kleine Zaag|247
+68|20|Eendenkooi Bakkerswaal|169
+68|21|Dijkpercelen Bergambacht|158
+68|22|Kasteelgaarde Rhoon|242
+68|23|Rhoonese en Carnisse Grienden|344
+68|24|Klein Profijt|246
+68|25|Oeverlanden Oude Maas|312
+68|26|Munnikendevel|297
+68|27|Alblasserbos|105
+68|28|Groot Koninkrijk|198
+68|29|De Biesbosch, Nationaal Park|127
+69|1|De Hennepakkers|214
+69|2|Bergvlietse Kade|124
+69|3|Lekuiterwaarden|271
+69|4|Salmsteke|352
+69|5|Kersbergsche en Achthovensche Uiterwaarden|244
+69|6|Eendenkooi De Zouwe|171
+69|7|De Boezem|133
+69|8|Achthoven en Lakerveld|104
+69|9|Eendenkooi Achthoven|169
+69|10|De Kuilen|259
+69|11|Zouweboezem|438
+69|12|Scharperswijk|355
+69|13|Zijp- en Zederikkade|437
+69|14|Verspreid Vijfheerenlanden|399
+69|15|Bolgerijen en Autena|133
+69|16|Rietgat bij Fort Everdingen|345
+69|17|Donkse Laagten|162
+69|18|Kortebroek|254
+69|19|Ooievaarsdorp Het Liesveld|315
+69|20|Smoutjesvlietlanden|368
+69|21|Goudriaanse en Langerakse Kade|193
+69|22|Noordelose Kade|306
+69|23|Blommendaal|131
+69|24|Hoenderwiel|218
+69|25|Zederiklanden|435
+69|26|De Huibert|228
+69|27|Over-Heicop|326
+69|28|Over-Boeicop|325
+69|29|Diefdijk|157
+69|30|De Waai|408
+69|31|Sonsbrug|370
+69|32|Schoonrewoerdse Wiel|359
+69|33|Schaayk|354
+69|34|Kedichem|243
+69|35|Linge Oevers-West|276
+69|36|Lingebos|276
+69|37|Niemandshoek|303
+69|38|De Avelingen|115
+69|39|De Biesbosch, Nationaal Park|127
+69|40|Oost- en Noordwaard|316
+69|41|Witdammen|429
+69|42|Griendcomplex Werkendam|196
+69|43|Loevesteyn|278
+69|44|Hondswaard|223
+69|45|Brakel|142
+69|46|Waarden bij Gameren|409
+69|47|Waarden van Poederoijen|409
+69|48|Fort Giessen|181
+70|1|Dwarsdijkerbosjes|167
+70|2|Landgoed Sandenburg|265
+70|3|Vijverbosch|400
+70|4|Overlangbroek|326
+70|5|Gravenbol|194
+70|6|Oud Kolland|323
+70|7|Waarden bij Maurik|409
+70|8|Amerongse Berg|108
+70|9|Remmerdense Heide|342
+70|10|Plantage Willem III|332
+70|11|Dikkenberg|158
+70|12|Remmerstein|343
+70|13|Stadsbossen, Lijstereng en Kerkebos|375
+70|14|De Waarden|409
+70|15|Het Rondeel|347
+70|16|Waarden bij Beusichem|409
+70|17|De Zump|441
+70|18|Beedsdeveld|120
+70|19|De Regulieren|342
+70|20|Mariënwaerdt|284
+70|21|Buren|148
+70|22|Ommerense Veld|315
+70|23|Soelen|369
+70|24|Lienden|275
+70|25|Komgronden Tielerwaard|250
+70|26|Haaften|203
+70|27|Crobsche Waard|152
+70|28|Komgronden Bommelerwaard-West|250
+70|29|Neerijnen|301
+70|30|Hurwenensche Uiterwaarden|231
+70|31|De Blommenwaard|131
+70|32|Heesseltsche Uiterwaarden|210
+70|33|Waarden bij Heesselt|409
+70|34|Sint Andries|363
+70|35|Kade te Alem|237
+70|36|De Steendert|377
+70|37|Ophemert|320
+70|38|Waarden bij Wamel|409
+70|39|Leeuwense Waard|270
+70|40|Land van Maas en Waal-West|264
+70|41|Waarden bij Nieuwe Schans|409
+70|42|Gat van de Dam|186
+70|43|Osscher Meer|322
+71|1|Achterbergse Hooilanden|103
+71|2|Grebbeberg en Laarseberg|194
+71|3|Blauwe Kamer|129
+71|4|Wageningse Uiterwaarden|410
+71|5|Bergrand|124
+71|6|Oranje Nassau's Oord|321
+71|7|Oostereng|317
+71|8|Jufferswaard|236
+71|9|Wilhelminapark|428
+71|10|Cardanusgronden|149
+71|11|Hoog Oorsprong en Zilverberg|224
+71|12|Doorwerth|162
+71|13|Duno en Jagershuis|166
+71|14|Valkeniersbossen|393
+71|15|Pietersberg, Hemelse Berg en Oorsprong|331
+71|16|Mariëndaal en Boschveld|284
+71|17|Meinerswijk|289
+71|18|Huissense- en Roswaard|230
+71|19|Hemmen|213
+71|20|Lakemond|263
+71|21|Hollanderbroek|221
+71|22|Ochtense Buitenpolder|311
+71|23|Drutense- en Deestsewaard|164
+71|24|Heerlijkheid Loenen|210
+71|25|Ewijkse Plaat|177
+71|26|Doddendaal|159
+71|27|Staartjeswaard|374
+71|28|Oosterhoutsche Waard|318
+71|29|Loenense- en Oosterhoutsewaard|277
+71|30|Ooypolder en Millingenwaard|320
+71|31|Bergharen|123
+71|32|Personnenbos|330
+71|33|Den Tuut|389
+71|34|Laakse Bos|261
+71|35|Eendenkooi Batenburg|169
+71|36|Hernense Bos en omgeving kasteel Hernen|215
+71|37|Heerlijkheid Leur|210
+71|38|Balgoyse Meer|116
+71|39|Molenwiel|295
+71|40|Vennengebied|398
+71|41|Heumens Bos|215
+71|42|Hatertse Broek|208
+71|43|De Elshof|173
+71|44|Heumensoord|216
+71|45|Vier Perken en Westermeerwijk|399
+71|46|Hengstdal|214
+71|47|Heerlijkheid Beek|210
+71|48|Duivelsberg|166
+71|49|Nederrijk|301
+71|50|Groesbeek|197
+71|51|Maldens Vlak|282
+72|1|Velperwaarden|395
+72|2|Huis Bingerden|229
+72|3|Greffelkamp|194
+72|4|De Nevelhorst|303
+72|5|Meikamer|289
+72|6|Het Jagerhuis|235
+72|7|Wehl landschapselementen|417
+72|8|Plakslag|331
+72|9|Enghuizen|175
+72|10|Hagen|206
+72|11|Slangenburg|366
+72|12|De Koekendaal|249
+72|13|De Pol|334
+72|14|De Doorninksbult|162
+72|15|Bemmelse-, Gendtse- en Klompenwaard|121
+72|16|Oude Rijnstrangen|324
+72|17|Babberichse Bos|115
+72|18|De Bijvanck|128
+72|19|Bergherbos|123
+72|20|Huis Bergh|228
+72|21|Lobberdensewaard en Tolkamerdijk|277
+73|1|Slangenburg|366
+73|2|Dennenoord|156
+73|3|Noorderbroek|306
+73|4|Tandem-Vlaswinkel|382
+73|5|Hiddink|216
+73|6|Het Leemscherbos|269
+73|7|Vennebulten|398
+73|8|Aaltense Goor|103
+73|9|Eppink|176
+73|10|Loohuis|278
+73|11|Aalten landschapselementen|102
+73|12|Walfort|410
+73|13|Schaarsheide|354
+73|14|'t Clooster|150
+73|15|Korenburgerveen|253
+73|16|Rommelgebergte|347
+73|17|Mentink|290
+73|18|Groters|202
+73|19|Gossink|192
+73|20|De Horst|226
+73|21|Hilbelink|217
+73|22|Driemark|164
+73|23|De Plekenpol|333
+73|24|Beestman|120
+73|25|Buskersbos|148
+73|26|Huitink|230
+73|27|Sieverdink|363
+73|28|Borkense Baan|134
+73|29|Deunk|156
+73|30|Bekendelle|120
+73|31|Stortelersbeek|379
+73|32|Beestmans|120
+73|33|Keunenhuis|245
+73|34|Aarnink|103
+73|35|Rot en Aarnink|348
+73|36|Meerdink en Lammers|287
+73|37|De Haar|204
+73|38|Veenhuis|394
+73|39|Wooldse Veen|432
+73|40|Kulverheide|259
+73|41|Wisch|429
+73|42|Idink|232
+73|43|Wissink|429
+73|44|Kruisdijk|258
+73|45|Het Vels|396
+73|46|De Heurne|216
+73|47|Dinxperlo landschapselementen|159
+73|48|Kluunpand en Sleebos|248
+73|49|Landfort|264
+74|1|Hesselink|215
+74|2|Willinksweust en Heksenbos|428
+74|3|Kotten|254
+74|4|Lankkamp en Nonneven|267
+75|1|Manteling van Walcheren|282
+75|2|Zeeduin|435
+76|1|Zoute en Zoete Haard|438
+76|2|Grevelingen|195
+76|3|Naterskreek|298
+76|4|Vroongronden|407
+76|5|Kop van Schouwen, Staatsnatuurmonument|253
+76|6|Slot Haamstede|366
+76|7|Karolingse Burcht|240
+76|8|Schelphoek|356
+76|9|Schouwse Dijkbeemden|362
+76|10|Schuddebeurs|362
+76|11|Mon Plaisir|296
+76|12|Zuiddijk te Schuddebeurs|438
+76|13|Schouwense Inlagen en Karrevelden|361
+76|14|Neeltje Jans|301
+76|15|Oranjezon|321
+76|16|Fort Den Haak|181
+76|17|Kamperlandse Duintjes|239
+76|18|Inlagen Anna Friso|234
+76|19|Dijkbeemden Noord-Beveland|157
+76|20|Inlagen Noord-Beveland|235
+76|21|Bosjes Noord-Beveland|137
+76|22|Veere|394
+76|23|Veerse Meer|394
+76|24|Middelplaten|291
+76|25|Kwistenburg|260
+76|26|Katse Plaat|243
+77|1|Grevelingen|195
+77|2|Bloemdijken Flakkee West|130
+77|3|Kreken Flakkee West|256
+77|4|Bosobjecten Flakkee West|137
+77|5|Blanke Slikken|129
+77|6|Grasgorzen Haringvliet|193
+77|7|Bosobjecten Flakkee Oost|137
+77|8|Bloemdijken Flakkee Oost|130
+77|9|Krammer Volkerak|256
+77|10|Dijkwater|158
+77|11|Steenzwaan|377
+77|12|Krekengebied Ouwerkerk|257
+77|13|Sint Philipsland Buitendijks|365
+77|14|Plaat van de Vliet en Slikken van de Heen-west|331
+77|15|Eendenkooi Sint Philipsland|170
+77|16|Bruintjeskreek|145
+77|17|Stinkgat|378
+77|18|Rammegors|338
+77|19|Slikken van de Heen|366
+77|20|Dintelse Gorzen|158
+77|21|Steenberge Vliet|376
+77|22|Westbrabantse Dijken|418
+77|23|Welen onder Stavenisse|418
+77|24|Thoolse Schorren en Slikken|385
+77|25|Thoolse Dijkbeemden|385
+77|26|Pluimpot|333
+77|27|Zuidweihoek|440
+77|28|Prinsland|336
+77|29|Roode Weel|348
+77|30|Oudland|325
+77|31|Het Laag|261
+78|1|Oudeland van Strijen|325
+78|2|De Elzen|174
+78|3|De Biesbosch, Nationaal Park|127
+78|4|Krammer Volkerak|256
+78|5|Anthoniegorzen en Fort Sabina|111
+78|6|Vlaakenhoek|401
+78|7|Ruigenhil|351
+78|8|Buitengorzen|147
+78|9|Oeverlanden Hollandsch Diep|311
+78|10|Sassenplaat|358
+78|11|Moerdijk|292
+78|12|Zonzeel en De Worp|437
+78|13|Westelijke Beemden|419
+78|14|Haagse Beemden|203
+78|15|Rooskensdonk|348
+78|16|Haagse Beemdenbos|203
+78|17|Pagnevaartbos|328
+78|18|Liesbos|275
+78|19|Sprundelsebaan-Zundertseweg|374
+78|20|Kogelvanger|249
+78|21|Vloeiweide|403
+78|22|Mastbos|285
+79|1|De Biesbosch, Nationaal Park|127
+79|2|Aakvlaai|102
+79|3|Kornsche Boezem|253
+79|4|Pompveld|335
+79|5|Nederhemert|301
+79|6|Gansooiense Uiterwaard|185
+79|7|Elshoutse Wielen|173
+79|8|Pax|329
+79|9|Langstraat|267
+79|10|De Linies|277
+79|11|Terheijden|383
+79|12|Spinolaschans|373
+79|13|Meerberg|287
+79|14|Vrachelsche Heide|406
+79|15|Oosterheide|318
+79|16|Teteringse Heide en Cadettenkamp|385
+79|17|Dorst|162
+79|18|Vijf Eiken|400
+79|19|De Bergen|123
+79|20|De Hoge Kant|220
+79|21|Huis ter Heide|229
+79|22|Baardwijkse Overlaat|115
+79|23|Plantloon|332
+79|24|Loonse en Drunense Duinen|278
+79|25|De Brand|142
+79|26|De Strijdhoef|380
+79|27|Papenhuizen|329
+79|28|Mastbos|285
+79|29|Blauwe Kamer|129
+79|30|Ulvenhoutsebos en Chaam|391
+79|31|Reeshofbos|341
+79|32|Vredelust en Heidepark|406
+79|33|Oude Warande|324
+79|34|Mariënhof|284
+80|1|Hedel en Ammerzoden|209
+80|2|Uiterwaarden bij Bokhoven|390
+80|3|Henriëttewaard|214
+80|4|Uiterwaarden Maaspoort|390
+80|5|De Koornwaard|252
+80|6|Maasuiterwaarden|281
+80|7|Lithse Kooi|277
+80|8|Sompen en Zooislagen|369
+80|9|Meer van Engelen|287
+80|10|De Kerkhoek|244
+80|11|Polder van Den Eigen en Empel|334
+80|12|Heinis|212
+80|13|Karregat|240
+80|14|Graafse Baan|193
+80|15|Het Vinkel en De Eikenburg|400
+80|16|De Wamberg|411
+80|17|Hoogbos, Engelenstede en Zeebroek|224
+80|18|Geffense Bosjes|186
+80|19|Stelt en De Haag|378
+80|20|Arboretum Heesch|113
+80|21|Heesch en Nistelrode|210
+80|22|Nieuwkuijks Bosje|304
+80|23|Moerputten|293
+80|24|Rijskampen|345
+80|25|De Margriet|283
+80|26|Loonse en Drunense Duinen|278
+80|27|De Distelberg|159
+80|28|Zwijnsbergen|443
+80|29|De IJzeren Man|233
+80|30|Wargashuyse|412
+80|31|Jagershagen|235
+80|32|Vughtse Heide en Lunetten|407
+80|33|Fort Isabella|181
+80|34|Bossche Broek|138
+80|35|Sterrenbosch|378
+80|36|Gemeentebos De Houw|187
+80|37|Maurick|286
+80|38|Haanwijk|204
+80|39|Gemeentebos Esseweg|187
+80|40|De Bevert|126
+80|41|Zegenwerp|436
+80|42|Eikenhorst|172
+80|43|Venrode|398
+80|44|Sparrenrijk|371
+80|45|Seldensate|363
+80|46|Kasteel Heeswijk|241
+80|47|Gemeentebos Heeswijk-Dinther|187
+80|48|De Prekers|336
+80|49|Wijboschbroek|425
+80|50|Zwanenburg|442
+80|51|Aa-broeken|102
+80|52|Recreatiepark Veghel|340
+80|53|Eerdse Bergen|171
+80|54|Coevering Logtenburg|151
+80|55|Geelders|186
+80|56|De Leemkuilen|269
+80|57|Nemelaer|302
+80|58|Suysse Bos|381
+80|59|Oude Hondsberg, Ter Braakloop en Galgeven|324
+80|60|Oisterwijkse Bossen en Vennen|312
+80|61|Rozep|350
+80|62|Kampina|239
+80|63|Achtbundersedijk en Logtsebaan|103
+80|64|De Mortelen en Heerenbeek|296
+80|65|Velder|395
+80|66|Kuppenbunders|259
+80|67|De Scheeken|355
+80|68|Dommeldal|160
+80|69|Dommelbeemden|160
+80|70|Vressels Bos|407
+81|1|Gemeentebossen Berghem en Schaijk|187
+81|2|Herperduin|215
+81|3|Goor-Dassenburcht|191
+81|4|Natuurpark Maashorst|300
+81|5|Keent en Reek|243
+81|6|Coehoorn|150
+81|7|Reekse Heide|341
+81|8|Mill en Langenboom|292
+81|9|Graafsche Raamdal, Estersbroek en Maurik|193
+81|10|Molenakker, Gasselse Heide en Vogelvijvers|294
+81|11|Land van Cuijk|263
+81|12|Tongelaar|387
+81|13|Langenboom|267
+81|14|Ossenbroek, Nieuwenhof en De Dennen|322
+81|15|Zevenhutten|437
+81|16|Groesbeek|197
+81|17|Mookerschans|296
+81|18|Herrendal|215
+81|19|Mokerheide|293
+81|20|Sint-Jansberg|364
+81|21|Rivierduintjes|346
+81|22|De Zevenbergen|437
+81|23|Oeffelter Meent|311
+81|24|Bedafse Bergen|118
+81|25|Wijstgronden|425
+81|26|Goorbos|192
+81|27|Boscomplex Odiliapeel|136
+81|28|Voskuilenheuvel|406
+81|29|De Bergen|123
+81|30|Sint Anthonisbos|363
+81|31|Brestbosch en Sassekamp|143
+81|32|Veghel en Erp|395
+81|33|Het Leijnt|271
+81|34|Gemeentebossen Lieshout|188
+81|35|Het Hurkske|231
+81|36|Arendsnest, Vogelenzang en Venhorst|113
+81|37|Gemertse Bos|189
+81|38|De Sijp|363
+81|39|Stippelberg|378
+81|40|Beestenveld|120
+81|41|Stichting|378
+81|42|Groote Slink en Bunthorst|201
+81|43|Radiobossen|337
+81|44|Lactaria|261
+81|45|Gemeentebossen Vierlingsbeek|188
+81|46|Zwartwater|443
+81|47|Ballonzuilbossen|116
+81|48|Overloonse Duinen|326
+82|1|Bruuk|146
+82|2|Zelderse Driessen|436
+82|3|Heijense Bos|212
+82|4|Het Huis Heijen|229
+82|5|De Brem|143
+82|6|Maasoevers Limburg|281
+82|7|Bergerbos|123
+82|8|Bergjes|124
+82|9|Bleyenbeek|130
+82|10|Eckeltse Bergen|168
+82|11|Overloon|326
+82|12|Gemeentebossen Vierlingsbeek|188
+82|13|Makken|282
+82|14|Heuloërbroek|215
+82|15|Boswachterij Gemeente Bergen|139
+82|16|Boshuizerbergen|137
+82|17|Landgoed Geijsteren|264
+82|18|Bosserheide|139
+82|19|Rode Hoek|346
+83|1|Kuststrook Walcheren|259
+83|2|Vliedbergen|402
+83|3|Het Zwin en Kievittepolder|444
+83|4|Oudelandse Polder|325
+83|5|Verdronken Zwarte Polder|399
+83|6|Wallen van Retranchement|411
+83|7|De Knokkert|249
+83|8|Baarzandse Kreek|115
+83|9|De Blikken|130
+83|10|De Reep|341
+83|11|Dijken Oostburg|158
+83|12|Het Grote Gat|201
+83|13|Aardenburgse havenpolder|103
+84|1|Graslanden, Oude Veerseweg|193
+84|2|Zilveren Schor|437
+84|3|Heggengebied, Arnemuiden|210
+84|4|Goudplaat|193
+84|5|Veerse Meer|394
+84|6|Schenge|356
+84|7|Sabbingedijk|352
+84|8|Dijkbeemden, Schengengebied|157
+84|9|Weel in de Heerenpolder|414
+84|10|Deesche Watergang|154
+84|11|Ter Hooge|224
+84|12|Dijkbeemden Walcheren|157
+84|13|Rammekens|338
+84|14|Bloemdijken Zuid-Beveland|131
+84|15|Baarsdorp|115
+84|16|Poelbos|333
+84|17|Spoorbaan Goes-Borsele|373
+84|18|De Poel|333
+84|19|Akerwegje, Grenslinde en Meidoornhaag|104
+84|20|Jachtse Bos|235
+84|21|Landlust|266
+84|22|Bloemdijken van Zuid-Beveland|130
+84|23|Zwaakse Weel|441
+84|24|Kapelle Bank|240
+84|25|Berg van Troje|122
+84|26|Westeindse Weel|419
+84|27|Het Slaakje|365
+84|28|Inlaag 1887|234
+84|29|Fort Ellewoutsdijk|181
+84|30|Zuidgors|439
+84|31|Hooge Platencomplex|224
+84|32|Nummer Eén|309
+84|33|Inlaag Hoofdplaat|234
+84|34|Inlaag Kruispolderkaai|234
+84|35|Westzeeuwsevlaamse Dijken|422
+84|36|Paulinaschor|329
+84|37|Braakman|142
+84|38|Toorenbos|387
+85|1|Wemeldingse Bos|418
+85|2|Kouden- en Kaarspolder|254
+85|3|Yerseke Moer|433
+85|4|Kapelse Moer|240
+85|5|Kapelse Bos|240
+85|6|Den Inkel|234
+85|7|Lavendeldijk|269
+85|8|Dijkbeemden Reimerswaal|157
+85|9|Schor van Waarde|360
+85|10|Schor bij Bath|360
+85|11|Princesseplaat|336
+85|12|Lange Water|266
+85|13|Fort de Roovere|182
+85|14|Buitenlust|147
+85|15|Pottersbos|335
+85|16|De Heide|211
+85|17|Zoomland|438
+85|18|Lievensberg|276
+85|19|Molenzicht|296
+85|20|Wouwse Plantage|432
+85|21|Groot Molenbeek|199
+85|22|Markiezaat|285
+85|23|Lindonk|276
+85|24|Mattemburgh|286
+85|25|Woensdrechtse Heide|431
+85|26|Walse Duin|411
+85|27|Kooiheide|252
+85|28|Kortenhoef|254
+85|29|Staartse Heide en Duinen|374
+85|30|Noordpolder van Ossendrecht|308
+85|31|Vluchtheuvel|403
+85|32|Pottenbergen|335
+85|33|Ossendrecht|322
+85|34|Stoppelbergen|379
+85|35|Ossendrecht|322
+85|36|Verdronken Land van Saeftinge|398
+85|37|De Grote Putting|201
+85|38|Het Koegat|249
+86|1|Wouwse Plantage|432
+86|2|De Molenbeek|294
+86|3|Visdonk en Rozeven|401
+86|4|Rucphense Bossen|350
+86|5|Rucphense Heide|350
+86|6|De Reten|343
+86|7|Oude Buisse Heide|323
+86|8|Wallsteijn|411
+86|9|De Moeren|293
+86|10|Lange Maten|266
+86|11|Pannenhoef|328
+86|12|Schuitvaartjaagpad|362
+86|13|Krabbebossen|255
+86|14|Galdersche Heide|185
+86|15|Mastbos|285
+86|16|Gooren en Krochten|192
+86|17|De Matjens|286
+86|18|Ossendrecht|322
+86|19|Moretusbosch|296
+87|1|Mastbos|285
+87|2|Markdal|284
+87|3|Strijbeekse Heide|380
+87|4|Hondsdonk|223
+87|5|Valkenberg|393
+87|6|Chaamse Beek|150
+87|7|Ulvenhoutsebos en Chaam|391
+87|8|Kapellebos|240
+87|9|Ooijevaarsnest, Regte Heide en Riels Hoefke|315
+87|10|Halve Maan|206
+87|11|Abcoven|103
+87|12|Gemeentebossen Hilvarenbeek|188
+87|13|Kerkeindseheide|244
+87|14|Gemeentebossen Goirlesedijk|188
+87|15|Gorp de Leij|192
+87|16|Annanina's Rust|111
+87|17|Rovertse Heide|349
+87|18|'t Merkske|291
+87|19|De Utrecht|392
+87|20|Wellenseindse Heide|418
+87|21|Dal van de Reusel|153
+87|22|Turnhoutse Heide|389
+87|23|Molenheide|295
+87|24|Reuselse Moeren|343
+88|1|Moergestelse Broek|293
+88|2|Reuselbeemden|343
+88|3|De Mortelen en Heerenbeek|296
+88|4|Sonderen en Hoekvelden Oude Steeg|369
+88|5|Nieuwe Heide|303
+88|6|Sonsche Heide|370
+88|7|Dommelrode en Breugelsbroek|160
+88|8|Ruweeuwsels|351
+88|9|Heerendonk|210
+88|10|Nuenen|309
+88|11|Het Stuk|381
+88|12|Turkaa|388
+88|13|De Katschut|243
+88|14|De Utrecht|392
+88|15|Spreeuwelse Heide|373
+88|16|Kuikeindse Heide|258
+88|17|Spekdonken en Molenbroek|372
+88|18|Landschotse Heide|266
+88|19|Donk|161
+88|20|Neterselse Heide, De Beemden en Beersbroek|303
+88|21|Dal van de Groote Beerze|152
+88|22|Gemeentebossen Hoogeloon|188
+88|23|Heieinden|212
+88|24|Buikheide Oude Molen|146
+88|25|Oostelbeerse Heide|317
+88|26|'s Heerenvijvers|210
+88|27|Oirschotse Heide|312
+88|28|De Schouwberg|361
+88|29|Knegelse Heide|249
+88|30|Mirandolles Heike|292
+88|31|Ten Vorsel|405
+88|32|De Palts en Kroonvense Heide|328
+88|33|Gemeentebossen Reusel|188
+88|34|De Kempen|243
+88|35|Cartierheide|149
+88|36|De Pan|328
+88|37|Eersel|171
+88|38|Einderheide|172
+88|39|Dommeldal|160
+88|40|Gemeentebossen Waalre|189
+88|41|Kanunnikesven|239
+88|42|Groote Heide|199
+88|43|Gemeentebossen Heeze|188
+88|44|Valkenhorst en Heezerheide|393
+88|45|Wandelpark, De Grote Meer en Nederheide|412
+88|46|Dommelse Bossen|161
+88|47|Keersop en Run|243
+88|48|Westerhovensbos|421
+88|49|De Wetering|422
+88|50|Leende|269
+89|1|Keelgras|243
+89|2|Stiphoutse Bossen|378
+89|3|De Warande|412
+89|4|Biezen en Milschot|128
+89|5|Grotelse Bos|202
+89|6|Bakelse Beemden en Bungern|115
+89|7|Bakelse Bossen|115
+89|8|Gemeentebossen Gemert|188
+89|9|Stippelberg|378
+89|10|Nederheide|301
+89|11|Vliegveldbossen, Testrik en Kempkesberg|402
+89|12|De Kamp|238
+89|13|Vlakwater|401
+89|14|Loobeekdal|278
+89|15|Horst|226
+89|16|Walsbergse Bossen|411
+89|17|Heidse Peel|211
+89|18|Paardekop|327
+89|19|Papenvoortse Heide|329
+89|20|Berenbroek|122
+89|21|Het Groot Goor|198
+89|22|Zandbos|434
+89|23|Vlierdense Bossen|403
+89|24|Kasteelpark Geldrop|242
+89|25|Luchense Bos|280
+89|26|Molenbos|294
+89|27|Klein Goor|246
+89|28|Sang en Goorkens|353
+89|29|Gebergten en Herselse Heide|186
+89|30|Groot Braakhuizen|198
+89|31|Bossen bij Coevering|138
+89|32|De Weijer|417
+89|33|Braakhuizensche Heide|142
+89|34|Verste Bos en De Meer|399
+89|35|Strabrechtsche Heide|379
+89|36|Lieropse Heide en Beuven|275
+89|37|Herbertusbossen|214
+89|38|Kasteel Heeze|241
+89|39|Somerense Heide|369
+89|40|Schietberg|358
+89|41|De Donck|161
+89|42|Oostappense Heide|316
+89|43|Wandelbos Asten|411
+89|44|Galgenberg|185
+89|45|Polderse Bossen|335
+89|46|Aa-stein|102
+89|47|Dennendijkse Bossen|156
+89|48|Deurnese Peel, Mariapeel en Grauvveen|156
+89|49|Putbos|336
+89|50|Heleneveen|213
+89|51|Leende|269
+89|52|De Pan|328
+89|53|Boksenberg|133
+89|54|Starkriet|376
+89|55|Witte Bergen|430
+89|56|De Groote Peel, Nationaal Park|200
+89|57|Astense Aa|114
+89|58|Neerkantse Bossen|302
+89|59|'t Molentje|295
+89|60|Marisberg|284
+89|61|Belgenhoek|120
+89|62|Simonshoekse Bos|363
+89|63|Startebos|376
+89|64|Helenavaart|213
+89|65|Kanaal van Deurne|239
+89|66|Snep en Scherliet|368
+90|1|Landgoed Geijsteren|264
+90|2|Boswachterij Gemeente Bergen|139
+90|3|Landgoed De Hamert|264
+90|4|Breehei|143
+90|5|Horst|226
+90|6|Kasteelse Bossen|243
+90|7|Schuitwater|362
+90|8|Bosjes Broekhuizen|137
+90|9|Klein Vink, Roode Vennen en Boerenheide|246
+90|10|Dorperheide|162
+90|11|Uvelderheide|392
+90|12|Uvelderbos|392
+90|13|Leemarkse Heide|270
+90|14|Landgoed Kasteel Arcen|265
+90|15|Reulsberg|343
+90|16|Hoogheide en Houthuizerheide|225
+90|17|Kalderbroek|238
+90|18|Ravenvennen|339
+90|19|Vreewater|406
+90|20|Kronenbergerheide, Schatberg, Heesberg en Steegberg|258
+90|21|Helenaveen|213
+90|22|Molenbeekdal|294
+90|23|Winkel|428
+90|24|Asbroek|114
+90|25|Craijelheide|152
+90|26|Sint Jan Sleutelbergbos|354
+90|27|De Weerd|415
+90|28|Genooierheide|139
+90|29|Zwart Water|443
+90|30|Steilrandgebied|378
+90|31|Groote Heide|199
+90|32|Langhout|267
+90|33|Dubbroek|164
+90|34|Onderste en Bovenste Molen|315
+90|35|Boekenderbos|131
+91|1|Eekloose Watergang|169
+93|1|Groot Eiland|198
+93|2|Schuddebeurs Zeeuws-Vlaanderen|362
+93|3|Liniedijk|277
+93|4|Stadswallen|375
+93|5|Bebossing Hulst|117
+93|6|Clingepolder|150
+93|7|De Weelkens|414
+93|8|Sint-Jansteen-Clinge|364
+94|1|De Kempen|243
+94|2|Zandhoef en Postelbos|434
+94|3|De Beeken en De Maaij|118
+94|4|De Maaij|281
+94|5|Plateaux|333
+94|6|Klein-Borkel, Berkheuvel, Zandhoef en Buitenheide|246
+94|7|Malpiebeemden|282
+94|8|Opperbos|321
+94|9|Leende|269
+94|10|Berg|122
+95|1|Leende|269
+95|2|Pompstation Budel|335
+95|3|Buulderbroek|149
+95|4|Hugterheide|228
+95|5|Weerterbos|416
+95|6|Weerter- en Buderbergen|416
+95|7|Weerterheide|416
+95|8|Oude Graaf|323
+95|9|Roeventerpeel|347
+95|10|Wellenstein|418
+95|11|Sarsven en De Banen|353
+95|12|Waterbloem|413
+95|13|Spaanse Bos|371
+95|14|Heijdsberg|212
+95|15|Ophovense Zandberg|320
+95|16|Asbroekerheide en Kirkelsberg|114
+95|17|Leuckeshoeve|273
+95|18|Lauracomplex Weert|268
+95|19|Kruispeel|258
+95|20|Recreatiegebied IJzerenman|340
+95|21|Wijffelterbroek|425
+95|22|Stramprooise Heide|379
+95|23|Areven|113
+95|24|Tungelerwallen|388
+95|25|Moeselpeel|293
+95|26|De Krang|256
+95|27|Heijkersbroek en Weerenbroek|212
+95|28|Keversbroek|245
+95|29|Beylshof|126
+95|30|Leudal|273
+95|31|Sterrebos|378
+95|32|Exaten|178
+95|33|Hornerheide|225
+95|34|Kloppeven|248
+95|35|Kasteel Horn|242
+95|36|Beegderheide|118
+95|37|Beegderheide en De Breule|118
+95|38|Tuspeel|389
+95|39|Uffelse Beek|390
+95|40|Heioord|212
+95|41|Nederhoven|301
+95|42|Isabelleegreend|235
+95|43|De Horst|226
+95|44|Grensmaas|195
+95|45|Landgoed Rozendaal|265
+95|46|Het Marissen en Kranenbroek|284
+96|1|Heldense Bossen|213
+96|2|Holtmühle|223
+96|3|De Bercken|122
+96|4|Beesels Broek|120
+96|5|Gemeentebossen Swalmen, Groene Woud en de Bosberg|188
+96|6|Hillenraad, Boshei en Nieuwenhof|217
+96|7|Swalmal|381
+96|8|Hoogbroek|224
+96|9|Boscomplexen Heide|137
+96|10|De Kukshei|259
+96|11|'t Sweeltje|381
+96|12|Rendelaarsbos|343
+96|13|Roerdal|346
+96|14|Melickerheide|290
+96|15|De Meinweg, Nationaal Park|289
+96|16|Annendalsbos|111
+96|17|De Sluffert|367
+97|1|De Doort|162
+97|2|Taterbos|382
+97|3|Het Haeselaar, Bos en Broek en De Kuyper|206
+97|4|IJzerenbos|233
+97|5|'t Hout|228
+97|6|Grensmaas|195
+97|7|Land van Swentibold|264
+97|8|Grasbroek|193
+97|9|Limbrichterbos|276
+97|10|Danikerbos|154
+97|11|Stammenderbos|375
+97|12|Wintrakerberg|429
+97|13|Kelmonderbos|243
+97|14|Vrouwenbos|407
+97|15|Spaubekerbos|372
+97|16|Geleenbeekdal|187
+97|17|Kasteel Amstenrade|241
+97|18|Bunderbos|147
+97|19|De Dellen|155
+97|20|Ravensbos|338
+97|21|Den Ouden Bosch|325
+97|22|Haerenbos|206
+97|23|Cortenbacherbos|151
+98|1|Annendaals Bos|111
+98|2|Diergaardsbos en Op den Heuvel|157
+98|3|Dal van de Rode Beek|153
+98|4|Schinveldse Bossen|358
+98|5|Brunssummerheide|145
+98|6|Terworm|385
+98|7|Bossen in Eygelshoven|138
+98|8|Strijthagerbeekdal|380
+98|9|Anstelvallei|111
+98|10|Carisborg|149
+98|11|Berenbos|122
+98|12|Bosquet Rolduc|138
+99|1|Landgoed St. Gerlach|266
+99|2|Bergse Heide|124
+99|3|Bemelerberg|120
+99|4|Roese Kuilen|347
+99|5|Van Tienhovenmolen|385
+99|6|Genhoes|189
+99|7|Gerendal|189
+99|8|Berghofweide|123
+99|9|Kasteel Neercanne|242
+99|10|Sint-Pietersberg|365
+99|11|Kleine Weerd|247
+99|12|Boomgaard Gronsveld|134
+99|13|Savelsbos|353
+99|14|Eijsder Beemden|172
+99|15|Kasteel Eysden|241
+99|16|Noordal|306
+99|17|Horstergrub|226
+99|18|Gulpdal|203
+99|19|Geul- en Gulpdal|190
+99|20|Wittemermolen|430
+99|21|Mechelderbeekdal|287
+99|22|Geuldal|190
+99|23|Vaals|392
+99|24|Dal Cottesserbeek|152
+99|25|Bovenste Bos|141
+100|1|Kunderberg|259
+100|2|Imstenraderbos|234
+100|3|Klingeleberg|248
+100|4|Groeve Sweijer|198
+100|5|Kasteel Goedenraad|241
+100|6|Wahlwiler Graven|410
+100|7|Platte Bossen|333
+100|8|Selzerbeekdal|363
+100|9|Kasteel Lemiers|242
+100|10|Vaals|392

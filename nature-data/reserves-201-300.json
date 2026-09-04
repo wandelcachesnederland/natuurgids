@@ -1,0 +1,2620 @@
+[
+  {
+    "id": 201,
+    "nl": {
+      "tags": [
+        "Friesland · Súdwest-Fryslân (driehoek Sneek–Workum–Bolsward)",
+        "SBB-meergebied & veenkoloniaal landschap",
+        "list 7 · no. 9"
+      ],
+      "location": "📍 Het \"Kleine Meren\"-land tussen Sneek, IJlst, Koudum, Workum, Hindeloopen en Bolsward — het Sint-Odulfuspaad loopt erdoor",
+      "description": "Het stil beheerde zuidwestelijke merengebied van Staatsbosbeheer: een veenontginningslandschap van kleine meren (Hissemar, Pikemar, Fluessen-gebied), ruisende rietkragen, eilandpolders en smalle konijnenrijke dijken — de \"Lytse Marren\" die de streek de naam gaven. Minder beroemd dan het grote Sneekermeer, intiemer: zeilroutes vlechten tussen rietmuren, en het langeafstands-Sint-Odulfuspaad volgt de oude dijklijnen van Bolsward naar het water.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (rietvogels); mei–sep (zeilen); nov–feb (winterwatervogels) Beste tijd van de dag: Avondlicht over de Pikemar vanaf uitkijkpunt Plasdras.",
+      "why_visit": [
+        "Het vogeluitkijkpunt Oudega-Plasdras: zicht over de spoorwegdam naar Hisse- en Pikemar — grutto's en gouden plevieren op trek.",
+        "Sint-Odulfuspaad-etappe Workum–Hindeloopen langs de oude zeebank.",
+        "Typische veenkoloniale monumenten: torendorpjes, plankbruggen en draaibruggen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Riet- & weidevogelseizoen.",
+        "Okt–Mrt 🪿 Ganzen & smienten op de zomerpolders."
+      ],
+      "wildlife": [
+        "🐦 Grutto, gouden plevier & kemphaan op trek",
+        "🦆 Smient-drijfsels in de winter",
+        "🌾 Rietkragen & hooipolders"
+      ],
+      "trailheads": [
+        "Park bij Oudega (Plasdras), Workum of Hindeloopen; de 62-km-fietslus \"Lytse Marren\" verbindt alles."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Friesland · Súdwest-Fryslân (Sneek–Workum–Bolsward triangle)",
+        "SBB lake & peat-colony landscape",
+        "list 7 · no. 9"
+      ],
+      "location": "📍 The \"Small Lakes\" country between Sneek, IJlst, Koudum, Workum, Hindeloopen and Bolsward — Sint-Odulfuspaad runs through",
+      "description": "Staatsbosbeheer's quietly managed south-west lake district: a peat-reclamation landscape of small meren (Hissemar, Pikemar, Fluessen country), tolling reed fringes, island polders and narrow warren-covered dikes — the \"Lytse Marren\" that give the region its name. Less famous than the big Sneekermeer, more intimate: sailing routes thread between reed walls, and the long-distance Sint-Odulfuspaad walks the old dike lines from Bolsward to the water.",
+      "meta": "Best Season & Peak Months: Apr–Jun (reed birds); May–Sep (sailing); Nov–Feb (winter waterfowl) Best Time of Day: Evening light over the Pikemar from the Plasdras viewpoint.",
+      "why_visit": [
+        "The Oudega-Plasdras bird viewpoint: views over rail causeway to Hisse- and Pikemar — godwits and golden plovers on passage.",
+        "Sint-Odulfuspaad stage Workum–Hindeloopen along the old seabank.",
+        "Typical peat-colony monuments: little tower villages, plank bridges and swing bridges."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Reed & meadow bird season.",
+        "Oct–Mar 🪿 Geese & smient on the zomerpolders."
+      ],
+      "wildlife": [
+        "🐦 Godwit, golden plover & ruff on passage",
+        "🦆 Smient & wigeon rafts in winter",
+        "🌾 Reed fringes & hay polders"
+      ],
+      "trailheads": [
+        "Park at Oudega (Plasdras), Workum or Hindeloopen; the 62-km \"Lytse Marren\" cycle loop ties it all together."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free"
+    },
+    "number": 201,
+    "name": "Lytse Marren"
+  },
+  {
+    "id": 202,
+    "nl": {
+      "tags": [
+        "Friesland · Súdwest-Fryslân (Heeg–Woudsend)",
+        "175-ha SBB-natuureiland, biologische boerderij",
+        "list 7 · no. 10"
+      ],
+      "location": "📍 Natuureiland tussen Heeg en Woudsend, in het drukke zeilhart van Súdwest-Fryslân",
+      "description": "De \"Gouden Bodem\" — een eiland van 175 ha veenweide-goud midden in Frieslands drukste zeilwater. Staatsbosbeheer is eigenaar; de familie Bokma (ex-SBB-boswachters) bewerkt het biologisch op erfpacht, met het beheer volledig afgestemd op weidevogels: laat maaien, natte veldhoeken en een opzettelijk aangelegd plas-dras-gebied waar nu roerdomp en bruine kiekendief broeden. Het Wetterskip voegde een waterbergingsfunctie toe, zodat het eiland de streek ook tegen zowel hoogwater als droogte beschermt.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (weidevogels); nov–feb (duizenden ganzen) Beste tijd van de dag: Dageraad met ganzenvluchten; avondlijke kiekendief-kwartieren.",
+      "why_visit": [
+        "Weidevogeldichtheid op een werkende biologische boerderij — landbouw en natuur zichtbaar hand in hand.",
+        "De plas-dras-pannen: roerdomp en bruine kiekendief broedend in een hercreëerd moeras.",
+        "Kom als gast van de boeren: het eiland is een geliefde stop voor zeilers en schoolgroepen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Weidevogelseizoen op de laat-gemaaide velden.",
+        "Nov–Feb 🪿 Duizenden winterganzen."
+      ],
+      "wildlife": [
+        "🐦 Grutto & kievit",
+        "🐦 Roerdomp & bruine kiekendief in de plas-dras",
+        "🐄 Biologische melkveekudde als beheerder"
+      ],
+      "trailheads": [
+        "Per boot vanaf de steigers van Heeg of Woudsend; boerderijbezoek op afspraak."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis (boot-/boerderijbezoek op afspraak) · ⚠️ Werkende boerderij — volg de aanwijzingen van de gastheer"
+    },
+    "en": {
+      "tags": [
+        "Friesland · Súdwest-Fryslân (Heeg–Woudsend)",
+        "175-ha SBB nature island, organic farm",
+        "list 7 · no. 10"
+      ],
+      "location": "📍 Natuureiland between Heeg and Woudsend, in the busy sailing heart of Súdwest-Fryslân",
+      "description": "The \"Golden Bottom\" — an island of 175 ha of peat-meadow gold in the middle of Friesland's busiest sailing water. Staatsbosbeheer owns it; the Bokma family (ex-SBB foresters) farms it organically on erfpacht, with the management tuned entirely to meadow birds: late mowing, wet field corners and a purpose-built plas-dras (splash-and-mud) area where bittern and brown harrier now breed. The Wetterskip added a water-storage function, so the island also buffers the region against both flood and drought.",
+      "meta": "Best Season & Peak Months: Apr–Jun (meadow birds); Nov–Feb (thousands of geese) Best Time of Day: Dawn goose lifts; evening harrier quarters.",
+      "why_visit": [
+        "Meadow-bird density on a working organic farm — farming and nature visibly hand in hand.",
+        "The plas-dras pans: bittern and brown harrier breeding in a re-created marsh.",
+        "Arrive as the farmers' guests: the island is a favourite stop for sailors and school groups."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Meadow-bird season on the late-mown fields.",
+        "Nov–Feb 🪿 Thousands of wintering geese."
+      ],
+      "wildlife": [
+        "🐦 Godwit & lapwing",
+        "🐦 Bittern & brown harrier in the plas-dras",
+        "🐄 Organic dairy herd as manager"
+      ],
+      "trailheads": [
+        "By boat from Heeg or Woudsend jetties; farm visits by arrangement."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free (boat/farm visits as arranged) · ⚠️ Working farm — follow host's indications"
+    },
+    "number": 202,
+    "name": "Gouden Boaiem"
+  },
+  {
+    "id": 203,
+    "nl": {
+      "tags": [
+        "Friesland · Súdwest-Fryslân (ten zuiden van Sneek)",
+        "🇪🇺 Natura 2000 Witte en Zwarte Brekken (gebied 11)",
+        "list 7 · no. 11"
+      ],
+      "location": "📍 De \"Witte-\" en \"Zwarte Brekken\", Oudhof en het Nauw van de Brekken, tussen Sneek, IJlst, Jutrijp en Oppenhuizen",
+      "description": "\"Brekken\" = door water gebroken land — en het breken gaat vandaag door: kijk hoe de kleine eilandjes van de Zwarte Brekken het meer in kalven, een live les in veenerosie. Dit 433-ha complex van meren, vaarten, boezemlanden en zomerpolders ten zuiden van Sneek verbergt eilanden met namen als De Krite, Deekland en de Lange Warren. De roem is een winterfenomeen: de zomerpolders herbergen slapende toendrarietganzen, kolganzen, brandganzen en smienten in wereldbeduidende aantallen — inclusief een fors aandeel van de rietgans-flyway.",
+      "meta": "Beste seizoen & piekmaanden: nov–feb (ganzen slaapplaatsen!); apr–jun (broed) Beste tijd van de dag: Late middag — de ganzen vliegen in om te slapen; slechtvalk vanaf de uitkijktoren.",
+      "natura2000": "🇪🇺 Natura 2000 Witte en Zwarte Brekken — gebied 11, Vogelrichtlijn NL9802048, 433 ha (SBB + It Fryske Gea). Aangewezen voor de overwinterende toendrarietgans (kleine rietgans) — ruwweg 17% van de wereldpopulatie slaapt in deze zomerpolders — plus kolgans, brandgans en smient; broedende gele kwikstaarten en grutto's; de rode-lijst-Noordse woelmuis.",
+      "why_visit": [
+        "De uitkijktoren over de Brekken: slechtvalken en kiekendieven jagen op de groepen ganzen.",
+        "Avondlijke ganzenvluchten in december — geluid en schouwspel in één.",
+        "De eroderende eilandjes van de Swarte Brekken — land dat in realtime verdwijnt."
+      ],
+      "periodic_phenomena": [
+        "Nov–Feb 🪿 Rietgans-slaapplaats-schouwspel (piek dec–jan).",
+        "Apr–Jun 🐝 Gele kwikstaarten in de natte greiden; baltende grutto's."
+      ],
+      "wildlife": [
+        "🪿 Toendrarietgans — wereldbeduidende slaapplaats",
+        "🦅 Slechtvalk & blauwe kiekendief in de winter",
+        "🐁 Noordse woelmuis",
+        "🌾 Van soortenarme tot kruidenrijke rietranden"
+      ],
+      "trailheads": [
+        "Park aan de zijde van het Nauw van de Brekken (wegen Jutrijp/Oppenhuizen) of fiets vanuit Sneek langs de Woudvaart; uitkijktoren beboard."
+      ],
+      "footer": "🐶 Honden aan de lijn, niet storen bij slaapplaatsen · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Friesland · Súdwest-Fryslân (south of Sneek)",
+        "🇪🇺 Natura 2000 Witte en Zwarte Brekken (site 11)",
+        "list 7 · no. 11"
+      ],
+      "location": "📍 The \"Witte-\" and \"Zwarte Brekken\", Oudhof and the Nauw van de Brekken, between Sneek, IJlst, Jutrijp and Oppenhuizen",
+      "description": "\"Brekken\" = land broken by water — and the breaking continues today: watch the little islands of the Zwarte Brekken calve into the lake, a live lesson in peat erosion. This 433-ha complex of lakes, channels, boezemlanden and zomerpolders south of Sneek hides islands with names like De Krite, Deekland and de Lange Warren. Its fame is a winter phenomenon: the zomerpolders hold roosting tundra bean geese, white-fronted, barnacle geese and wigeon in numbers that matter globally — including a serious share of the bean goose flyway.",
+      "meta": "Best Season & Peak Months: Nov–Feb (goose roosts!); Apr–Jun (breeding) Best Time of Day: Late afternoon — the geese flight in to roost; peregrine from the viewing tower.",
+      "natura2000": "🇪🇺 Natura 2000 Witte en Zwarte Brekken — site 11, Vogelrichtlijn NL9802048, 433 ha (SBB + It Fryske Gea). Designated for the wintering tundra bean goose (kleine rietgans) — roughly 17% of the world population sleeps in these zomerpolders — plus white-fronted goose, barnacle goose and wigeon; breeding yellow wagtail and black-tailed godwit; the red-listed Northern vole.",
+      "why_visit": [
+        "The viewing tower over the Brekken: peregrine and harriers hunt the goose flocks.",
+        "Evening goose flights in December — sound and spectacle in one.",
+        "The eroding islands of the Swarte Brekken — land disappearing in real time."
+      ],
+      "periodic_phenomena": [
+        "Nov–Feb 🪿 Bean-goose roost spectacle (peak Dec–Jan).",
+        "Apr–Jun 🐝 Yellow wagtails in the wet greiden; godwits displaying."
+      ],
+      "wildlife": [
+        "🪿 Tundra bean goose — world-significant roost",
+        "🦅 Peregrine & hen harrier in winter",
+        "🐁 Northern vole",
+        "🌾 Species-poor to herb-rich reed edges"
+      ],
+      "trailheads": [
+        "Park at the Nauw van de Brekken side (Jutrijp/Oppenhuizen roads) or cycle out of Sneek along the Woudvaart; viewing tower signed."
+      ],
+      "footer": "🐶 Dogs on leash, avoid disturbing roosts · 💶 Free"
+    },
+    "number": 203,
+    "name": "Wite en Swarte Brekken"
+  },
+  {
+    "id": 204,
+    "nl": {
+      "tags": [
+        "Friesland · Sneek–Terherne–Goingarijp",
+        "🇪🇺 Natura 2000 Sneekermeergebied (gebied 12)",
+        "list 7 · no. 12"
+      ],
+      "location": "📍 Het Sneekermeer tussen Sneek en Terherne/Goingarijp, met het Starteiland en de Houkesloot als poorten",
+      "description": "Frieslands zeiltempel — en in de kern een Vogelrichtlijn-meer. De Snitser Mar (2.279-ha N2000-gebied) verbindt de Goëngarijpsterpoelen, Terkaplesterpoelen en Akmarijp tot één ondiep (1–2 m), door wind geërodeerd veenmeren-systeem van eilandpolders, rietkragen en beroemde bloemrijke boezemgraslanden. Op zomerdagen bepalen Skûtsjes en zeilvloten het open water; in de stille hoeken — Grienedijk, de eilandpolders, de rietranden — is de vogelreden van de Europese aanwijzing overal.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (weide- & rietvogels); okt–feb (ganzen); jul–aug (zeilen) Beste tijd van de dag: Ochtend langs de Grienedijk; wintermiddagen voor ganzenvluchten.",
+      "natura2000": "🇪🇺 Natura 2000 Sneekermeergebied — gebied 12, Vogelrichtlijn NL9802047, 2.279 ha (Vogelrichtlijn 2004, aanwijzing 2010; SBB, IFG, provincie & particulier). Genoemd naar de enorme winter- en slaapgroepen toendrarietgans, kolgans en brandgans; broedende grutto (±100 paren), kievit, tureluur, kemphaan (laatste bolwerk ingestort), gele kwikstaart en slobeend; blauwgrasland-restanten bij de Blaugerzen & Kop van de Bloksleat.",
+      "why_visit": [
+        "Wandel de Grienedijk — de dijk langs het meer met riet, uitzicht en passerende zeilers.",
+        "De oever van Terhernes \"Kameleoneiland\" en het Starteiland als kijkpunten.",
+        "Skûtsjesilen-races in de zomer; ganzen-schouwspelen in de winter — twee werelden, één meer."
+      ],
+      "periodic_phenomena": [
+        "Okt–Feb 🪿 Ganzen slaap- & voedselvluchten.",
+        "Apr–Jun 🥚 Weidevogelbroed in de eilandpolders.",
+        "Aug ⛵ Sneekweek & Skûtsje-races — erfgoed te water."
+      ],
+      "wildlife": [
+        "🪿 Riet-, kol- & brandgans",
+        "🐦 Grutto, kemphaan & gele kwikstaart",
+        "🌿 Blauwgrasland-resten (blauwe zegge, tandjesgras)"
+      ],
+      "trailheads": [
+        "Parkeren bij Sneek (Houkesloot/Starteiland), Terherne en Goingarijp; wandellussen Terherne–Goingarijp (±13 km) langs de poelen."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ♿ Dijkpaden verhard"
+    },
+    "en": {
+      "tags": [
+        "Friesland · Sneek–Terherne–Goingarijp",
+        "🇪🇺 Natura 2000 Sneekermeergebied (site 12)",
+        "list 7 · no. 12"
+      ],
+      "location": "📍 The Sneekermeer between Sneek and Terherne/Goingarijp, with the Starteiland and Houkesloot gateways",
+      "description": "Friesland's sailing temple — and a Vogelrichtlijn lake at heart. The Snitser Mar (2,279-ha N2000 area) joins the Goëngarijpsterpoelen, Terkaplesterpoelen and Akmarijp into one shallow (1–2 m), wind-eroded peat-lake system of island polders, reed beds and famous flower-rich boezem grasslands. On summer days the Skûtsjes and sailing fleets rule the open water; in the quiet corners — Grienedijk, the island polders, the reed fringes — the bird reason for its European designation is everywhere.",
+      "meta": "Best Season & Peak Months: Apr–Jun (meadow & reed birds); Oct–Feb (geese); Jul–Aug (sailing) Best Time of Day: Morning along the Grienedijk; winter afternoons for goose flights.",
+      "natura2000": "🇪🇺 Natura 2000 Sneekermeergebied — site 12, Vogelrichtlijn NL9802047, 2,279 ha (SPA 2004, designated 2010; SBB, IFG, province & private). Named for enormous wintering/roosting flocks of tundra bean goose, white-fronted goose and barnacle goose; breeding godwit (±100 pairs), lapwing, redshank, ruff (last stronghold collapsed), yellow wagtail and shoveler; blue-grassland remnants at de Blaugerzen & Kop van de Bloksleat.",
+      "why_visit": [
+        "Walk the Grienedijk — the dike along the meer with reed, views and sailors passing.",
+        "Terherne's \"Kameleoneiland\" shore and the Starteiland as watching points.",
+        "Skûtsjesilen races in summer; goose spectacles in winter — two worlds, one lake."
+      ],
+      "periodic_phenomena": [
+        "Oct–Feb 🪿 Goose roosts & feeding flights.",
+        "Apr–Jun 🥚 Meadow-bird breeding in the island polders.",
+        "Aug ⛵ Sneek Week & Skûtsje races — heritage afloat."
+      ],
+      "wildlife": [
+        "🪿 Bean, white-fronted & barnacle geese",
+        "🐦 Godwit, ruff & yellow wagtail",
+        "🌿 Blue-grassland relics (blauwe zegge, tandjesgras)"
+      ],
+      "trailheads": [
+        "Parking at Sneek (Houkesloot/Starteiland), Terherne and Goingarijp; walking loops Terherne–Goingarijp (±13 km) along the poelen."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ♿ Dike paths paved"
+    },
+    "number": 204,
+    "name": "Snitsermar"
+  },
+  {
+    "id": 205,
+    "nl": {
+      "tags": [
+        "Friesland · De Fryske Marren (Terkaple)",
+        "historische veenbaronnen-sluishaven & plassen-poort",
+        "list 7 · no. 13"
+      ],
+      "location": "📍 De Hearesyl-sluis bij Terkaple, die de Terkaplester Puollen door de Slachtedijk heen met de Snitser Mar verbindt",
+      "description": "Een klein schutwerk met een groot verhaal. In de veentijd doorbraken de veenbazen Dekema, Cuyck en Foeyts de Slachtedijk om hun turf naar de Zuiderzee te vlotteren — genoemd naar de drie \"hearen\" (heren): Hearesyl. De doorbraak sloot zich, en in 1969 opende een nieuwe brug-en-sluis de oude passage voor de watertoerisme, waardoor deze hoek één van de mooiste knooppunten van het merengebied werd: plassen aan beide kanten, zwart-witte koeien in de greiden, boerderijen verborgen in het groen.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun; mei–sep (varen) Beste tijd van de dag: Avond, boten schutten door, rietvogels actief.",
+      "natura2000": "De aangrenzende wateren liggen in Natura 2000 Sneekermeergebied (gebied 12); de sluis zelf is een waterwegknooppunt.",
+      "why_visit": [
+        "Zie zeilboten door de sluis van 1969 tussen de twee plassen laveren.",
+        "Rietrand-wandelingen langs de oever van de Terkaplester Puollen (nr. 206).",
+        "Lees 400 jaar waterbeheer: veenbaronnen, dijk, sluis, recreatie — in één blik."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Rietzangers in het kanaalriet.",
+        "Jul–Aug ⛵ Piek-jachtverkeer door de sluis."
+      ],
+      "wildlife": [
+        "🐦 Rietgors & bosrietzanger",
+        "🐟 Snoek & baars in de vaarten",
+        "🌾 Rietkragen van de Puollen"
+      ],
+      "trailheads": [
+        "Park bij het dorp Terkaple; wandel of fiets de bruglus over de Hearesylbrêge."
+      ],
+      "footer": "🐶 Honden toegestaan · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Fryske Marren (Terkaple)",
+        "historic peat-baron sluice & plassen gateway",
+        "list 7 · no. 13"
+      ],
+      "location": "📍 The Hearesyl lock at Terkaple, linking the Terkaplester Puollen with the Snitser Mar through the Slachtedijk",
+      "description": "A little lock with a big story. In the peat era the veenbazen Dekema, Cuyck and Foeyts punched a gap through the Slachtedijk to float their turf to the Zuiderzee — named after the three \"hearen\" (lords): Hearesyl. The gap closed, and in 1969 a new bridge-and-lock opened the old passage for water tourism, turning this corner into one of the prettiest nodes of the lake district: plassen on both sides, black-and-white cows in the greiden, farms hidden in the trees.",
+      "meta": "Best Season & Peak Months: Apr–Jun; May–Sep (boating) Best Time of Day: Evening, boats locking through, reed birds active.",
+      "natura2000": "The adjacent waters lie in Natura 2000 Sneekermeergebied (site 12); the lock itself is a waterway node.",
+      "why_visit": [
+        "Watch sailboats thread the 1969 lock between the two plassen.",
+        "Reed-bed walks along the Terkaplester Puollen shore (no. 206).",
+        "Read 400 years of water management: peat barons, dike, lock, recreation — in one view."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Reed warblers in the channel-side reed.",
+        "Jul–Aug ⛵ Peak yacht traffic through the lock."
+      ],
+      "wildlife": [
+        "🐦 Reed bunting & sedge warbler",
+        "🐟 Pike & perch in the channels",
+        "🌾 Reed fringes of the Puollen"
+      ],
+      "trailheads": [
+        "Park at Terkaple village; walk or cycle the bridge loop over the Hearesylbrêge."
+      ],
+      "footer": "🐶 Dogs allowed · 💶 Free"
+    },
+    "number": 205,
+    "name": "Hearesyl"
+  },
+  {
+    "id": 206,
+    "nl": {
+      "tags": [
+        "Friesland · De Fryske Marren (Terkaple–Lemmer)",
+        "🇪🇺 In Natura 2000 Sneekermeergebied (gebied 12)",
+        "list 7 · no. 14"
+      ],
+      "location": "📍 De Terkaplester Poelen tussen Terkaple en de A6, via de Hearesyl verbonden met de Snitser Mar",
+      "description": "De stillere zusterwateren van het Sneekermeer: brede, ondiepe poelen omringd door riet en eilandpolders, historisch en geologisch één systeem met het grote meer — gegraven door veenmakers, vergroot door windafslag, getemd door vaste peilen. Waar het Sneekermeer racet met zeilen, bewaren de Puollen de kerktorens, de greidenganzen en de rietzangers.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun; okt–feb (ganzen) Beste tijd van de dag: Ochtendnevel; winterse ganzenvluchten naar de Sneekermeer-slaapplaatsen.",
+      "natura2000": "🇪🇺 Onderdeel van Natura 2000 Sneekermeergebied (gebied 12, VR NL9802047) — juist om zijn graslandpolders en poelen in de aanwijzing opgenomen: overwinterende riet- & kolganzen, broedende grutto's en rietvogels.",
+      "why_visit": [
+        "Eilandpolder-wandelingen vanaf Terkaple; rietrand-kijken vanaf de dijkwegen.",
+        "Combineer met de Hearesyl-sluis (nr. 205) en een Sneekermeer-lus voor het hele systeem."
+      ],
+      "periodic_phenomena": [
+        "Okt–Feb 🪿 Ganzen voedsel- & slaapvluchten.",
+        "Apr–Jun 🥚 Weidevogels & rietzangers."
+      ],
+      "wildlife": [
+        "🪿 Ganzen onderweg naar Sneekermeer-slaapplaatsen",
+        "🐦 Grutto & tureluur",
+        "🌿 Rietkragen & boezemgrasland"
+      ],
+      "trailheads": [
+        "Park bij Terkaple; fiets de poelen-ring richting Broek en Terhorne."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Fryske Marren (Terkaple–Lemmer)",
+        "🇪🇺 In Natura 2000 Sneekermeergebied (site 12)",
+        "list 7 · no. 14"
+      ],
+      "location": "📍 The Terkaplester Poelen between Terkaple and the A6, connected to the Snitser Mar via the Hearesyl",
+      "description": "The quieter sister-waters of the Sneekermeer: broad, shallow poelen ringed with reed and island polders, historically and geologically one system with the big lake — dug by peat cutters, enlarged by wind erosion, tamed by fixed water levels. Where the Sneekermeer races with sails, the Puollen keep the church towers, the greiden geese and the reed warblers.",
+      "meta": "Best Season & Peak Months: Apr–Jun; Oct–Feb (geese) Best Time of Day: Morning mist; winter goose flights to the Sneekermeer roosts.",
+      "natura2000": "🇪🇺 Part of Natura 2000 Sneekermeergebied (site 12, VR NL9802047) — included in the designation precisely for its grassland polders and poelen: wintering bean & white-fronted geese, breeding godwits and reed birds.",
+      "why_visit": [
+        "Island-polder walks from Terkaple; reed-fringed viewing from the dyke roads.",
+        "Combine with the Hearesyl lock (no. 205) and a Sneekermeer loop for the full system."
+      ],
+      "periodic_phenomena": [
+        "Oct–Feb 🪿 Goose feeding & roost flights.",
+        "Apr–Jun 🥚 Meadow birds & reed warblers."
+      ],
+      "wildlife": [
+        "🪿 Geese en route to Sneekermeer roosts",
+        "🐦 Godwit & redshank",
+        "🌿 Reed collars & boezem grassland"
+      ],
+      "trailheads": [
+        "Park at Terkaple; cycle the poelen ring toward Broek and Terhorne."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free"
+    },
+    "number": 206,
+    "name": "Terkaplesterpuollen"
+  },
+  {
+    "id": 207,
+    "nl": {
+      "tags": [
+        "Friesland · Heerenveen (Oldeboorn–Tjalleberd)",
+        "🇪🇺 Natura 2000 De Deelen (gebied 14)",
+        "SBB-laagveenmoeras · list 7 · no. 15"
+      ],
+      "location": "📍 Tussen Oldeboorn, Haskerdijken en Tjalleberd — hoofdtoegang bij Tjalleberd (vlonder-routes)",
+      "description": "\"Verdronken hoogveen\" — herrezen als laagveenmoeras van petgats, legakkers, rietlanden en schrale graslanden in de oude benedenloop van de Boorne. De veenontginning hier begon opmerkelijk laat (rond 1920), dus de slagen zijn vers, de verlanding levend, en SBB graaft nog steeds nieuwe petgats als natuurontwikkeling. Vlonderpaden verbinden de natste delen; een roestende baggermachine — de laatste van de turftijd — staat er als industrieel monument. Roerdomp, purperreiger en grote zilverreiger geven het internationale rang.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (roerdomp borend, rietvogels); sep–okt (riet, kleuren) Beste tijd van de dag: Dageraad vanaf de vlonders; avondlijke purperreiger-vluchten.",
+      "natura2000": "🇪🇺 Natura 2000 De Deelen — gebied 14, NL2000001 (Habitat- & Vogelrichtlijn), 514 ha VR, Staatsbosbeheer. Rietlanden en petgatcomplexen (reeks H3150/H7140); aangewezen voor broedende roerdomp, purperreiger en grote zilverreiger als vaste gast; klokjesgentiaan en Spaanse ruiter bloeien in de schraallanden; zwarte sterns broeden op de nestvlonder van SBB.",
+      "why_visit": [
+        "De vlonderpad-rondgang vanaf Tjalleberd — droge voeten door een moeras.",
+        "Roerdomp borend in mei — sta stil en luister.",
+        "De achtergelaten baggermachine en de legakker-boerderijen: veengeschiedenis zonder museum."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Roerdomp, snor & rietkoor.",
+        "Mei–Jun 💜 Klokjesgentiaan & Spaanse ruiter in bloei in de hooilanden.",
+        "Sep–Okt 🌾 Rietmaaitijd."
+      ],
+      "wildlife": [
+        "🐦 Roerdomp & purperreiger",
+        "🕊️ Grote zilverreiger",
+        "🖤 Zwarte stern op nestvlonder",
+        "🌸 Klokjesgentiaan & Spaanse ruiter"
+      ],
+      "trailheads": [
+        "Parkeren bij Tjalleberd (SBB-ingang, routes 1,6–6 km) en Oldeboorn (De Deelen-zuid); kanoroutes vanaf Haskerdijken."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ♿ Vlonderdelen; laarzen aan te raden na regen"
+    },
+    "en": {
+      "tags": [
+        "Friesland · Heerenveen (Oldeboorn–Tjalleberd)",
+        "🇪🇺 Natura 2000 De Deelen (site 14)",
+        "SBB low-fen marsh · list 7 · no. 15"
+      ],
+      "location": "📍 Between Oldeboorn, Haskerdijken and Tjalleberd — main access at Tjalleberd (vlonder routes)",
+      "description": "\"Verdronken hoogveen\" — drowned raised bog, reborn as a low-fen marsh of petgaten, legakkers, reed lands and schraal grasslands in the old lower course of the Boorne. Peat cutting here started remarkably late (around 1920), so the cuts are fresh, the verlanding is live, and SBB still digs new petgaten as nature development. Boardwalk paths (vlonders) stitch the wettest sections; a rusting baggermachine — the last dredger of the turf era — stands as industrial monument. Bittern, purple heron and great white egret give it international rank.",
+      "meta": "Best Season & Peak Months: Apr–Jun (bittern booming, reed birds); Sep–Oct (reed, colours) Best Time of Day: Dawn from the boardwalks; evening purple herons flighting.",
+      "natura2000": "🇪🇺 Natura 2000 De Deelen — site 14, NL2000001 (Habitat- & Vogelrichtlijn), 514 ha VR, Staatsbosbeheer. Reed lands and petgat complexes (H3150/H7140 series); designated for breeding bittern, purple heron and great white egret as regular guest; klokjesgentiaan and Spaanse ruiter flower in the schraallanden; black terns brood on SBB's nest rafts.",
+      "why_visit": [
+        "The vlonderpad boardwalk circuit from Tjalleberd — dry feet through a marsh.",
+        "Bittern booming in May — stand still and listen.",
+        "The abandoned baggermachine and the legakker farms: peat history without a museum."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Bittern, Savi's warbler & reed chorus.",
+        "May–Jun 💜 Klokjesgentiaan & Spaanse ruiter in bloom in the hay meadows.",
+        "Sep–Oct 🌾 Reed cutting season."
+      ],
+      "wildlife": [
+        "🐦 Bittern & purple heron",
+        "🕊️ Great white egret",
+        "🖤 Black tern on nest rafts",
+        "🌸 Klokjesgentiaan & Spaanse ruiter"
+      ],
+      "trailheads": [
+        "Parking at Tjalleberd (SBB entrance, routes 1.6–6 km) and Oldeboorn (De Deelen south); canoe routes from Haskerdijken."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ♿ Vlonder sections; boots advised after rain"
+    },
+    "number": 207,
+    "name": "De Deelen"
+  },
+  {
+    "id": 208,
+    "nl": {
+      "tags": [
+        "Friesland · Heerenveen (Terband, Aengwirde)",
+        "veenweide-\"skar\"-restanten (IFG)",
+        "list 7 · no. 16"
+      ],
+      "location": "📍 Rond Terband (Terbant), ten noorden van Heerenveen bij het knooppunt — oude Aengwirder gemeenschapsgronden",
+      "description": "Een \"skar\" was de gedeelde weide van het dorp — en rond Terband, in de oude gemeente Aengwirde, houdt It Fryske Gea fragmenten van dat gemeenschappelijke veenweidelandschap in leven: natte hooilanden, slootrijen en hakhoutranden tussen het moderne boerenland, beheerd met gesnoeid struweel en laat maaien. Klein, subtiel, en precies hoe het open Lage Midden eruitzag vóór de machines kwamen.",
+      "meta": "Beste seizoen & piekmaanden: mei–jun (weidevogels, eerste hooigeuren) Beste tijd van de dag: Ochtend.",
+      "why_visit": [
+        "Kieviten en grutto's boven de natte velden rond Terband.",
+        "Combineer met de Tjonger-valleiwandeling richting Nieuweschoot (Taconisbosk, nr. 216)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Weidevogelseizoen.",
+        "Jun–Jul 🌾 Laat-gemaaide hooilanden in bloei."
+      ],
+      "wildlife": [
+        "🐦 Kievit & grutto",
+        "🐝 Slootkant-insecten",
+        "🌿 Weidebloemen van de oude gemeenschapsgronden"
+      ],
+      "trailheads": [
+        "Park bij Terband; verken de lanen te voet of per fiets."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ⚠️ Dunne documentatie — behandel als landschapswandeling",
+      "note": "⚠️ Publiek detail is schaars; het profiel volgt het skar-landschap van Terband/Aengwirde."
+    },
+    "en": {
+      "tags": [
+        "Friesland · Heerenveen (Terband, Aengwirde)",
+        "peat-meadow \"skar\" remnants (IFG)",
+        "list 7 · no. 16"
+      ],
+      "location": "📍 Around Terband (Terbant), north of Heerenveen at the knooppunt — old Aengwirde commons",
+      "description": "A \"skar\" was the village's shared grazing ground — and around Terband, in the old municipality of Aengwirde, It Fryske Gea keeps fragments of that communal peat-meadow landscape alive: wet hay fields, ditch rows and scrub-coppice edges between the modern farmland, managed with snipped scrub and late mowing. Small, subtle, and exactly what the open Lage Midden looked like before the diggers came.",
+      "meta": "Best Season & Peak Months: May–Jun (meadow birds, first hay scents) Best Time of Day: Morning.",
+      "why_visit": [
+        "Lapwing and godwit over the wet fields around Terband.",
+        "Combine with the Tjonger valley walk toward Nieuweschoot (Taconisbosk, no. 216)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Meadow-bird season.",
+        "Jun–Jul 🌾 Late-mown hay meadows in flower."
+      ],
+      "wildlife": [
+        "🐦 Lapwing & godwit",
+        "🐝 Ditch-bank insects",
+        "🌿 Meadow flowers of the old commons"
+      ],
+      "trailheads": [
+        "Park at Terband; explore the lanes on foot or by bicycle."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ⚠️ Thin documentation — treat as a landscape walk",
+      "note": "⚠️ Public detail is scarce; profile follows the Terband/Aengwirde skar landscape."
+    },
+    "number": 208,
+    "name": "It Skar en Terbant"
+  },
+  {
+    "id": 209,
+    "nl": {
+      "tags": [
+        "Friesland · De Fryske Marren (Langweer–Idskenhuizen)",
+        "18-ha moerasparel (IFG)",
+        "list 7 · no. 17"
+      ],
+      "location": "📍 Tussen Langweer en Idskenhuizen, in het kleinschalige polderland ten zuiden van de Tsjûkemar",
+      "description": "Een zakmoeras dat boven zijn gewicht pakt: ±18 ha veenmosrietland, open water en hoog riet — het gedocumenteerde reservaat bekend als de Teroelster Sipen, dat bij je lijstnaam past. Rietzangers en snorren ratelen de hele lente, bruine kiekendieven broeden in de biezen, en de elzen/wilgen-diktes herbergen reeën — en otters op hun nachtelijke oversteeken. Geïsoleerd tussen boerenpolders vecht het langzaam tegen de ontwatering van de omgeving; elk nat jaar is een overwinning.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (rietvogels) Beste tijd van de dag: Dageraad en schemering (otters).",
+      "why_visit": [
+        "De snor — zijn ratelzang is een specialiteit van de Friese meren.",
+        "Gele plomp op het open water; krabbenscheer aan de randen — libellenmagneten.",
+        "Koppel met een Langweer-meerwandeling voor een mooie halve dag."
+      ],
+      "periodic_phenomena": [
+        "Mei–Jun 🎶 Rietzanger, snor & bruine kiekendief.",
+        "Jul–Aug 🦋 Libellen boven de krabbenscheer."
+      ],
+      "wildlife": [
+        "🐦 Snor & rietzanger, bruine kiekendief",
+        "🐺 Otter (nachtelijk)",
+        "🌿 Veenmosrietland, waterviolier & gele plomp",
+        "🦗 Rijke nachtfauna aan motten"
+      ],
+      "trailheads": [
+        "Park bij Langweer of Idskenhuizen; bekijk het moeras vanaf de omliggende openbare wegen."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis (wegen) · ⚠️ Lijstnaam \"Terdoelstersypen\" gemapt op het gedocumenteerde reservaat Teroelster Sipen vlakbij"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Fryske Marren (Langweer–Idskenhuizen)",
+        "18-ha marsh pearl (IFG)",
+        "list 7 · no. 17"
+      ],
+      "location": "📍 Between Langweer and Idskenhuizen, in the small-scale polder country south of the Tsjûkemar",
+      "description": "A pocket marsh that punches above its weight: ±18 ha of veenmosrietland, open water and high reed — the documented reserve known as the Teroelster Sipen, which matches your list name. Reed warbler and Savi's warbler buzz all spring, brown harriers breed in the rush, and the alder/willow thickets shelter roe deer — and otters on their night crossings. Isolated between farm polders, it slowly fights the surrounding drainage; every wet year is a victory.",
+      "meta": "Best Season & Peak Months: Apr–Jun (reed birds) Best Time of Day: Dawn and dusk (otters).",
+      "why_visit": [
+        "Savi's warbler — its reeling song is a Frisian-lakes specialty.",
+        "Yellow water-lily on the open water; krabbenscheer at the edges — dragonfly magnets.",
+        "Pair with a Langweer lake-side walk for a fine half-day."
+      ],
+      "periodic_phenomena": [
+        "May–Jun 🎶 Reed warbler, Savi's warbler & brown harrier.",
+        "Jul–Aug 🦋 Dragonflies over the krabbenscheer."
+      ],
+      "wildlife": [
+        "🐦 Savi's & reed warbler, brown harrier",
+        "🐺 Otter (nocturnal)",
+        "🌿 Veenmosrietland, water violet & yellow water-lily",
+        "🦗 Rich night-fauna of moths"
+      ],
+      "trailheads": [
+        "Park at Langweer or Idskenhuizen; view the marsh from the surrounding public roads."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free (roads) · ⚠️ List name \"Terdoelstersypen\" mapped to the documented Teroelster Sipen reserve nearby"
+    },
+    "number": 209,
+    "name": "Terdoelstersypen"
+  },
+  {
+    "id": 210,
+    "nl": {
+      "tags": [
+        "Friesland · De Fryske Marren (Sint Nicolaasga)",
+        "historisch landgoed op zandgrond",
+        "list 7 · no. 18"
+      ],
+      "location": "📍 Langwarderdyk 4, Sint Nicolaasga — landgoedbos op de zandrug tussen de Tsjûkemar en het Nannewiid",
+      "description": "Op de Friese zandrug bij Sint Nicolaasga — het dorp dat ook de stinsplaats Eysinga State herbergt — ligt het gelijknamige beboste landgoed: oude bomen, waterelementen en lanen die ooit een statesfamilie dienden, nu gedreven als klein vakantielandgoed (charm camping & park) naast een 18-holes golfbaan. Voor de naturalist is het een groene brugkop op het zuidelijke zand: bosanemonen in april, boomkruipers het jaar door, en directe fietskoppelingen naar de Vegelinbossen, Wilhelmina-oard (nr. 211) en de Tsjûkemar-oevers.",
+      "meta": "Beste seizoen & piekmaanden: apr–mei (voorjaarsbos) & sep–okt Beste tijd van de dag: Ochtendvogelronde.",
+      "why_visit": [
+        "Oude landgoedbomen en -lanen; ooievaars en reigers op de naburige weiden.",
+        "Basiskamp voor het boscluster van Sint Nicolaasga (Vegelinbossen + Wilhelmina-oard)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Mei 🌸 Voorjaarsflora onder de oude bomen.",
+        "Sep–Okt 🍄 Paddenstoelenseizoen op de zandgronden."
+      ],
+      "wildlife": [
+        "🐦 Boomkruiper, specht & spechten",
+        "🦌 Ree aan de bosranden",
+        "🌳 Landgoedbeuken & -eiken"
+      ],
+      "trailheads": [
+        "Toegang via de landgoedingang (Langwarderdyk); openbare voetpaden lopen door naar de parkeerplaatsen van de Vegelinbossen."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Terreinen voor gasten; openbare paden gratis · ⚠️ Werkend vakantiepark — respecteer privézones"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Fryske Marren (Sint Nicolaasga)",
+        "historic estate on sandy ground",
+        "list 7 · no. 18"
+      ],
+      "location": "📍 Langwarderdyk 4, Sint Nicolaasga — estate woods on the sandy ridge between the Tsjûkemar and the Nannewiid",
+      "description": "On the Frisian sand ridge at Sint Nicolaasga — the village that also holds the Eysinga State stins site — lies the wooded estate of that name: old trees, water features and lanes that once served a states family, now run as a small holiday estate (charm camping & park) next to an 18-hole golf course. For the naturalist it is a green foothold on the sandy south: wood anemones in April, nuthatches all year, and direct cycling links to the Vegelinbossen, Wilhelmina-oard (no. 211) and the Tsjûkemar shores.",
+      "meta": "Best Season & Peak Months: Apr–May (spring woods) & Sep–Oct Best Time of Day: Morning bird round.",
+      "why_visit": [
+        "Old estate trees and lanes; storks and herons on neighbouring meadows.",
+        "Base camp for the Sint Nicolaasga woodland cluster (Vegelinbossen + Wilhelmina-oard)."
+      ],
+      "periodic_phenomena": [
+        "Apr–May 🌸 Spring flora under the old trees.",
+        "Sep–Oct 🍄 Fungi season on the sandy soils."
+      ],
+      "wildlife": [
+        "🐦 Nuthatch, treecreeper & woodpeckers",
+        "🦌 Roe deer at the wood edges",
+        "🌳 Estate beeches & oaks"
+      ],
+      "trailheads": [
+        "Access via the estate entrance (Langwarderdyk); public footpaths link to the Vegelinbossen car parks."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Estate grounds for guests; public paths free · ⚠️ Working holiday park — respect private zones"
+    },
+    "number": 210,
+    "name": "Eysinga-State"
+  },
+  {
+    "id": 211,
+    "nl": {
+      "tags": [
+        "Friesland · De Fryske Marren (Sint Nicolaasga)",
+        "1845 aristocratisch wandelbos (IFG)",
+        "list 7 · no. 19"
+      ],
+      "location": "📍 It Sein, Sint Nicolaasga — parkeren in de dorpsstraat, 10 minuten lopen",
+      "description": "Een wandelbos van een jonkheer, opengesteld voor iedereen. In 1845 legde jonkheer Van Beyma, burgemeester van Lemsterland, zes hectare lange, rechte eiken- en beukenlanen aan; in 1903 voegde freule Van Eijsinga het landhuis toe (vandaag een zorginstelling, privé). It Fryske Gea beheert het bos sinds 1986 en plantte in 2007 jonge aanvulling aan — samen met de naastgelegen Vegelinbossen een groene long op de zandrug. Verwacht hulstondergroei, dennengeur-hoekjes, varens, helmbloem — en ergens onder de oude beuken een dasverblijf.",
+      "meta": "Beste seizoen & piekmaanden: apr–mei (stinseflora, voorjaarsvogels) & okt (paddenstoelen, kleur) Beste tijd van de dag: Vroege ochtend, spechten roffelend.",
+      "why_visit": [
+        "Het lanenstelsel van 1845 onder eeuwenoude eiken en beuken.",
+        "Grote bonte specht, vlaamse gaai, boomkruiper — en het dasverblijf (discreet bekijken).",
+        "De gecombineerde wandelfolder met de Vegelinbossen geeft een mooie 3-km+-lus."
+      ],
+      "periodic_phenomena": [
+        "Apr–Mei 🌸 Stinseflora (helmbloem, anemonen) + voorjaarszangers.",
+        "Sep–Nov 🍄 Paddenstoelenseizoen; hulstbessen rijpend.",
+        "Dec–Feb 🪶 Winterse spechtdagen — het roffelen begint vroeg."
+      ],
+      "wildlife": [
+        "🦡 Dasverblijf",
+        "🐦 Grote bonte specht, vlaamse gaai & boomkruiper",
+        "🌿 Hulst, stijve naaldvaren & brede stekelvaren"
+      ],
+      "trailheads": [
+        "Park langs It Sein (Sint Nicolaasga); infobord aan de bosrand; paden het jaar door open."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ⚠️ Landhuis & tuin privé"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Fryske Marren (Sint Nicolaasga)",
+        "1845 aristocratic wandelbos (IFG)",
+        "list 7 · no. 19"
+      ],
+      "location": "📍 It Sein, Sint Nicolaasga — parking in the village street, 10 minutes' walk",
+      "description": "An aristocrat's walking wood, opened to all. In 1845 jonkheer Van Beyma, burgemeester of Lemsterland, laid out six hectares of long, straight oak and beech lanes; in 1903 freule Van Eijsinga added the landhuis (today a care home, private). It Fryske Gea has managed the wood since 1986 and added young plantings in 2007 — together with the neighbouring Vegelinbossen a green lung on the sandy ridge. Expect holly undergrowth, pine-scented corners, ferns, climbing corydalis — and a badger sett somewhere under the old beeches.",
+      "meta": "Best Season & Peak Months: Apr–May (stinzenflora, spring birds) & Oct (fungi, colour) Best Time of Day: Early morning woodpecker drumming.",
+      "why_visit": [
+        "The 1845 lane star under century-old oaks and beeches.",
+        "Great spotted woodpecker, jay, nuthatch — and the badger sett (view discreetly).",
+        "Combined walking folder with the Vegelinbossen makes a fine 3-km+ circuit."
+      ],
+      "periodic_phenomena": [
+        "Apr–May 🌸 Stins flora (corydalis, anemones) + spring songsters.",
+        "Sep–Nov 🍄 Fungi season; holly berries ripening.",
+        "Dec–Feb 🪶 Winter woodpecker days — drumming starts early."
+      ],
+      "wildlife": [
+        "🦡 Badger sett",
+        "🐦 Great spotted woodpecker, jay & nuthatch",
+        "🌿 Holly, hard fern & broad buckler-fern"
+      ],
+      "trailheads": [
+        "Park along It Sein (Sint Nicolaasga); information panel at the wood's edge; paths open year-round."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ⚠️ Landhuis & its garden private"
+    },
+    "number": 211,
+    "name": "Wilhelmina-oard"
+  },
+  {
+    "id": 212,
+    "nl": {
+      "tags": [
+        "Friesland · De Friese Meren (Echtenerbrug–Rohel–Oosterzee)",
+        "grootste Friese meer, SBB-oeversreservaten",
+        "list 7 · no. 20"
+      ],
+      "location": "📍 Het Tjeukemeer tussen Echtenerbrug, Rohel, Oosterzee en Sintjohannesga — de A6 kruist de westelijke lob",
+      "description": "Het grootste binnenwater van Friesland: een breed, ondiep veenmeer waarvan de naam (Tsjûkemar) taalkundigen nog altijd puzzelt en waarvan de visfaam — snoekbaars en baars — hengelaars uit heel Europa trekt. Langs de rietige noord- en oostoevers houdt Staatsbosbeheer stille reservaten zoals de Marswâl bij Rohel (dijkwandelen over de oude ophaalbrug) en sluipt de Tjonger bij Sintjohannesga het meer in. Wind, water, riet en lucht — het meer is de barometer van het Friese weer.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (riet- & weidevogels); okt–feb (ganzen, smient); jun–sep (hengelen) Beste tijd van de dag: Zonsopgang vanaf de Rohel-dijk; avondlijke visopslag.",
+      "why_visit": [
+        "De Marswâl-dijkwandeling bij Rohel — oude ophaalbrug, rietkragen, meerpanorama.",
+        "Tjonger-meanders beneden Sintjohannesga — de heldere instroom van het meer.",
+        "Herfstdrijfs van smienten en ganzen op het vlakke water."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Rietzangers & weidevogels van de oevers.",
+        "Okt–Feb 🪿 Ganzen, zwanen & smient; schaatsen op hard ijs bij vorst."
+      ],
+      "wildlife": [
+        "🐟 Snoekbaars, baars & aal (hengelmeer)",
+        "🦆 Smient- & tafeleend-drijfsels in de winter",
+        "🐦 Baardmannetje in het oeverriet"
+      ],
+      "trailheads": [
+        "Park bij Rohel (Marswâl), Echtenerbrug (haven) of Oosterzee; fietslus rond het hele meer."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis (hengelvergunning vereist)"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Friese Meren (Echtenerbrug–Rohel–Oosterzee)",
+        "largest Frisian lake, SBB shore reserves",
+        "list 7 · no. 20"
+      ],
+      "location": "📍 The Tjeukemeer between Echtenerbrug, Rohel, Oosterzee and Sintjohannesga — A6 crosses its western lobe",
+      "description": "The largest inland water of Friesland: a broad, shallow peat lake whose name (Tsjûkemar) still puzzles linguists and whose fish fame — zander and perch — draws anglers from across Europe. Along its reedy north and east shores Staatsbosbeheer keeps quiet reserves like the Marswâl at Rohel (dike walking over the old drawbridge) and the meandering Tjonger slides in at Sintjohannesga. Wind, water, reed and sky — the lake is Friesland's weather gauge.",
+      "meta": "Best Season & Peak Months: Apr–Jun (reed & meadow birds); Oct–Feb (geese, smient); Jun–Sep (angling) Best Time of Day: Sunrise from the Rohel dike; evening fish rises.",
+      "why_visit": [
+        "The Marswâl dike walk at Rohel — old drawbridge, reed beds, lake panorama.",
+        "Tjonger meanders below Sintjohannesga — the lake's clear-headed inflow.",
+        "Autumn rafts of smient and geese on the flat water."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Reed warblers & meadow birds of the shores.",
+        "Oct–Feb 🪿 Geese, swans & smient; hard-water skating when it freezes."
+      ],
+      "wildlife": [
+        "🐟 Zander, perch & eel (angling lake)",
+        "🦆 Smient & pochard rafts in winter",
+        "🐦 Bearded tit in the shore reeds"
+      ],
+      "trailheads": [
+        "Park at Rohel (Marswâl), Echtenerbrug (harbour) or Oosterzee; cycling loop right round the lake."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free (angling licence required)"
+    },
+    "number": 212,
+    "name": "Tjûkemar"
+  },
+  {
+    "id": 213,
+    "nl": {
+      "tags": [
+        "Friesland · De Fryske Marren (Haskerhorne–Ouwsterhaule–Joure)",
+        "oude Haskerlandse weiden & bossen (SBB)",
+        "list 7 · no. 21"
+      ],
+      "location": "📍 De voormalige gemeente Haskerland: Haskerhorne, Ouwsterhaule, Nijehaske — tussen Heerenveen en de Tsjûkemar",
+      "description": "Het oude \"Hasker\"-land dankt zijn naam aan het Haskerveen — de gezamenlijke veengronden van de kolonisten van Oudehaske — en het landschap toont nog beide helften: open, natte weidevogelpolders richting de Tsjûkemar, en beschuttend bos waar de zandige Haulster Bossen (Staatsbosbeheer) tussen Haskerhorne en Ouwsterhaule liggen. Een stil fietslandschap van terpkerken, dijken en sloten, halverwege de Heerenveense bossen en het grote meer.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (weidevogels) Beste tijd van de dag: Ochtendbalt; uilen-uur in de bossen.",
+      "why_visit": [
+        "Fiets de driehoek Oudehaske–Haskerhorne–Ouwsterhaule langs het Nannewiid.",
+        "Weidevogels van de Haskerveense polders; spechten in de Haulster Bossen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Weidevogelseizoen.",
+        "Nov–Feb 🪿 Ganzen op de natte polders."
+      ],
+      "wildlife": [
+        "🐦 Grutto, kievit & snip",
+        "🦉 Bosuil in de bossen",
+        "🌾 Natte hooipolders"
+      ],
+      "trailheads": [
+        "Park bij Haskerhorne of Ouwsterhaule; de Haulster Bossen hebben een fietspad er dwars doorheen."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ⚠️ Streekniveau-regel — geen enkele poort of startpunt"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Fryske Marren (Haskerhorne–Ouwsterhaule–Joure)",
+        "old Haskerland meadows & woods (SBB)",
+        "list 7 · no. 21"
+      ],
+      "location": "📍 The former municipality of Haskerland: Haskerhorne, Ouwsterhaule, Nijehaske — between Heerenveen and the Tsjûkemar",
+      "description": "The old \"Hasker\" country takes its name from the Haskerveen — the peat commons of Oudehaske's colonists — and its landscape still shows both halves: open, wet meadow-bird polders towards the Tsjûkemar, and sheltering woods where the sandy Haulster Bossen (Staatsbosbeheer) lie between Haskerhorne and Ouwsterhaule. A quiet cycling landscape of terp churches, dikes and ditches, halfway between the Heerenveen woods and the great lake.",
+      "meta": "Best Season & Peak Months: Apr–Jun (meadow birds) Best Time of Day: Morning displays; evening owl hour in the woods.",
+      "why_visit": [
+        "Cycle the Oudehaske–Haskerhorne–Ouwsterhaule triangle past the Nannewiid.",
+        "Meadow birds of the Haskerveen polders; woodpeckers in the Haulster Bossen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Meadow-bird season.",
+        "Nov–Feb 🪿 Geese on the wet polders."
+      ],
+      "wildlife": [
+        "🐦 Godwit, lapwing & snipe",
+        "🦉 Tawny owl in the bossen",
+        "🌾 Wet hay polders"
+      ],
+      "trailheads": [
+        "Park at Haskerhorne or Ouwsterhaule; the Haulster Bossen have a cycle path straight through."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ⚠️ Streek-level entry — no single gate or trailhead"
+    },
+    "number": 213,
+    "name": "Haskerlân"
+  },
+  {
+    "id": 214,
+    "nl": {
+      "tags": [
+        "Friesland · De Friese Meren (Sintjohannesga–Rotsterhaule)",
+        "523-ha laagveenmoeras (IFG)",
+        "list 7 · no. 22"
+      ],
+      "location": "📍 Scharweg, Sintjohannesga — rode/gele wandelroutes; kijkhut \"De Skiere Goes\"",
+      "description": "\"Jungle\" noemen bezoekers het — 523 ha laagveenmoeras (verveend 1850–1900) waar verlandende petgats, rietvelden, moerasbossen en bloemrijke hooigraslanden een landschap weven dat lijkt op Friesland vóór de baggermachines. Gered van de 1960-ontginning, opnieuw gered van verdroging in de jaren 1990 (peilen omhoog, dode bomen als getuigen), zoemt de Easterskar nu: ±50 broedvogels, voor otters geschikte sloten, en een rolstoeltoegankelijke vogelkijkhut die zelfs een zeearend-waarneming opleverde.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (broed; let op seizoenssluitingen) & aug–sep (insecten, riet) Beste tijd van de dag: Ochtend vanuit de hut; avonden voor kiekendieven.",
+      "why_visit": [
+        "De rode route (±11 km) door riet, petgatten en \"oerwoud\"-hoeken; gele kortweg 2,5 km.",
+        "Vogelkijkhut De Skiere Goes (Richard Jungweg): moerasvogels, zeearend-record, logboek aanwezig.",
+        "Noordelijke waterlelie en fonteinkruiden terug in het schone water."
+      ],
+      "periodic_phenomena": [
+        "15 Mrt–15 Jul 🚧 Broedseizoen-sluitingen van de natste delen.",
+        "Mei–Jun 🐍 Adder, ringslang & levendbarende hagedis zonnend op de padranden.",
+        "Jul–Aug 🦋 Vlinder- & libellenpiek (neem DEET mee tegen muggen)."
+      ],
+      "wildlife": [
+        "🐍 Adder & ringslang",
+        "🐦 Bruine kiekendief, riet- & bosrietzanger",
+        "🌿 Noordelijke waterlelie, veenmosrietland",
+        "🐸 Kikkers & salamanders in elke sloot"
+      ],
+      "trailheads": [
+        "Park aan de Scharweg (Sintjohannesga) — picknickplek, routebord, hut vlakbij; laarzen aan te raden."
+      ],
+      "footer": "🐶 Honden uitsluitend aan de lijn · 💶 Gratis · ♿ Hut bereikbaar over verhard pad"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Friese Meren (Sintjohannesga–Rotsterhaule)",
+        "523-ha low-fen marsh (IFG)",
+        "list 7 · no. 22"
+      ],
+      "location": "📍 Scharweg, Sintjohannesga — red/yellow walking routes; hide \"De Skiere Goes\"",
+      "description": "\"Jungle\" is what visitors call it — 523 ha of low-fen marsh (verveend 1850–1900) where verlandende petgats, reed fields, marsh woods and flowery hay grasslands weave a landscape that looks like Friesland before the dredges. Saved from 1960s reclamation, rescued again from desiccation in the 1990s (water levels up, dead trees as witnesses), the Easterskar now hums: ±50 breeding birds, otter-worthy ditches, and a wheelchair-accessible bird hide that has even produced a white-tailed eagle record.",
+      "meta": "Best Season & Peak Months: Apr–Jun (breeding; note seasonal closures) & Aug–Sep (insects, reed) Best Time of Day: Morning from the hide; evenings for harriers.",
+      "why_visit": [
+        "The red route (±11 km) through reed, petgats and \"oerwoud\" corners; yellow shortcut 2.5 km.",
+        "Vogelkijkhut De Skiere Goes (Richard Jungweg): marsh birds, sea eagle record, logbook on site.",
+        "Northern water-lily and pondweeds back in the clean water."
+      ],
+      "periodic_phenomena": [
+        "15 Mar–15 Jul 🚧 Breeding-season closures of the wettest sections.",
+        "May–Jun 🐍 Adder, grass snake & viviparous lizard sunning on the path edges.",
+        "Jul–Aug 🦋 Butterfly & dragonfly peak (bring DEET for mosquitoes)."
+      ],
+      "wildlife": [
+        "🐍 Adder & grass snake",
+        "🐦 Marsh harrier, reed & sedge warblers",
+        "🌿 Northern water-lily, veenmosrietland",
+        "🐸 Frogs & newts in every ditch"
+      ],
+      "trailheads": [
+        "Park at the Scharweg (Sintjohannesga) — picnic spot, route board, hide nearby; boots advised."
+      ],
+      "footer": "🐶 Dogs on leash only · 💶 Free · ♿ Hide reachable over a paved path"
+    },
+    "number": 214,
+    "name": "Easterskar"
+  },
+  {
+    "id": 215,
+    "nl": {
+      "tags": [
+        "Friesland · De Friese Meren (Rotstergaast)",
+        "Tjeukemeer-oeverwandelingen & arend-hut",
+        "list 7 · no. 23"
+      ],
+      "location": "📍 Dorp Rotstergaast aan de Tjonger, beneden het Tjeukemeer — kijkhut aan de Richard Jungweg (afslag Gaasterweg)",
+      "description": "Een verstrooiing huizen zonder kerk — maar met één van de beste vogeladressen van Skarsterlân. Vanuit Rotstergaast lopen de routes langs open water, riet en moerasbos richting de Easterskar, en staat de kijkhut De Skiere Goes een paar honderd meter de Richard Jungweg op: precies de plek waar een zeearend boven het moeras is vastgelegd. Tel de meanderende Tjonger richting Rotsterhaule erbij en je hebt een perfecte stille lus.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun; okt–mrt (ganzen, roofvogels) Beste tijd van de dag: Ochtend bij de hut.",
+      "why_visit": [
+        "Kijkhut De Skiere Goes: bruine kiekendieven, rietvogels, altijd kans op iets groots.",
+        "Tjonger-meanderwandelingen naar Rotsterhaule.",
+        "De klokkenstoel van het dorp op het kerkhof — kerkenloze Friese charme."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Voorjaarsmoeras-koor.",
+        "Nov–Feb 🦅 Winterroofvogels (blauwe kiekendief, slechtvalk) en ganzen boven het meer."
+      ],
+      "wildlife": [
+        "🦅 Zeearend-records bij de hut",
+        "🐦 Bruine kiekendief & rietgorzen",
+        "🌊 Tjeukemeer-watervogels"
+      ],
+      "trailheads": [
+        "Neem vanaf de N924 de afslag Rotstergaast (Gaasterweg); doodlopende weg naar de parkeerplek bij de Richard Jungweg."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ⚠️ Dorpsniveau-regel rond de hut & oeverwandelingen"
+    },
+    "en": {
+      "tags": [
+        "Friesland · De Friese Meren (Rotstergaast)",
+        "Tjeukemeer-shore walks & eagle hide",
+        "list 7 · no. 23"
+      ],
+      "location": "📍 Village of Rotstergaast on the Tjonger, below the Tjeukemeer — hide at the Richard Jungweg (Gaasterweg turning)",
+      "description": "A scatter of houses without a church — but with one of the best bird addresses in Skarsterlân. From Rotstergaast the walking routes run along open water, reed and marsh wood toward the Easterskar, and the De Skiere Goes hide sits a few hundred metres down the Richard Jungweg: the very spot where a white-tailed eagle has been logged over the marsh. Add the meandering Tjonger toward Rotsterhaule and you have a perfect quiet circuit.",
+      "meta": "Best Season & Peak Months: Apr–Jun; Oct–Mar (geese, raptors) Best Time of Day: Morning at the hide.",
+      "why_visit": [
+        "De Skiere Goes hide: marsh harriers, reed birds, always a chance of something big.",
+        "Tjonger meander walks to Rotsterhaule.",
+        "The village's klokkenstoel (bell scaffold) on the cemetery — churchless Frisian charm."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Spring marsh chorus.",
+        "Nov–Feb 🦅 Winter raptors (hen harrier, peregrine) and geese over the lake."
+      ],
+      "wildlife": [
+        "🦅 White-tailed eagle records at the hide",
+        "🐦 Marsh harrier & reed buntings",
+        "🌊 Tjeukemeer waterfowl"
+      ],
+      "trailheads": [
+        "From the N924 take the Rotstergaast turning (Gaasterweg); dead-end road to the hide parking at the Richard Jungweg."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ⚠️ Village-level entry centered on the hide & shore walks"
+    },
+    "number": 215,
+    "name": "Rotstergaast"
+  },
+  {
+    "id": 216,
+    "nl": {
+      "tags": [
+        "Friesland · Heerenveen (Nieuweschoot)",
+        "12-ha eiken-berkenbos op de Tjongerflank (IFG)",
+        "list 7 · no. 24"
+      ],
+      "location": "📍 Tussen de Tjonger en Nieuweschoot, ten zuiden van Heerenveen",
+      "description": "Een klein, glooiend eiken-berkenbos op de flank van het Tjongerdal — één van de weinige van nature glooiende bossen van het Friese zandland, genesteld als een groen eiland in de akkers. Beheerd door It Fryske Gea, genoemd naar de familie Taconis, is het een voorjaars- en herfstbos: bosanemonen en hyacinten vroeg, paddenstoelen later, en altijd de vogels van de riviervallei aan de randen.",
+      "meta": "Beste seizoen & piekmaanden: apr–mei & sep–okt Beste tijd van de dag: Ochtendzang.",
+      "why_visit": [
+        "Glooiend reliëf, zeldzaam voor Friesland — de dalflank is hier echt steil.",
+        "Combineer met de Tjonger-dijkwandeling richting Sintjohannesga (nr. 212/214)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Mei 🌸 Bosanemonen op de dalflank.",
+        "Sep–Okt 🍄 Paddenstoelen onder eik en berk."
+      ],
+      "wildlife": [
+        "🐦 Zanglijster & zangers",
+        "🌳 Oude eiken & berken",
+        "🦊 Vos & haas aan de bosrand"
+      ],
+      "trailheads": [
+        "Park bij Nieuweschoot; betreed het bos vanaf de Tjongerzijdse laan."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Friesland · Heerenveen (Nieuweschoot)",
+        "12-ha oak-birch wood on the Tjonger flank (IFG)",
+        "list 7 · no. 24"
+      ],
+      "location": "📍 Between the Tjonger and Nieuweschoot, south of Heerenveen",
+      "description": "A small, rolling oak-and-birch wood on the flank of the Tjonger valley — one of the few naturally undulating woods of the Frisian sand country, tucked like a green island in the farm fields. Managed by It Fryske Gea, named for the Taconis family, it is a spring and autumn wood: wood anemones and bluebells early, fungi later, and always the river valley's birds at its edges.",
+      "meta": "Best Season & Peak Months: Apr–May & Sep–Oct Best Time of Day: Morning bird song.",
+      "why_visit": [
+        "Rolling relief rare for Friesland — the valley flank is genuinely steep here.",
+        "Combine with the Tjonger dyke walk toward Sintjohannesga (nos. 212/214)."
+      ],
+      "periodic_phenomena": [
+        "Apr–May 🌸 Wood anemones on the valley flank.",
+        "Sep–Oct 🍄 Fungi under oak and birch."
+      ],
+      "wildlife": [
+        "🐦 Song thrush & warblers",
+        "🌳 Old oaks & birches",
+        "🦊 Fox & hare at the wood edge"
+      ],
+      "trailheads": [
+        "Park at Nieuweschoot; enter the bosk from the Tjonger-side lane."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free"
+    },
+    "number": 216,
+    "name": "Taconisbosk"
+  },
+  {
+    "id": 217,
+    "nl": {
+      "tags": [
+        "Friesland · Heerenveen (Oranjewoud)",
+        "28-ha privé-buitenplaats in park Oranjewoud",
+        "list 7 · no. 25"
+      ],
+      "location": "📍 Parkgebied Oranjewoud, ten oosten van Heerenveen — binnen het koninklijke parklandschap van Oranjewoud",
+      "description": "De rentmeesterswoning van de Friese Nassaus, uitgegroeid tot een 28-ha privé-buitenplaats binnen de barokke assen en bospartijen van Oranjewoud — het \"Friese Versailles\" dat vanaf 1684 voor Albertine Agnes werd aangelegd. In 1820 gekocht en getransformeerd door koopman Pieter Cats; huis en terrein blijven privé, maar liggen binnen de vrij toegankelijke parkstof: lanen, grachten, folly's en Museum Belvédère naast de deur. Oranjestein is het stille, gecultiveerde hart van het hele ensemble.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun & sep–okt Beste tijd van de dag: Middag — combineer met museum- & parkwandelingen.",
+      "why_visit": [
+        "Wandel de lanen van Oranjewoud langs het boomscherm van Oranjestein.",
+        "Het bredere park: Landgoed Oranjewoud, Museum Belvédère, de prinsessenlanen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Mei 🌸 Parkvoorjaarsflora onder de lanenbomen.",
+        "Jun–Aug 🎭 Zomerconcerten & museumseizoen van Oranjewoud."
+      ],
+      "wildlife": [
+        "🐦 Boomkruiper, spechten & parkzangers",
+        "🐿️ Eekhoorn in de bospartijen",
+        "🌳 300 jaar oude lanenbomen"
+      ],
+      "trailheads": [
+        "Park bij Museum Belvédère / Landgoed Oranjewoud; landgoederen kern privé — geniet vanaf de openbare parkpaden."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Park gratis (museum betaald) · ⚠️ Huis & tuinen niet openbaar"
+    },
+    "en": {
+      "tags": [
+        "Friesland · Heerenveen (Oranjewoud)",
+        "28-ha private buitenplaats in park Oranjewoud",
+        "list 7 · no. 25"
+      ],
+      "location": "📍 Parkgebied Oranjewoud, east of Heerenveen — inside the royal Oranjewoud park landscape",
+      "description": "The rentmeesterswoning (steward's house) of the Frisian Nassaus, grown into a 28-ha private buitenplaats within the baroque axes and groves of Oranjewoud — the \"Frisian Versailles\" laid out for Albertine Agnes from 1684. Bought and transformed by merchant Pieter Cats in 1820, the house and its grounds remain private, but they sit inside the publicly walkable park fabric: avenues, canals, follies and the Museum Belvédère next door. Oranjestein is the quiet, cultivated heart of the whole ensemble.",
+      "meta": "Best Season & Peak Months: Apr–Jun & Sep–Oct Best Time of Day: Afternoon — combine with museum & park walks.",
+      "why_visit": [
+        "Walk the Oranjewoud avenues past Oranjestein's screen of old trees.",
+        "The wider park: Landgoed Oranjewoud, Museum Belvédère, the princesses' lanes."
+      ],
+      "periodic_phenomena": [
+        "Apr–May 🌸 Park spring flora under the avenue trees.",
+        "Jun–Aug 🎭 Oranjewoud's summer concerts & museum season."
+      ],
+      "wildlife": [
+        "🐦 Nuthatch, woodpeckers & parkland songsters",
+        "🐿️ Red squirrel in the groves",
+        "🌳 300-year-old avenue trees"
+      ],
+      "trailheads": [
+        "Park at Museum Belvédère / Landgoed Oranjewoud; estate core private — enjoy from the public park paths."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Park free (museum paid) · ⚠️ House & gardens not open to the public"
+    },
+    "number": 217,
+    "name": "Oranjestein"
+  },
+  {
+    "id": 218,
+    "nl": {
+      "tags": [
+        "Zuid-Holland · Hoeksche Waard (Strijen)",
+        "🇪🇺 Natura 2000 Oudeland van Strijen (gebied 110)",
+        "list 8 · no. 1"
+      ],
+      "location": "📍 Open kleipolders rond Strijen — vogelhut Oude Gemaal, nieuwe IJsvogelroute vanaf de Ritselaarsdijk",
+      "description": "Eén van de meest kaal-trotse polderlandschappen van West-Nederland: 1.568 ha oude graslanden zonder boom of huis in zicht, eeuwenlang licht bewerkt en daarom nog altijd de hongerige winterzwermen voedend. Staatsbosbeheer bezit een derde, boeren de rest — ganzenbeheer en weidevogelzorg gaan snavel aan snavel. Sinds 2024 openen een nieuw vogelkijkscherm en de IJsvogelroute de stille noordkant, en het gerestaureerde gemaal Oude Gemaal (2006) dient als vogelhut.",
+      "meta": "Beste seizoen & piekmaanden: nov–feb (ganzen, dwerggans!) & apr–jun (weidevogels) Beste tijd van de dag: Wintermiddagen in de hut van het gemaal; slechtvalk duikend bij schemering.",
+      "natura2000": "🇪🇺 Natura 2000 Oudeland van Strijen — gebied 110, Vogelrichtlijn NL9802103, 1.568 ha. Aangewezen voor duizenden overwinterende brand- en kolganzen (slaap in Haringvliet/Hollandsch Diep), smient, en — uitzonderlijk — groepen dwergganzen (50+ vogels nov–feb): één van Nederlands belangrijkste pleisterplaatsen voor deze zeldzame soort. De trek brengt duizenden gouden plevieren en kievieten; slechtvalk en af en toe zeearend jagen op de concentraties.",
+      "why_visit": [
+        "De dwerggans-zoektocht — scan in december–januari de groepen grauwe ganzen op de gele oogring.",
+        "Vogelhut Oude Gemaal en de IJsvogelroute van 2024 langs roerdomp-en-blauwborst-moerassen bij de Lage Vliet.",
+        "Dijklus (±19 km wandelen/fietsen) door een openheid die eeuwen oud aanvoelt."
+      ],
+      "periodic_phenomena": [
+        "Nov–Feb 🪿 Ganzen- & smienten-winterschouwspel; koperwieken, sijsjes en kramsvogels op doortrek.",
+        "Apr–Jun 🥚 Grutto's, tureluurs & kieviten in de natte graslanden."
+      ],
+      "wildlife": [
+        "🪿 Brand-, kol- & dwerggans",
+        "🦅 Slechtvalk (winter) & zeldzame zeearend",
+        "🐦 Roerdomp & bruine kiekendief in de rietranden"
+      ],
+      "trailheads": [
+        "Oude Gemaal (Strijen) voor de hut; Ritselaarsdijk voor de IJsvogelroute; dijkwegen voor de volledige lus."
+      ],
+      "footer": "🐶 Honden verboden in het reservaat · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Zuid-Holland · Hoeksche Waard (Strijen)",
+        "🇪🇺 Natura 2000 Oudeland van Strijen (site 110)",
+        "list 8 · no. 1"
+      ],
+      "location": "📍 Open clay polders around Strijen — Oude Gemaal bird hide, new Kingfisher Route (IJsvogelroute) from the Ritselaarsdijk",
+      "description": "One of the most desolate-and-proud polder landscapes of western Netherland: 1,568 ha of old grasslands without a tree or house in sight, farmed lightly for centuries and therefore still feeding the winter's hungry flocks. Staatsbosbeheer owns a third, farmers the rest — goose management and meadow-bird care go beak-in-hand. Since 2024 a new vogelkijkscherm and IJsvogelroute open the quiet north side, and the restored Oude Gemaal pumping station (2006) doubles as a bird hide.",
+      "meta": "Best Season & Peak Months: Nov–Feb (geese, lesser white-fronted goose!) & Apr–Jun (meadow birds) Best Time of Day: Winter afternoons at the Gemaal hide; peregrine stooping at dusk.",
+      "natura2000": "🇪🇺 Natura 2000 Oudeland van Strijen — site 110, Vogelrichtlijn NL9802103, 1,568 ha. Designated for thousands of wintering barnacle and white-fronted geese (roosting in Haringvliet/Hollandsch Diep), wigeon, and — exceptionally — groups of lesser white-fronted geese (dwerggans, 50+ birds Nov–Feb): one of the Netherlands' most important stations for this rare species. Migration brings thousands of golden plovers and lapwings; peregrine and occasionally sea eagle hunt the concentrations.",
+      "why_visit": [
+        "The dwerggans search — scan the grey-lag flocks in December–January for the yellow eye-ring.",
+        "Oude Gemaal bird hide and the 2024 Kingfisher Route past bittern-and-bluethroat marshes along the Lage Vliet.",
+        "Dike circuit (±19 km walk/cycle) through an openness that feels centuries old."
+      ],
+      "periodic_phenomena": [
+        "Nov–Feb 🪿 Goose & wigeon wintering spectacle; redwings, siskins and fieldfares on passage.",
+        "Apr–Jun 🥚 Godwits, redshanks & lapwings in the wet grasslands."
+      ],
+      "wildlife": [
+        "🪿 Barnacle, white-fronted & lesser white-fronted geese",
+        "🦅 Peregrine (winter) & rare sea eagle",
+        "🐦 Bittern & brown harrier in the reed fringes"
+      ],
+      "trailheads": [
+        "Oude Gemaal (Strijen) for the hide; Ritselaarsdijk for the IJsvogelroute; dike roads for the full circuit."
+      ],
+      "footer": "🐶 Dogs prohibited in the reserve · 💶 Free"
+    },
+    "number": 218,
+    "name": "Oudeland van Strijen"
+  },
+  {
+    "id": 219,
+    "nl": {
+      "tags": [
+        "Zuid-Holland · Dordrecht (Hollandse Biesbosch)",
+        "130-ha stadsbos, aangeplant 1987 (SBB)",
+        "list 8 · no. 2"
+      ],
+      "location": "📍 Noorderelsweg 6a, Dordrecht — tussen de stad en de Nieuwe Dordtse Biesbosch; speelbos op het terrein",
+      "description": "De groene achtertuin van Dordrecht: een 130-ha bos, aangeplant in 1987 op Biesbosch-klei, ooit een strak populierenproductieraster en nu bewust verruwd tot gevarieerd, natuurlijk bos met slingerpaden, open plekken en dood hout. Schoolklassen planten hier met de boswachters zwarte noten; families veroveren het speelbos met zijn touwbruggen over de kreekjes; en in mei verbergt het bos één van de dichtste wielewaal-koren van de regio.",
+      "meta": "Beste seizoen & piekmaanden: mei–jun (nachtegaal, wielewaal) Beste tijd van de dag: Vroege ochtend voor het zangvogelkoor.",
+      "why_visit": [
+        "Wielewaal & nachtegaal binnen gehoorsafstand van een grote stad.",
+        "Het water-thema speelbos: stapstenen, touwbruggen en een sensatiepad.",
+        "Groene wandelroute (6 km) die doorloopt naar het Biesbosch-krekenlandschap."
+      ],
+      "periodic_phenomena": [
+        "Mei–Jun 🎶 Nachtegaal- & wielewaalpiek.",
+        "Aug–Nov 🌳 Dunnings- & verjongingswerk openen het bosdak (transformatie 2025–26)."
+      ],
+      "wildlife": [
+        "🐦 Wielewaal, nachtegaal & tuinfluiter",
+        "🦌 Ree & vos op de slingerpaden",
+        "🌳 Zwarte noot, eik, beuk & zwarte els"
+      ],
+      "trailheads": [
+        "Park aan de Noorderelsweg (Dordrecht); eetcafé De Viersprong vlakbij; combineer met de routes van Biesboschcentrum Drimmelen."
+      ],
+      "footer": "🐶 Honden aan de lijn (speelbos: geen honden behalve hulphonden) · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Zuid-Holland · Dordrecht (Hollandse Biesbosch)",
+        "130-ha city forest, planted 1987 (SBB)",
+        "list 8 · no. 2"
+      ],
+      "location": "📍 Noorderelsweg 6a, Dordrecht — between the city and the Nieuwe Dordtse Biesbosch; speelbos on site",
+      "description": "Dordrecht's green back garden: a 130-ha forest planted in 1987 on Biesbosch clay, once a rigid poplar production grid and now deliberately roughed up into a varied, natural forest with winding paths, clearings and dead wood. School classes plant black walnuts here with the foresters; families conquer the speelbos with its rope swings over the creeks; and in May the woods hide one of the region's densest golden oriole choruses.",
+      "meta": "Best Season & Peak Months: May–Jun (nightingale, oriole) Best Time of Day: Early morning for the songbird chorus.",
+      "why_visit": [
+        "Golden oriole & nightingale within earshot of a big city.",
+        "The water-themed speelbos: stepping stones, rope swings and a sense-experience path.",
+        "Green walking route (6 km) linking to the Biesbosch creek landscape."
+      ],
+      "periodic_phenomena": [
+        "May–Jun 🎶 Nightingale & oriole peak.",
+        "Aug–Nov 🌳 Thinning & regeneration works open the forest canopy (2025–26 transformation)."
+      ],
+      "wildlife": [
+        "🐦 Golden oriole, nightingale & garden warbler",
+        "🦌 Roe deer & fox on the winding paths",
+        "🌳 Black walnut, oak, beech & black alder"
+      ],
+      "trailheads": [
+        "Park at Noorderelsweg (Dordrecht); eetcafé De Viersprong nearby; combine with the Biesboschcentrum Drimmelen routes."
+      ],
+      "footer": "🐶 Dogs on leash (speelbos: no dogs except assistance) · 💶 Free"
+    },
+    "number": 219,
+    "name": "De Elzen"
+  },
+  {
+    "id": 220,
+    "nl": {
+      "tags": [
+        "Noord-Brabant & Zuid-Holland · Drimmelen–Dordrecht–Werkendam",
+        "🇪🇺 Natura 2000 Biesbosch (gebied 112) · Nationaal Park",
+        "9.700-ha zoetwatergetij-delta · list 8 · no. 3"
+      ],
+      "location": "📍 Tussen de rivieren: Brabantse, Dordtse en Sliedrechtse Biesbosch — bezoekerseilanden bij Drimmelen, Dordrecht en Werkendam",
+      "description": "Het wilde hart van de Rijn-Maas-delta: 9.700 ha kreken, wilgenvloedbossen, rietlanden en slikplaten — één van West-Europas laatste zoetwatergetijdengebieden, waar het water nog steeds 20–70 cm tweemaal per dag ademt. Geboren uit de Sint-Elisabethsvloed van 1421, vormgegeven door griendbazen en rietmaaiers, en herboren als nationaal park waar de bever het landschap bouwt en zeearenden boven de kreken patrouilleren. Een park dat je per boot, fluisterboot of via de beperkte wandelroutes van de Brabantse eilanden betreedt.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun & sep–okt; het getij-schema slaat de klok Beste tijd van de dag: Ochtendpaddle; vallend water op de slikplaten.",
+      "natura2000": "🇪🇺 Natura 2000 Biesbosch — gebied 112 (Habitat- & Vogelrichtlijn), Nationaal Park. Habitats & soorten: H91E0a zachthoutooibos (wilgenvloedbos — mogelijk het belangrijkste gebied van NW-Europa), H6430B ruige oeverzoomen, H3270 modderige rivieroever met getijpioniers, H1103 fint- en rivierprikwateren, mos H1387 tonghaarmuts, H1337 bever; verder Noordse woelmuis, grote modderkruiper, ijsvogel, blauwborst, grote karekiet; visarend & zeearend boven de kreken.",
+      "why_visit": [
+        "Bever-safari bij schemering — burchten, sporen en gekapte wilgen overal.",
+        "Zeearend & visarend boven het open water (zie ze vanaf de veerpont).",
+        "Griendcultuur: de geoogste wilgenvelden, rietlanden en de eendenkooi van de Dordtse kant.",
+        "Roeiboot-veerponten naar de Brabantse Biesbosch-eilanden (bezoekersaantallen gelimiteerd — reserveer vooraf)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Blauwborst- & grote karekiet-koor; beverwelpen.",
+        "Sep–Okt 🌾 Riet- & griendoogst; zalmachtige vispassage op het getij.",
+        "Nov–Feb 🪿 Ganzen & smient; vorstpanorama's als de kreken dichtvriezen."
+      ],
+      "wildlife": [
+        "🐺 Bever — de ingenieur van het park",
+        "🦅 Zeearend & visarend",
+        "🐦 Ijsvogel & blauwborst",
+        "🌿 Getijpioniers op de slikplaten"
+      ],
+      "trailheads": [
+        "Biesboschcentrum Drimmelen (route De Worp, nr. 229); bezoekerscentrum Dordtse Biesbosch (De Elzen ernaast); Eiland van Dordrecht & Werkendam-kant voor de Brabantse eilanden."
+      ],
+      "footer": "🐶 Honden verboden in de kernreservaten · 💶 Gratis; veerpont/fluisterboot betaald · ⚠️ Brabantse eilanden: beperkte bezoekersaantallen & alleen gemarkeerde routes"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant & Zuid-Holland · Drimmelen–Dordrecht–Werkendam",
+        "🇪🇺 Natura 2000 Biesbosch (site 112) · National Park",
+        "9,700-ha freshwater tidal delta · list 8 · no. 3"
+      ],
+      "location": "📍 Between the rivers: Brabantse, Dordtse and Sliedrechtse Biesbosch — visitor islands at Drimmelen, Dordrecht and Werkendam",
+      "description": "The Rhine–Meuse delta's wild heart: 9,700 ha of creeks, willow flood-forests, reed lands and tidal flats — one of Western Europe's last freshwater tidal areas, where the water still breathes 20–70 cm twice a day. Born from the St. Elisabeth flood of 1421, shaped by griend farmers and reed cutters, and reborn as a national park where the beaver engineers the landscape and sea eagles patrol the creeks. A park you enter by boat, whisper-craft or on the limited walking routes of the Brabantse islands.",
+      "meta": "Best Season & Peak Months: Apr–Jun & Sep–Oct; tide table beats the clock Best Time of Day: Dawn paddle; falling tide on the slik plates.",
+      "natura2000": "🇪🇺 Natura 2000 Biesbosch — site 112 (Habitat- & Vogelrichtlijn), National Park. Habitats & species: H91E0a softwood alluvial forests (willow flood forest — possibly the most important area in NW Europe), H6430B tall-herb riverbanks, H3270 muddy river shores with tidal pioneers, H1103 fint and river lamprey waters, moss H1387 tonghaarmuts, H1337 beaver; further Northern vole, weather loach, kingfisher, bluethroat, great reed warbler; osprey & white-tailed eagle over the creeks.",
+      "why_visit": [
+        "Beaver safari at dusk — lodges, trails and felled willows everywhere.",
+        "Sea eagle & osprey over the open water (ship them from the ferry).",
+        "Griend culture: the harvested willow fields, reed lands and the duck decoy of the Dordtse side.",
+        "Rowing-boat ferries to the Brabantse Biesbosch islands (visitor numbers capped — book ahead)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Bluethroat & great reed warbler chorus; beaver kits.",
+        "Sep–Oct 🌾 Reed & willow harvest; salmonid fish passage on the tides.",
+        "Nov–Feb 🪿 Geese & smient; frost panoramas when the creeks freeze."
+      ],
+      "wildlife": [
+        "🐺 Beaver — the park's engineer",
+        "🦅 White-tailed eagle & osprey",
+        "🐦 Kingfisher & bluethroat",
+        "🌿 Tidal pioneers on the slik plates"
+      ],
+      "trailheads": [
+        "Biesboschcentrum Drimmelen (De Worp route, no. 229); bezoekerscentrum Dordtse Biesbosch (De Elzen next door); Eiland van Dordrecht & Werkendam sides for the Brabantse islands."
+      ],
+      "footer": "🐶 Dogs prohibited in the core reserves · 💶 Free; ferry/whisper-boat paid · ⚠️ Brabantse islands: capped visitor numbers & marked routes only"
+    },
+    "number": 220,
+    "name": "De Biesbosch, Nationaal Park"
+  },
+  {
+    "id": 221,
+    "nl": {
+      "tags": [
+        "Noord-Brabant / Zeeland / Zuid-Holland · Krammer & Volkerak",
+        "🇪🇺 Natura 2000 Krammer-Volkerak (gebied 114 — aanwijzing in procedure)",
+        "list 8 · no. 4"
+      ],
+      "location": "📍 Het grote heldere-watermeer tussen Philipsdam, Volkerakdam en de Brabantse oever — dijken bij Oudemolen en de Kreeftkruidpolder",
+      "description": "Een jonge zee die meer werd: afgedamd in 1987 als onderdeel van de Deltawerken, ontwikkelde het Krammer-Volkerak zich tot een onverwacht helder, plantenrijk brak binnenzee-meer van 6.081 ha met zandplaten, schelpstranden en donkerblauwe geulen. BirdLife waardeert het als Important Bird Area; vogelaars als één van de beste allround wateren van de delta. Sinds 2017 telt het formeel als Natura 2000-gebied 114 (definitief ministerieel besluit ligt op papier nog te wachten — het beschermingsregime geldt).",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (sternen & kluten) & sep–nov (ruïende watervogels); feb–mrt (rotganzen) Beste tijd van de dag: Ochtend vanaf de dijken; avondlijke ganzenvluchten.",
+      "natura2000": "🇪🇺 Natura 2000 Krammer-Volkerak — gebied 114, Vogelrichtlijn (sinds 1995, heraangewezen) + Habitatrichtlijn (ontwerp-aanwijzingsbesluit 30 jun 2017; definitief besluit in procedure). IBA voor rotgans, grote & kleine zilverreiger, kluut, knobbelzwaan, krakeend, kuifeend, tafeleend, pijlstaart, slobeend, meerkoet, kokmeeuw & lepelaar (~100 recente broedparen). Vijf habitattypen incl. brakke pionieroeveren; bever en meervleermuis aanwezig maar (betwist) niet in het ontwerpbesluit.",
+      "why_visit": [
+        "Zandplaat-sternen en dwergsternen boven de heldere ondieptes.",
+        "Lepelaar- & reigerkolonies op de eilandjes — neem een telescoop naar de Kreeftkruidpolder-dijk.",
+        "De onwerkelijke helderheid: zeegrasvelden en kranswier onder je kajak."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Kluut-, stern- & lepelaarbroed op de platen.",
+        "Sep–Nov 🦆 Rui- & trekgroepen van eenden en koeten.",
+        "Feb–Mrt 🪿 Rotganzen tankend voor de vlucht naar Siberië."
+      ],
+      "wildlife": [
+        "🥄 Lepelaarkolonie (~100 paren)",
+        "🕊️ Grote & kleine zilverreigers",
+        "🌿 Kranswieren & zeegras in helder water",
+        "🐺 Bever in de rietranden"
+      ],
+      "trailheads": [
+        "Dijkwandelingen vanaf Oudemolen en de Kreeftkruidpolder (Brabantse oever); kijken vanaf de dammen van Philipsdam & Volkerakdam; kajakroutes vanaf de jachthavens."
+      ],
+      "footer": "🐶 Honden aan de lijn, niet storen op de platen · 💶 Gratis · ⚠️ Broedplaten strikt verboden apr–jul"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant / Zeeland / Zuid-Holland · Krammer & Volkerak",
+        "🇪🇺 Natura 2000 Krammer-Volkerak (site 114 — designation pending)",
+        "list 8 · no. 4"
+      ],
+      "location": "📍 The great clear-water lake between Philipsdam, Volkerakdam and the Brabant shore — dikes at Oudemolen and the Kreeftkruidpolder",
+      "description": "A young sea turned lake: dammed in 1987 as part of the Delta Works, the Krammer-Volkerak became an unexpectedly clear, plant-rich brackish inland sea of 6,081 ha with sand plates, shell beaches and dark blue channels. BirdLife rates it an Important Bird Area; birders rate it one of the delta's best all-round waters. Since 2017 it formally counts as Natura 2000 site 114 (final ministerial decree still pending on paper — the protection regime applies).",
+      "meta": "Best Season & Peak Months: Apr–Jun (terns & avocets) & Sep–Nov (moulting waterfowl); Feb–Mar (brant geese) Best Time of Day: Morning from the dikes; evening goose flights.",
+      "natura2000": "🇪🇺 Natura 2000 Krammer-Volkerak — site 114, Vogelrichtlijn (since 1995, re-designated) + Habitatrichtlijn (draft aanwijzingsbesluit 30 Jun 2017; final decree pending). An IBA for brant goose, great & little egret, avocet, mute swan, gadwall, tufted duck, pochard, pintail, shoveler, coot, black-headed gull & spoonbill (~100 recent breeding pairs). Five habitat types incl. brackish pioneer shores; beaver and pond bat present but (contested) not in the draft decree.",
+      "why_visit": [
+        "Sand-plate terns and little terns hovering the clear shallows.",
+        "Spoonbill & egret colonies on the islands — bring a telescope to the Kreeftkruidpolder dike.",
+        "The unreal clarity: seagrass meadows and stonewort fields under your kayak."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Avocet, tern & spoonbill breeding on the plates.",
+        "Sep–Nov 🦆 Moult & migration gatherings of ducks and coots.",
+        "Feb–Mar 🪿 Brant geese fuelling up for the Siberian flight."
+      ],
+      "wildlife": [
+        "🥄 Spoonbill colony (~100 pairs)",
+        "🕊️ Great & little egrets",
+        "🌿 Stoneworts & seagrass in clear water",
+        "🐺 Beaver in the reed margins"
+      ],
+      "trailheads": [
+        "Dike walks from Oudemolen and the Kreeftkruidpolder (Brabant shore); viewing from the Philipsdam & Volkerakdam causeways; kayak routes from the marinas."
+      ],
+      "footer": "🐶 Dogs on leash, avoid plate disturbances · 💶 Free · ⚠️ Breeding plates strictly off-limits Apr–Jul"
+    },
+    "number": 221,
+    "name": "Krammer Volkerak"
+  },
+  {
+    "id": 222,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (Heijningen)",
+        "brakke gorzen + 19e-eeuws inundatiefort (SBB)",
+        "list 8 · no. 5"
+      ],
+      "location": "📍 Achter de Volkerakdijk bij Heijningen — fort bereikbaar via de 10-km-wandeling Mauritshuis–Fort Sabina; pont naar Fort Frederik",
+      "description": "Waar militaire geschiedenis en getijdennatuur een loopgraaf delen. De St. Anthoniegorzen zijn brakke, door runderen begraasde moerassen buitendijks — bewust ontoegankelijk gehouden als vogelreservaat van de Stelling van Willemstad (het inundatiestelsel van de Zuiderwaterlinie, waarvan de inundatiesluis nog altijd tussen polder en gorzen staat). Buurfort Sabina Henkensagt, het 19e-eeuwse aarden werk met zijn in restauratie zijnde torpedobotenloods, vertelt het verhaal van torpedisten en pontonniers — en zijn brasserie levert de brandstof voor de wandeling terug.",
+      "meta": "Beste seizoen & piekmaanden: okt–mrt (wintergasten) & apr–jun (weidevogels) Beste tijd van de dag: Middag voor het fort; ochtend voor het vogelen vanaf de dijk.",
+      "natura2000": "Direct ten oosten begint Natura 2000 Krammer-Volkerak (gebied 114); de gorzen zelf zijn SBB-reservaat zonder Europese aanwijzing.",
+      "why_visit": [
+        "De wallen van Fort Sabina, de botenloods en het inundatiesluis-verhaal van de Zuiderwaterlinie.",
+        "De gorzen veilig bekeken vanaf de dijk: winterganzen en roofvogels boven het brakke gras.",
+        "Neem de pont naar Fort Frederik voor de volledige Stelling-ervaring."
+      ],
+      "periodic_phenomena": [
+        "Okt–Mrt 🪿 Overwinterende ganzen & eenden op het moeras.",
+        "Apr–Jun 🥚 Weidevogels van de Sabinapolder."
+      ],
+      "wildlife": [
+        "🪿 Ganzen & smienten op de gorzen",
+        "🦅 Kiekendieven boven het moeras",
+        "🌾 Brak grasland met zouttolerante flora"
+      ],
+      "trailheads": [
+        "Wandel vanaf Willemstad (Mauritshuis) of park bij Fort Sabina, Heijningen; de gorzen zelf gesloten."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis; brasserie betaald · ⚠️ Kern Anthoniegorzen het jaar door gesloten"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (Heijningen)",
+        "brackish gorzen + 1880s inundation fort (SBB)",
+        "list 8 · no. 5"
+      ],
+      "location": "📍 Behind the Volkerakdijk at Heijningen — fort reached via the 10-km Mauritshuis–Fort Sabina walk; pont to Fort Frederik",
+      "description": "Where military history and tidal nature share a trench. The St. Anthoniegorzen are brackish, cattle-grazed marshes outside the old sea dike — deliberately kept inaccessible as a bird sanctuary of the Stelling van Willemstad (the Zuiderwaterlinie's inundation system, whose inundation sluice still sits between polder and gorzen). Neighbouring Fort Sabina Henkensagt, the 19th-century earthwork with its torpedo-boat shed under restoration, tells the story of torpedists and pontonniers — and its brasserie fuels the walk back.",
+      "meta": "Best Season & Peak Months: Oct–Mar (winter guests) & Apr–Jun (meadow birds) Best Time of Day: Afternoon fort visit; morning dike birding.",
+      "natura2000": "Just east the Natura 2000 Krammer-Volkerak (site 114) begins; the gorzen themselves are SBB reserve without European designation.",
+      "why_visit": [
+        "Fort Sabina's ramparts, botenloods and the inundation-sluice story of the Zuiderwaterlinie.",
+        "The gorzen viewed safely from the dike: winter geese and raptors over the brackish grass.",
+        "Take the pont across to Fort Frederik for the full Stelling experience."
+      ],
+      "periodic_phenomena": [
+        "Oct–Mar 🪿 Wintering geese & ducks on the marsh.",
+        "Apr–Jun 🥚 Meadow birds of the Sabinapolder."
+      ],
+      "wildlife": [
+        "🪿 Geese & wigeon on the gorzen",
+        "🦅 Harriers over the marsh",
+        "🌾 Brackish grassland with salt-tolerant flora"
+      ],
+      "trailheads": [
+        "Walk from Willemstad (Mauritshuis) or park at Fort Sabina, Heijningen; gorzen themselves closed."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free; brasserie paid · ⚠️ Anthoniegorzen core closed year-round"
+    },
+    "number": 222,
+    "name": "Anthoniegorzen en Fort Sabina"
+  },
+  {
+    "id": 223,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (ten westen van Willemstad)",
+        "54-ha voormalige gorzen (SBB)",
+        "list 8 · no. 6"
+      ],
+      "location": "📍 Tussen het Volkerak en het Hollandsch Diep, ten westen van Willemstad",
+      "description": "Een stille deltazak van 54 ha die Rijkswaterstaat als gorzen herwon en in de jaren 1990 aan de natuur gaf. Buitendijkse graslanden, wilgenstruweel en ondiepe oevers — half fort, half boerderij van de oude delta: grazende ganzen in de winter, steltlopers op trek, en aan de ene kant het brede water van het Volkerak en aan de andere het historische vestingstadje Willemstad.",
+      "meta": "Beste seizoen & piekmaanden: okt–mrt & apr–mei Beste tijd van de dag: Avondwandeling vanaf de wallen van Willemstad.",
+      "why_visit": [
+        "Combineer vestingstad Willemstad, dijkgezichten en deltavogels in één lus.",
+        "Oever-steltlopers op trek; beversporen in het wilgenstruweel."
+      ],
+      "periodic_phenomena": [
+        "Okt–Mrt 🪿 Winterganzen.",
+        "Apr–Mei 🪽 Steltlopertrek op de platen."
+      ],
+      "wildlife": [
+        "🪿 Ganzen & smienten",
+        "🐦 Blauwborst in het wilgenstruweel",
+        "🌊 Getijdenoever-vegetatie"
+      ],
+      "trailheads": [
+        "Park bij Willemstad (Vesting) en wandel de dijk westwaarts."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (west of Willemstad)",
+        "54-ha former gorzen (SBB)",
+        "list 8 · no. 6"
+      ],
+      "location": "📍 Between the Volkerak and the Hollandsch Diep west of Willemstad",
+      "description": "A quiet delta pocket of 54 ha that Rijkswaterstaat reclaimed as gorzen and handed to nature in the 1990s. Outside-dike grasslands, willow scrub and shallow shores — half fort, half farm of the old delta: grazing geese in winter, waders on passage, and the broad water of the Volkerak on one side and the historic fortress-town Willemstad on the other.",
+      "meta": "Best Season & Peak Months: Oct–Mar & Apr–May Best Time of Day: Evening walk from Willemstad's ramparts.",
+      "why_visit": [
+        "Combine fortress-town Willemstad, dike views and delta birds in one circuit.",
+        "Shore waders on migration; beaver signs in the willow scrub."
+      ],
+      "periodic_phenomena": [
+        "Oct–Mar 🪿 Winter geese.",
+        "Apr–May 🪽 Shorebird passage on the flats."
+      ],
+      "wildlife": [
+        "🪿 Geese & wigeon",
+        "🐦 Bluethroat in the willow scrub",
+        "🌊 Tidal shore vegetation"
+      ],
+      "trailheads": [
+        "Park at Willemstad (Vesting) and walk the dike westward."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free"
+    },
+    "number": 223,
+    "name": "Vlaakenhoek"
+  },
+  {
+    "id": 224,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (ZO van Willemstad)",
+        "43-ha polderpercelen (SBB)",
+        "list 8 · no. 7"
+      ],
+      "location": "📍 Polder Ruigenhil, ten zuidoosten van Willemstad — genoemd naar het verdronken voorgangerdorp van Willemstad",
+      "description": "Vier kleine Staatsbosbeheer-percelen (samen 43 ha) in een polder die de naam draagt van het dorp dat verdronk toen Willemstad werd aangelegd — \"ruwe hil\", de ruige heuvel. Ruig is het gebleven: nat grasland, sloten en slootbomen, beheerd voor weidevogels en winterende watervogels, op een steenworp van de Volkerakdijken.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun; nov–feb Beste tijd van de dag: Ochtendbalt; winterse ganzen-uren.",
+      "why_visit": [
+        "Weidevogelvelden op verdronken-dorpsgrond — archeologie onder elke kievit.",
+        "Makkelijke fietsaanvulling tussen Willemstad, Fort Sabina (nr. 222) en de Krammer-dijken (nr. 221)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Weidevogelseizoen.",
+        "Nov–Feb 🪿 Ganzen & smienten op de natte velden."
+      ],
+      "wildlife": [
+        "🐦 Kievit, tureluur & grutto",
+        "🦉 Kerkuil boven de percelen",
+        "🌾 Slootkant-flora"
+      ],
+      "trailheads": [
+        "Park bij Willemstad of Helwijk; bekijk de percelen vanaf de polderwegen."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ⚠️ Kleine verspreide percelen — kijken vanaf de weg"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (SE of Willemstad)",
+        "43-ha polder parcels (SBB)",
+        "list 8 · no. 7"
+      ],
+      "location": "📍 Polder Ruigenhil, southeast of Willemstad — named after the drowned predecessor village of Willemstad",
+      "description": "Four small Staatsbosbeheer parcels (43 ha together) in a polder that carries the name of the village that drowned when Willemstad was raised — \"ruwe hil\", the rough mound. Rough it has stayed: wet grassland, ditches and ditch-side trees managed for meadow birds and wintering waterfowl, a stone's throw from the Volkerak dikes.",
+      "meta": "Best Season & Peak Months: Apr–Jun; Nov–Feb Best Time of Day: Morning displays; winter goose hours.",
+      "why_visit": [
+        "Meadow-bird fields on drowned-village ground — archaeology under every lapwing.",
+        "Easy bicycle add-on between Willemstad, Fort Sabina (no. 222) and the Krammer dikes (no. 221)."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Meadow-bird season.",
+        "Nov–Feb 🪿 Geese & smient on the wet fields."
+      ],
+      "wildlife": [
+        "🐦 Lapwing, redshank & godwit",
+        "🦉 Barn owl over the parcels",
+        "🌾 Ditch-side flora"
+      ],
+      "trailheads": [
+        "Park at Willemstad or Helwijk; view the parcels from the polder roads."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ⚠️ Small scattered parcels — road-side viewing"
+    },
+    "number": 224,
+    "name": "Ruigenhil"
+  },
+  {
+    "id": 225,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (Klundert–Willemstad)",
+        "208-ha buitendijkse landen (SBB)",
+        "list 8 · no. 8"
+      ],
+      "location": "📍 De lange buitendijkse strook langs de noord-Brabantse oever van het Hollandsch Diep, tussen Klundert en Willemstad",
+      "description": "208 hectare land dat aan de rivier toebehoort eerder dan aan de dijk: buitengorzen — buitendijkse graslanden, riet en zich ontwikkelend wilgen-getijbos langs het brede Hollandsch Diep. Gebegraasd, gemaaid en overgelaten aan het getij, buffert deze groene rand de polder en voedt de winterzwermen; vanaf de dijk kijk je over het water naar de Hoeksche Waard en het eiland Sassenplaat (nr. 227).",
+      "meta": "Beste seizoen & piekmaanden: okt–mrt (ganzen); apr–jun (rietvogels) Beste tijd van de dag: Avondlijke ganzenvluchten langs het water.",
+      "natura2000": "De overliggende wateren dragen Natura 2000-status (Hollandsch Diep / Oudeland van Strijen); de strook zelf is niet-aangewezen SBB-natuur.",
+      "why_visit": [
+        "Dijkwandeling over de volle lengte Klundert→Willemstad met deltapanorama's.",
+        "Beversporen en blauwborsten in de wilgenranden."
+      ],
+      "periodic_phenomena": [
+        "Okt–Mrt 🪿 Overwinterende ganzen & smienten.",
+        "Mei–Jun 🎶 Rietzangers."
+      ],
+      "wildlife": [
+        "🪿 Ganzen & eenden op de buitenlanden",
+        "🐦 Blauwborst & rietgors",
+        "🌿 Getijpioniers op de oevers"
+      ],
+      "trailheads": [
+        "Toegang vanaf de dijk bij Klundert, parkeren aan de Fijnaartse kant of Willemstad; fietsroute over de dijktop."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ⚠️ Natte, getij-aangetaste paden — laarzen"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (Klundert–Willemstad)",
+        "208-ha outside-dike lands (SBB)",
+        "list 8 · no. 8"
+      ],
+      "location": "📍 The long outside-dike strip along the north Brabant shore of the Hollandsch Diep, between Klundert and Willemstad",
+      "description": "208 hectares of land that belongs to the river rather than to the dike: buitengorzen — outside-dike grasslands, reed and developing willow tidal forest along the broad Hollandsch Diep. Grazed, mown and left to the tides, this green fringe buffers the polder and feeds the winter flocks; from the dike you look across the water to the Hoeksche Waard and the Sassenplaat island (no. 227).",
+      "meta": "Best Season & Peak Months: Oct–Mar (geese); Apr–Jun (reed birds) Best Time of Day: Evening goose flights along the water.",
+      "natura2000": "The opposite waters carry Natura 2000 status (Hollandsch Diep / Oudeland van Strijen); the strip itself is undesignated SBB nature.",
+      "why_visit": [
+        "Dike-top walking the full length Klundert→Willemstad with delta panoramas.",
+        "Beaver evidence and bluethroats in the willow fringes."
+      ],
+      "periodic_phenomena": [
+        "Oct–Mar 🪿 Wintering geese & wigeon.",
+        "May–Jun 🎶 Reed-bed songsters."
+      ],
+      "wildlife": [
+        "🪿 Geese & ducks on the buitenlanden",
+        "🐦 Bluethroat & reed bunting",
+        "🌿 Tidal pioneer plants on the shores"
+      ],
+      "trailheads": [
+        "Access from the dike at Klundert, Fijnaart-side parking or Willemstad; cycling route on the dike crest."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ⚠️ Wet, tide-brushed paths — boots"
+    },
+    "number": 225,
+    "name": "Buitengorzen"
+  },
+  {
+    "id": 226,
+    "nl": {
+      "tags": [
+        "Zuid-Holland · Hoeksche Waard (ten westen van Strijensas)",
+        "nieuwe getijdeoever-natuur, 2006 (SBB)",
+        "list 8 · no. 9"
+      ],
+      "location": "📍 Zuidelijkste punt van de Hoeksche Waard, langs het Hollandsch Diep tegenover de Moerdijk-industrie — paalkampeerpalen op het terrein",
+      "description": "Nieuwe natuur met industriële skyline. Geopend in 2006, ontwilderden de Oeverlanden de zuidoever van de Hoeksche Waard: getij-inlaten die de oude dijklijn doorbreken, rietkragen, wilgenstruweel en begrazingsmoeras langs een getijrivier — met de torens van Moerdijk tegen de lucht aan de overkant, een vreemd-mooi contrast. Wildkampeerpalen, 6,5 km deels doorweekte paden, en bevers aan het werk op de Zeehondenplaat.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun & sep–nov Beste tijd van de dag: Dageraad voor bever- en ottersporen; zonsondergang tegen de industrie.",
+      "natura2000": "Aangrenzend aan Natura 2000-wateren (Hollandsch Diep / Oudeland van Strijen, gebied 110); het oeverreservaat zelf is SBB-NNN-natuur.",
+      "why_visit": [
+        "Zeldzame zoetwater-getijplanten die de gaten in de oude dijk koloniseren.",
+        "Bever en hun dammen op de Zeehondenplaat.",
+        "Paalkamperen: slapen in het riet met het getij als slaaplied."
+      ],
+      "periodic_phenomena": [
+        "Mei–Jun 🎶 Rietzanger- & blauwborstkoor.",
+        "Sep–Nov 🪿 Trekganzen & steltlopers op de platen."
+      ],
+      "wildlife": [
+        "🐺 Bever op de platen",
+        "🐝 Wilde bijen & hommels in de oude dijk",
+        "🌊 Getij-oeverpioniers"
+      ],
+      "trailheads": [
+        "Park bij Strijensas; ±6,5 km rondwandeling; laarzen voor de natte delen."
+      ],
+      "footer": "🐶 Honden verboden · 💶 Gratis (wildkampeerpalen wie het eerst komt)"
+    },
+    "en": {
+      "tags": [
+        "Zuid-Holland · Hoeksche Waard (west of Strijensas)",
+        "new tidal shore nature, 2006 (SBB)",
+        "list 8 · no. 9"
+      ],
+      "location": "📍 Southernmost tip of the Hoeksche Waard, along the Hollandsch Diep opposite the Moerdijk industry — paalkamperen poles on site",
+      "description": "New nature with an industrial skyline. Opened in 2006, the Oeverlanden re-wilded the Hoeksche Waard's southern shore: tidal inlets breaching the old dike line, reed beds, willow scrub and grazing marsh along a getijrivier (tidal river) — with the Moerdijk towers looming across the water, an oddly magnificent contrast. Wild-camping poles (paalkamperen), 6.5 km of partly squelchy paths, and beavers at work on the Zeehondenplaat sandbar.",
+      "meta": "Best Season & Peak Months: Apr–Jun & Sep–Nov Best Time of Day: Dawn for beaver and otter-sign; sunset against the industry.",
+      "natura2000": "Adjacent to Natura 2000 waters (Hollandsch Diep / Oudeland van Strijen, site 110); the shore reserve itself is SBB NNN nature.",
+      "why_visit": [
+        "Rare freshwater tidal plants colonising the gaps in the old dike.",
+        "Beaver and their dams on the Zeehondenplaat.",
+        "Paalkamperen: sleep in the reeds with the tide for a lullaby."
+      ],
+      "periodic_phenomena": [
+        "May–Jun 🎶 Reed-warbler & bluethroat chorus.",
+        "Sep–Nov 🪿 Migration geese & waders on the flats."
+      ],
+      "wildlife": [
+        "🐺 Beaver on the sandbars",
+        "🐝 Wild bees & bumblebees in the old dike",
+        "🌊 Tidal-shore pioneer flora"
+      ],
+      "trailheads": [
+        "Park at Strijensas; ±6.5 km round walk; boots for the wet sections."
+      ],
+      "footer": "🐶 Dogs prohibited · 💶 Free (wild-camping poles first-come)"
+    },
+    "number": 226,
+    "name": "Oeverlanden Hollandsch Diep"
+  },
+  {
+    "id": 227,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (Hollandsch Diep)",
+        "onbewoond vogeleiland (SBB)",
+        "list 8 · no. 10"
+      ],
+      "location": "📍 Eiland in het Hollandsch Diep tegenover Strijensas, aan de Moerdijkse industrie-waterkant",
+      "description": "Een deels door mensen gemaakt eiland dat de vogels overnam. Onopgemerkt gelegen voor de Moerdijkse industrie — wier verstoring het wild allang heeft ingecalculeerd — groeide de Sassenplaat uit tot één van de grote gemengde reigerkolonies van de delta: aalscholvers, blauwe reigers, kleine zilverreigers en lepelaars broeden tussen de populieren met zelfgebouwde nesten van takken, terwijl eenden, ganzen en meeuwen de oevers vullen. Kijken uitsluitend vanaf het water of de verre dijk.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (kolonie) Beste tijd van de dag: Ochtend per veer/boot; voedselvluchten de hele dag.",
+      "natura2000": "De omliggende wateren van het Hollandsch Diep zijn Natura 2000; het eiland zelf is een SBB-vogelreservaat.",
+      "why_visit": [
+        "De lepelaar-reiger-aalscholver-stad op volle toeren in mei.",
+        "Een schoolboekvoorbeeld van \"natuur naast industrie\" — afstand doet de bescherming."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Kolonieseizoen — lawaai, kalk, voedselvluchten.",
+        "Okt–Feb 🪿 Rustende eenden & ganzen op de oevers."
+      ],
+      "wildlife": [
+        "🥄 Lepelaars & kleine zilverreigers",
+        "🐦 Aalscholvers & blauwe reigers",
+        "🦆 Ruïende eenden in de nazomer"
+      ],
+      "trailheads": [
+        "Kijk vanaf de dijk bij Strijensas (Hoeksche Waard-kant) of per boot; aanmerken verboden."
+      ],
+      "footer": "🐶 — (geen toegang) · 💶 Gratis vanaf de oevers · ⚠️ Eiland gesloten voor aanmeren"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (Hollandsch Diep)",
+        "uninhabited bird island (SBB)",
+        "list 8 · no. 10"
+      ],
+      "location": "📍 Island in the Hollandsch Diep opposite Strijensas, at the Moerdijk industrial waterfront",
+      "description": "A partly man-made island that the birds took over. Lying unseen off the Moerdijk industry — whose disturbance the wildlife long since factored in — the Sassenplaat has grown into one of the delta's great mixed heronries: cormorants, grey herons, little egrets and spoonbills nest between the poplars and self-built debris nests, while ducks, geese and gulls fill the shores. Viewing is strictly from the water or the far dike.",
+      "meta": "Best Season & Peak Months: Apr–Jun (colony) Best Time of Day: Morning ferry/boat view; feeding flights all day.",
+      "natura2000": "The surrounding Hollandsch Diep waters are Natura 2000; the island itself is an SBB bird sanctuary.",
+      "why_visit": [
+        "The spoonbill–egret–cormorant city in full swing in May.",
+        "A textbook \"nature next to industry\" story — distance does the protecting."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Colony season — noise, whitewash, feeding flights.",
+        "Oct–Feb 🪿 Ducks & geese resting on the shores."
+      ],
+      "wildlife": [
+        "🥄 Spoonbills & little egrets",
+        "🐦 Cormorants & grey herons",
+        "🦆 Moulting ducks in late summer"
+      ],
+      "trailheads": [
+        "View from the Strijensas dike (Hoeksche Waard side) or by boat; landing not allowed."
+      ],
+      "footer": "🐶 — (no access) · 💶 Free from the shores · ⚠️ Island closed to landing"
+    },
+    "number": 227,
+    "name": "Sassenplaat"
+  },
+  {
+    "id": 228,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (zuidoever Hollandsch Diep)",
+        "ligweiden & jonge oeverbossen (SBB)",
+        "list 8 · no. 11"
+      ],
+      "location": "📍 De Moerdijkse oever van het Hollandsch Diep, rond het dorp en de grote bruggen; monding van de Roode Vaart; strandje De Appelzak vlakbij",
+      "description": "De natuurzijde van een naam die meestal schoorstenen betekent: langs de zuidoever van het Hollandsch Diep beheert Staatsbosbeheer ligweiden (grasland gehouden voor ganzewinters), jonge populier- en essen-aanplant en rietige dijken, gevlochten tussen het historische dijkdorp (geboren uit veenderij en de vloed van 1421) en het water. De Roode Vaart eindigt hier; de Sassenplaat ligt vlak voor de kust; en het stille strandgebied De Appelzak voegt een zandige noot toe.",
+      "meta": "Beste seizoen & piekmaanden: okt–mrt (ganzen op de ligweiden) Beste tijd van de dag: Avond onder de silhouet van de Moerdijkbruggen.",
+      "why_visit": [
+        "Duizenden ganzen grazend op de ligweiden bij winterdageraad.",
+        "Dijkwandeling naar strandje De Appelzak en de Roode Vaart-monding.",
+        "Het brugpanorama — Deltatechniek als achtergrond van het ganzenspel."
+      ],
+      "periodic_phenomena": [
+        "Okt–Mrt 🪿 Ganzewinter op de ligweiden.",
+        "Apr–Jun 🎶 Zangvogels in de jonge essenbossen."
+      ],
+      "wildlife": [
+        "🪿 Overwinterende ganzen",
+        "🐦 Riet- & slootvogels",
+        "🌳 Jonge populier & es"
+      ],
+      "trailheads": [
+        "Park bij dorp Moerdijk of De Appelzak (Den Bels); dijkpaden lopen westwaarts door naar de Buitengorzen (nr. 225)."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Moerdijk (Hollandsch Diep south shore)",
+        "ligweiden & young shore woods (SBB)",
+        "list 8 · no. 11"
+      ],
+      "location": "📍 The Moerdijk shore of the Hollandsch Diep, around the village and the great bridges; Roode Vaart mouth; De Appelzak beach nearby",
+      "description": "The nature side of a name that usually means chimneys: along the south shore of the Hollandsch Diep, Staatsbosbeheer manages ligweiden (\"lying meadows\" — grassland kept for goose wintering), young poplar and ash plantings and reedy dikes, stitched between the historic dike village (born of peat digging and the 1421 flood) and the water. The Roode Vaart ends here; the Sassenplaat lies off-shore; and the quiet De Appelzak beach area adds a sandy note.",
+      "meta": "Best Season & Peak Months: Oct–Mar (geese on the ligweiden) Best Time of Day: Evening under the Moerdijkbruggen silhouette.",
+      "why_visit": [
+        "Thousands of geese grazing the ligweiden at winter dawn.",
+        "Dike walk to De Appelzak beach and the Roode Vaart mouth.",
+        "The bridge panorama — Delta engineering as backdrop to goose spectacle."
+      ],
+      "periodic_phenomena": [
+        "Oct–Mar 🪿 Goose wintering on the lying meadows.",
+        "Apr–Jun 🎶 Songbirds in the young ash woods."
+      ],
+      "wildlife": [
+        "🪿 Wintering geese",
+        "🐦 Reed & ditch birds",
+        "🌳 Young poplar & ash"
+      ],
+      "trailheads": [
+        "Park at Moerdijk village or De Appelzak (Den Bels); dike paths link westward to the Buitengorzen (no. 225)."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free"
+    },
+    "number": 228,
+    "name": "Moerdijk"
+  },
+  {
+    "id": 229,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Moerdijk & Altena (polder Zonzeel; Drimmelen)",
+        "natte hooipolders + 13-ha kreekbos (SBB)",
+        "list 8 · no. 12"
+      ],
+      "location": "📍 Groote Zonzeelsche Polder (kant Hooge Zwaluwe, SBB \"De Vrije Kavelen\") en De Worp bij Drimmelen, ten westen van het Biesboschcentrum",
+      "description": "Twee reservaat-parels van het oude Altenase veenland. In de Groote Zonzeelsche Polder herbergen de ±100-ha Vrije Kavelen van SBB natte hooilanden, dichtgegroeide veengaten en dotterbloemweiden: zomers weidevogelreservaat, 's winters ganzenhotel (kolgans, grauwe gans, brandgans — soms roodhalsgans — bij de duizenden). En bij Drimmelen pakt De Worp (13 ha) kreekresten van de turftijd, griendpollen, spontaan elzenbroekbos, pluimzegge en moerasmelkdistel in de achtertuin van landgoed De Koekkoek — met de waterspitsmuis als Biesbosch-buur.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (weide- & moerasvogels); nov–feb (ganzen) Beste tijd van de dag: Dageraad in de Zonzeel-velden; ochtendwandeling in De Worp.",
+      "natura2000": "Geen van beide apart aangewezen — beide SBB-reservaten geweven in het Biesbosch/Hollandsch Diep-deltasysteem.",
+      "why_visit": [
+        "Zomertaling, snip & blauwborst in de Zonzeel-wetlands; broedende bruine kiekendieven in de rietruigten.",
+        "Winterschouwspel: duizenden ganzen en smienten op de overstroomde velden.",
+        "De korte lus van De Worp vanaf Biesboschcentrum Drimmelen: spechten, roofvogels, rietgorzen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Weidevogel- & moerasbroedseizoen.",
+        "Nov–Feb 🪿 Ganzenrust-schouwspel in de Vrije Kavelen."
+      ],
+      "wildlife": [
+        "🐦 Zomertaling, snip & blauwborst",
+        "🪿 Kolgans & brandgans bij duizenden in de winter",
+        "🌿 Pluimzegge, kamvaren & dotterbloem",
+        "🖱️ Waterspitsmuis in De Worp"
+      ],
+      "trailheads": [
+        "Zonzeel: park bij Hooge Zwaluwe / Zonzeelseweg; De Worp: Biesboschcentrum Drimmelen, lus Koekoekweg/Zeggeweg."
+      ],
+      "footer": "🐶 Honden verboden in de reservaten · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Moerdijk & Altena (Zonzeel polder; Drimmelen)",
+        "wet hay polders + 13-ha creek wood (SBB)",
+        "list 8 · no. 12"
+      ],
+      "location": "📍 Groote Zonzeelsche Polder (Hooge Zwaluwe side, SBB \"De Vrije Kavelen\") and De Worp at Drimmelen, west of the Biesbosch centre",
+      "description": "Two reserve pears of the old Altena peat country. In the Groote Zonzeelsche Polder, SBB's ±100-ha Vrije Kavelen hold wet hayfields, overgrown peatholes and dotterbloem meadows: summer meadow-bird reserve, winter goose hotel (kolgans, grauwe gans, brandgans — sometimes roodhalsgans — in their thousands). And at Drimmelen, De Worp (13 ha) packs creek remnants of the turf era, griend polls, spontaneous alder-brook forest, pluimzegge and moerasmelkdistel into the backyard of landgoed De Koekkoek — with the water shrew as Biesbosch neighbour.",
+      "meta": "Best Season & Peak Months: Apr–Jun (meadow & marsh birds); Nov–Feb (geese) Best Time of Day: Dawn in the Zonzeel fields; morning walk in De Worp.",
+      "natura2000": "Neither is separately designated — both are SBB reserves woven into the Biesbosch/Hollandsch Diep delta system.",
+      "why_visit": [
+        "Garganey, snipe & bluethroat in the Zonzeel wetlands; brown harriers breeding in the reed rufts.",
+        "Winter spectacle: thousands of geese and wigeon on the flooded fields.",
+        "De Worp's short loop from the Biesboschcentrum Drimmelen: woodpeckers, raptors, reed buntings."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Meadow-bird & marsh-breeding season.",
+        "Nov–Feb 🪿 Goose rest-area spectacle in the Vrije Kavelen."
+      ],
+      "wildlife": [
+        "🐦 Garganey, snipe & bluethroat",
+        "🪿 Kolgans & brandgans thousands in winter",
+        "🌿 Pluimzegge, kamvaren & dotterbloem",
+        "🖱️ Water shrew in De Worp"
+      ],
+      "trailheads": [
+        "Zonzeel: park at Hooge Zwaluwe / Zonzeelseweg; De Worp: Biesboschcentrum Drimmelen, Koekoekweg/Zeggeweg loop."
+      ],
+      "footer": "🐶 Dogs prohibited in the reserves · 💶 Free"
+    },
+    "number": 229,
+    "name": "Zonzeel en De Worp"
+  },
+  {
+    "id": 230,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Etten-Leur (Windgat)",
+        "nat gras-poldercluster (SBB)",
+        "list 8 · no. 13"
+      ],
+      "location": "📍 De westelijke sector van de SBB-\"Beemden\" bij Etten-Leur — toegang bij Windgat, langs de Mark- en Dintel-boezemlanden",
+      "description": "De Beemden zijn West-Brabants grote dekbed van natte graspolders langs de Mark, uitgelegd door 14e-eeuwse dijkbouwers en zes eeuwen lang ontwaterd via boezems. In de westelijke sector bij Etten-Leur geeft SBB de rivier haar ruimte terug: hervernatte weiden, rietkragen en fonteinkruidvolle sloten die ganzen, watervogels, boomkikkers, libellen en de waterranonkel hebben teruggelokt. In de jaren 1960 was dit ganzenland van wereldfaam — het herstel brengt dat geluid terug.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (weidevogels) & nov–feb (ganzen) Beste tijd van de dag: Ochtendkoor; winterse ganzen-morgens.",
+      "why_visit": [
+        "Weidevogelbalt boven hernat grasland; kieviten in baltsvlucht boven de plassen.",
+        "Waterranonkel en fonteinkruid bloeiend in de geschoonde sloten.",
+        "Vogelen vanaf de toegang Windgat en de oude dijkwegen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Weidevogelseizoen; boomkikkers roepend in de schemering.",
+        "Nov–Feb 🪿 Ganzen- & watervogelwinter."
+      ],
+      "wildlife": [
+        "🐦 Grutto, kievit & tureluur",
+        "🐸 Boomkikker-koor",
+        "🌿 Waterranonkel & fonteinkruiden"
+      ],
+      "trailheads": [
+        "Windgat, Etten-Leur; wandel-/fietsnetwerk over de boezemdijken."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis · ⚠️ \"Westelijke Beemden\" = westelijke sector van het SBB-cluster De Beemden"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Etten-Leur (Windgat)",
+        "wet grass-polder cluster (SBB)",
+        "list 8 · no. 13"
+      ],
+      "location": "📍 The western sector of the SBB \"Beemden\" at Etten-Leur — access at Windgat, along the Mark and Dintel boezemlands",
+      "description": "The Beemden are West-Brabant's great quilt of wet grass polders along the Mark, laid out by 14th-century dike-builders and drained by boezems for six centuries. In the western sector near Etten-Leur, SBB is giving the river back its room: re-wetted meadows, reed fringes and pondweed-filled ditches that have lured back geese, waterfowl, tree frogs, dragonflies and the water crowfoot. In the 1960s this was goose country of world importance — the restoration is bringing that soundtrack back.",
+      "meta": "Best Season & Peak Months: Apr–Jun (meadow birds) & Nov–Feb (geese) Best Time of Day: Dawn chorus; winter goose mornings.",
+      "why_visit": [
+        "Meadow-bird displays over re-wetted grassland; lapwing puddle-dancing.",
+        "Water crowfoot and pondweed flowering in the cleaned ditches.",
+        "Birding from the Windgat access and the old dike roads."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Meadow-bird season; tree frogs calling at dusk.",
+        "Nov–Feb 🪿 Goose & waterfowl wintering."
+      ],
+      "wildlife": [
+        "🐦 Godwit, lapwing & redshank",
+        "🐸 Tree frog (boomkikker) chorus",
+        "🌿 Water crowfoot & pondweeds"
+      ],
+      "trailheads": [
+        "Windgat, Etten-Leur; walking/cycling network over the boezem dikes."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free · ⚠️ \"Westelijke Beemden\" = western sector of SBB's De Beemden cluster"
+    },
+    "number": 230,
+    "name": "Westelijke Beemden"
+  },
+  {
+    "id": 231,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Etten-Leur / Prinsenbeek",
+        "197-ha veenpolderreservaat (SBB)",
+        "list 8 · no. 14"
+      ],
+      "location": "📍 Ten noorden van Leur, ten westen van Prinsenbeek, langs de Haagse Dijk — sector De Berk als hart",
+      "description": "197 hectare op de Naad van Brabant — de zoom waar het zuidelijke zand op het noordelijke kleigebied stuit, zodat voedselrijk Markwater aan de noordzijde insijpelt terwijl schoon zuidelijk kwel van onderen oprijst. De veenwinning (tot de Eerste Wereldoorlog) liet een lappendeken van turfgaten na, nu verlandend tot riet en broek in sector De Berk. De gradiënt staat in de flora: blauwe zegge, tormentil, moerasviooltje en Spaanse ruiters in één veld.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (weidevogels, flora) Beste tijd van de dag: Ochtend; schemering voor rallen en kiekendieven.",
+      "why_visit": [
+        "De verlandingsstadia van De Berk: open water → riet → elzenbroek in honderd meter.",
+        "Weide- en moerasvogels in één lus vanaf de Haagse Dijk."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Weide- & moerasvogelseizoen.",
+        "Jun–Jul 🌿 Schrale hooilanden in bloei (Spaanse ruiter, blauwe zegge)."
+      ],
+      "wildlife": [
+        "🐦 Snip, kievit & rietzangers",
+        "🌸 Blauwe zegge, tormentil & moerasviooltje",
+        "🐉 Libellen van de turfgaten"
+      ],
+      "trailheads": [
+        "Haagse Dijk (Etten-Leur-noord); wandelnet naar Prinsenbeek en Rooskensdonk (nr. 232)."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Etten-Leur / Prinsenbeek",
+        "197-ha peat-polder reserve (SBB)",
+        "list 8 · no. 14"
+      ],
+      "location": "📍 North of Leur, west of Prinsenbeek, along the Haagse Dijk — sector De Berk at its heart",
+      "description": "197 hectares on the Naad van Brabant — the seam where the sandy south meets the clay north, so nutrient-rich Mark water seeps in from the north while clean southern kwel rises from below. Peat cutting (until the First World War) left a patchwork of turfgaten now verlanding into reed and carr in the De Berk sector. The gradient shows in the flora: blue sedge, tormentil, marsh violet and Spanish knight's-sedge in one field.",
+      "meta": "Best Season & Peak Months: Apr–Jun (meadow birds, flora) Best Time of Day: Morning; dusk for rails and harriers.",
+      "why_visit": [
+        "The De Berk verlanding stages: open water → reed → alder carr in a hundred metres.",
+        "Meadow birds and marsh birds in one circuit from the Haagse Dijk."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🥚 Meadow- & marsh-bird season.",
+        "Jun–Jul 🌿 Schraal hayfields in flower (Spaanse ruiter, blauwe zegge)."
+      ],
+      "wildlife": [
+        "🐦 Snipe, lapwing & reed warblers",
+        "🌸 Blue sedge, tormentil & marsh violet",
+        "🐉 Dragonflies of the turfgaten"
+      ],
+      "trailheads": [
+        "Haagse Dijk (Etten-Leur north); walking network to Prinsenbeek and Rooskensdonk (no. 232)."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free"
+    },
+    "number": 231,
+    "name": "Haagse Beemden"
+  },
+  {
+    "id": 232,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Breda/Prinsenbeek (ten zuiden van de Mark)",
+        "62-ha boezempolder in SBB De Donken",
+        "list 8 · no. 15"
+      ],
+      "location": "📍 Ten noorden van Prinsenbeek en de Bredase wijk Haagse Beemden, ten oosten van de A16, ten zuiden van de Mark",
+      "description": "Een lage, open boezempolder omringd door miniatuurdijken — één van de \"donken\"-eenheden die Staatsbosbeheer rond de Mark beheert (samen met het Haagse Beemdenbos). Waterbeheer is hier theater: in de winter stroomt het gebied opzettelijk ondiep onder, wat een rust- en voedselpodium schept voor ganzen en kleine zwanen; in de lente droogt het op tot weidevogelvelden. Geen publieke toegang — de dijkranden geven de beelden.",
+      "meta": "Beste seizoen & piekmaanden: nov–feb (zwanen & ganzen!) & apr–jun Beste tijd van de dag: Winterse dageraad en schemervluchten op de Mark.",
+      "why_visit": [
+        "Kleine zwanen — de winterhandtekening van de polder, het best bekeken vanaf de Markdijken.",
+        "Duizendvoudige ganzen-avonden met de skyline van Breda erachter."
+      ],
+      "periodic_phenomena": [
+        "Nov–Feb 🦢 Kleine zwaan- & ganzewinter.",
+        "Apr–Jun 🥚 Weidevogelbroed."
+      ],
+      "wildlife": [
+        "🦢 Kleine zwaan",
+        "🪿 Kol- & grauwe ganzen",
+        "🐦 Kievit & grutto in de lente"
+      ],
+      "trailheads": [
+        "Kijk vanaf de Markdijkpaden tussen Terheijden en Prinsenbeek; het reservaat zelf gesloten."
+      ],
+      "footer": "🐶 Honden aan de lijn op de dijken · 💶 Gratis · ⚠️ Binnen geen toegang — een kijkreservaat"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Breda/Prinsenbeek (south of the Mark)",
+        "62-ha boezem polder in SBB De Donken",
+        "list 8 · no. 15"
+      ],
+      "location": "📍 North of Prinsenbeek and the Breda district Haagse Beemden, east of the A16, south of the Mark",
+      "description": "A low, open boezem polder ringed with miniature dikes — one of the \"donken\" units Staatsbosbeheer manages around the Mark (with the Haagse Beemdenbos). Water management here is theatre: in winter the area floods shallowly on purpose, creating a resting and feeding stage for geese and Bewick's swans (kleine zwaan); in spring it dries into meadow-bird fields. No public access — the dike edges give the views.",
+      "meta": "Best Season & Peak Months: Nov–Feb (swans & geese!) & Apr–Jun Best Time of Day: Winter dawn and dusk flights on the Mark.",
+      "why_visit": [
+        "Bewick's swans — the polder's winter signature, best watched from the Mark dikes.",
+        "Thousand-fold goose evenings with the Breda skyline beyond."
+      ],
+      "periodic_phenomena": [
+        "Nov–Feb 🦢 Bewick's swan & goose wintering.",
+        "Apr–Jun 🥚 Meadow-bird breeding."
+      ],
+      "wildlife": [
+        "🦢 Bewick's swan",
+        "🪿 White-fronted & greylag geese",
+        "🐦 Lapwing & godwit in spring"
+      ],
+      "trailheads": [
+        "View from the Mark dike paths between Terheijden and Prinsenbeek; reserve itself closed."
+      ],
+      "footer": "🐶 Dogs on leash on dikes · 💶 Free · ⚠️ No access inside — a watching reserve"
+    },
+    "number": 232,
+    "name": "Rooskensdonk"
+  },
+  {
+    "id": 233,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Breda-Noord (Asterdplas)",
+        "84-ha jong rivierbos (SBB)",
+        "list 8 · no. 16"
+      ],
+      "location": "📍 Naast de Asterdplas, Breda-Noord — grenst aan de Mark en Terheijden; SBB-eenheid De Donken",
+      "description": "Het bos dat Breda's voeten droog houdt. Aangeplant in het begin van de jaren 1990 als Vierde Bergboezem — een waterbergingsbos voor de Mark — staan zijn essen, beuken, elzen en snelle populieren nog altijd in het oude langstroken-patroon, en druipt zijn bodem nog altijd van de rivierdynamiek. Hazen en reeën patrouilleren op de graslandribben; de Asterdplas ernaast voegt zwem-stadsvogels toe; en tussen zonsopgang en -ondergang mag je vrij van de paden dwalen.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun & okt Beste tijd van de dag: Avonduren voor reeën.",
+      "why_visit": [
+        "Vrij dwalen in een dynamisch rivierbos — laarzen aan te raden.",
+        "De combinatie Asterdplas: stadsstrandje-en-vogelen.",
+        "Winterse overstromingen: de bergboezem die zijn werk doet, voor je ogen."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Voorjaarskoor van zangers in het jonge bos.",
+        "Dec–Feb 🌊 Hoogwater-inundaties op de Mark."
+      ],
+      "wildlife": [
+        "🦌 Ree & haas",
+        "🐦 Spechten & vinken",
+        "🌳 Es-, beuken-, elzen- & populierenstroken"
+      ],
+      "trailheads": [
+        "Parkeren bij de Asterdplas (Breda-Noord); 9,5-km-lus via Terheijden en de Markdijk."
+      ],
+      "footer": "🐶 Honden uitsluitend aan de lijn (wild) · 💶 Gratis · ♾️ Open zonsopgang–zonsondergang"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Breda-Noord (Asterdplas)",
+        "84-ha young river forest (SBB)",
+        "list 8 · no. 16"
+      ],
+      "location": "📍 Next to the Asterdplas, Breda-Noord — borders the Mark and Terheijden; SBB De Donken unit",
+      "description": "The forest that keeps Breda's feet dry. Planted in the early 1990s as the Fourth Bergboezem — a flood-storage forest for the Mark — its ash, beech, alder and fast poplars still stand in the old long-strip field pattern, and its ground still squelches with river dynamics. Hares and roe deer patrol the grassland ribs; the Asterdplas next door adds swimming-city birds; and between sunrise and sunset you may wander freely off-path.",
+      "meta": "Best Season & Peak Months: Apr–Jun & Oct Best Time of Day: Evening deer hours.",
+      "why_visit": [
+        "Free-range wandering in a dynamic river forest — boots recommended.",
+        "The Asterdplas city-beach-and-birding combination.",
+        "Winter flooding: the bergboezem doing its job before your eyes."
+      ],
+      "periodic_phenomena": [
+        "Apr–Jun 🎶 Spring chorus of warblers in the young wood.",
+        "Dec–Feb 🌊 High-water inundations on the Mark."
+      ],
+      "wildlife": [
+        "🦌 Roe deer & hare",
+        "🐦 Woodpeckers & finches",
+        "🌳 Ash, beech, alder & poplar stripes"
+      ],
+      "trailheads": [
+        "Parking at the Asterdplas (Breda-Noord); 9.5-km loop via Terheijden and the Mark dike."
+      ],
+      "footer": "🐶 Dogs on leash only (wildlife) · 💶 Free · ♾️ Open sunrise–sunset"
+    },
+    "number": 233,
+    "name": "Haagse Beemdenbos"
+  },
+  {
+    "id": 234,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Halderberge (Hoeven–Bosschenhoofd)",
+        "35-ha gemeentebos + 100-ha waterleidingbos",
+        "list 8 · no. 17"
+      ],
+      "location": "📍 Tussen Hoeven en Bosschenhoofd, langs de Pagnevaart — gemeente Halderberge",
+      "description": "Een vriendelijke, familiare bosstrook tussen twee West-Brabantse dorpen, beheerd door de gemeente Halderberge met een aangrenzend 100-ha waterwingebied-bos voor de rust. Wandel lanen, speelhoekjes en een mix van naald- en loofhout — niets wilds, alles aangenaams: het klassieke \"bos voor de buurt\", en een mooie tussentijdse stop tussen de Beemden (nr. 230) en de Pannenhoef verder zuidelijk.",
+      "meta": "Beste seizoen & piekmaanden: apr–okt Beste tijd van de dag: Elke — beschaduwde lanen.",
+      "why_visit": [
+        "Makkelijke familielussen; koppel op het fietsnet van Hoeven.",
+        "Voorjaarszangvogels in de rust van het waterwingebos."
+      ],
+      "periodic_phenomena": [
+        "Apr–Mei 🎶 Voorjaarsvogels & bosanemonen.",
+        "Okt 🍂 Herfstkleur-lanen."
+      ],
+      "wildlife": [
+        "🐦 Mezen, vinken & spechten",
+        "🐿️ Eekhoorn",
+        "🌳 Gemengde lanen van beuk, eik & den"
+      ],
+      "trailheads": [
+        "Park aan de dorpsranden van Hoeven of Bosschenhoofd; bospaden beginnen bij de Pagnevaart-brugpunten."
+      ],
+      "footer": "🐶 Honden toegestaan aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Halderberge (Hoeven–Bosschenhoofd)",
+        "35-ha municipal forest + 100-ha waterworks wood",
+        "list 8 · no. 17"
+      ],
+      "location": "📍 Between Hoeven and Bosschenhoofd, along the Pagnevaart — municipality of Halderberge",
+      "description": "A friendly, family-scale forest strip between two West-Brabant villages, run by the municipality of Halderberge with an adjacent 100-ha water-extraction woodland (waterwingebied) for quiet. Walking lanes, play corners and a mix of conifer and broadleaf — nothing wild, everything pleasant: the classic \"bos voor de buurt\", and a good leg-stretch on the way between the Beemden (no. 230) and the Pannenhoef further south.",
+      "meta": "Best Season & Peak Months: Apr–Oct Best Time of Day: Any — shaded lanes.",
+      "why_visit": [
+        "Easy family loops; connect to the Hoeven cycle network.",
+        "Spring songbirds in the waterworks wood's quiet."
+      ],
+      "periodic_phenomena": [
+        "Apr–May 🎶 Spring birds & wood anemones.",
+        "Oct 🍂 Autumn colour lanes."
+      ],
+      "wildlife": [
+        "🐦 Tits, finches & woodpeckers",
+        "🐿️ Red squirrel",
+        "🌳 Mixed lanes of beech, oak & pine"
+      ],
+      "trailheads": [
+        "Park at Hoeven or Bosschenhoofd village edges; forest paths start at the Pagnevaart bridge points."
+      ],
+      "footer": "🐶 Dogs permitted on leash · 💶 Free"
+    },
+    "number": 234,
+    "name": "Pagnevaartbos"
+  },
+  {
+    "id": 235,
+    "nl": {
+      "tags": [
+        "Noord-Brabant · Breda (Prinsenbeek)",
+        "200+ ha — grootste oude-eikenbos van NL",
+        "list 8 · no. 18"
+      ],
+      "location": "📍 Ten zuiden van Prinsenbeek, tussen de spoorlijn Roosendaal–Breda en de A58, tegenover gehucht Lies",
+      "description": "Het grootste oude zomereikenbos van Nederland: 200-plus hectare oeroud eiken — grotendeels eeuwenoud hakhout — met hazelaar, berk en open lanen tussen de stobben. Oude eiken betekenen insecten, en insecten betekenen vogels: dit is één van de rijkste voorjaarsbossen van West-Brabant, des te beter door zijn eilandpositie in de landbouwzee tussen Breda en Roosendaal.",
+      "meta": "Beste seizoen & piekmaanden: apr–jun (voorjaarsflora & zangvogels) Beste tijd van de dag: Vroege ochtend in mei.",
+      "why_visit": [
+        "Eeuwenoude eikenhakhout-stobben — lees het werkende verleden van het bos.",
+        "Voorjaars-zangvogeldichtheid: zangers, vliegenvangers, spechten, boomkruipers."
+      ],
+      "periodic_phenomena": [
+        "Apr–Mei 🌸 Bosanemonen & wilde hyacinten op de lanen.",
+        "Mei–Jun 🎶 Bonte vliegenvanger- & zangerspiek."
+      ],
+      "wildlife": [
+        "🌳 Oud zomereik-hakhout",
+        "🐦 Alle vijf spechten mogelijk",
+        "🦇 Vleermuiskolonies in de oude eiken"
+      ],
+      "trailheads": [
+        "Park aan de zuidkant van Prinsenbeek (Liesbosweg) of aan de kant van gehucht Lies; gemarkeerde wandelingen door het hakhout."
+      ],
+      "footer": "🐶 Honden aan de lijn · 💶 Gratis"
+    },
+    "en": {
+      "tags": [
+        "Noord-Brabant · Breda (Prinsenbeek)",
+        "200+ ha — largest old oak forest of NL",
+        "list 8 · no. 18"
+      ],
+      "location": "📍 South of Prinsenbeek, between the Roosendaal–Breda railway and the A58, opposite hamlet Lies",
+      "description": "The largest old summer-oak forest of the Netherlands: 200-plus hectares of ancient oak — much of it centuries-old coppice (hakhout) — with hazel, birch and open rides between the stumps. Old oak means insects, and insects mean birds: this is one of West-Brabant's richest spring woods, all the better for its island position in the agricultural sea between Breda and Roosendaal.",
+      "meta": "Best Season & Peak Months: Apr–Jun (spring flora & songbirds) Best Time of Day: Early morning in May.",
+      "why_visit": [
+        "Century-old oak coppice stools — read the woodland's working past.",
+        "Spring songbird density: warblers, flycatchers, woodpeckers, nuthatches."
+      ],
+      "periodic_phenomena": [
+        "Apr–May 🌸 Wood anemones & bluebells on the rides.",
+        "May–Jun 🎶 Pied flycatcher & warbler peak."
+      ],
+      "wildlife": [
+        "🌳 Ancient summer-oak coppice",
+        "🐦 All five woodpeckers possible",
+        "🦇 Bat colonies in the old oaks"
+      ],
+      "trailheads": [
+        "Park at Prinsenbeek south side (Liesbosweg) or the Lies hamlet side; marked walks through the coppice."
+      ],
+      "footer": "🐶 Dogs on leash · 💶 Free"
+    },
+    "number": 235,
+    "name": "Liesbos"
+  },
+  {
+    "id": 236,
+    "nl": {},
+    "en": {},
+    "number": 236,
+    "name": "Sprundelsebaan-Zundertseweg"
+  },
+  {
+    "id": 237,
+    "nl": {},
+    "en": {},
+    "number": 237,
+    "name": "Kogelvanger"
+  },
+  {
+    "id": 238,
+    "nl": {},
+    "en": {},
+    "number": 238,
+    "name": "Vloeiweide"
+  },
+  {
+    "id": 239,
+    "nl": {},
+    "en": {},
+    "number": 239,
+    "name": "Mastbos"
+  },
+  {
+    "id": 240,
+    "nl": {},
+    "en": {},
+    "number": 240,
+    "name": "Hedel en Ammerzoden"
+  },
+  {
+    "id": 241,
+    "nl": {},
+    "en": {},
+    "number": 241,
+    "name": "Uiterwaarden bij Bokhoven"
+  },
+  {
+    "id": 242,
+    "nl": {},
+    "en": {},
+    "number": 242,
+    "name": "Henriëttewaard"
+  },
+  {
+    "id": 243,
+    "nl": {},
+    "en": {},
+    "number": 243,
+    "name": "Uiterwaarden Maaspoort"
+  },
+  {
+    "id": 244,
+    "nl": {},
+    "en": {},
+    "number": 244,
+    "name": "De Koornwaard"
+  },
+  {
+    "id": 245,
+    "nl": {},
+    "en": {},
+    "number": 245,
+    "name": "Maasuiterwaarden"
+  },
+  {
+    "id": 246,
+    "nl": {},
+    "en": {},
+    "number": 246,
+    "name": "Lithse Kooi"
+  },
+  {
+    "id": 247,
+    "nl": {},
+    "en": {},
+    "number": 247,
+    "name": "Sompen en Zooislagen"
+  },
+  {
+    "id": 248,
+    "nl": {},
+    "en": {},
+    "number": 248,
+    "name": "Meer van Engelen"
+  },
+  {
+    "id": 249,
+    "nl": {},
+    "en": {},
+    "number": 249,
+    "name": "De Kerkhoek"
+  },
+  {
+    "id": 250,
+    "nl": {},
+    "en": {},
+    "number": 250,
+    "name": "Polder van Den Eigen en Empel"
+  },
+  {
+    "id": 251,
+    "nl": {},
+    "en": {},
+    "number": 251,
+    "name": "Heinis"
+  },
+  {
+    "id": 252,
+    "nl": {},
+    "en": {},
+    "number": 252,
+    "name": "Karregat"
+  },
+  {
+    "id": 253,
+    "nl": {},
+    "en": {},
+    "number": 253,
+    "name": "Graafse Baan"
+  },
+  {
+    "id": 254,
+    "nl": {},
+    "en": {},
+    "number": 254,
+    "name": "Het Vinkel en De Eikenburg"
+  },
+  {
+    "id": 255,
+    "nl": {},
+    "en": {},
+    "number": 255,
+    "name": "De Wamberg"
+  },
+  {
+    "id": 256,
+    "nl": {},
+    "en": {},
+    "number": 256,
+    "name": "Hoogbos, Engelenstede en Zeebroek"
+  },
+  {
+    "id": 257,
+    "nl": {},
+    "en": {},
+    "number": 257,
+    "name": "Geffense Bosjes"
+  },
+  {
+    "id": 258,
+    "nl": {},
+    "en": {},
+    "number": 258,
+    "name": "Stelt en De Haag"
+  },
+  {
+    "id": 259,
+    "nl": {},
+    "en": {},
+    "number": 259,
+    "name": "Arboretum Heesch"
+  },
+  {
+    "id": 260,
+    "nl": {},
+    "en": {},
+    "number": 260,
+    "name": "Heesch en Nistelrode"
+  },
+  {
+    "id": 261,
+    "nl": {},
+    "en": {},
+    "number": 261,
+    "name": "Nieuwkuijks Bosje"
+  },
+  {
+    "id": 262,
+    "nl": {},
+    "en": {},
+    "number": 262,
+    "name": "Moerputten"
+  },
+  {
+    "id": 263,
+    "nl": {},
+    "en": {},
+    "number": 263,
+    "name": "Rijskampen"
+  },
+  {
+    "id": 264,
+    "nl": {},
+    "en": {},
+    "number": 264,
+    "name": "De Margriet"
+  },
+  {
+    "id": 265,
+    "nl": {},
+    "en": {},
+    "number": 265,
+    "name": "Loonse en Drunense Duinen"
+  },
+  {
+    "id": 266,
+    "nl": {},
+    "en": {},
+    "number": 266,
+    "name": "De Distelberg"
+  },
+  {
+    "id": 267,
+    "nl": {},
+    "en": {},
+    "number": 267,
+    "name": "Zwijnsbergen"
+  },
+  {
+    "id": 268,
+    "nl": {},
+    "en": {},
+    "number": 268,
+    "name": "De IJzeren Man"
+  },
+  {
+    "id": 269,
+    "nl": {},
+    "en": {},
+    "number": 269,
+    "name": "Wargashuyse"
+  },
+  {
+    "id": 270,
+    "nl": {},
+    "en": {},
+    "number": 270,
+    "name": "Jagershagen"
+  },
+  {
+    "id": 271,
+    "nl": {},
+    "en": {},
+    "number": 271,
+    "name": "Vughtse Heide en Lunetten"
+  },
+  {
+    "id": 272,
+    "nl": {},
+    "en": {},
+    "number": 272,
+    "name": "Fort Isabella"
+  },
+  {
+    "id": 273,
+    "nl": {},
+    "en": {},
+    "number": 273,
+    "name": "Bossche Broek"
+  },
+  {
+    "id": 274,
+    "nl": {},
+    "en": {},
+    "number": 274,
+    "name": "Sterrenbosch"
+  },
+  {
+    "id": 275,
+    "nl": {},
+    "en": {},
+    "number": 275,
+    "name": "Gemeentebos De Houw"
+  },
+  {
+    "id": 276,
+    "nl": {},
+    "en": {},
+    "number": 276,
+    "name": "Maurick"
+  },
+  {
+    "id": 277,
+    "nl": {},
+    "en": {},
+    "number": 277,
+    "name": "Haanwijk"
+  },
+  {
+    "id": 278,
+    "nl": {},
+    "en": {},
+    "number": 278,
+    "name": "Gemeentebos Esseweg"
+  },
+  {
+    "id": 279,
+    "nl": {},
+    "en": {},
+    "number": 279,
+    "name": "De Bevert"
+  },
+  {
+    "id": 280,
+    "nl": {},
+    "en": {},
+    "number": 280,
+    "name": "Zegenwerp"
+  },
+  {
+    "id": 281,
+    "nl": {},
+    "en": {},
+    "number": 281,
+    "name": "Eikenhorst"
+  },
+  {
+    "id": 282,
+    "nl": {},
+    "en": {},
+    "number": 282,
+    "name": "Venrode"
+  },
+  {
+    "id": 283,
+    "nl": {},
+    "en": {},
+    "number": 283,
+    "name": "Sparrenrijk"
+  },
+  {
+    "id": 284,
+    "nl": {},
+    "en": {},
+    "number": 284,
+    "name": "Seldensate"
+  },
+  {
+    "id": 285,
+    "nl": {},
+    "en": {},
+    "number": 285,
+    "name": "Kasteel Heeswijk"
+  },
+  {
+    "id": 286,
+    "nl": {},
+    "en": {},
+    "number": 286,
+    "name": "Gemeentebos Heeswijk-Dinther"
+  },
+  {
+    "id": 287,
+    "nl": {},
+    "en": {},
+    "number": 287,
+    "name": "De Prekers"
+  },
+  {
+    "id": 288,
+    "nl": {},
+    "en": {},
+    "number": 288,
+    "name": "Wijboschbroek"
+  },
+  {
+    "id": 289,
+    "nl": {},
+    "en": {},
+    "number": 289,
+    "name": "Zwanenburg"
+  },
+  {
+    "id": 290,
+    "nl": {},
+    "en": {},
+    "number": 290,
+    "name": "Aa-broeken"
+  },
+  {
+    "id": 291,
+    "nl": {},
+    "en": {},
+    "number": 291,
+    "name": "Recreatiepark Veghel"
+  },
+  {
+    "id": 292,
+    "nl": {},
+    "en": {},
+    "number": 292,
+    "name": "Eerdse Bergen"
+  },
+  {
+    "id": 293,
+    "nl": {},
+    "en": {},
+    "number": 293,
+    "name": "Coevering en Logtenburg"
+  },
+  {
+    "id": 294,
+    "nl": {},
+    "en": {},
+    "number": 294,
+    "name": "De Geelders"
+  },
+  {
+    "id": 295,
+    "nl": {},
+    "en": {},
+    "number": 295,
+    "name": "De Leemkuilen"
+  },
+  {
+    "id": 296,
+    "nl": {},
+    "en": {},
+    "number": 296,
+    "name": "Nemelaer"
+  },
+  {
+    "id": 297,
+    "nl": {},
+    "en": {},
+    "number": 297,
+    "name": "Suysse Bos"
+  },
+  {
+    "id": 298,
+    "nl": {},
+    "en": {},
+    "number": 298,
+    "name": "Oude Hondsberg, Ter Braakloop en Galgeven"
+  },
+  {
+    "id": 299,
+    "nl": {},
+    "en": {},
+    "number": 299,
+    "name": "Oisterwijkse Bossen en Vennen"
+  },
+  {
+    "id": 300,
+    "nl": {},
+    "en": {},
+    "number": 300,
+    "name": "Rozep"
+  }
+]
