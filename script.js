@@ -1,160 +1,240 @@
 /**
  * Nature Reserve Guide — The Netherlands
  * Main JavaScript functionality
+ *
+ * Architecture: the card data lives in nature-data/reserves-*.json (split into
+ * chunks listed by nature-data/index.json). This script fetches those chunks
+ * and renders every <article class="card"> into <div id="cards">. The HTML
+ * file itself only contains the shell (cover, hero, tabs, TOC skeleton,
+ * warnings + blog) so it stays small as the reserve count grows.
  */
 
 (function() {
   'use strict';
 
-  // Nature reserve data - loaded from external JSON chunks
   var natureReserves = [];
-  var dataChunks = [
-    'nature-data/reserves-1-100.json',
-    'nature-data/reserves-101-200.json',
-    'nature-data/reserves-201-300.json',
-    'nature-data/reserves-301-400.json',
-    'nature-data/reserves-401-500.json',
-    'nature-data/reserves-501-600.json',
-    'nature-data/reserves-601-700.json',
-    'nature-data/reserves-701-800.json',
-    'nature-data/reserves-801-901.json',
-    'nature-data/reserves-902-1001.json',
-    'nature-data/reserves-1002-1031.json',
-    'nature-data/reserves-1032-1131.json',
-    'nature-data/reserves-1132-1231.json',
-    'nature-data/reserves-1232-1331.json',
-    'nature-data/reserves-1332-1431.json',
-    'nature-data/reserves-1432-1531.json',
-    'nature-data/reserves-1532-1631.json',
-    'nature-data/reserves-1632-1731.json',
-    'nature-data/reserves-1732-1831.json'
-  ];
+  var BOOK_TOTAL = 2373;                       // fallback; index.json may override
+  var dataReady = false;
 
-  // Load nature reserve data from JSON chunks
-  function loadNatureData() {
-    var totalChunks = dataChunks.length;
+  // --------------------------------------------------------------------------
+  // Data loading
+  // --------------------------------------------------------------------------
 
-    // Load all chunks in parallel
-    var promises = dataChunks.map(function(chunkUrl) {
-      return fetch(chunkUrl)
-        .then(function(response) {
-          if (!response.ok) {
-            throw new Error('Failed to load chunk: ' + chunkUrl);
-          }
-          return response.json();
-        });
-    });
-
-    Promise.all(promises)
-      .then(function(results) {
-        // Combine all chunks into single array
-        for (var i = 0; i < results.length; i++) {
-          natureReserves = natureReserves.concat(results[i]);
-        }
-        console.log('Loaded ' + natureReserves.length + ' nature reserves from ' + totalChunks + ' chunks');
-      })
-      .catch(function(error) {
-        console.error('Error loading nature reserves:', error);
+  function loadIndex() {
+    return fetch('nature-data/index.json')
+      .then(function(response) {
+        if (!response.ok) throw new Error('index.json: ' + response.status);
+        return response.json();
       });
   }
 
-  // Get all nature reserves
-  function getNatureReserves() {
-    return natureReserves;
+  function loadChunk(url) {
+    return fetch(url).then(function(response) {
+      if (!response.ok) throw new Error('Failed to load chunk: ' + url);
+      return response.json();
+    });
   }
 
-  // Find a reserve by ID
+  function loadData(meta) {
+    var files = (meta && meta.files) || [];
+    if (!files.length) return Promise.resolve([]);
+    return Promise.all(files.map(function(file) {
+      return loadChunk('nature-data/' + file);
+    })).then(function(results) {
+      var all = [];
+      for (var i = 0; i < results.length; i++) {
+        if (Array.isArray(results[i])) all = all.concat(results[i]);
+      }
+      all.sort(function(a, b) { return a.id - b.id; });
+      return all;
+    });
+  }
+
+  // Optional legacy section headers (<h2 class="grouphdr">) that used to sit
+  // between groups of cards; kept as data so the visual structure survives.
+  var sectionHeaders = [];
+
+  function loadSections() {
+    return fetch('nature-data/sections.json')
+      .then(function(r) {
+        if (!r.ok) throw new Error('sections.json: ' + r.status);
+        return r.json();
+      })
+      .then(function(list) {
+        sectionHeaders = Array.isArray(list) ? list : [];
+        sectionHeaders.sort(function(a, b) {
+          return (a.before - b.before) || 0;
+        });
+        // stable order within the same before-id (two headers precede nr01)
+        var order = 0;
+        for (var i = 0; i < sectionHeaders.length; i++) {
+          sectionHeaders[i]._o = order++;
+        }
+        sectionHeaders.sort(function(a, b) {
+          return (a.before - b.before) || (a._o - b._o);
+        });
+      })
+      .catch(function() {
+        sectionHeaders = [];   // headers are decorative; render without them
+      });
+  }
+
+  function headersBefore(id) {
+    var out = '';
+    for (var i = 0; i < sectionHeaders.length; i++) {
+      if (sectionHeaders[i].before === id) out += sectionHeaders[i].html + '\n';
+    }
+    return out;
+  }
+
+  // --------------------------------------------------------------------------
+  // Card rendering — rebuilds the exact markup that used to live in the HTML
+  // --------------------------------------------------------------------------
+
+  function padId(id) {
+    return id < 10 ? '0' + id : String(id);   // legacy anchors #nr01..#nr09
+  }
+
+  function cardHtml(rec) {
+    var cls = rec.card_class || 'card';
+    return '<article class="' + cls + '" id="nr' + padId(rec.id) + '">\n' +
+           (rec.nl_html || '') + '\n' +
+           (rec.en_html || '') + '\n</article>\n';
+  }
+
+  function renderCards() {
+    var host = document.getElementById('cards');
+    if (!host) return;
+    var html = '';
+    for (var i = 0; i < natureReserves.length; i++) {
+      html += headersBefore(natureReserves[i].id);
+      html += cardHtml(natureReserves[i]);
+    }
+    host.innerHTML = html;
+  }
+
+  function fmt(n) {
+    return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+  }
+
+  function fillCounts(meta) {
+    var total = natureReserves.length;
+    var bookTotal = (meta && meta.book_total) || BOOK_TOTAL;
+    var pct = bookTotal ? Math.round(total * 1000 / bookTotal) / 10 : 0;
+
+    var bar = document.querySelector('.progressbar i');
+    if (bar) bar.style.width = pct + '%';
+
+    var done = document.getElementById('prog-done');
+    var all = document.getElementById('prog-total');
+    if (done) done.textContent = fmt(total);
+    if (all) all.textContent = fmt(bookTotal);
+
+    var tocCount = document.getElementById('toc-count');
+    if (tocCount) tocCount.textContent = fmt(total);
+
+    var coverCount = document.getElementById('cover-count');
+    if (coverCount) coverCount.textContent = fmt(total);
+
+    document.title = 'Nature Reserve Guide — The Netherlands · all ' +
+                     fmt(total) + ' reserves';
+  }
+
+  function showLoadError() {
+    var host = document.getElementById('cards');
+    if (!host) return;
+    host.innerHTML =
+      '<div class="toc" style="border-left:5px solid #c0392b">' +
+      '<h2>⚠️ Kaartdata kon niet worden geladen / Card data could not be loaded</h2>' +
+      '<p>De kaarten worden gerenderd uit <code>nature-data/reserves-*.json</code>. ' +
+      'Open deze pagina via een webserver of de live preview (fetch is niet ' +
+      'beschikbaar bij het direct openen van het bestand).</p>' +
+      '<p class="c-en" style="display:block">Cards are rendered from the ' +
+      '<code>nature-data/reserves-*.json</code> chunks. Please open this page ' +
+      'through a web server or the live preview (fetch is unavailable when ' +
+      'opening the file directly).</p></div>';
+  }
+
+  // --------------------------------------------------------------------------
+  // Public helpers (kept compatible)
+  // --------------------------------------------------------------------------
+
+  function getNatureReserves() { return natureReserves; }
+
   function getReserveById(id) {
     for (var i = 0; i < natureReserves.length; i++) {
-      if (natureReserves[i].id === id) {
-        return natureReserves[i];
-      }
+      if (natureReserves[i].id === id) return natureReserves[i];
     }
     return null;
   }
 
-  // Find a reserve by number
   function getReserveByNumber(number) {
     for (var i = 0; i < natureReserves.length; i++) {
-      if (natureReserves[i].number === number) {
-        return natureReserves[i];
-      }
+      if (natureReserves[i].number === number) return natureReserves[i];
     }
     return null;
   }
 
-  // Search reserves by name
   function searchReserves(query, lang) {
     var results = [];
     var searchTerm = query.toLowerCase();
-    
     for (var i = 0; i < natureReserves.length; i++) {
       var reserve = natureReserves[i];
       var name = reserve.name || '';
       var langData = lang === 'en' ? reserve.en : reserve.nl;
       var description = (langData && langData.description) || '';
-      
-      if (name.toLowerCase().indexOf(searchTerm) !== -1 || 
+      if (name.toLowerCase().indexOf(searchTerm) !== -1 ||
           description.toLowerCase().indexOf(searchTerm) !== -1) {
         results.push(reserve);
       }
     }
-    
     return results;
   }
 
-  // Expose functions globally
   window.NatureGuide = {
-    loadData: loadNatureData,
+    loadData: function() {
+      return loadIndex().then(loadData).then(function(list) {
+        natureReserves = list;
+        return natureReserves;
+      });
+    },
     getReserves: getNatureReserves,
     getById: getReserveById,
     getByNumber: getReserveByNumber,
-    search: searchReserves
+    search: searchReserves,
+    ready: function() { return dataReady; }
   };
 
-  // Load data on initialization
-  loadNatureData();
+  // --------------------------------------------------------------------------
+  // Language toggle
+  // --------------------------------------------------------------------------
 
-  // Language toggle functionality
+  function applyLanguage(isEnglish) {
+    document.body.classList.toggle('lang-en', !!isEnglish);
+    var tabs = document.querySelectorAll('#langswitch .langtab');
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].classList.toggle('on', tabs[i].getAttribute('data-lang') ===
+        (isEnglish ? 'en' : 'nl'));
+    }
+  }
+
   function initLanguageToggle() {
     document.addEventListener('click', function(e) {
       var target = e.target && e.target.closest ? e.target.closest('#langswitch .langtab') : null;
       if (!target) return;
-
-      var isEnglish = target.getAttribute('data-lang') === 'en';
-      document.body.classList.toggle('lang-en', isEnglish);
-
-      var tabs = document.querySelectorAll('#langswitch .langtab');
-      for (var i = 0; i < tabs.length; i++) {
-        tabs[i].classList.toggle('on', tabs[i] === target);
-      }
-
-      try {
-        localStorage.setItem('ng-lang', isEnglish ? 'en' : 'nl');
-      } catch (err) {
-        // localStorage not available
-      }
+      applyLanguage(target.getAttribute('data-lang') === 'en');
+      try { localStorage.setItem('ng-lang', target.getAttribute('data-lang')); } catch (err) {}
     });
 
-    // Restore saved language preference on load
     try {
-      if (localStorage.getItem('ng-lang') === 'en') {
-        document.body.classList.add('lang-en');
-        var englishTab = document.querySelector('#langswitch .langtab[data-lang="en"]');
-        if (englishTab) {
-          englishTab.classList.add('on');
-          var dutchTab = document.querySelector('#langswitch .langtab[data-lang="nl"]');
-          if (dutchTab) {
-            dutchTab.classList.remove('on');
-          }
-        }
-      }
-    } catch (err) {
-      // localStorage not available
-    }
+      if (localStorage.getItem('ng-lang') === 'en') applyLanguage(true);
+    } catch (err) {}
   }
 
-  // Tab switching functionality (List / Blog / Warnings)
+  // --------------------------------------------------------------------------
+  // Tabs (List / Blog / Warnings)
+  // --------------------------------------------------------------------------
+
   var TABS = ['list', 'blog', 'warn'];
 
   function applyTab(name) {
@@ -171,32 +251,24 @@
     document.addEventListener('click', function(e) {
       var button = e.target && e.target.closest ? e.target.closest('#tabbar .tabbtn') : null;
       if (!button) return;
-
       var name = button.getAttribute('data-tab') || 'list';
       applyTab(name);
-
-      try {
-        localStorage.setItem('ng-tab', name);
-      } catch (err) {
-        // localStorage not available
-      }
+      try { localStorage.setItem('ng-tab', name); } catch (err) {}
     });
 
-    // Restore saved tab preference on load
     try {
       var saved = localStorage.getItem('ng-tab');
       if (saved) applyTab(saved);
-    } catch (err) {
-      // localStorage not available
-    }
+    } catch (err) {}
   }
 
-  // ---- Warnings tab: collect every card carrying a warning ----------------
+  // --------------------------------------------------------------------------
+  // Warnings tab — scans the rendered cards
+  // --------------------------------------------------------------------------
 
   function classifyWarning(text) {
     var t = text.toLowerCase();
 
-    // Practical, on-site warnings first
     if (/getij|tide|hoogwater|overstroom|drassig/.test(t)) return 'getij & water';
     if (/militair|schietterrein|munitie|defensie/.test(t)) return 'militair terrein';
     if (/motorcross|crossbaan|drinkwaterbescherming|afvalregels|jacht/.test(t)) return 'let op ter plaatse';
@@ -212,7 +284,6 @@
     if (/naamvolging|gehuchtniveau|dorpsniveau|buurtschapniveau/.test(t)) return 'verzamel- of veldnaam';
     if (/priv[ée]|particulier terrein|niet toegankelijk|geen toegang|respecteer|besloten|rustgebied|geen voorzieningen|geen ingang|geen paden/.test(t)) return 'beperkte toegang';
 
-    // Naming and source issues
     if (/ambigu|twee .*gebieden|er bestaan twee|verwarring|welke .*bedoelt|matcht met|disambiguatie|verduidelijking|niet in .*lijst|staat ten onrechte|spellingvariant|naamvariatie|verkeerde naam|juiste en offici/.test(t)) return 'naamverwarring';
     if (/verzamelkaart|collectieve kaart|geen afgebakend|geen afzonderlijk|verzamelnaam|streeknaam|veldnaam|toponiem|naamniveau|alleen als naam|naam onbekend|erf- en boerderijnaam|geen beheerd natuurgebied/.test(t)) return 'verzamel- of veldnaam';
     if (/niet betrouwbaar|kon niet|could not|niet worden gelokaliseerd|niet afzonderlijk gedocumenteerd|geen verifieerbare|bronnen zwijgen|doodlop/.test(t)) return 'niet bevestigd';
@@ -222,7 +293,6 @@
   }
 
   function firstWarningText(card) {
-    // Prefer an explicit note, then any element whose text starts with the sign
     var note = card.querySelector('p.note');
     if (note && note.textContent.indexOf('\u26a0') !== -1) {
       return note.textContent.slice(note.textContent.indexOf('\u26a0'));
@@ -281,7 +351,7 @@
       }
       parts.sort();
       statsEl.innerHTML = '<b>' + total + '</b> van de ' + cards.length +
-        ' kaarten dragen een ⚠️-melding — ' + parts.join(' · ') + '.';
+        ' kaarten dragen een \u26a0\ufe0f-melding \u2014 ' + parts.join(' \u00b7 ') + '.';
     }
 
     // Jumping to a card must switch back to the List tab first
@@ -293,7 +363,10 @@
     });
   }
 
+  // --------------------------------------------------------------------------
   // Cover page: fullscreen book cover, click to enter the guide
+  // --------------------------------------------------------------------------
+
   function initCover() {
     var cover = document.getElementById('cover');
     var app = document.getElementById('app');
@@ -330,10 +403,54 @@
     document.body.appendChild(btn);
   }
 
-  // Initialize all modules
-  initCover();
-  initLanguageToggle();
-  initTabSwitcher();
-  buildWarningList();
+  // --------------------------------------------------------------------------
+  // Boot
+  // --------------------------------------------------------------------------
+
+  function boot() {
+    initCover();
+    initLanguageToggle();
+    initTabSwitcher();
+
+    loadSections()
+      .then(function() { return loadIndex(); })
+      .then(function(meta) {
+        return loadData(meta).then(function(list) {
+          natureReserves = list;
+          dataReady = true;
+          renderCards();
+          fillCounts(meta);
+          buildWarningList();
+          // Re-apply the saved language/tab now that cards exist
+          try {
+            if (localStorage.getItem('ng-lang') === 'en') applyLanguage(true);
+          } catch (err) {}
+          try {
+            var savedTab = localStorage.getItem('ng-tab');
+            if (savedTab) applyTab(savedTab);
+          } catch (err) {}
+          // Deep link (#nr1735 …): jump to the card once it exists
+          if (window.location.hash && /^#nr\d+$/.test(window.location.hash)) {
+            var el = document.querySelector(window.location.hash);
+            if (el) {
+              el.scrollIntoView();
+            }
+          }
+          console.log('Loaded ' + natureReserves.length +
+                      ' nature reserves from ' +
+                      ((meta && meta.files) ? meta.files.length : 0) + ' chunks');
+        });
+      })
+      .catch(function(error) {
+        console.error('Error loading nature reserves:', error);
+        showLoadError();
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 
 })();
