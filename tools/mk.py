@@ -219,7 +219,7 @@ def insert(cards, after_id=None, chunk=None):
         if c['file'] == fn:
             c['count'] = len(recs)
             c['id_range'] = '%d-%d' % (recs[0]['id'], recs[-1]['id'])
-            if fn.endswith('-1831.json'):
+            if fn == 'reserves-1732-1834.json':
                 c['note'] = 'in progress \u2014 currently %d-%d' % (recs[0]['id'], recs[-1]['id'])
     meta['total_reserves'] = sum(
         c['count'] for c in meta['chunks'])
