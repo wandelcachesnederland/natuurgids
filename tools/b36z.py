@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1405, 'Fort St. Aagtendijk', {
+ 'tags': ['Noord-Holland \u00b7 Beverwijk', 'Stelling van Amsterdam \u00b7 fort op een middeleeuwse dijk', 'list 36 \u00b7 no. 124'],
+ 'loc': '\U0001f4cd Beverwijk \u00b7 Fortterrein met gracht \u00b7 Klein',
+ 'desc': '<b>Fort St. Aagtendijk</b> is naar de dijk genoemd waarop het staat, en die <b>Sint-Aagtendijk</b> is eeuwen ouder dan het fort: hij werd in de middeleeuwen aangelegd om Kennemerland te beschermen tegen het water van het IJ, en is vernoemd naar de heilige Agatha, van wie het klooster in de buurt lag. Toen rond 1900 de Stelling van Amsterdam werd gebouwd, koos men zulke bestaande dijken bewust uit: ze staken boven het toekomstige inundatiewater uit en waren dus <b>accessen</b> die bewaakt moesten worden. Zo liggen op deze plek twee waterverdedigingen van zeshonderd jaar uit elkaar boven op elkaar. Het fortterrein is nu natuurgebied met <b>gracht, aarden wallen en fortbos</b>, met <b>vleermuizen</b> in de kelders en <b>ijsvogel, groene specht en boomkruiper</b> op het terrein.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (broedvogels), okt\u2013mrt (overwinterende vleermuizen)<br>\n    <b>Beste tijd van de dag:</b> Schemer \u2014 vleermuizen verlaten dan het fort.',
+ 'why': ['De <b>Sint-Aagtendijk</b> is eeuwen ouder dan het fort erop.',
+         'Middeleeuwse dijk tegen het water van het <b>IJ</b>.',
+         'De Stelling koos bestaande dijken als <b>accessen</b> om te bewaken.',
+         'Twee waterverdedigingen van <b>zeshonderd jaar uit elkaar</b>, op \u00e9\u00e9n plek.'],
+ 'phen': ['<span class="months">Okt\u2013Mrt</span> \U0001f987 <b>Vleermuizen</b> overwinteren in de fortkelders.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Groene specht</b> in het fortbos.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Bloemrijke taluds</b> op de wallen.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f987 <b>Zwermende vleermuizen</b> bij de ingangen.'],
+ 'wild': ['\U0001f987 Watervleermuis \u00b7 Baardvleermuis \u00b7 Grootoorvleermuis', '\U0001f426 IJsvogel \u00b7 Groene specht \u00b7 Boomkruiper', '\U0001f33c Knoopkruid \u00b7 Margriet op de taluds', '\U0001f438 Amfibie\u00ebn in de fortgracht', '\U0001f333 Es \u00b7 Iep \u00b7 Meidoorn'],
+ 'trail': ['Parkeren bij <b>Beverwijk</b>; terrein deels vrij toegankelijk.',
+           'Loop de <b>Sint-Aagtendijk</b> af \u2014 de oudste laag van het landschap.',
+           'Betreed de <b>vleermuiskelders</b> niet in de winter.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f UNESCO-werelderfgoed \u00b7 \u26a0\ufe0f Vleermuisverblijf'
+}, {
+ 'tags': ['North Holland \u00b7 Beverwijk', 'Defence Line of Amsterdam \u00b7 fort on a medieval dike', 'list 36 \u00b7 no. 124'],
+ 'loc': '\U0001f4cd Beverwijk \u00b7 Fort grounds with moat \u00b7 Small',
+ 'desc': '<b>Fort St. Aagtendijk</b> is named after the dike it stands on, and that <b>Sint-Aagtendijk</b> is centuries older than the fort: it was built in the Middle Ages to protect Kennemerland from the waters of the IJ, and is named after Saint Agatha, whose convent lay nearby. When the Defence Line of Amsterdam was built around 1900, such existing dikes were deliberately chosen: they stood above the future inundation water and were therefore <b>accesses</b> that had to be guarded. So at this spot two water defences six hundred years apart lie one on top of the other. The fort grounds are now a nature area with <b>moat, earthen ramparts and fort wood</b>, with <b>bats</b> in the cellars and <b>kingfisher, green woodpecker and treecreeper</b> on the site.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (breeding birds), Oct\u2013Mar (hibernating bats)<br>\n    <b>Best time of day:</b> Dusk \u2014 bats then leave the fort.',
+ 'why': ['The <b>Sint-Aagtendijk</b> is centuries older than the fort upon it.',
+         'Medieval dike against the waters of the <b>IJ</b>.',
+         'The Line chose existing dikes as <b>accesses</b> to be guarded.',
+         'Two water defences <b>six hundred years apart</b>, in one place.'],
+ 'phen': ['<span class="months">Oct\u2013Mar</span> \U0001f987 <b>Bats</b> hibernate in the fort cellars.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Green woodpecker</b> in the fort wood.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Flower-rich banks</b> on the ramparts.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f987 <b>Swarming bats</b> at the entrances.'],
+ 'wild': ['\U0001f987 Daubenton\u2019s bat \u00b7 Whiskered bat \u00b7 Brown long-eared bat', '\U0001f426 Kingfisher \u00b7 Green woodpecker \u00b7 Treecreeper', '\U0001f33c Knapweed \u00b7 Oxeye daisy on the banks', '\U0001f438 Amphibians in the fort moat', '\U0001f333 Ash \u00b7 Elm \u00b7 Hawthorn'],
+ 'trail': ['Park at <b>Beverwijk</b>; grounds partly freely accessible.',
+           'Walk the <b>Sint-Aagtendijk</b> \u2014 the oldest layer of the landscape.',
+           'Do not enter the <b>bat cellars</b> in winter.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f UNESCO World Heritage \u00b7 \u26a0\ufe0f Bat roost'
+}))
+
+C.append(mk.card(1406, 'Wijkeroogpark', {
+ 'tags': ['Noord-Holland \u00b7 Velsen', 'Stadspark \u00b7 park op opgespoten grond aan het kanaal', 'list 36 \u00b7 no. 125'],
+ 'loc': '\U0001f4cd Velsen-Noord, aan het Noordzeekanaal \u00b7 Park \u00b7 Klein',
+ 'desc': 'Het <b>Wijkeroogpark</b> ligt op de plek van het verdwenen dorp <b>Wijk aan het IJ</b>, dat in de negentiende eeuw moest wijken voor de aanleg van het <b>Noordzeekanaal</b>. Dat kanaal, gegraven tussen 1865 en 1876, sneed dwars door Kennemerland en veranderde de streek ingrijpender dan welke andere ingreep ook: het IJ werd afgesloten, de duinen doorbroken bij IJmuiden en hele polders opgespoten met het vrijgekomen zand. Het park werd op zo\u2019n opgespoten terrein aangelegd, wat de bodem verklaart \u2014 <b>kalkrijk zeezand</b>, waarop een verrassend rijke flora groeit. Onder de inmiddels volwassen bomen bloeit <b>stinzenflora</b>, en er broeden <b>groene specht, boomklever en gekraagde roodstaart</b>. Vanaf de kanaaloever passeren zeeschepen op armlengte.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013mei</b> (voorjaarsflora en zang), okt\u2013nov (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 rustig park en licht op het kanaal.',
+ 'why': ['Ligt op de plek van het verdwenen dorp <b>Wijk aan het IJ</b>.',
+         'Het <b>Noordzeekanaal</b> (1865\u20131876) veranderde Kennemerland ingrijpend.',
+         'Park op <b>opgespoten kalkrijk zeezand</b> \u2014 vandaar de rijke flora.',
+         'Zeeschepen passeren <b>op armlengte</b> langs de oever.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzenflora</b> onder de parkbomen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Groene specht</b> roept in het park.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f6a2 <b>Zeeschepen</b> passeren vlak langs de oever.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> in het parkbos.'],
+ 'wild': ['\U0001f426 Groene specht \u00b7 Boomklever \u00b7 Gekraagde roodstaart', '\U0001f33c Sneeuwklokje \u00b7 Boshyacint \u00b7 Vingerhelmbloem', '\U0001f987 Vleermuizen langs de lanen', '\U0001f426 Meeuwen en aalscholvers op het kanaal', '\U0001f333 Beuk \u00b7 Eik \u00b7 Iep'],
+ 'trail': ['Parkeren bij <b>Velsen-Noord</b>; verharde parkpaden.',
+           'Loop naar de <b>kanaaloever</b> voor de zeeschepen.',
+           'Maart\u2013april voor de <b>stinzenflora</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b6 Verharde paden \u00b7 \U0001f6a2 Uitzicht op het Noordzeekanaal'
+}, {
+ 'tags': ['North Holland \u00b7 Velsen', 'City park \u00b7 park on raised ground by the canal', 'list 36 \u00b7 no. 125'],
+ 'loc': '\U0001f4cd Velsen-Noord, on the North Sea Canal \u00b7 Park \u00b7 Small',
+ 'desc': 'The <b>Wijkeroogpark</b> stands on the site of the vanished village of <b>Wijk aan het IJ</b>, which had to make way in the nineteenth century for the digging of the <b>North Sea Canal</b>. That canal, cut between 1865 and 1876, sliced straight through Kennemerland and changed the district more profoundly than any other intervention: the IJ was closed off, the dunes breached at IJmuiden and whole polders raised with the excavated sand. The park was laid out on such raised ground, which explains the soil \u2014 <b>lime-rich sea sand</b>, on which a surprisingly rich flora grows. Beneath the now mature trees <b>stinzen flora</b> blooms, and <b>green woodpecker, nuthatch and redstart</b> breed. From the canal bank, seagoing ships pass at arm\u2019s length.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013May</b> (spring flora and song), Oct\u2013Nov (autumn colour)<br>\n    <b>Best time of day:</b> Morning \u2014 quiet park and light on the canal.',
+ 'why': ['Stands on the site of the vanished village of <b>Wijk aan het IJ</b>.',
+         'The <b>North Sea Canal</b> (1865\u20131876) transformed Kennemerland.',
+         'Park on <b>raised lime-rich sea sand</b> \u2014 hence the rich flora.',
+         'Seagoing ships pass <b>at arm\u2019s length</b> along the bank.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzen flora</b> beneath the park trees.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Green woodpecker</b> calls in the park.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f6a2 <b>Seagoing ships</b> pass close by the bank.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> in the park woodland.'],
+ 'wild': ['\U0001f426 Green woodpecker \u00b7 Nuthatch \u00b7 Redstart', '\U0001f33c Snowdrop \u00b7 Bluebell \u00b7 Corydalis', '\U0001f987 Bats along the avenues', '\U0001f426 Gulls and cormorants on the canal', '\U0001f333 Beech \u00b7 Oak \u00b7 Elm'],
+ 'trail': ['Park at <b>Velsen-Noord</b>; paved park paths.',
+           'Walk to the <b>canal bank</b> for the seagoing ships.',
+           'March\u2013April for the <b>stinzen flora</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b6 Paved paths \u00b7 \U0001f6a2 Views over the North Sea Canal'
+}))
+
+C.append(mk.card(1407, 'Zuid-Kennemerland, Nationaal Park', {
+ 'tags': ['Noord-Holland \u00b7 Bloemendaal', 'Nationaal Park \u00b7 Natura 2000 \u00b7 duinlandschap met begrazing', 'list 36 \u00b7 no. 126'],
+ 'loc': '\U0001f4cd Tussen IJmuiden, Bloemendaal en Zandvoort \u00b7 Duinen \u00b7 Zeer groot',
+ 'desc': '<b>Nationaal Park Zuid-Kennemerland</b> beslaat zesendertig vierkante kilometer duin tussen het Noordzeekanaal en Zandvoort en is een van de best bewaarde <b>kalkrijke duingebieden</b> van Noordwest-Europa. Dat kalkgehalte is beslissend: de Hollandse duinen ten zuiden van Bergen bestaan uit jong, schelprijk zand, waardoor er een totaal andere en veel soortenrijkere vegetatie groeit dan in de kalkarme Waddenduinen. In de <b>duinvalleien</b> bloeien orchidee\u00ebn en parnassia, op de droge hellingen <b>duinviooltje en wondklaver</b>. Sinds de jaren negentig lopen er <b>Schotse hooglanders, konikpaarden en Europese bizons</b> \u2014 die laatste sinds 2007 in het Kraansvlak, het eerste bizonproject van West-Europa. Er broeden <b>nachtegaal, tapuit, boomleeuwerik en havik</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013jul</b> (duinflora en orchidee\u00ebn), sep\u2013okt (vogeltrek en bronstige damherten)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 grote grazers actief en duinen nog leeg.',
+ 'n2k': 'Natura 2000-gebied \u2014 kalkrijke duinen, duinvalleien en duinbossen.',
+ 'why': ['Zesendertig km\u00b2 van de best bewaarde <b>kalkrijke duinen</b> van Noordwest-Europa.',
+         'Kalkrijk, schelprijk zand geeft een veel <b>soortenrijkere flora</b>.',
+         'Begrazing door <b>hooglanders, koniks en Europese bizons</b>.',
+         'Het bizonproject in het <b>Kraansvlak</b> (2007) was het eerste van West-Europa.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nachtegaal</b> zingt massaal in het duinstruweel.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Orchidee\u00ebn en parnassia</b> in de duinvalleien.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f98c <b>Damhertenbronst</b> \u2014 burlende bokken.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Vogeltrek</b> langs de kust.'],
+ 'wild': ['\U0001f9ac Europese bizon \u00b7 Schotse hooglander \u00b7 Konikpaard', '\U0001f98c Damhert \u00b7 Ree \u00b7 Vos \u00b7 Konijn', '\U0001f426 Nachtegaal \u00b7 Tapuit \u00b7 Boomleeuwerik \u00b7 Havik', '\U0001f33c Duinviooltje \u00b7 Wondklaver \u00b7 Parnassia \u00b7 Orchidee\u00ebn', '\U0001f98b Duinparelmoervlinder \u00b7 Heivlinder'],
+ 'trail': ['Parkeren bij <b>Koevlak</b>, <b>Parnassia</b> of <b>Bloemendaal</b>; toegangskaart nodig.',
+           'Het <b>Kraansvlak</b> met de bizons heeft een eigen doorloopgebied.',
+           'Kom <b>vroeg</b> \u2014 later is het druk, zeker in het weekend.'],
+ 'foot': '\U0001f436 Honden beperkt \u00b7 \U0001f4b6 Toegangskaart \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Grote grazers \u2014 houd afstand'
+}, {
+ 'tags': ['North Holland \u00b7 Bloemendaal', 'National Park \u00b7 Natura 2000 \u00b7 dune landscape with grazing', 'list 36 \u00b7 no. 126'],
+ 'loc': '\U0001f4cd Between IJmuiden, Bloemendaal and Zandvoort \u00b7 Dunes \u00b7 Very large',
+ 'desc': '<b>Zuid-Kennemerland National Park</b> covers thirty-six square kilometres of dune between the North Sea Canal and Zandvoort and is one of the best-preserved <b>lime-rich dune areas</b> in north-west Europe. That lime content is decisive: the Holland dunes south of Bergen consist of young, shell-rich sand, producing a wholly different and far more species-rich vegetation than the lime-poor Wadden dunes. In the <b>dune slacks</b> orchids and grass-of-Parnassus flower, on the dry slopes <b>dune pansy and kidney vetch</b>. Since the 1990s <b>Highland cattle, konik horses and European bison</b> have grazed here \u2014 the last since 2007 in the Kraansvlak, the first bison project in western Europe. <b>Nightingale, wheatear, woodlark and goshawk</b> breed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Jul</b> (dune flora and orchids), Sep\u2013Oct (migration and rutting fallow deer)<br>\n    <b>Best time of day:</b> Early morning \u2014 large grazers active and the dunes still empty.',
+ 'n2k_en': 'Natura 2000 site \u2014 lime-rich dunes, dune slacks and dune woodland.',
+ 'why': ['Thirty-six km\u00b2 of the best-preserved <b>lime-rich dunes</b> in north-west Europe.',
+         'Lime-rich, shell-rich sand gives a far <b>more species-rich flora</b>.',
+         'Grazing by <b>Highland cattle, koniks and European bison</b>.',
+         'The bison project in the <b>Kraansvlak</b> (2007) was western Europe\u2019s first.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nightingale</b> sings abundantly in the dune scrub.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Orchids and grass-of-Parnassus</b> in the dune slacks.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f98c <b>Fallow deer rut</b> \u2014 groaning bucks.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Bird migration</b> along the coast.'],
+ 'wild': ['\U0001f9ac European bison \u00b7 Highland cattle \u00b7 Konik horse', '\U0001f98c Fallow deer \u00b7 Roe deer \u00b7 Fox \u00b7 Rabbit', '\U0001f426 Nightingale \u00b7 Wheatear \u00b7 Woodlark \u00b7 Goshawk', '\U0001f33c Dune pansy \u00b7 Kidney vetch \u00b7 Grass-of-Parnassus \u00b7 Orchids', '\U0001f98b Niobe fritillary \u00b7 Grayling'],
+ 'trail': ['Park at <b>Koevlak</b>, <b>Parnassia</b> or <b>Bloemendaal</b>; entry ticket required.',
+           'The <b>Kraansvlak</b> with the bison has its own walk-through area.',
+           'Come <b>early</b> \u2014 later it is busy, certainly at weekends.'],
+ 'foot': '\U0001f436 Dogs restricted \u00b7 \U0001f4b6 Entry ticket \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Large grazers \u2014 keep your distance'
+}, card_class='card dune'))
+
+C.append(mk.card(1408, 'Velserbeek', {
+ 'tags': ['Noord-Holland \u00b7 Velsen', 'Landgoed \u00b7 buitenplaats met beek en oude bomen', 'list 36 \u00b7 no. 127'],
+ 'loc': '\U0001f4cd Velsen-Zuid \u00b7 Historische buitenplaats \u00b7 Klein',
+ 'desc': '<b>Velserbeek</b> is een achttiende-eeuwse buitenplaats aan de <b>binnenduinrand</b>, en de naam verwijst naar de beek die er ooit uit de duinen stroomde. Dat is geen detail maar de reden voor het bestaan van de plek: op de overgang van duin naar strandvlakte perst kwelwater zich naar boven, wat de binnenduinrand tot een <b>waterrijke, vruchtbare strook</b> maakte in een verder droge omgeving. Precies langs die lijn liggen de buitenplaatsen van Kennemerland als kralen aan een snoer, van Beverwijk tot Haarlem. Het park is een <b>Engelse landschapstuin</b> met slingervijvers, bruggetjes en zeer oude beuken. Ecologisch gaat het om de <b>oude bomen met holtes</b>: er broeden <b>boomklever, bosuil en grote bonte specht</b>, en er zitten <b>vleermuizen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Feb\u2013apr</b> (stinzenflora), okt\u2013nov (herfstkleur en paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 licht over de vijvers en zingende vogels.',
+ 'why': ['Genoemd naar de <b>beek</b> die er ooit uit de duinen stroomde.',
+         'Op de binnenduinrand perst <b>kwelwater</b> zich naar boven.',
+         'Die waterrijke strook verklaart de <b>rij buitenplaatsen</b> van Kennemerland.',
+         'Oude beuken met <b>holtes</b> voor vogels en vleermuizen.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzenflora</b>: sneeuwklokje, winterakoniet.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever</b> in de oude beuken.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> boven de vijvers.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> onder de oude bomen.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 Grote bonte specht \u00b7 Boomkruiper', '\U0001f989 Bosuil', '\U0001f33c Sneeuwklokje \u00b7 Winterakoniet \u00b7 Boshyacint', '\U0001f987 Watervleermuis \u00b7 Grootoorvleermuis', '\U0001f333 Oude beuk \u00b7 Plataan \u00b7 Linde'],
+ 'trail': ['Parkeren bij <b>Velsen-Zuid</b>; het park is vrij toegankelijk.',
+           'Volg de <b>slingervijvers</b> door de landschapstuin.',
+           'Februari\u2013maart voor <b>sneeuwklokjes en winterakoniet</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Historische buitenplaats \u00b7 \U0001f6b6 Verharde paden'
+}, {
+ 'tags': ['North Holland \u00b7 Velsen', 'Estate \u00b7 country seat with brook and old trees', 'list 36 \u00b7 no. 127'],
+ 'loc': '\U0001f4cd Velsen-Zuid \u00b7 Historic country seat \u00b7 Small',
+ 'desc': '<b>Velserbeek</b> is an eighteenth-century country seat on the <b>inner dune edge</b>, and the name refers to the brook that once flowed out of the dunes there. That is no detail but the very reason for the place: at the transition from dune to beach plain seepage water is pressed upward, making the inner dune edge a <b>water-rich, fertile strip</b> in otherwise dry surroundings. Precisely along that line the country seats of Kennemerland lie like beads on a string, from Beverwijk to Haarlem. The park is an <b>English landscape garden</b> with winding ponds, little bridges and very old beeches. Ecologically it is about the <b>old trees with cavities</b>: <b>nuthatch, tawny owl and great spotted woodpecker</b> breed, and <b>bats</b> roost there.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Feb\u2013Apr</b> (stinzen flora), Oct\u2013Nov (autumn colour and fungi)<br>\n    <b>Best time of day:</b> Morning \u2014 light over the ponds and birds in song.',
+ 'why': ['Named after the <b>brook</b> that once flowed out of the dunes.',
+         'On the inner dune edge <b>seepage water</b> is pressed upward.',
+         'That water-rich strip explains Kennemerland\u2019s <b>row of country seats</b>.',
+         'Old beeches with <b>cavities</b> for birds and bats.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzen flora</b>: snowdrop, winter aconite.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch</b> in the old beeches.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> above the ponds.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f344 <b>Fungi</b> beneath the old trees.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Great spotted woodpecker \u00b7 Treecreeper', '\U0001f989 Tawny owl', '\U0001f33c Snowdrop \u00b7 Winter aconite \u00b7 Bluebell', '\U0001f987 Daubenton\u2019s bat \u00b7 Brown long-eared bat', '\U0001f333 Old beech \u00b7 Plane \u00b7 Lime'],
+ 'trail': ['Park at <b>Velsen-Zuid</b>; the park is freely accessible.',
+           'Follow the <b>winding ponds</b> through the landscape garden.',
+           'February\u2013March for <b>snowdrops and winter aconite</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f Historic country seat \u00b7 \U0001f6b6 Paved paths'
+}))
+
+C.append(mk.card(1409, 'Schoonenberg, Hoogergeest en Lievendaal', {
+ 'tags': ['Noord-Holland \u00b7 Velsen', 'Landgoederen \u00b7 buitenplaatsen op de binnenduinrand', 'list 36 \u00b7 no. 128'],
+ 'loc': '\U0001f4cd Velsen-Zuid en Driehuis \u00b7 Landgoederenzone \u00b7 Middelgroot',
+ 'desc': '<b>Schoonenberg</b>, <b>Hoogergeest</b> en <b>Lievendaal</b> zijn drie aaneengesloten buitenplaatsen die samen laten zien hoe de landgoederenzone van Kennemerland werkt. De namen vertellen het verhaal: <b>Schoonenberg</b> en <b>Hoogergeest</b> verwijzen naar de hoge, droge zandgrond van de strandwal \u2014 <i>geest</i> is precies dat \u2014 terwijl <b>Lievendaal</b> de lager gelegen, vochtige kant benoemt. Op enkele honderden meters afstand verspringt de bodem dus van droog duinzand naar natte strandvlakte, en dat maakt de zone ecologisch zo rijk. In de hoge delen groeien beuken- en eikenbossen met <b>stinzenflora</b>, in de lage delen elzenbroek met <b>dotterbloem</b>. Er broeden <b>boomklever, bosuil, groene specht</b> en er leven veel <b>vleermuizen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013mei</b> (stinzenflora en zang), okt\u2013nov (herfstkleur en paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 vogelzang in de oude lanen.',
+ 'why': ['<b>Geest</b> = hoge droge zandgrond; <b>daal</b> = de lage vochtige kant.',
+         'De bodem verspringt binnen <b>honderden meters</b> van droog naar nat.',
+         'Hoge delen: beuken- en eikenbos met <b>stinzenflora</b>.',
+         'Lage delen: <b>elzenbroek</b> met dotterbloem.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzenflora</b> op de hoge delen.',
+          '<span class="months">Apr\u2013Mei</span> \U0001f33c <b>Dotterbloem</b> in het elzenbroek.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Groene specht en boomklever</b> zingen.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> in de oude bossen.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 Groene specht \u00b7 Boomkruiper', '\U0001f989 Bosuil \u00b7 Ransuil', '\U0001f33c Boshyacint \u00b7 Daslook \u00b7 Dotterbloem', '\U0001f987 Diverse vleermuissoorten', '\U0001f333 Beuk \u00b7 Eik \u00b7 Els'],
+ 'trail': ['Parkeren bij <b>Driehuis</b> of <b>Velsen-Zuid</b>; paden verbinden de landgoederen.',
+           'Let op de <b>overgang</b> van droog naar nat \u2014 zichtbaar in de vegetatie.',
+           'Loop de drie landgoederen <b>in \u00e9\u00e9n route</b> aaneen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Historische buitenplaatsen \u00b7 \U0001f6b6 Goed padennet'
+}, {
+ 'tags': ['North Holland \u00b7 Velsen', 'Estates \u00b7 country seats on the inner dune edge', 'list 36 \u00b7 no. 128'],
+ 'loc': '\U0001f4cd Velsen-Zuid and Driehuis \u00b7 Estate zone \u00b7 Medium-sized',
+ 'desc': '<b>Schoonenberg</b>, <b>Hoogergeest</b> and <b>Lievendaal</b> are three adjoining country seats that together show how Kennemerland\u2019s estate zone works. The names tell the story: <b>Schoonenberg</b> and <b>Hoogergeest</b> refer to the high, dry sandy ground of the beach ridge \u2014 <i>geest</i> is exactly that \u2014 while <b>Lievendaal</b> names the lower, damp side. Within a few hundred metres, then, the soil shifts from dry dune sand to wet beach plain, and that is what makes the zone so ecologically rich. On the high parts grow beech and oak woods with <b>stinzen flora</b>, on the low parts alder carr with <b>marsh marigold</b>. <b>Nuthatch, tawny owl and green woodpecker</b> breed, and many <b>bats</b> live here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013May</b> (stinzen flora and song), Oct\u2013Nov (autumn colour and fungi)<br>\n    <b>Best time of day:</b> Morning \u2014 birdsong in the old avenues.',
+ 'why': ['<b>Geest</b> = high dry sandy ground; <b>daal</b> = the low damp side.',
+         'The soil shifts within <b>hundreds of metres</b> from dry to wet.',
+         'High parts: beech and oak wood with <b>stinzen flora</b>.',
+         'Low parts: <b>alder carr</b> with marsh marigold.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzen flora</b> on the high parts.',
+          '<span class="months">Apr\u2013May</span> \U0001f33c <b>Marsh marigold</b> in the alder carr.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Green woodpecker and nuthatch</b> sing.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f344 <b>Fungi</b> in the old woods.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Green woodpecker \u00b7 Treecreeper', '\U0001f989 Tawny owl \u00b7 Long-eared owl', '\U0001f33c Bluebell \u00b7 Ramsons \u00b7 Marsh marigold', '\U0001f987 Various bat species', '\U0001f333 Beech \u00b7 Oak \u00b7 Alder'],
+ 'trail': ['Park at <b>Driehuis</b> or <b>Velsen-Zuid</b>; paths link the estates.',
+           'Note the <b>transition</b> from dry to wet \u2014 visible in the vegetation.',
+           'Walk the three estates <b>in one route</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f Historic country seats \u00b7 \U0001f6b6 Good path network'
+}))
+
+mk.insert(C, '1404')
+mk.progress(1409)
+mk.check()

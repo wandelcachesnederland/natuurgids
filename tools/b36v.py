@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1385, 'Schoonebeek', {
+ 'tags': ['Drenthe \u00b7 Emmen', 'Hooibroekenlandschap \u00b7 oud veendorp en beekdal', 'list 36 \u00b7 no. 104'],
+ 'loc': '\U0001f4cd Zuidoost-Drenthe, tegen de Duitse grens \u00b7 Dorp met beekdal \u00b7 Groot',
+ 'desc': '<b>Schoonebeek</b> ligt op een zandrug midden in wat ooit het uitgestrekte Bourtangerveen was, en het dorp is om twee heel verschillende redenen beroemd. De eerste is het <b>olieveld</b>: in 1943 werd hier de grootste olievoorraad op het Europese vasteland aangeboord, en decennialang stonden de jaknikkers tussen de weilanden te pompen. De tweede is het <b>Schoonebeeker schaap</b>, een oud, taai heideras dat hier bewaard bleef en nu weer wordt ingezet in natuurbeheer. Het landschap eromheen is een <b>hooibroekenlandschap</b>: natte beekdalgraslanden langs het Schoonebeekerdiep, die vroeger alleen als hooiland bruikbaar waren. Die graslanden zijn nu belangrijk voor <b>weidevogels</b>, met <b>grutto, kievit en watersnip</b>, en de beek zelf herbergt <b>ijsvogel en bever</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels in de hooibroeken), nov\u2013feb (ganzen en hoogwater)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 mist boven het beekdal en weidevogelzang.',
+ 'why': ['In <b>1943</b> aangeboord: grootste olieveld van het Europese vasteland.',
+         'Bakermat van het <b>Schoonebeeker schaap</b>, een oud heideras.',
+         '<b>Hooibroekenlandschap</b>: natte beekdalgraslanden langs het Schoonebeekerdiep.',
+         '<b>Grutto, watersnip, ijsvogel en bever</b> in en om de beek.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Grutto</b> keert terug in de hooibroeken.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Watersnip en kievit</b> broeden.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Beekdalflora</b> in de natte graslanden.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Ganzen</b> op de ondergelopen percelen.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Kievit \u00b7 Watersnip \u00b7 Tureluur', '\U0001f426 IJsvogel langs het Schoonebeekerdiep', '\U0001f9ab Bever \u00b7 Otter (sporadisch)', '\U0001f411 Schoonebeeker schaap (begrazing)', '\U0001f33c Dotterbloem \u00b7 Echte koekoeksbloem'],
+ 'trail': ['Parkeren in <b>Schoonebeek</b>; paden langs het Schoonebeekerdiep.',
+           'Zoek de <b>jaknikkers</b> \u2014 industrieel erfgoed tussen de weilanden.',
+           'Kom in <b>maart</b> voor de terugkerende grutto\u2019s.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Weidevogelgebied \u00b7 \U0001f3db\ufe0f Olie-erfgoed'
+}, {
+ 'tags': ['Drenthe \u00b7 Emmen', 'Hay-marsh landscape \u00b7 old peat village and brook valley', 'list 36 \u00b7 no. 104'],
+ 'loc': '\U0001f4cd South-east Drenthe, against the German border \u00b7 Village with brook valley \u00b7 Large',
+ 'desc': '<b>Schoonebeek</b> lies on a sand ridge in the middle of what was once the vast Bourtanger Bog, and the village is famous for two very different reasons. The first is the <b>oil field</b>: in 1943 the largest oil reserve on the European mainland was struck here, and for decades nodding donkeys pumped away among the meadows. The second is the <b>Schoonebeeker sheep</b>, an old, hardy heath breed preserved here and now used again in nature management. The surrounding landscape is a <b>hay-marsh landscape</b>: wet brook-valley grasslands along the Schoonebeekerdiep, formerly usable only as hay land. Those grasslands now matter for <b>meadow birds</b>, with <b>godwit, lapwing and snipe</b>, while the brook itself holds <b>kingfisher and beaver</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds in the hay marshes), Nov\u2013Feb (geese and high water)<br>\n    <b>Best time of day:</b> Early morning \u2014 mist over the brook valley and meadow-bird song.',
+ 'why': ['Struck in <b>1943</b>: the largest oil field on the European mainland.',
+         'Cradle of the <b>Schoonebeeker sheep</b>, an old heath breed.',
+         '<b>Hay-marsh landscape</b>: wet brook-valley grasslands along the Schoonebeekerdiep.',
+         '<b>Godwit, snipe, kingfisher and beaver</b> in and around the brook.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Godwit</b> returns to the hay marshes.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Snipe and lapwing</b> breed.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Brook-valley flora</b> in the wet grasslands.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Geese</b> on the flooded parcels.'],
+ 'wild': ['\U0001f426 Black-tailed godwit \u00b7 Lapwing \u00b7 Snipe \u00b7 Redshank', '\U0001f426 Kingfisher along the Schoonebeekerdiep', '\U0001f9ab Beaver \u00b7 Otter (occasional)', '\U0001f411 Schoonebeeker sheep (grazing)', '\U0001f33c Marsh marigold \u00b7 Ragged robin'],
+ 'trail': ['Park in <b>Schoonebeek</b>; paths along the Schoonebeekerdiep.',
+           'Look for the <b>nodding donkeys</b> \u2014 industrial heritage among the meadows.',
+           'Come in <b>March</b> for the returning godwits.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Meadow-bird area \u00b7 \U0001f3db\ufe0f Oil heritage'
+}))
+
+C.append(mk.card(1386, 'Bargerveen', {
+ 'tags': ['Drenthe \u00b7 Emmen', 'Hoogveen \u00b7 Natura 2000 \u00b7 laatste rest van het Bourtangerveen', 'list 36 \u00b7 no. 105'],
+ 'loc': '\U0001f4cd Ten oosten van Emmen, tegen de Duitse grens \u00b7 Hoogveen \u00b7 Zeer groot',
+ 'desc': 'Het <b>Bargerveen</b> is het laatste substanti\u00eble restant van het <b>Bourtangerveen</b>, het moeras dat ooit tweeduizend vierkante kilometer besloeg en Nederland van Duitsland scheidde. Toen in de jaren zestig de laatste stukken dreigden te verdwijnen, werd het gered \u2014 net op tijd. Wat overbleef was echter een <b>uitgedroogd restveen</b>: door de omringende ontwatering zakte de waterstand weg, en levend hoogveen groeit alleen als het water het hele jaar tot vlak onder het oppervlak staat. Daarom is het gebied opgedeeld in <b>compartimenten met dammen</b>, waarin regenwater wordt vastgehouden. Het werkt: op grote vlakten groeit weer <b>actief veenmos</b>. Het Bargerveen is nu Natura 2000-gebied en broedplaats van <b>blauwborst, grauwe klauwier, watersnip en kraanvogel</b> \u2014 die laatste keerde hier in 2001 terug als broedvogel.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (kraanvogels, klauwieren en veenbloei), sep\u2013okt (najaarskleur en trek)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 kraanvogels roepen en het veen dampt.',
+ 'n2k': 'Natura 2000-gebied \u2014 actief hoogveen en herstellend veenmoeras.',
+ 'why': ['Laatste grote rest van het <b>Bourtangerveen</b> (ooit 2000 km\u00b2).',
+         'Gered in de jaren zestig, maar toen al <b>verdroogd restveen</b>.',
+         'Herstel via <b>compartimenten met dammen</b> die regenwater vasthouden.',
+         '<b>Kraanvogel</b> keerde in 2001 terug als Nederlandse broedvogel.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Kraanvogels</b> baltsen met trompetterende roep.',
+          '<span class="months">Mei\u2013Jun</span> \U0001f33f <b>Veenpluis</b> kleurt het veen wit.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Grauwe klauwier</b> jaagt vanaf struiktoppen.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f342 <b>Veenmos en pijpenstrootje</b> in roodbruine najaarskleur.'],
+ 'wild': ['\U0001f426 Kraanvogel \u00b7 Grauwe klauwier \u00b7 Blauwborst \u00b7 Watersnip', '\U0001f33f Veenmos \u00b7 Veenpluis \u00b7 Lavendelhei \u00b7 Zonnedauw', '\U0001f438 Heikikker \u00b7 Adder \u00b7 Levendbarende hagedis', '\U0001f98b Veenbesparelmoervlinder \u00b7 Veenhooibeestje', '\U0001f985 Blauwe kiekendief \u00b7 Ruigpootbuizerd (winter)'],
+ 'trail': ['Parkeren bij het <b>bezoekerscentrum</b> aan de Schoonebeekerweg.',
+           'Volg de <b>uitkijkpunten</b> \u2014 het veen zelf is grotendeels ontoegankelijk.',
+           'Kom in de <b>vroege ochtend</b> voor kraanvogels; hun roep draagt kilometers ver.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Blijf op de paden \u2014 kwetsbaar veen'
+}, {
+ 'tags': ['Drenthe \u00b7 Emmen', 'Raised bog \u00b7 Natura 2000 \u00b7 last remnant of the Bourtanger Bog', 'list 36 \u00b7 no. 105'],
+ 'loc': '\U0001f4cd East of Emmen, against the German border \u00b7 Raised bog \u00b7 Very large',
+ 'desc': 'The <b>Bargerveen</b> is the last substantial remnant of the <b>Bourtanger Bog</b>, the marsh that once covered two thousand square kilometres and separated the Netherlands from Germany. When the last pieces threatened to disappear in the 1960s it was saved \u2014 only just in time. What remained, however, was a <b>desiccated residual bog</b>: the surrounding drainage let the water table drop, and living raised bog grows only when water stands just below the surface all year round. The area is therefore divided into <b>compartments with dams</b> in which rainwater is held. It works: across large expanses <b>active sphagnum</b> is growing again. The Bargerveen is now a Natura 2000 site and a breeding ground for <b>bluethroat, red-backed shrike, snipe and crane</b> \u2014 the last of which returned here as a breeding bird in 2001.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (cranes, shrikes and bog flowering), Sep\u2013Oct (autumn colour and migration)<br>\n    <b>Best time of day:</b> Early morning \u2014 cranes calling and the bog steaming.',
+ 'n2k_en': 'Natura 2000 site \u2014 active raised bog and recovering peat marsh.',
+ 'why': ['Last large remnant of the <b>Bourtanger Bog</b> (once 2000 km\u00b2).',
+         'Saved in the 1960s, but already a <b>desiccated residual bog</b>.',
+         'Restoration through <b>compartments with dams</b> holding rainwater.',
+         'The <b>crane</b> returned in 2001 as a Dutch breeding bird.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Cranes</b> display with trumpeting calls.',
+          '<span class="months">May\u2013Jun</span> \U0001f33f <b>Cottongrass</b> turns the bog white.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Red-backed shrike</b> hunts from bush tops.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f342 <b>Sphagnum and purple moor-grass</b> in russet autumn colour.'],
+ 'wild': ['\U0001f426 Crane \u00b7 Red-backed shrike \u00b7 Bluethroat \u00b7 Snipe', '\U0001f33f Sphagnum \u00b7 Cottongrass \u00b7 Bog rosemary \u00b7 Sundew', '\U0001f438 Moor frog \u00b7 Adder \u00b7 Viviparous lizard', '\U0001f98b Cranberry fritillary \u00b7 Large heath', '\U0001f985 Hen harrier \u00b7 Rough-legged buzzard (winter)'],
+ 'trail': ['Park at the <b>visitor centre</b> on the Schoonebeekerweg.',
+           'Follow the <b>viewpoints</b> \u2014 the bog itself is largely inaccessible.',
+           'Come in the <b>early morning</b> for cranes; their call carries for kilometres.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Keep to the paths \u2014 fragile bog'
+}))
+
+C.append(mk.card(1387, 'Damlanderpolder', {
+ 'tags': ['Noord-Holland \u00b7 Heiloo', 'Polder \u00b7 nat grasland achter de strandwal', 'list 36 \u00b7 no. 106'],
+ 'loc': '\U0001f4cd Tussen Heiloo en Limmen \u00b7 Polder \u00b7 Klein',
+ 'desc': 'De <b>Damlanderpolder</b> ligt in de lage strook tussen twee oude <b>strandwallen</b>, de zandruggen waarop Heiloo en Limmen zijn gebouwd. Zulke laagten heten <b>strandvlakten</b>: ze ontstonden toen de zee zich terugtrok en tussen opeenvolgende duinruggen natte, veenachtige geulen achterbleven. Eeuwenlang waren ze onbruikbaar behalve als hooiland, en pas met bemaling werden het polders. De naam verwijst naar een <b>dam</b> die het water keerde. Wat er nu ligt is een nat, kruidenrijk graslandje met sloten en rietkragen \u2014 klein maar in het volgebouwde Kennemerland kostbaar. Er broeden <b>grutto, tureluur en kievit</b>, in de sloten leven <b>groene kikker en kleine modderkruiper</b>, en in de rietkragen zingt de <b>rietzanger</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels), mei\u2013jul (slootkantflora)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 weidevogels zijn dan het actiefst.',
+ 'why': ['Ligt in een <b>strandvlakte</b> tussen twee oude strandwallen.',
+         'Strandvlakten waren eeuwenlang alleen als <b>hooiland</b> bruikbaar.',
+         'De naam verwijst naar een <b>dam</b> die het water keerde.',
+         'Kostbaar nat grasland in het volgebouwde <b>Kennemerland</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Grutto en kievit</b> keren terug.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Tureluur</b> broedt in het natte grasland.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Slootkantflora</b> met echte koekoeksbloem.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de sloten.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Kievit', '\U0001f33e Rietzanger \u00b7 Kleine karekiet', '\U0001f438 Groene kikker \u00b7 \U0001f41f Kleine modderkruiper', '\U0001f33c Echte koekoeksbloem \u00b7 Dotterbloem', '\U0001f9a0 Libellen \u00b7 Juffers'],
+ 'trail': ['Parkeren bij <b>Heiloo</b> of <b>Limmen</b>; paden langs de polderranden.',
+           'Kijk <b>vanaf de rand</b> \u2014 het weiland zelf is broedgebied.',
+           'Voorjaar is veruit het beste seizoen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Weidevogelgebied mrt\u2013jun \u00b7 \U0001f97e Nat'
+}, {
+ 'tags': ['North Holland \u00b7 Heiloo', 'Polder \u00b7 wet grassland behind the beach ridge', 'list 36 \u00b7 no. 106'],
+ 'loc': '\U0001f4cd Between Heiloo and Limmen \u00b7 Polder \u00b7 Small',
+ 'desc': 'The <b>Damlanderpolder</b> lies in the low strip between two old <b>beach ridges</b>, the sandy rises on which Heiloo and Limmen were built. Such hollows are called <b>beach plains</b>: they formed when the sea withdrew and wet, peaty channels remained between successive dune ridges. For centuries they were useless except as hay land, and only with pumping did they become polders. The name refers to a <b>dam</b> that held back the water. What lies here now is a small wet, herb-rich grassland with ditches and reed fringes \u2014 small but precious in built-up Kennemerland. <b>Godwit, redshank and lapwing</b> breed here, <b>edible frog and spined loach</b> live in the ditches, and the <b>sedge warbler</b> sings in the reed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds), May\u2013Jul (ditch-bank flora)<br>\n    <b>Best time of day:</b> Early morning \u2014 meadow birds are then most active.',
+ 'why': ['Lies in a <b>beach plain</b> between two old beach ridges.',
+         'Beach plains were for centuries usable only as <b>hay land</b>.',
+         'The name refers to a <b>dam</b> that held back the water.',
+         'Precious wet grassland in built-up <b>Kennemerland</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Godwit and lapwing</b> return.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Redshank</b> breeds in the wet grassland.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Ditch-bank flora</b> with ragged robin.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the ditches.'],
+ 'wild': ['\U0001f426 Black-tailed godwit \u00b7 Redshank \u00b7 Lapwing', '\U0001f33e Sedge warbler \u00b7 Reed warbler', '\U0001f438 Edible frog \u00b7 \U0001f41f Spined loach', '\U0001f33c Ragged robin \u00b7 Marsh marigold', '\U0001f9a0 Dragonflies \u00b7 Damselflies'],
+ 'trail': ['Park at <b>Heiloo</b> or <b>Limmen</b>; paths along the polder edges.',
+           'Watch <b>from the edge</b> \u2014 the meadow itself is breeding ground.',
+           'Spring is by far the best season.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Meadow-bird area Mar\u2013Jun \u00b7 \U0001f97e Wet'
+}, card_class='card water'))
+
+C.append(mk.card(1388, 'Loterijlanden', {
+ 'tags': ['Noord-Holland \u00b7 Heiloo', 'Nat grasland \u00b7 verkaveling door loting', 'list 36 \u00b7 no. 107'],
+ 'loc': '\U0001f4cd Bij Heiloo \u00b7 Nat grasland met sloten \u00b7 Klein',
+ 'desc': 'De <b>Loterijlanden</b> danken hun naam aan een verdwenen gebruik: toen gemeenschappelijke grond onder de rechthebbenden werd verdeeld, gebeurde dat door <b>loting</b>. Elk perceel verschilde in kwaliteit \u2014 het ene lag hoog en droog, het andere jaarlijks onder water \u2014 en loten was de enige manier om de verdeling onbetwistbaar eerlijk te maken. Vaak werd zelfs jaarlijks opnieuw geloot, zodat niemand permanent met het slechtste land zat. Die praktijk kwam in heel Noordwest-Europa voor en heeft veel veldnamen opgeleverd. Het resultaat is hier een landschap van <b>smalle, ongelijke stroken</b> gescheiden door sloten. Het is nat grasland met kruidenrijke oevers, waar <b>grutto, tureluur en scholekster</b> broeden en \u2019s winters <b>smienten en ganzen</b> foerageren.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels), nov\u2013feb (smienten en ganzen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 licht op het water en actieve weidevogels.',
+ 'why': ['Percelen werden verdeeld door <b>loting</b> \u2014 de eerlijkste methode.',
+         'Soms <b>jaarlijks opnieuw geloot</b>, zodat niemand het slechtste land hield.',
+         'Resultaat: <b>smalle, ongelijke stroken</b> gescheiden door sloten.',
+         'Weidevogels in het voorjaar, <b>smienten</b> in de winter.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Grutto en scholekster</b> keren terug.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Tureluur</b> baltst boven de stroken.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Slootkanten</b> in bloei.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Smienten</b> fluiten op de natte percelen.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Scholekster \u00b7 Kievit', '\U0001f986 Smient \u00b7 Wintertaling \u00b7 Kolgans', '\U0001f33c Echte koekoeksbloem \u00b7 Dotterbloem', '\U0001f9a0 Libellen langs de sloten', '\U0001f985 Buizerd \u00b7 Bruine kiekendief'],
+ 'trail': ['Parkeren bij <b>Heiloo</b>; paden langs de slootkanten.',
+           'Let op de <b>ongelijke strokenbreedtes</b> \u2014 sporen van de loting.',
+           'Winter voor smienten, voorjaar voor grutto\u2019s.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Weidevogelgebied \u00b7 \U0001f97e Nat'
+}, {
+ 'tags': ['North Holland \u00b7 Heiloo', 'Wet grassland \u00b7 parcelling by lottery', 'list 36 \u00b7 no. 107'],
+ 'loc': '\U0001f4cd Near Heiloo \u00b7 Wet grassland with ditches \u00b7 Small',
+ 'desc': 'The <b>Loterijlanden</b> owe their name to a vanished practice: when common land was divided among those entitled to it, it was done by <b>drawing lots</b>. Every parcel differed in quality \u2014 one lay high and dry, another flooded every year \u2014 and casting lots was the only way to make the division indisputably fair. Often lots were even redrawn annually, so nobody was permanently stuck with the worst land. The practice occurred across north-west Europe and has left many field names. The result here is a landscape of <b>narrow, unequal strips</b> separated by ditches. It is wet grassland with herb-rich banks, where <b>godwit, redshank and oystercatcher</b> breed and <b>wigeon and geese</b> forage in winter.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds), Nov\u2013Feb (wigeon and geese)<br>\n    <b>Best time of day:</b> Morning \u2014 light on the water and active meadow birds.',
+ 'why': ['Parcels were divided by <b>drawing lots</b> \u2014 the fairest method.',
+         'Sometimes <b>redrawn annually</b>, so nobody kept the worst land.',
+         'Result: <b>narrow, unequal strips</b> separated by ditches.',
+         'Meadow birds in spring, <b>wigeon</b> in winter.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Godwit and oystercatcher</b> return.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Redshank</b> displays above the strips.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Ditch banks</b> in flower.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Wigeon</b> whistle on the wet parcels.'],
+ 'wild': ['\U0001f426 Black-tailed godwit \u00b7 Redshank \u00b7 Oystercatcher \u00b7 Lapwing', '\U0001f986 Wigeon \u00b7 Teal \u00b7 White-fronted goose', '\U0001f33c Ragged robin \u00b7 Marsh marigold', '\U0001f9a0 Dragonflies along the ditches', '\U0001f985 Buzzard \u00b7 Marsh harrier'],
+ 'trail': ['Park at <b>Heiloo</b>; paths along the ditch banks.',
+           'Note the <b>unequal strip widths</b> \u2014 traces of the lottery.',
+           'Winter for wigeon, spring for godwits.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Meadow-bird area \u00b7 \U0001f97e Wet'
+}, card_class='card water'))
+
+C.append(mk.card(1389, 'Nijenburg', {
+ 'tags': ['Noord-Holland \u00b7 Heiloo', 'Landgoed \u00b7 buitenplaats met oud loofbos', 'list 36 \u00b7 no. 108'],
+ 'loc': '\U0001f4cd Aan de rand van Heiloo \u00b7 Historische buitenplaats \u00b7 Middelgroot',
+ 'desc': '<b>Nijenburg</b> is een van de oudste bewaarde buitenplaatsen van Noord-Holland: het huis dateert uit <b>1716</b> en werd gebouwd door een Amsterdamse koopmansfamilie die de zomers buiten de stinkende grachtenstad wilde doorbrengen. Zulke buitenplaatsen verrezen bij honderden op de <b>strandwallen</b> van Kennemerland, want die zandruggen waren droog, gezond en op een dag reizen van Amsterdam. Van die honderden zijn er weinig over; Nijenburg overleefde omdat het in 1966 aan Vereniging Hendrick de Keyser overging. Het park is een <b>Engelse landschapstuin</b> met slingerpaden, waterpartijen en zeer oude beuken en eiken. Juist die oude bomen maken het ecologisch waardevol: <b>boomklever, grote bonte specht en bosuil</b> broeden er, en er leven <b>vleermuizen</b> in de holtes.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013mei</b> (stinzenflora en zang), okt\u2013nov (herfstkleur en paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 licht door de oude beuken.',
+ 'why': ['Huis uit <b>1716</b>, gebouwd door een Amsterdamse koopmansfamilie.',
+         'Buitenplaatsen verrezen op de <b>droge strandwallen</b> van Kennemerland.',
+         'Overleefde doordat het in 1966 aan <b>Hendrick de Keyser</b> overging.',
+         '<b>Engelse landschapstuin</b> met zeer oude beuken en eiken.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Stinzenflora</b>: sneeuwklokje, boshyacint.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever</b> in de oude beuken.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> in boomholtes en het huis.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> en paddenstoelen in het park.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 Grote bonte specht \u00b7 Glanskop', '\U0001f989 Bosuil \u00b7 Ransuil', '\U0001f987 Rosse vleermuis \u00b7 Gewone grootoorvleermuis', '\U0001f33c Sneeuwklokje \u00b7 Boshyacint \u00b7 Daslook', '\U0001f333 Oude beuk \u00b7 Zomereik \u00b7 Linde'],
+ 'trail': ['Parkeren bij <b>Heiloo</b>; het park is vrij toegankelijk overdag.',
+           'Volg de <b>slingerpaden</b> van de landschapstuin.',
+           'Maart\u2013april voor de <b>stinzenflora</b> onder de oude bomen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Park gratis \u00b7 \U0001f3db\ufe0f Rijksmonument 1716 \u00b7 \U0001f6b6 Verharde paden'
+}, {
+ 'tags': ['North Holland \u00b7 Heiloo', 'Estate \u00b7 country seat with old broadleaf woodland', 'list 36 \u00b7 no. 108'],
+ 'loc': '\U0001f4cd On the edge of Heiloo \u00b7 Historic country seat \u00b7 Medium-sized',
+ 'desc': '<b>Nijenburg</b> is one of the oldest surviving country seats in North Holland: the house dates from <b>1716</b> and was built by an Amsterdam merchant family wanting to spend summers outside the malodorous canal city. Such country seats rose by the hundred on the <b>beach ridges</b> of Kennemerland, for those sandy rises were dry, healthy and a day\u2019s travel from Amsterdam. Of those hundreds few remain; Nijenburg survived because it passed to the Hendrick de Keyser association in 1966. The park is an <b>English landscape garden</b> with winding paths, water features and very old beeches and oaks. It is precisely those old trees that make it ecologically valuable: <b>nuthatch, great spotted woodpecker and tawny owl</b> breed there, and <b>bats</b> live in the cavities.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013May</b> (stinzen flora and song), Oct\u2013Nov (autumn colour and fungi)<br>\n    <b>Best time of day:</b> Morning \u2014 light through the old beeches.',
+ 'why': ['House from <b>1716</b>, built by an Amsterdam merchant family.',
+         'Country seats rose on the <b>dry beach ridges</b> of Kennemerland.',
+         'Survived by passing to <b>Hendrick de Keyser</b> in 1966.',
+         '<b>English landscape garden</b> with very old beeches and oaks.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Stinzen flora</b>: snowdrop, bluebell.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch</b> in the old beeches.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> in tree cavities and the house.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> and fungi in the park.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Great spotted woodpecker \u00b7 Marsh tit', '\U0001f989 Tawny owl \u00b7 Long-eared owl', '\U0001f987 Noctule \u00b7 Brown long-eared bat', '\U0001f33c Snowdrop \u00b7 Bluebell \u00b7 Ramsons', '\U0001f333 Old beech \u00b7 Pedunculate oak \u00b7 Lime'],
+ 'trail': ['Park at <b>Heiloo</b>; the park is freely accessible by day.',
+           'Follow the <b>winding paths</b> of the landscape garden.',
+           'March\u2013April for the <b>stinzen flora</b> beneath the old trees.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Park free \u00b7 \U0001f3db\ufe0f National monument 1716 \u00b7 \U0001f6b6 Paved paths'
+}))
+
+mk.insert(C, '1384')
+mk.progress(1389)
+mk.check()
