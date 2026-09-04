@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1610, 'Dinkelland', {
+ 'tags': ['Overijssel · Losser', 'Beekdal · de meanderende Dinkel en het Lutterzand', 'list 36 · no. 329'],
+ 'loc': '📍 De Lutte–Denekamp, Noordoost-Twente · Natura 2000 · Middelgroot',
+ 'desc': '<b>Dinkelland</b> is de naam van het beekdal van de <b>Dinkel</b>, een grensoverschrijdend riviertje dat in Duitsland ontspringt, bij Losser Nederland binnenkomt, langs het <b>Lutterzand</b> kronkelt en bij Lattrop weer over de grens verdwijnt om bij Neuenhaus in de Vecht te stromen. Bij het Lutterzand kon de Dinkel haar <b>natuurlijke meanderloop</b> behouden: steile oevers, zandvlakten, kleine heidevelden en bos, met in een binnenbocht een zichtbaar ontwikkelende kronkelwaard. Het profiel van de laatste 15.000 jaar is er in de oeverwand te lezen — een provinciaal aardkundig monument.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (zang), jun–aug (stroomdalflora), okt (herfst)<br>\n    <b>Beste tijd van de dag:</b> Ochtend — mist hangt dan over het dal.',
+ 'why': ['De <b>Dinkel</b> ontspringt in Duitsland en meandert door Twente.',
+         'Bij het <b>Lutterzand</b> bleef de natuurlijke meanderloop behouden.',
+         'In de oeverwand is <b>15.000 jaar</b> aardlagen afleesbaar.',
+         'Natura 2000 als <b>Dinkelland</b> — habitatrichtlijn.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🐦 <b>IJsvogel en grote gele kwikstaart</b> langs de oevers.',
+          '<span class="months">Jun–Aug</span> 🪰 <b>Beekjuffers</b> boven het water.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Stroomdalflora</b> op de zandige oevers.',
+          '<span class="months">Okt–Nov</span> 🍂 <b>Herfstkleur</b> in het beekdal.'],
+ 'wild': ['🐦 IJsvogel · Grote gele kwikstaart · Buizerd', '🪰 Weidebeekjuffer · Bosbeekjuffer', '🐟 Bermpje · Beekprik', '🌸 Wilde marjolein · Beemdkroon · Gele morgenster', '🌳 Zwarte els · Schietwilg · Zomereik'],
+ 'trail': ['Parkeren bij <b>De Lutte</b>; wandelroutes door het Lutterzand.',
+           'Steek de <b>Dinkel</b> over bij de Kribbebrug.',
+           'Lees de <b>aardlagen</b> in de steile oeverwand.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Steile oevers — afstand houden · 🚶 Wandel- en fietspaden'
+}, {
+ 'tags': ['Overijssel · Losser', 'Brook valley · the meandering Dinkel and the Lutterzand', 'list 36 · no. 329'],
+ 'loc': '📍 De Lutte–Denekamp, North-east Twente · Natura 2000 · Medium-sized',
+ 'desc': '<b>Dinkelland</b> is the name of the brook valley of the <b>Dinkel</b>, a cross-border stream that rises in Germany, enters the Netherlands at Losser, meanders past the <b>Lutterzand</b> and slips back across the border near Lattrop to flow into the Vecht at Neuenhaus. At the Lutterzand the Dinkel could keep its <b>natural meandering course</b>: steep banks, sand plains, small heath fields and woodland, with a visibly developing point bar in an inner bend. The profile of the last 15,000 years can be read in the bank face — a provincial earth-science monument.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (song), Jun–Aug (river-valley flora), Oct (autumn)<br>\n    <b>Best time of day:</b> Morning — mist hangs over the dale then.',
+ 'why': ['The <b>Dinkel</b> rises in Germany and meanders through Twente.',
+         'At the <b>Lutterzand</b> the natural meander course survived.',
+         'In the bank face <b>15,000 years</b> of strata are legible.',
+         'Natura 2000 as <b>Dinkelland</b> — Habitats Directive.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🐦 <b>Kingfisher and grey wagtail</b> along the banks.',
+          '<span class="months">Jun–Aug</span> 🪰 <b>Demoiselles</b> above the water.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>River-valley flora</b> on the sandy banks.',
+          '<span class="months">Oct–Nov</span> 🍂 <b>Autumn colour</b> in the brook valley.'],
+ 'wild': ['🐦 Kingfisher · Grey wagtail · Buzzard', '🪰 Banded demoiselle · Beautiful demoiselle', '🐟 Stone loach · Brook lamprey', '🌸 Wild marjoram · Brown knapweed · Yellow goat\'s-beard', '🌳 Black alder · Crack willow · Pedunculate oak'],
+ 'trail': ['Park at <b>De Lutte</b>; walking routes through the Lutterzand.',
+           'Cross the <b>Dinkel</b> at the Kribbebrug.',
+           'Read the <b>strata</b> in the steep bank face.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Steep banks — keep your distance · 🚶 Walking and cycling paths'
+}, card_class='card water',
+   n2k='Natura 2000-gebied <b>Dinkelland</b> — het beekdal van de Dinkel is aangewezen voor laaglandbeken, stroomdalgraslanden en soorten als beekprik en grote modderkruiper.',
+   n2k_en='Natura 2000 site <b>Dinkelland</b> — the Dinkel valley is designated for lowland streams, river-valley grassland and species such as brook lamprey and spined loach.'))
+
+C.append(mk.card(1611, 'Dulder', {
+ 'tags': ['Overijssel · Dinkelland', 'Buurtschap · coulisselandschap bij het Molenven', 'list 36 · no. 330'],
+ 'loc': '📍 Tussen Denekamp en Weerselo · Buurtschap · Klein',
+ 'desc': '<b>Dulder</b> is een stille buurtschap tussen Denekamp en Weerselo, op de overgang van de hoge essen naar de lage, natte broekgronden van Noordoost-Twente. Het is een typisch <b>hoevenlandschap</b>: boerderijen verscholen achter houtwallen, verbonden door zandwegen, met hier en daar een erfboom die al generaties oud is. De naam hoort bij hetzelfde grondwoord als <b>dolle</b> — laag, moerassig land. Vlakbij liggen het ven <b>Molenven</b> en het Voltherbroek, zodat de buurtschap midden in een netwerk van natte Twentse natuur ligt.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jul</b> (zang), sep–okt (herfst)<br>\n    <b>Beste tijd van de dag:</b> Ochtend langs de zandwegen.',
+ 'why': ['Een <b>buurtschap</b> op de grens van es en broekgrond.',
+         'De naam is verwant aan <b>dolle</b> — laag, moerassig land.',
+         'Boerderijen achter <b>houtwallen</b>, verbonden door zandwegen.',
+         'Midden in een netwerk met <b>Molenven</b> en Voltherbroek.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Meidoorn</b> bloeit in de wallen.',
+          '<span class="months">Apr–Jul</span> 🐦 <b>Geelgors en kneu</b> zingen vanaf de singels.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Vlinders</b> op de akkerranden.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> langs de zandwegen.'],
+ 'wild': ['🐦 Geelgors · Kneu · Grasmus', '🦌 Ree · Haas · Egel', '🦋 Dagpauwoog · Atalanta', '🌳 Zomereik · Meidoorn · Hazelaar', '🌼 Gewone margriet · Knoopkruid'],
+ 'trail': ['Parkeren in <b>Weerselo</b> of <b>Denekamp</b>; zandwegen door de buurtschap.',
+           'Wandel door naar het <b>Molenven</b>.',
+           'Fiets de <b>houtwallen</b> tussen de erven af.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🚜 Buurtschap · 🚶 Zandwegen'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Hamlet · coulisse landscape near the Molenven', 'list 36 · no. 330'],
+ 'loc': '📍 Between Denekamp and Weerselo · Hamlet · Small',
+ 'desc': '<b>Dulder</b> is a quiet hamlet between Denekamp and Weerselo, on the transition from the high es fields to the low, wet brooklands of North-east Twente. It is a typical <b>farmstead landscape</b>: farms tucked behind hedge banks, joined by sandy lanes, with the odd yard tree already generations old. The name belongs to the same root as <b>dolle</b> — low, marshy ground. Close by lie the fen <b>Molenven</b> and the Voltherbroek, so the hamlet sits amid a network of wet Twente nature.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jul</b> (song), Sep–Oct (autumn)<br>\n    <b>Best time of day:</b> Morning along the sandy lanes.',
+ 'why': ['A <b>hamlet</b> on the boundary of es and brookland.',
+         'The name is related to <b>dolle</b> — low, marshy land.',
+         'Farms behind <b>hedge banks</b>, joined by sandy lanes.',
+         'Amid a network with the <b>Molenven</b> and Voltherbroek.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Hawthorn</b> flowers in the banks.',
+          '<span class="months">Apr–Jul</span> 🐦 <b>Yellowhammer and linnet</b> sing from the hedges.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Butterflies</b> on the field margins.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> along the sandy lanes.'],
+ 'wild': ['🐦 Yellowhammer · Linnet · Whitethroat', '🦌 Roe deer · Hare · Hedgehog', '🦋 Peacock · Red admiral', '🌳 Pedunculate oak · Hawthorn · Hazel', '🌼 Oxeye daisy · Brown knapweed'],
+ 'trail': ['Park in <b>Weerselo</b> or <b>Denekamp</b>; sandy lanes through the hamlet.',
+           'Walk on to the <b>Molenven</b>.',
+           'Cycle the <b>hedge banks</b> between the farms.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🚜 Hamlet · 🚶 Sandy lanes'
+}))
+
+C.append(mk.card(1612, 'Molenven', {
+ 'tags': ['Overijssel · Dinkelland', 'Ven · plaggenven in het coulisselandschap', 'list 36 · no. 331'],
+ 'loc': '📍 Dulder, gemeente Dinkelland · Ven · Klein',
+ 'desc': 'Het <b>Molenven</b> bij Dulder is een van de weinige vennen die nog herinneren aan de <b>heideplaggenwinning</b>: eeuwenlang staken boeren plaggen op de heide om er potstallen mee te vullen en de essen te bemesten, en op de afgegraven plekken bleven ondiepe vennen achter. Zo’n plaggenven is een venige, min of meer ondiepe plas die in de zomer deels droog kan vallen — precies het ritme waar <b>amfibieën en libellen</b> van profiteren. Rondom ligt het coulisselandschap van Dulder, met houtwallen die het ven tegen de wind beschutten.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jul</b> (amfibieën en libellen), okt (herfst)<br>\n    <b>Beste tijd van de dag:</b> Late middag — de zon warmt de oever op.',
+ 'why': ['Een <b>plaggenven</b> — restant van de heideplaggenwinning.',
+         'Vroeger staken boeren <b>plaggen</b> voor de potstal.',
+         'Deels droogvallend — het ritme waar <b>amfibieën</b> van leven.',
+         'Beschut door de <b>houtwallen</b> van Dulder.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🐸 <b>Bruine kikker</b> paait in de ondiepten.',
+          '<span class="months">Mei–Jul</span> 🪰 <b>Libellen</b> boven het water.',
+          '<span class="months">Jun–Aug</span> 🌼 <b>Gele lis</b> langs de oever.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> in de wallen.'],
+ 'wild': ['🐸 Bruine kikker · Gewone pad', '🦎 Kleine watersalamander · Kamsalamander', '🪰 Platbuik · Gewone oeverlibel', '🌼 Gele lis · Moerasspirea · Dotterbloem', '🌳 Zomereik · Zwarte els · Hazelaar'],
+ 'trail': ['Parkeren bij <b>Dulder</b>; wandelroute langs het ven.',
+           'Kijk in mei naar de <b>libellen</b> boven het water.',
+           'Blijf op de <b>oever</b> — het ven zelf is kwetsbaar.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Kwetsbare venoever — niet betreden · 🚶 Wandelpaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Fen · sod-cut pool in the coulisse landscape', 'list 36 · no. 331'],
+ 'loc': '📍 Dulder, Dinkelland municipality · Fen · Small',
+ 'desc': 'The <b>Molenven</b> near Dulder is one of the few fens still recalling the <b>heath-sod cutting</b>: for centuries farmers cut sods on the heath to fill their deep-litter stalls and manure the es fields, and on the stripped spots shallow fens remained. Such a sod-cut fen is a peaty, more or less shallow pool that can partly dry out in summer — exactly the rhythm that <b>amphibians and dragonflies</b> thrive on. Around it lies the coulisse landscape of Dulder, with hedge banks sheltering the fen from the wind.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jul</b> (amphibians and dragonflies), Oct (autumn)<br>\n    <b>Best time of day:</b> Late afternoon — the sun warms the bank.',
+ 'why': ['A <b>sod-cut fen</b> — remnant of heath-sod cutting.',
+         'Farmers once cut <b>sods</b> for the deep-litter stall.',
+         'Partly dries out — the rhythm <b>amphibians</b> live by.',
+         'Sheltered by the <b>hedge banks</b> of Dulder.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🐸 <b>Common frog</b> spawns in the shallows.',
+          '<span class="months">May–Jul</span> 🪰 <b>Dragonflies</b> above the water.',
+          '<span class="months">Jun–Aug</span> 🌼 <b>Yellow iris</b> along the bank.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> in the banks.'],
+ 'wild': ['🐸 Common frog · Common toad', '🦎 Smooth newt · Great crested newt', '🪰 Broad-bodied chaser · Common skimmer', '🌼 Yellow iris · Meadowsweet · Marsh marigold', '🌳 Pedunculate oak · Black alder · Hazel'],
+ 'trail': ['Park at <b>Dulder</b>; walking route along the fen.',
+           'Watch the <b>dragonflies</b> above the water in May.',
+           'Keep to the <b>bank</b> — the fen itself is fragile.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Fragile fen bank — do not enter · 🚶 Footpaths'
+}))
+
+C.append(mk.card(1613, 'Gravenbos', {
+ 'tags': ['Overijssel · Dinkelland', 'Bos · vochtig loofbos bij Saasveld', 'list 36 · no. 332'],
+ 'loc': '📍 Saasveld, gemeente Dinkelland · Bos · Klein',
+ 'desc': 'Het <b>Gravenbos</b> bij Saasveld is een van de <b>vochtige bossen</b> van Twente — een bostype dat landelijk zeldzaam is geworden omdat juist de natste gronden als eerste werden ontwaterd en ontgonnen. Hier bleef het natte bos bewaard: <b>essen, elzen en eiken</b> op een bodem die in het voorjaar lang onder water kan staan. Zulke bossen herbergen een rijke voorjaarsflora — <b>bosanemoon, dotterbloem en slanke sleutelbloem</b> — en vormen samen met het nabije <b>Gravenbos</b>-complex en het Voltherbroek een netwerk van vochtige Twentse bosnatuur.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–mei</b> (voorjaarsflora), okt–nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend — het bos is dan op zijn stilste.',
+ 'why': ['Een <b>vochtig bos</b> — een zeldzaam geworden bostype.',
+         'Natste gronden werden als eerste <b>ontwaterd en ontgonnen</b>.',
+         'Essen, elzen en eiken op een <b>lang natte bodem</b>.',
+         'Rijke voorjaarsflora met <b>slanke sleutelbloem</b>.'],
+ 'phen': ['<span class="months">Apr–Mei</span> 🌼 <b>Bosanemoon en slanke sleutelbloem</b> bloeien.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Zanglijster en zwartkop</b> in het loofhout.',
+          '<span class="months">Mei–Aug</span> 🐸 <b>Amfibieën</b> in de poelen.',
+          '<span class="months">Okt–Nov</span> 🍄 <b>Paddenstoelen</b> op dood hout.'],
+ 'wild': ['🐦 Zwartkop · Zanglijster · Boomklever', '🐸 Bruine kikker · Kleine watersalamander', '🦌 Ree · Eekhoorn · Egel', '🌼 Bosanemoon · Slanke sleutelbloem · Dotterbloem', '🌳 Es · Zwarte els · Zomereik'],
+ 'trail': ['Parkeren bij <b>Saasveld</b>; wandelroutes door het bos.',
+           'Loop het <b>natte voorjaarsbos</b> in — laarzen aanbevolen.',
+           'Combineer met het <b>Voltherbroek</b>.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Natte bodem — laarzen aanbevolen · 🚶 Bospaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Wood · moist broadleaf wood near Saasveld', 'list 36 · no. 332'],
+ 'loc': '📍 Saasveld, Dinkelland municipality · Wood · Small',
+ 'desc': 'The <b>Gravenbos</b> near Saasveld is one of the <b>moist woods</b> of Twente — a woodland type that has become nationally rare because the wettest soils were the first to be drained and reclaimed. Here the wet wood survived: <b>ash, alder and oak</b> on a soil that can stand under water for a long time in spring. Such woods hold a rich spring flora — <b>wood anemone, marsh marigold and oxlip</b> — and with the nearby <b>Gravenbos</b> complex and the Voltherbroek form a network of moist Twente woodland nature.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–May</b> (spring flora), Oct–Nov (fungi)<br>\n    <b>Best time of day:</b> Morning — the wood is at its quietest.',
+ 'why': ['A <b>moist wood</b> — a woodland type that has become rare.',
+         'The wettest soils were the first to be <b>drained and reclaimed</b>.',
+         'Ash, alder and oak on a <b>long-wet soil</b>.',
+         'Rich spring flora with <b>oxlip</b>.'],
+ 'phen': ['<span class="months">Apr–May</span> 🌼 <b>Wood anemone and oxlip</b> flower.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Song thrush and blackcap</b> in the broadleaf wood.',
+          '<span class="months">May–Aug</span> 🐸 <b>Amphibians</b> in the pools.',
+          '<span class="months">Oct–Nov</span> 🍄 <b>Fungi</b> on dead wood.'],
+ 'wild': ['🐦 Blackcap · Song thrush · Nuthatch', '🐸 Common frog · Smooth newt', '🦌 Roe deer · Squirrel · Hedgehog', '🌼 Wood anemone · Oxlip · Marsh marigold', '🌳 Ash · Black alder · Pedunculate oak'],
+ 'trail': ['Park at <b>Saasveld</b>; walking routes through the wood.',
+           'Enter the <b>wet spring wood</b> — wellingtons advised.',
+           'Combine with the <b>Voltherbroek</b>.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Wet soil — wellingtons advised · 🚶 Woodland paths'
+}))
+
+C.append(mk.card(1614, 'Gammelke', {
+ 'tags': ['Overijssel · Dinkelland', 'Marke · oeroud buurtschapsland in het hart van Twente', 'list 36 · no. 333'],
+ 'loc': '📍 Tussen Deurningen, Saasveld en Weerselo · Marke · Klein',
+ 'desc': '<b>Gammelke</b> is een marke in het hart van Twente, gelegen tussen Deurningen, Saasveld, Weerselo en Oldenzaal — “het is maar één straat eigenlijk. Geen kerk, geen café, geen kern.” Juist dat maakt het bijzonder: hier woonden al vóór het begin van de jaartelling mensen, en het kleinschalige land van <b>essen, kampen en houtwallen</b> ligt er nog bijna onveranderd bij. De <b>Gammelkerbeek</b> stroomt dwars door de buurtschap, en dichter Rutger Kopland zou hier zijn “lege plek om te blijven” herkend hebben.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jul</b> (zang), sep–okt (herfst)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend — het land is dan op zijn leegst.',
+ 'why': ['Een <b>marke</b> zonder kern — één straat, geen kerk of café.',
+         'Al bewoond <b>vóór het begin van de jaartelling</b>.',
+         'De <b>Gammelkerbeek</b> stroomt door de buurtschap.',
+         'Een bijna onveranderd <b>essen- en kampenlandschap</b>.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Meidoorn</b> bloeit in de wallen.',
+          '<span class="months">Apr–Jul</span> 🐦 <b>Geelgors en kneu</b> zingen langs de zandweg.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Vlinders</b> op de akkerranden.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> langs de Gammelkerbeek.'],
+ 'wild': ['🐦 Geelgors · Kneu · Grasmus', '🦌 Ree · Haas · Egel', '🦋 Dagpauwoog · Atalanta', '🌳 Zomereik · Meidoorn · Hazelaar', '🌼 Gewone margriet · Knoopkruid'],
+ 'trail': ['Parkeren bij <b>Deurningen</b>; de enige zandweg door de marke.',
+           'Wandel langs de <b>Gammelkerbeek</b>.',
+           'Fiets het <b>knooperf</b>-landschap tussen de erven af.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Geen kern — kom voor de leegte · 🚶 Zandwegen'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Marke · ancient hamlet land in the heart of Twente', 'list 36 · no. 333'],
+ 'loc': '📍 Between Deurningen, Saasveld and Weerselo · Marke · Small',
+ 'desc': '<b>Gammelke</b> is a marke in the heart of Twente, lying between Deurningen, Saasveld, Weerselo and Oldenzaal — “it is really just one street. No church, no pub, no centre.” Precisely that makes it special: people lived here already before the start of the common era, and the small-scale land of <b>es fields, kampen and hedge banks</b> still lies almost unchanged. The <b>Gammelkerbeek</b> runs straight through the hamlet, and the poet Rutger Kopland would have recognised his “empty place to stay” here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jul</b> (song), Sep–Oct (autumn)<br>\n    <b>Best time of day:</b> Early morning — the land is at its emptiest.',
+ 'why': ['A <b>marke</b> without a centre — one street, no church or pub.',
+         'Inhabited <b>before the start of the common era</b>.',
+         'The <b>Gammelkerbeek</b> runs through the hamlet.',
+         'An almost unchanged <b>es and kampen landscape</b>.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Hawthorn</b> flowers in the banks.',
+          '<span class="months">Apr–Jul</span> 🐦 <b>Yellowhammer and linnet</b> sing along the sandy lane.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Butterflies</b> on the field margins.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> along the Gammelkerbeek.'],
+ 'wild': ['🐦 Yellowhammer · Linnet · Whitethroat', '🦌 Roe deer · Hare · Hedgehog', '🦋 Peacock · Red admiral', '🌳 Pedunculate oak · Hawthorn · Hazel', '🌼 Oxeye daisy · Brown knapweed'],
+ 'trail': ['Park at <b>Deurningen</b>; the single sandy lane through the marke.',
+           'Walk along the <b>Gammelkerbeek</b>.',
+           'Cycle the <b>farmstead</b> landscape between the holdings.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ No centre — come for the emptiness · 🚶 Sandy lanes'
+}))
+
+mk.insert(C, '1609')
+mk.progress(1614)
+mk.check()

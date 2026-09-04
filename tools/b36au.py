@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1510, 'Buitenhuizerbraak', {
+ 'tags': ['Noord-Holland \u00b7 Velsen', 'Braak \u00b7 dijkdoorbraakkolk bij het Noordzeekanaal', 'list 36 \u00b7 no. 229'],
+ 'loc': '\U0001f4cd Buitenhuizen, bij Spaarnwoude \u00b7 Waterkolk \u00b7 Zeer klein',
+ 'desc': 'Een <b>braak</b> is geen gewone plas maar een <b>dijkdoorbraakkolk</b>: het gat dat achterblijft wanneer een dijk bezwijkt en het binnenstromende water met enorme kracht een diepe kuil uitschuurt. Zulke kolken zijn vaak <b>tien tot twintig meter diep</b> \u2014 veel dieper dan de omringende sloten \u2014 en omdat ze te diep waren om te dempen bleven ze na herstel van de dijk gewoon liggen. De <b>Buitenhuizerbraak</b> herinnert zo aan een overstroming van het IJ, eeuwen geleden. Vanwege hun diepte en steile oevers hebben braken een eigen ecologie: <b>koud, helder water</b> met soorten die in ondiepe polderplassen ontbreken. Er broeden <b>fuut en dodaars</b>, en de oevers herbergen <b>rietvogels</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (broedvogels), nov\u2013feb (watervogels op het diepe water)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 spiegelglad water en rust.',
+ 'why': ['Een <b>braak</b> is een kolk, uitgeschuurd door een dijkdoorbraak.',
+         'Zulke kolken zijn vaak <b>tien tot twintig meter diep</b>.',
+         'Te diep om te dempen \u2014 daarom bleven ze liggen.',
+         'Diep, <b>koud en helder water</b> met een eigen soortensamenstelling.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Fuut</b> baltst op het open water.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f426 <b>Dodaars en rietvogels</b> broeden.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de oeverzone.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Duikeenden</b> op het diepe water.'],
+ 'wild': ['\U0001f426 Fuut \u00b7 Dodaars \u00b7 Kleine karekiet \u00b7 Rietgors', '\U0001f986 Kuifeend \u00b7 Tafeleend \u00b7 Brilduiker', '\U0001f9a0 Libellen \u00b7 Waterjuffers', '\U0001f41f Snoek \u00b7 Baars \u00b7 Zeelt', '\U0001f33f Riet \u00b7 Lisdodde \u00b7 Wilg'],
+ 'trail': ['Parkeren bij <b>Buitenhuizen</b> of Spaarnwoude; pad langs de kolk.',
+           'Let op de <b>steile oevers</b> \u2014 dat verraadt de doorbraak.',
+           'Winter voor de <b>duikeenden</b> op het diepe water.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Diep water, steile kant \u00b7 \U0001f6b6 Kort rondje'
+}, {
+ 'tags': ['North Holland \u00b7 Velsen', 'Breach pool \u00b7 dike-breach scour hole near the North Sea Canal', 'list 36 \u00b7 no. 229'],
+ 'loc': '\U0001f4cd Buitenhuizen, near Spaarnwoude \u00b7 Scour pool \u00b7 Very small',
+ 'desc': 'A <b>braak</b> is no ordinary pool but a <b>dike-breach scour hole</b>: the pit left behind when a dike gives way and the inrushing water scours a deep hollow with enormous force. Such holes are often <b>ten to twenty metres deep</b> \u2014 far deeper than the surrounding ditches \u2014 and because they were too deep to fill in they simply remained after the dike was repaired. The <b>Buitenhuizerbraak</b> thus recalls a flood of the IJ, centuries ago. Because of their depth and steep banks, breach pools have an ecology of their own: <b>cold, clear water</b> with species absent from shallow polder pools. <b>Great crested grebe and little grebe</b> breed, and the banks hold <b>reedbed birds</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (breeding birds), Nov\u2013Feb (waterfowl on the deep water)<br>\n    <b>Best time of day:</b> Early morning \u2014 mirror-still water and quiet.',
+ 'why': ['A <b>braak</b> is a hole scoured out by a dike breach.',
+         'Such holes are often <b>ten to twenty metres deep</b>.',
+         'Too deep to fill in \u2014 so they were left.',
+         'Deep, <b>cold and clear water</b> with its own species mix.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Great crested grebe</b> displays on the open water.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f426 <b>Little grebe and reedbed birds</b> breed.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the bank zone.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Diving ducks</b> on the deep water.'],
+ 'wild': ['\U0001f426 Great crested grebe \u00b7 Little grebe \u00b7 Reed warbler \u00b7 Reed bunting', '\U0001f986 Tufted duck \u00b7 Pochard \u00b7 Goldeneye', '\U0001f9a0 Dragonflies \u00b7 Damselflies', '\U0001f41f Pike \u00b7 Perch \u00b7 Tench', '\U0001f33f Reed \u00b7 Bulrush \u00b7 Willow'],
+ 'trail': ['Park at <b>Buitenhuizen</b> or Spaarnwoude; a path skirts the pool.',
+           'Note the <b>steep banks</b> \u2014 they betray the breach.',
+           'Winter for the <b>diving ducks</b> on the deep water.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Deep water, steep edge \u00b7 \U0001f6b6 Short circuit'
+}, card_class='card water'))
+
+C.append(mk.card(1511, 'Houtrakbos', {
+ 'tags': ['Noord-Holland \u00b7 Haarlemmermeer', 'Recreatiebos \u00b7 jong bos in Spaarnwoude', 'list 36 \u00b7 no. 230'],
+ 'loc': '\U0001f4cd Spaarnwoude, tussen Amsterdam en Haarlem \u00b7 Recreatiebos \u00b7 Groot',
+ 'desc': 'Het <b>Houtrakbos</b> maakt deel uit van <b>Spaarnwoude</b>, een van de eerste grote <b>bufferzones</b> van Nederland. Het gebied werd vanaf 1965 ingericht met een uitgesproken ruimtelijk doel: voorkomen dat Amsterdam en Haarlem aan elkaar zouden groeien. De naoorlogse stadsuitbreiding ging zo snel dat planologen vreesden voor één aaneengesloten stedelijk gebied van IJmuiden tot Amsterdam, en de aanleg van een groot recreatiegebied ertussen was de gekozen oplossing \u2014 groen als <b>ruimtelijk instrument</b>. Inmiddels is het bos volwassen: <b>havik, buizerd, grote bonte specht en ijsvogel</b> broeden er, en de vele waterpartijen trekken <b>libellen en watervogels</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang), sep\u2013nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rustig in een druk recreatiegebied.',
+ 'why': ['Onderdeel van <b>Spaarnwoude</b>, een vroege bufferzone (vanaf 1965).',
+         'Moest voorkomen dat Amsterdam en Haarlem <b>aaneengroeiden</b>.',
+         'Planologen vreesden één stedelijk gebied van <b>IJmuiden tot Amsterdam</b>.',
+         'Groen ingezet als <b>ruimtelijk instrument</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f985 <b>Havik</b> baltst boven het bos.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Spechten en zangvogels</b> in het loofbos.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de waterpartijen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> op de kleibodem.'],
+ 'wild': ['\U0001f985 Havik \u00b7 Buizerd \u00b7 Sperwer', '\U0001f426 Grote bonte specht \u00b7 IJsvogel \u00b7 Zwartkop', '\U0001f9a0 Libellen \u00b7 \U0001f438 Amfibieën', '\U0001f98c Ree \u00b7 \U0001f98a Vos \u00b7 Haas', '\U0001f333 Populier \u00b7 Es \u00b7 Wilg \u00b7 Eik'],
+ 'trail': ['Parkeren in <b>Spaarnwoude</b>; ruim padennet en fietsroutes.',
+           'Zoek de <b>rustigere randen</b> \u2014 het middengebied is druk.',
+           'Vroege ochtend voor <b>havik en spechten</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f9d2 Gezinsvriendelijk \u00b7 \U0001f6b4 Veel fietspaden'
+}, {
+ 'tags': ['North Holland \u00b7 Haarlemmermeer', 'Recreational wood \u00b7 young woodland in Spaarnwoude', 'list 36 \u00b7 no. 230'],
+ 'loc': '\U0001f4cd Spaarnwoude, between Amsterdam and Haarlem \u00b7 Recreational wood \u00b7 Large',
+ 'desc': 'The <b>Houtrakbos</b> forms part of <b>Spaarnwoude</b>, one of the first large <b>buffer zones</b> in the Netherlands. The area was laid out from 1965 with an explicit spatial aim: to prevent Amsterdam and Haarlem from growing together. Post-war urban expansion was so rapid that planners feared a single continuous built-up area from IJmuiden to Amsterdam, and creating a large recreational area between them was the chosen solution \u2014 greenery as a <b>spatial instrument</b>. The wood is now mature: <b>goshawk, buzzard, great spotted woodpecker and kingfisher</b> breed, and the many pools attract <b>dragonflies and waterfowl</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song), Sep\u2013Nov (fungi)<br>\n    <b>Best time of day:</b> Early morning \u2014 quiet in a busy recreational area.',
+ 'why': ['Part of <b>Spaarnwoude</b>, an early buffer zone (from 1965).',
+         'Meant to stop Amsterdam and Haarlem <b>growing together</b>.',
+         'Planners feared one built-up area from <b>IJmuiden to Amsterdam</b>.',
+         'Greenery deployed as a <b>spatial instrument</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f985 <b>Goshawk</b> displays above the wood.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Woodpeckers and songbirds</b> in the broadleaf wood.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the pools.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> on the clay soil.'],
+ 'wild': ['\U0001f985 Goshawk \u00b7 Buzzard \u00b7 Sparrowhawk', '\U0001f426 Great spotted woodpecker \u00b7 Kingfisher \u00b7 Blackcap', '\U0001f9a0 Dragonflies \u00b7 \U0001f438 Amphibians', '\U0001f98c Roe deer \u00b7 \U0001f98a Fox \u00b7 Brown hare', '\U0001f333 Poplar \u00b7 Ash \u00b7 Willow \u00b7 Oak'],
+ 'trail': ['Park in <b>Spaarnwoude</b>; an extensive path and cycle network.',
+           'Seek the <b>quieter margins</b> \u2014 the centre is busy.',
+           'Early morning for <b>goshawk and woodpeckers</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f9d2 Family-friendly \u00b7 \U0001f6b4 Many cycle paths'
+}))
+
+C.append(mk.card(1512, 'Spaarnwouderven en Batterij', {
+ 'tags': ['Noord-Holland \u00b7 Haarlemmerliede', 'Veenrestant en fort \u00b7 Stelling van Amsterdam', 'list 36 \u00b7 no. 231'],
+ 'loc': '\U0001f4cd Bij Spaarnwoude \u00b7 Veenweide met fort \u00b7 Klein',
+ 'desc': 'Het <b>Spaarnwouderveen</b> is een van de weinige overgebleven <b>veenrestanten</b> in dit sterk veranderde gebied tussen Amsterdam en Haarlem, en ernaast ligt een <b>batterij</b> van de <b>Stelling van Amsterdam</b>. Die batterij was onderdeel van een 135 kilometer lange verdedigingsring die tussen 1880 en 1920 rond de hoofdstad werd aangelegd, gebaseerd op één principe: bij dreiging zou het omringende land onder water worden gezet tot een diepte van ongeveer <b>dertig tot vijftig centimeter</b> \u2014 te ondiep voor boten, te diep en te modderig voor infanterie en artillerie. Het fort zelf is nu een <b>vleermuiswinterverblijf</b>; op het veen broeden <b>weidevogels</b> en groeit <b>moerasflora</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels en moerasflora), nov\u2013feb (vleermuizen in winterrust)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 weidevogels boven het veen.',
+ 'n2k': 'Onderdeel van de Stelling van Amsterdam \u2014 UNESCO-werelderfgoed sinds 1996.',
+ 'why': ['Zeldzaam <b>veenrestant</b> tussen Amsterdam en Haarlem.',
+         'De batterij hoort bij de <b>Stelling van Amsterdam</b> (1880\u20131920).',
+         'Een <b>135 kilometer</b> lange ring rond de hoofdstad.',
+         'Inundatie tot <b>30\u201350 cm</b>: te ondiep voor boten, te diep om te lopen.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Grutto en tureluur</b> op het veen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Moerasflora</b> in de natte laagtes.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f987 <b>Vleermuizen</b> zwermen bij de fortingang.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f987 <b>Winterrust</b> van vleermuizen in het fort.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Kievit \u00b7 Rietgors', '\U0001f987 Watervleermuis \u00b7 Baardvleermuis \u00b7 Grootoorvleermuis', '\U0001f33c Dotterbloem \u00b7 Echte koekoeksbloem \u00b7 Riet', '\U0001f438 Kikkers \u00b7 Padden', '\U0001f985 Buizerd \u00b7 Bruine kiekendief'],
+ 'trail': ['Parkeren bij <b>Spaarnwoude</b>; pad langs veen en batterij.',
+           'Bekijk de <b>inundatiewerken</b> \u2014 sluisjes en kaden zijn nog zichtbaar.',
+           'Voorjaar voor de <b>weidevogels</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f UNESCO-werelderfgoed \u00b7 \u26a0\ufe0f Fort beperkt toegankelijk'
+}, {
+ 'tags': ['North Holland \u00b7 Haarlemmerliede', 'Peat remnant and battery \u00b7 Defence Line of Amsterdam', 'list 36 \u00b7 no. 231'],
+ 'loc': '\U0001f4cd Near Spaarnwoude \u00b7 Peat meadow with battery \u00b7 Small',
+ 'desc': 'The <b>Spaarnwouderveen</b> is one of the few surviving <b>peat remnants</b> in this greatly altered area between Amsterdam and Haarlem, and beside it lies a <b>battery</b> of the <b>Defence Line of Amsterdam</b>. That battery formed part of a 135-kilometre defensive ring built around the capital between 1880 and 1920, based on a single principle: at the threat of attack the surrounding land would be flooded to a depth of roughly <b>thirty to fifty centimetres</b> \u2014 too shallow for boats, too deep and muddy for infantry and artillery. The fort itself is now a <b>bat hibernation site</b>; <b>meadow birds</b> breed on the peat and <b>marsh flora</b> grows.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds and marsh flora), Nov\u2013Feb (hibernating bats)<br>\n    <b>Best time of day:</b> Early morning \u2014 meadow birds above the peat.',
+ 'n2k_en': 'Part of the Defence Line of Amsterdam \u2014 UNESCO World Heritage since 1996.',
+ 'why': ['A rare <b>peat remnant</b> between Amsterdam and Haarlem.',
+         'The battery belongs to the <b>Defence Line of Amsterdam</b> (1880\u20131920).',
+         'A <b>135-kilometre</b> ring around the capital.',
+         'Flooding to <b>30\u201350 cm</b>: too shallow for boats, too deep to walk.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f426 <b>Godwit and redshank</b> on the peat.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Marsh flora</b> in the wet hollows.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f987 <b>Bats</b> swarm at the fort entrance.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f987 <b>Hibernation</b> of bats in the fort.'],
+ 'wild': ['\U0001f426 Black-tailed godwit \u00b7 Redshank \u00b7 Lapwing \u00b7 Reed bunting', '\U0001f987 Daubenton\u2019s bat \u00b7 Whiskered bat \u00b7 Brown long-eared bat', '\U0001f33c Marsh marigold \u00b7 Ragged robin \u00b7 Reed', '\U0001f438 Frogs \u00b7 Toads', '\U0001f985 Buzzard \u00b7 Marsh harrier'],
+ 'trail': ['Park at <b>Spaarnwoude</b>; a path skirts peat and battery.',
+           'Look at the <b>inundation works</b> \u2014 sluices and quays are still visible.',
+           'Spring for the <b>meadow birds</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f UNESCO World Heritage \u00b7 \u26a0\ufe0f Fort access limited'
+}))
+
+C.append(mk.card(1513, 'Oeverlanden aan de Liede', {
+ 'tags': ['Noord-Holland \u00b7 Haarlemmerliede', 'Oeverland \u00b7 rietoevers langs een oude veenrivier', 'list 36 \u00b7 no. 232'],
+ 'loc': '\U0001f4cd Langs de Liede bij Haarlem \u00b7 Oeverland \u00b7 Klein',
+ 'desc': 'De <b>Liede</b> is een van de oudste waterlopen van Noord-Holland: een <b>natuurlijke veenrivier</b> die al bestond voordat de mens hier ontgon. De naam is verwant aan <b>leiden</b> of <b>leede</b>, een waterloop die water afvoert \u2014 hetzelfde woord dat in Leiden en tientallen andere plaatsnamen zit. Voordat de Haarlemmermeer werd ingepolderd, verbond de Liede het veengebied met het IJ, en de rivier bepaalde eeuwenlang waar mensen konden wonen en varen. Langs de oevers liggen nu <b>rietkragen, ruigtes en natte graslanden</b>. Daar broeden <b>rietzanger, kleine karekiet, blauwborst en bruine kiekendief</b>, en de <b>ringslang</b> is er waargenomen.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (rietvogels en libellen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rietvogels zingen boven het water.',
+ 'why': ['De Liede is een <b>natuurlijke veenrivier</b>, ouder dan de ontginning.',
+         '<b>Leede</b> betekent waterloop \u2014 als in Leiden.',
+         'Verbond het veengebied met het <b>IJ</b> vóór de inpoldering.',
+         'De rivier bepaalde waar mensen konden <b>wonen en varen</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Blauwborst en rietzanger</b> zingen in de kragen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f985 <b>Bruine kiekendief</b> jaagt boven het riet.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de oeverzone.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Watervogels</b> op de Liede.'],
+ 'wild': ['\U0001f426 Blauwborst \u00b7 Rietzanger \u00b7 Kleine karekiet \u00b7 Rietgors', '\U0001f985 Bruine kiekendief \u00b7 Buizerd', '\U0001f40d Ringslang \u00b7 \U0001f438 Kikkers', '\U0001f9a0 Libellen \u00b7 Waterjuffers', '\U0001f33f Riet \u00b7 Lisdodde \u00b7 Moerasspirea'],
+ 'trail': ['Parkeren bij <b>Haarlemmerliede</b>; paden langs de Liede.',
+           'Loop langs de <b>rietkragen</b> \u2014 daar zit de vogelrijkdom.',
+           'Vroege ochtend in mei voor de <b>blauwborst</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Broedseizoen: blijf op de paden \u00b7 \U0001f6b6 Oeverpaden'
+}, {
+ 'tags': ['North Holland \u00b7 Haarlemmerliede', 'Riverside land \u00b7 reed banks along an old peat river', 'list 36 \u00b7 no. 232'],
+ 'loc': '\U0001f4cd Along the Liede near Haarlem \u00b7 Riverside land \u00b7 Small',
+ 'desc': 'The <b>Liede</b> is one of the oldest watercourses in North Holland: a <b>natural peat river</b> that existed before humans reclaimed the area. The name is related to <b>leede</b>, a watercourse that leads water away \u2014 the same word contained in Leiden and dozens of other place names. Before the Haarlemmermeer was drained, the Liede connected the peat district with the IJ, and for centuries the river determined where people could live and sail. Along the banks now lie <b>reed fringes, rough vegetation and wet grasslands</b>. <b>Sedge warbler, reed warbler, bluethroat and marsh harrier</b> breed there, and the <b>grass snake</b> has been recorded.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (reedbed birds and dragonflies)<br>\n    <b>Best time of day:</b> Early morning \u2014 reedbed birds singing over the water.',
+ 'why': ['The Liede is a <b>natural peat river</b>, older than the reclamation.',
+         '<b>Leede</b> means watercourse \u2014 as in Leiden.',
+         'It linked the peat district with the <b>IJ</b> before the drainage.',
+         'The river determined where people could <b>live and sail</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Bluethroat and sedge warbler</b> sing in the fringes.',
+          '<span class="months">May\u2013Jul</span> \U0001f985 <b>Marsh harrier</b> hunts above the reeds.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the bank zone.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Waterfowl</b> on the Liede.'],
+ 'wild': ['\U0001f426 Bluethroat \u00b7 Sedge warbler \u00b7 Reed warbler \u00b7 Reed bunting', '\U0001f985 Marsh harrier \u00b7 Buzzard', '\U0001f40d Grass snake \u00b7 \U0001f438 Frogs', '\U0001f9a0 Dragonflies \u00b7 Damselflies', '\U0001f33f Reed \u00b7 Bulrush \u00b7 Meadowsweet'],
+ 'trail': ['Park at <b>Haarlemmerliede</b>; paths follow the Liede.',
+           'Walk beside the <b>reed fringes</b> \u2014 that is where the birds are.',
+           'Early morning in May for the <b>bluethroat</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Breeding season: keep to paths \u00b7 \U0001f6b6 Bank paths'
+}))
+
+C.append(mk.card(1514, 'Wethouder van Gelukpark', {
+ 'tags': ['Noord-Holland \u00b7 Haarlem', 'Stadspark \u00b7 groen aan de rand van Haarlem', 'list 36 \u00b7 no. 233'],
+ 'loc': '\U0001f4cd Haarlem-Oost \u00b7 Stadspark \u00b7 Klein',
+ 'desc': 'Het <b>Wethouder van Gelukpark</b> is een naoorlogs stadspark in Haarlem-Oost, aangelegd in een periode waarin het <b>volkspark</b> een vast onderdeel van elke stadsuitbreiding werd. Achter dat idee zat een gezondheidsmotief dat teruggaat op negentiende-eeuwse hygiënisten: dichtbevolkte arbeiderswijken hadden <b>licht, lucht en ruimte</b> nodig, en groen was daarvoor het middel. Nieuwe wijken kregen daarom stelselmatig parken, plantsoenen en groenstroken toebedeeld. Zulke parken zijn inmiddels ecologisch relevant: de bomen zijn zestig tot zeventig jaar oud en leveren nestholtes. Er broeden <b>grote bonte specht, boomkruiper en halsbandparkiet</b>, en <b>vleermuizen</b> jagen boven de vijvers.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang), okt\u2013nov (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend of schemer \u2014 rustig tussen de stadsdrukte.',
+ 'why': ['Naoorlogs <b>volkspark</b>, standaard bij elke stadsuitbreiding.',
+         'Gezondheidsmotief van negentiende-eeuwse <b>hygiënisten</b>.',
+         'Arbeiderswijken hadden <b>licht, lucht en ruimte</b> nodig.',
+         'De bomen zijn nu oud genoeg voor <b>nestholtes</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Spechten</b> roffelen in de oude bomen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomkruiper en zwartkop</b> zingen.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> boven de vijvers.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> in de parkbomen.'],
+ 'wild': ['\U0001f426 Grote bonte specht \u00b7 Boomkruiper \u00b7 Halsbandparkiet', '\U0001f987 Gewone dwergvleermuis boven het water', '\U0001f43f\ufe0f Eekhoorn \u00b7 Egel', '\U0001f986 Meerkoet \u00b7 Wilde eend \u00b7 Waterhoen', '\U0001f333 Es \u00b7 Plataan \u00b7 Linde \u00b7 Wilg'],
+ 'trail': ['Parkeren in <b>Haarlem-Oost</b>; het park ligt in de wijk.',
+           'Loop langs de <b>vijvers</b> voor watervogels en vleermuizen.',
+           'Schemer voor de <b>vleermuizen</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f9d2 Gezinsvriendelijk \u00b7 \U0001f6b6 Korte rondjes'
+}, {
+ 'tags': ['North Holland \u00b7 Haarlem', 'Town park \u00b7 greenery on the edge of Haarlem', 'list 36 \u00b7 no. 233'],
+ 'loc': '\U0001f4cd Haarlem East \u00b7 Town park \u00b7 Small',
+ 'desc': 'The <b>Wethouder van Gelukpark</b> is a post-war town park in eastern Haarlem, laid out in a period when the <b>public park</b> became a fixed component of every urban extension. Behind that idea lay a health motive going back to nineteenth-century sanitary reformers: densely populated working-class districts needed <b>light, air and space</b>, and greenery was the means. New districts were therefore systematically allotted parks, gardens and green strips. Such parks are now ecologically relevant: the trees are sixty to seventy years old and provide nest cavities. <b>Great spotted woodpecker, treecreeper and ring-necked parakeet</b> breed, and <b>bats</b> hunt above the ponds.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song), Oct\u2013Nov (autumn colour)<br>\n    <b>Best time of day:</b> Early morning or dusk \u2014 quiet amid the city bustle.',
+ 'why': ['A post-war <b>public park</b>, standard in every urban extension.',
+         'A health motive from nineteenth-century <b>sanitary reformers</b>.',
+         'Working-class districts needed <b>light, air and space</b>.',
+         'The trees are now old enough for <b>nest cavities</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Woodpeckers</b> drum in the old trees.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Treecreeper and blackcap</b> sing.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> above the ponds.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> in the park trees.'],
+ 'wild': ['\U0001f426 Great spotted woodpecker \u00b7 Treecreeper \u00b7 Ring-necked parakeet', '\U0001f987 Common pipistrelle above the water', '\U0001f43f\ufe0f Red squirrel \u00b7 Hedgehog', '\U0001f986 Coot \u00b7 Mallard \u00b7 Moorhen', '\U0001f333 Ash \u00b7 Plane \u00b7 Lime \u00b7 Willow'],
+ 'trail': ['Park in <b>eastern Haarlem</b>; the park lies within the district.',
+           'Walk past the <b>ponds</b> for waterfowl and bats.',
+           'Dusk for the <b>bats</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f9d2 Family-friendly \u00b7 \U0001f6b6 Short circuits'
+}))
+
+mk.insert(C, '1509')
+mk.progress(1514)
+mk.check()

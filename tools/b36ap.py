@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1485, 'Bruchterveld landschapselementen', {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Landschapselementen \u00b7 singels en bosjes op de veenrand', 'list 36 \u00b7 no. 204'],
+ 'loc': '\U0001f4cd Bruchterveld bij Hardenberg \u00b7 Kleine elementen \u00b7 Klein',
+ 'desc': '<b>Bruchterveld</b> ligt op de rand van wat ooit het uitgestrekte <b>Bruchterveen</b> was, een hoogveengebied dat zich tot ver over de Duitse grens uitstrekte. Het woord <b>bruch</b> of broek betekent moerassig, drassig land \u2014 dezelfde stam die je terugvindt in tientallen plaatsnamen op de zandgronden. In de negentiende eeuw werd het veen afgegraven en verscheen er een dorp van kleine boeren op de arme dalgrond. Zij plantten <b>houtsingels, elzenrijen en erfbossen</b> als bescherming tegen de wind en als bron van geriefhout. Die elementen vormen nu de <b>groene structuur</b> van een verder kaal ontginningslandschap, met <b>steenuil, geelgors, kneu</b> en veel <b>wilde bijen</b> op de bermen.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (zang, bloei en insecten)<br>\n    <b>Beste tijd van de dag:</b> Avondschemer \u2014 steenuil op de erfpalen.',
+ 'why': ['Ligt op de rand van het voormalige <b>Bruchterveen</b>.',
+         '<b>Bruch</b> of broek betekent moerassig, drassig land.',
+         'Na afgraving vestigden kleine boeren zich op arme <b>dalgrond</b>.',
+         'De singels vormen de <b>groene structuur</b> van een kaal landschap.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Geelgors en kneu</b> zingen in de singels.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f41d <b>Wilde bijen</b> op de bloeiende bermen.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f989 <b>Steenuil</b> jaagt langs de erven.',
+          '<span class="months">Okt\u2013Nov</span> \U0001fad0 <b>Bessen</b> in meidoorn en lijsterbes.'],
+ 'wild': ['\U0001f989 Steenuil \u00b7 \U0001f426 Geelgors \u00b7 Kneu \u00b7 Grasmus', '\U0001f41d Wilde bijen \u00b7 \U0001f98b Vlinders', '\U0001f987 Vleermuizen langs de singels', '\U0001f98c Haas \u00b7 Ree \u00b7 \U0001f98a Vos', '\U0001f333 Els \u00b7 Berk \u00b7 Meidoorn \u00b7 Lijsterbes'],
+ 'trail': ['Parkeren in <b>Bruchterveld</b>; fiets of loop langs de kavelwegen.',
+           'Let op de <b>erfbossen</b> \u2014 elk boerenerf is een eigen bosje.',
+           'Schemer voor de <b>steenuil</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Respecteer de erven \u00b7 \U0001f6b4 Fietsroute'
+}, {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Landscape elements \u00b7 tree lines and copses on the bog edge', 'list 36 \u00b7 no. 204'],
+ 'loc': '\U0001f4cd Bruchterveld near Hardenberg \u00b7 Small elements \u00b7 Small',
+ 'desc': '<b>Bruchterveld</b> lies on the edge of what was once the extensive <b>Bruchterveen</b>, a raised bog reaching far across the German border. The word <b>bruch</b> or broek means marshy, boggy land \u2014 the same stem found in dozens of place names on the sandy soils. In the nineteenth century the bog was dug away and a village of smallholders appeared on the poor peat-residue soil. They planted <b>tree lines, alder rows and farmyard copses</b> as protection from the wind and as a source of utility timber. Those elements now form the <b>green structure</b> of an otherwise bare reclamation landscape, with <b>little owl, yellowhammer, linnet</b> and many <b>wild bees</b> on the verges.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (song, flowering and insects)<br>\n    <b>Best time of day:</b> Dusk \u2014 little owl on the farmyard posts.',
+ 'why': ['Lies on the edge of the former <b>Bruchterveen</b> raised bog.',
+         '<b>Bruch</b> or broek means marshy, boggy land.',
+         'After digging, smallholders settled on poor <b>peat-residue soil</b>.',
+         'The tree lines form the <b>green structure</b> of a bare landscape.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Yellowhammer and linnet</b> sing in the lines.',
+          '<span class="months">May\u2013Jul</span> \U0001f41d <b>Wild bees</b> on the flowering verges.',
+          '<span class="months">May\u2013Aug</span> \U0001f989 <b>Little owl</b> hunts along the farmyards.',
+          '<span class="months">Oct\u2013Nov</span> \U0001fad0 <b>Berries</b> on hawthorn and rowan.'],
+ 'wild': ['\U0001f989 Little owl \u00b7 \U0001f426 Yellowhammer \u00b7 Linnet \u00b7 Whitethroat', '\U0001f41d Wild bees \u00b7 \U0001f98b Butterflies', '\U0001f987 Bats along the tree lines', '\U0001f98c Brown hare \u00b7 Roe deer \u00b7 \U0001f98a Fox', '\U0001f333 Alder \u00b7 Birch \u00b7 Hawthorn \u00b7 Rowan'],
+ 'trail': ['Park in <b>Bruchterveld</b>; cycle or walk along the parcel lanes.',
+           'Note the <b>farmyard copses</b> \u2014 every farm is its own small wood.',
+           'Dusk for the <b>little owl</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Respect the farmyards \u00b7 \U0001f6b4 Cycle route'
+}))
+
+C.append(mk.card(1486, 'Ommerbos', {
+ 'tags': ['Overijssel \u00b7 Ommen', 'Bos \u00b7 gemengd bos op stuifzand en dekzand', 'list 36 \u00b7 no. 205'],
+ 'loc': '\U0001f4cd Bij Ommen, Vechtdal \u00b7 Bos \u00b7 Middelgroot',
+ 'desc': 'Het <b>Ommerbos</b> is aangelegd op voormalig <b>stuifzand</b> \u2014 en dat verklaart zowel het bos als zijn bodem. Rond Ommen was in de achttiende en negentiende eeuw grootschalige <b>zandverstuiving</b> ontstaan doordat te veel heideplaggen waren gestoken en te veel schapen hadden gegraasd: de vegetatie verdween, de wind kreeg vat op het dekzand en hele akkers en zelfs boerderijen raakten ondergestoven. De aanplant van <b>grove den</b> vanaf circa 1900 was een noodmaatregel om het zand vast te leggen. Nu is het een gevarieerd bos met oude dennen, loofhout en open plekken. Er broeden <b>zwarte specht, boomleeuwerik, nachtzwaluw</b> en er leven <b>hazelworm en levendbarende hagedis</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013jul</b> (nachtzwaluw en reptielen), sep\u2013nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Schemer \u2014 nachtzwaluw snort op de open plekken.',
+ 'why': ['Aangelegd op voormalig <b>stuifzand</b> rond Ommen.',
+         'Verstuiving ontstond door te veel <b>plaggen steken en begrazing</b>.',
+         'Hele akkers en boerderijen raakten <b>ondergestoven</b>.',
+         'Aanplant van <b>grove den</b> was een noodmaatregel tegen het zand.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Boomleeuwerik</b> zingt boven de open plekken.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f989 <b>Nachtzwaluw</b> snort in de schemer.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98e <b>Hazelworm</b> op warme paden.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> onder de oude dennen.'],
+ 'wild': ['\U0001f989 Nachtzwaluw \u00b7 \U0001f426 Zwarte specht \u00b7 Boomleeuwerik', '\U0001f98e Hazelworm \u00b7 Levendbarende hagedis', '\U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98c Ree \u00b7 \U0001f98a Vos', '\U0001f344 Boleten \u00b7 Vliegenzwam \u00b7 Cantharellen', '\U0001f333 Grove den \u00b7 Berk \u00b7 Eik'],
+ 'trail': ['Parkeren bij <b>Ommen</b>; ruim padennet door het bos.',
+           'Zoek de <b>open zandplekken</b> \u2014 restanten van de verstuiving.',
+           'Schemer in juni voor de <b>nachtzwaluw</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Broedseizoen nachtzwaluw \u00b7 \U0001f6b6 Zandpaden'
+}, {
+ 'tags': ['Overijssel \u00b7 Ommen', 'Wood \u00b7 mixed wood on drift sand and cover sand', 'list 36 \u00b7 no. 205'],
+ 'loc': '\U0001f4cd Near Ommen, Vecht valley \u00b7 Wood \u00b7 Medium-sized',
+ 'desc': 'The <b>Ommerbos</b> was planted on former <b>drift sand</b> \u2014 which explains both the wood and its soil. Around Ommen large-scale <b>sand drifting</b> arose in the eighteenth and nineteenth centuries because too many heather sods had been cut and too many sheep had grazed: the vegetation vanished, the wind got a grip on the cover sand, and whole fields and even farmsteads were buried. The planting of <b>Scots pine</b> from around 1900 was an emergency measure to fix the sand. It is now a varied wood with old pines, broadleaves and glades. <b>Black woodpecker, woodlark and nightjar</b> breed, and <b>slow worm and common lizard</b> live here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Jul</b> (nightjar and reptiles), Sep\u2013Nov (fungi)<br>\n    <b>Best time of day:</b> Dusk \u2014 nightjar churring over the glades.',
+ 'why': ['Planted on former <b>drift sand</b> around Ommen.',
+         'Drifting arose from excessive <b>sod-cutting and grazing</b>.',
+         'Whole fields and farmsteads were <b>buried in sand</b>.',
+         'Planting <b>Scots pine</b> was an emergency measure against the sand.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Woodlark</b> sings above the glades.',
+          '<span class="months">May\u2013Jul</span> \U0001f989 <b>Nightjar</b> churrs at dusk.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98e <b>Slow worm</b> on warm paths.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> beneath the old pines.'],
+ 'wild': ['\U0001f989 Nightjar \u00b7 \U0001f426 Black woodpecker \u00b7 Woodlark', '\U0001f98e Slow worm \u00b7 Common lizard', '\U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98c Roe deer \u00b7 \U0001f98a Fox', '\U0001f344 Boletes \u00b7 Fly agaric \u00b7 Chanterelles', '\U0001f333 Scots pine \u00b7 Birch \u00b7 Oak'],
+ 'trail': ['Park at <b>Ommen</b>; an extensive path network through the wood.',
+           'Look for the <b>open sandy patches</b> \u2014 remnants of the drifting.',
+           'Dusk in June for the <b>nightjar</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Nightjar breeding season \u00b7 \U0001f6b6 Sandy paths'
+}))
+
+C.append(mk.card(1487, 'Arri\u00ebveld', {
+ 'tags': ['Overijssel \u00b7 Ommen', 'Heide \u00b7 heideveld met vennen op dekzand', 'list 36 \u00b7 no. 206'],
+ 'loc': '\U0001f4cd Bij Arri\u00ebn, ten oosten van Ommen \u00b7 Heideveld \u00b7 Middelgroot',
+ 'desc': 'Het <b>Arri\u00ebveld</b> is een heideveld op dekzand ten oosten van Ommen, met vennen in de laagtes. De vennen zijn er omdat het regenwater niet weg kan: onder het zand ligt een <b>leemlaag</b> die het water vasthoudt. Vennen zijn extreem <b>voedselarm en zuur</b> \u2014 er komt geen grondwater in, alleen regen, en regen bevat vrijwel geen voedingsstoffen. Dat maakt ze tot een van de meest kwetsbare habitats van Nederland: al een beetje extra stikstof uit de lucht verandert de vegetatie onherkenbaar. Waar het lukt de vennen schoon te houden groeien nog <b>oeverkruid, veelstengelige waterbies en witte snavelbies</b>. Er komen <b>heikikker, gladde slang en boomleeuwerik</b> voor.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Aug</b> (heidebloei), mei\u2013jul (libellen en reptielen)<br>\n    <b>Beste tijd van de dag:</b> Warme middag \u2014 reptielen en libellen zijn dan actief.',
+ 'why': ['Vennen ontstaan doordat een <b>leemlaag</b> het regenwater vasthoudt.',
+         'Vennen zijn extreem <b>voedselarm en zuur</b> \u2014 alleen regenwater.',
+         'Een van de meest <b>kwetsbare habitats</b> van Nederland.',
+         'Al weinig extra <b>stikstof</b> verandert de vegetatie onherkenbaar.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f438 <b>Heikikker</b> kleurt blauw in de paartijd.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f9a0 <b>Libellen</b> boven de vennen.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98e <b>Gladde slang</b> op warme plekken.',
+          '<span class="months">Aug</span> \U0001f338 <b>Heidebloei</b> kleurt het veld paars.'],
+ 'wild': ['\U0001f438 Heikikker \u00b7 \U0001f98e Gladde slang \u00b7 Levendbarende hagedis', '\U0001f426 Boomleeuwerik \u00b7 Roodborsttapuit \u00b7 Geelgors', '\U0001f9a0 Heidelibellen \u00b7 Venwitsnuitlibel', '\U0001f33c Oeverkruid \u00b7 Waterbies \u00b7 Witte snavelbies', '\U0001f338 Struikheide \u00b7 Dopheide'],
+ 'trail': ['Parkeren bij <b>Arri\u00ebn</b>; paden over het heideveld.',
+           'Blijf op de paden \u2014 de <b>venoevers</b> zijn uiterst kwetsbaar.',
+           'Augustus voor de <b>heidebloei</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Kwetsbare vennen \u00b7 \U0001f6b6 Zandpaden'
+}, {
+ 'tags': ['Overijssel \u00b7 Ommen', 'Heath \u00b7 heathland with pools on cover sand', 'list 36 \u00b7 no. 206'],
+ 'loc': '\U0001f4cd Near Arri\u00ebn, east of Ommen \u00b7 Heathland \u00b7 Medium-sized',
+ 'desc': 'The <b>Arri\u00ebveld</b> is a heath on cover sand east of Ommen, with pools in the hollows. The pools exist because rainwater cannot drain away: beneath the sand lies a <b>loam layer</b> that holds it. Such pools are extremely <b>nutrient-poor and acid</b> \u2014 no groundwater enters, only rain, and rain contains almost no nutrients. That makes them one of the most vulnerable habitats in the Netherlands: even a little extra airborne nitrogen changes the vegetation beyond recognition. Where the pools can be kept clean, <b>shoreweed, many-stalked spike-rush and white beak-sedge</b> still grow. <b>Moor frog, smooth snake and woodlark</b> occur.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Aug</b> (heather bloom), May\u2013Jul (dragonflies and reptiles)<br>\n    <b>Best time of day:</b> Warm afternoon \u2014 reptiles and dragonflies are then active.',
+ 'why': ['Pools form because a <b>loam layer</b> holds the rainwater.',
+         'Such pools are extremely <b>nutrient-poor and acid</b> \u2014 rain only.',
+         'One of the most <b>vulnerable habitats</b> in the Netherlands.',
+         'Even slight extra <b>nitrogen</b> changes the vegetation utterly.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f438 <b>Moor frog</b> turns blue in the breeding season.',
+          '<span class="months">May\u2013Jul</span> \U0001f9a0 <b>Dragonflies</b> above the pools.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98e <b>Smooth snake</b> on warm spots.',
+          '<span class="months">Aug</span> \U0001f338 <b>Heather bloom</b> turns the field purple.'],
+ 'wild': ['\U0001f438 Moor frog \u00b7 \U0001f98e Smooth snake \u00b7 Common lizard', '\U0001f426 Woodlark \u00b7 Stonechat \u00b7 Yellowhammer', '\U0001f9a0 Darter dragonflies \u00b7 White-faced darter', '\U0001f33c Shoreweed \u00b7 Spike-rush \u00b7 White beak-sedge', '\U0001f338 Heather \u00b7 Cross-leaved heath'],
+ 'trail': ['Park at <b>Arri\u00ebn</b>; paths cross the heath.',
+           'Keep to the paths \u2014 the <b>pool margins</b> are extremely fragile.',
+           'August for the <b>heather bloom</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Fragile pools \u00b7 \U0001f6b6 Sandy paths'
+}, card_class='card heath'))
+
+C.append(mk.card(1488, 'Junner Koeland', {
+ 'tags': ['Overijssel \u00b7 Ommen', 'Stroomdalgrasland \u00b7 eeuwenoude gemeenschappelijke weide', 'list 36 \u00b7 no. 207'],
+ 'loc': '\U0001f4cd Bij Junne, in het Vechtdal \u00b7 Stroomdalgrasland \u00b7 Klein',
+ 'desc': 'Het <b>Junner Koeland</b> is een van de kostbaarste stukjes natuur van Overijssel: een eeuwenoude <b>gemeenschappelijke weide</b> in een bocht van de Vecht, waar de boeren van Junne al sinds de middeleeuwen hun vee lieten grazen. Zo\u2019n gemeenschappelijk gebruikt terrein heette een <b>marke</b>, en het is uitzonderlijk dat het hier nooit is verdeeld of bemest. Daardoor is de bodem nog steeds <b>voedselarm en kalkrijk</b> \u2014 de Vecht bracht bij overstromingen kalkhoudend zand aan \u2014 en groeit er zeldzame <b>stroomdalflora</b> die elders in Nederland vrijwel is verdwenen. Er bloeien <b>steenanjer, kruisdistel en wilde tijm</b>. Het gebied wordt nog altijd begraasd, tegenwoordig met <b>runderen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jun\u2013jul</b> (stroomdalflora in bloei)<br>\n    <b>Beste tijd van de dag:</b> Warme ochtend \u2014 insecten op de bloeiende graslanden.',
+ 'n2k': 'Natura 2000-gebied Vecht- en Beneden-Reggegebied \u2014 stroomdalgraslanden en rivierduinen.',
+ 'why': ['Eeuwenoude <b>gemeenschappelijke weide</b> in een bocht van de Vecht.',
+         'Zo\u2019n gemeenschappelijk terrein heette een <b>marke</b>.',
+         'Nooit verdeeld of bemest \u2014 de bodem bleef <b>voedselarm en kalkrijk</b>.',
+         'Zeldzame <b>stroomdalflora</b> die elders vrijwel verdwenen is.'],
+ 'phen': ['<span class="months">Mei\u2013Jun</span> \U0001f33c <b>Eerste stroomdalflora</b> komt in bloei.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f338 <b>Steenanjer en wilde tijm</b> op hun hoogtepunt.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f98b <b>Vlinders en sprinkhanen</b> op het grasland.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f30a <b>Hoogwater</b> overstroomt de weide.'],
+ 'wild': ['\U0001f33c Steenanjer \u00b7 Kruisdistel \u00b7 Wilde tijm \u00b7 Zandblauwtje', '\U0001f98b Vlinders \u00b7 \U0001f997 Sprinkhanen \u00b7 \U0001f41d Wilde bijen', '\U0001f426 Grauwe klauwier \u00b7 Roodborsttapuit \u00b7 Geelgors', '\U0001f98e Zandhagedis op de rivierduintjes', '\U0001f42e Begrazende runderen'],
+ 'trail': ['Parkeren bij <b>Junne</b>; wandelpad door het begraasde terrein.',
+           'Kom in <b>juni of juli</b> \u2014 dan bloeit de stroomdalflora.',
+           'Blijf op het pad; de <b>grasmat</b> is eeuwenoud en kwetsbaar.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f42e Begrazing \u00b7 \U0001f30d Natura 2000'
+}, {
+ 'tags': ['Overijssel \u00b7 Ommen', 'River-valley grassland \u00b7 centuries-old common pasture', 'list 36 \u00b7 no. 207'],
+ 'loc': '\U0001f4cd Near Junne, in the Vecht valley \u00b7 River-valley grassland \u00b7 Small',
+ 'desc': 'The <b>Junner Koeland</b> is one of the most precious patches of nature in Overijssel: a centuries-old <b>common pasture</b> in a bend of the Vecht, where the farmers of Junne have grazed their cattle since the Middle Ages. Such commonly used ground was called a <b>marke</b>, and it is exceptional that this one was never divided or fertilised. The soil is therefore still <b>nutrient-poor and lime-rich</b> \u2014 the Vecht brought calcareous sand during floods \u2014 and rare <b>river-valley flora</b> grows here that has all but vanished elsewhere in the Netherlands. <b>Maiden pink, field eryngo and wild thyme</b> flower. The area is still grazed, nowadays by <b>cattle</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jun\u2013Jul</b> (river-valley flora in flower)<br>\n    <b>Best time of day:</b> Warm morning \u2014 insects on the flowering grassland.',
+ 'n2k_en': 'Natura 2000 site Vecht and Lower Regge \u2014 river-valley grassland and river dunes.',
+ 'why': ['A centuries-old <b>common pasture</b> in a bend of the Vecht.',
+         'Such common ground was called a <b>marke</b>.',
+         'Never divided or fertilised \u2014 the soil stayed <b>poor and lime-rich</b>.',
+         'Rare <b>river-valley flora</b> that has all but vanished elsewhere.'],
+ 'phen': ['<span class="months">May\u2013Jun</span> \U0001f33c <b>First river-valley flora</b> comes into flower.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f338 <b>Maiden pink and wild thyme</b> at their peak.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f98b <b>Butterflies and grasshoppers</b> on the sward.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f30a <b>High water</b> floods the pasture.'],
+ 'wild': ['\U0001f33c Maiden pink \u00b7 Field eryngo \u00b7 Wild thyme \u00b7 Sheep\u2019s bit', '\U0001f98b Butterflies \u00b7 \U0001f997 Grasshoppers \u00b7 \U0001f41d Wild bees', '\U0001f426 Red-backed shrike \u00b7 Stonechat \u00b7 Yellowhammer', '\U0001f98e Sand lizard on the small river dunes', '\U0001f42e Grazing cattle'],
+ 'trail': ['Park at <b>Junne</b>; a footpath crosses the grazed ground.',
+           'Come in <b>June or July</b> \u2014 then the river flora is in bloom.',
+           'Keep to the path; the <b>sward</b> is centuries old and fragile.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f42e Grazing \u00b7 \U0001f30d Natura 2000'
+}))
+
+C.append(mk.card(1489, 'Stegeren', {
+ 'tags': ['Overijssel \u00b7 Ommen', 'Vechtoever \u00b7 hermeanderd rivierlandschap met landgoed', 'list 36 \u00b7 no. 208'],
+ 'loc': '\U0001f4cd Stegeren, tussen Ommen en Hardenberg \u00b7 Rivieroever en landgoed \u00b7 Middelgroot',
+ 'desc': 'Bij <b>Stegeren</b> is de Vecht een van de meest geslaagde <b>hermeanderingsprojecten</b> van Nederland ondergaan. De rivier was in de negentiende en twintigste eeuw rechtgetrokken om schepen door te laten en water snel af te voeren; het resultaat was een <b>kanaal</b> waarin de stroomsnelheid overal gelijk was en waar vrijwel geen leven meer in zat. Sinds de jaren 2000 zijn oude meanders heropend en is de rivier weer vrij gelaten om <b>zandbanken en steilranden</b> te vormen. Dat werkte snel: binnen enkele jaren keerden <b>oeverzwaluw, kleine plevier en ijsvogel</b> terug, en de <b>bever</b> vestigde zich. Rondom liggen de bossen en lanen van het oude <b>landgoed Stegeren</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (oeverzwaluw en plevier), nov\u2013feb (hoogwaterdynamiek)<br>\n    <b>Beste tijd van de dag:</b> Schemer \u2014 bever langs de nieuwe meanders.',
+ 'why': ['Een van de meest geslaagde <b>hermeanderingsprojecten</b> van Nederland.',
+         'De rechtgetrokken rivier was een <b>kanaal</b> zonder variatie of leven.',
+         'Oude meanders heropend; de rivier vormt weer <b>zandbanken</b>.',
+         'Binnen jaren keerden <b>oeverzwaluw, plevier en bever</b> terug.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Oeverzwaluw</b> graaft in de verse steilranden.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Kleine plevier</b> broedt op de zandbanken.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de meanders.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f30a <b>Hoogwater</b> herschikt de zandbanken.'],
+ 'wild': ['\U0001f426 Oeverzwaluw \u00b7 Kleine plevier \u00b7 IJsvogel', '\U0001f9ab Bever \u00b7 \U0001f9a6 Otter \u00b7 \U0001f98c Ree', '\U0001f41f Winde \u00b7 Kopvoorn \u00b7 Serpeling', '\U0001f9a0 Libellen \u00b7 Waterjuffers', '\U0001f333 Landgoedlanen met oude eik en beuk'],
+ 'trail': ['Parkeren bij <b>Stegeren</b>; paden langs de hermeanderde Vecht.',
+           'Zoek de <b>verse steilranden</b> \u2014 daar zitten de oeverzwaluwen.',
+           'Schemer voor de <b>bever</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Losse zandoevers \u00b7 \U0001f6b6 Oeverpaden'
+}, {
+ 'tags': ['Overijssel \u00b7 Ommen', 'Vecht bank \u00b7 remeandered river landscape with estate', 'list 36 \u00b7 no. 208'],
+ 'loc': '\U0001f4cd Stegeren, between Ommen and Hardenberg \u00b7 Riverbank and estate \u00b7 Medium-sized',
+ 'desc': 'At <b>Stegeren</b> the Vecht has undergone one of the most successful <b>remeandering projects</b> in the Netherlands. The river was straightened in the nineteenth and twentieth centuries to let boats through and drain water quickly; the result was a <b>canal</b> with uniform flow everywhere and almost no life left in it. Since the 2000s old meanders have been reopened and the river left free again to form <b>sandbanks and steep banks</b>. It worked fast: within a few years <b>sand martin, little ringed plover and kingfisher</b> returned, and the <b>beaver</b> settled. Around it lie the woods and avenues of the old <b>Stegeren estate</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (sand martin and plover), Nov\u2013Feb (high-water dynamics)<br>\n    <b>Best time of day:</b> Dusk \u2014 beaver along the new meanders.',
+ 'why': ['One of the most successful <b>remeandering projects</b> in the country.',
+         'The straightened river was a <b>canal</b> without variation or life.',
+         'Old meanders reopened; the river forms <b>sandbanks</b> again.',
+         'Within years <b>sand martin, plover and beaver</b> returned.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Sand martins</b> dig into the fresh steep banks.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Little ringed plover</b> breeds on the sandbanks.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the meanders.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f30a <b>High water</b> rearranges the sandbanks.'],
+ 'wild': ['\U0001f426 Sand martin \u00b7 Little ringed plover \u00b7 Kingfisher', '\U0001f9ab Beaver \u00b7 \U0001f9a6 Otter \u00b7 \U0001f98c Roe deer', '\U0001f41f Ide \u00b7 Chub \u00b7 Dace', '\U0001f9a0 Dragonflies \u00b7 Damselflies', '\U0001f333 Estate avenues with old oak and beech'],
+ 'trail': ['Park at <b>Stegeren</b>; paths follow the remeandered Vecht.',
+           'Look for the <b>fresh steep banks</b> \u2014 the sand martins are there.',
+           'Dusk for the <b>beaver</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Loose sandy banks \u00b7 \U0001f6b6 Bank paths'
+}, card_class='card water'))
+
+mk.insert(C, '1484')
+mk.progress(1489)
+mk.check()

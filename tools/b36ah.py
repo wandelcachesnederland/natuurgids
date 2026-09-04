@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1445, 'Gelderse Hout', {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Polderbos \u00b7 recreatiebos met open plekken', 'list 36 \u00b7 no. 164'],
+ 'loc': '\U0001f4cd Zuidoostrand van Lelystad \u00b7 Polderbos \u00b7 Middelgroot',
+ 'desc': 'De <b>Gelderse Hout</b> ligt tegen Lelystad aan en is het meest gebruikte stadsbos van de stad. Wat het interessant maakt is de <b>bosstructuur</b>: anders dan de strakke productievakken elders in de polder is hier bewust gewerkt met open plekken, bosranden en solitaire bomen. Dat is ecologisch geen detail, want de meeste soorten leven niet in het bos maar op de <b>overgangen</b> \u2014 de zone waar bos in grasland overgaat biedt beschutting én voedsel, en herbergt in Nederland aantoonbaar meer soorten dan bos of veld afzonderlijk. Zulke zoomvegetaties waren in het oude cultuurlandschap overal aanwezig en zijn grotendeels verdwenen. Hier zijn ze weer aangelegd. Er broeden <b>groene specht, boomklever, gekraagde roodstaart en ransuil</b>, en er bloeien <b>zomen vol vlinders</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013aug</b> (zoomvegetatie en vlinders), apr\u2013jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Late ochtend \u2014 warm genoeg voor insecten in de zomen.',
+ 'why': ['Bewust aangelegd met <b>open plekken, bosranden en solitairen</b>.',
+         'De meeste soorten leven op de <b>overgangen</b>, niet middenin het bos.',
+         'Zoomvegetaties waren overal en zijn <b>grotendeels verdwenen</b>.',
+         '<b>Groene specht en gekraagde roodstaart</b> profiteren van de randen.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Groene specht</b> roept over de open plekken.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Zomen</b> bloeien langs de bosranden.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98b <b>Vlinders</b> op de bloeiende randen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> in het bos.'],
+ 'wild': ['\U0001f426 Groene specht \u00b7 Boomklever \u00b7 Gekraagde roodstaart', '\U0001f989 Ransuil \u00b7 \U0001f985 Buizerd', '\U0001f98b Vlinders \u00b7 \U0001f41d Wilde bijen in de zomen', '\U0001f98c Ree \u00b7 Vos \u00b7 Haas', '\U0001f333 Eik \u00b7 Es \u00b7 Meidoorn \u00b7 Sleedoorn'],
+ 'trail': ['Parkeren aan de <b>zuidoostrand van Lelystad</b>; goed padennet.',
+           'Loop de <b>bosranden</b> af in plaats van dwars door het bos.',
+           'Juli voor de <b>vlinders</b> in de zoomvegetatie.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b6 Goed toegankelijk \u00b7 \U0001f68c Bereikbaar vanuit Lelystad'
+}, {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Polder wood \u00b7 recreation wood with clearings', 'list 36 \u00b7 no. 164'],
+ 'loc': '\U0001f4cd South-eastern edge of Lelystad \u00b7 Polder wood \u00b7 Medium-sized',
+ 'desc': 'The <b>Gelderse Hout</b> lies against Lelystad and is the city\u2019s most-used urban wood. What makes it interesting is its <b>woodland structure</b>: unlike the crisp production compartments elsewhere in the polder, here clearings, wood edges and solitary trees were deliberately used. Ecologically that is no detail, for most species live not in the wood but on the <b>transitions</b> \u2014 the zone where woodland grades into grassland offers both shelter and food, and demonstrably holds more species in the Netherlands than either wood or field alone. Such fringe vegetations were everywhere in the old cultural landscape and have largely vanished. Here they have been recreated. <b>Green woodpecker, nuthatch, redstart and long-eared owl</b> breed, and the <b>fringes flower full of butterflies</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Aug</b> (fringe vegetation and butterflies), Apr\u2013Jun (song)<br>\n    <b>Best time of day:</b> Late morning \u2014 warm enough for insects in the fringes.',
+ 'why': ['Deliberately laid out with <b>clearings, wood edges and solitary trees</b>.',
+         'Most species live on the <b>transitions</b>, not deep inside the wood.',
+         'Fringe vegetations were everywhere and have <b>largely vanished</b>.',
+         '<b>Green woodpecker and redstart</b> profit from the edges.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Green woodpecker</b> calls across the clearings.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Fringes</b> flower along the wood edges.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98b <b>Butterflies</b> on the flowering edges.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> in the wood.'],
+ 'wild': ['\U0001f426 Green woodpecker \u00b7 Nuthatch \u00b7 Redstart', '\U0001f989 Long-eared owl \u00b7 \U0001f985 Buzzard', '\U0001f98b Butterflies \u00b7 \U0001f41d Wild bees in the fringes', '\U0001f98c Roe deer \u00b7 Fox \u00b7 Brown hare', '\U0001f333 Oak \u00b7 Ash \u00b7 Hawthorn \u00b7 Blackthorn'],
+ 'trail': ['Park on the <b>south-eastern edge of Lelystad</b>; good path network.',
+           'Walk the <b>wood edges</b> rather than straight through the wood.',
+           'July for the <b>butterflies</b> in the fringe vegetation.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b6 Easily accessible \u00b7 \U0001f68c Reachable from Lelystad'
+}))
+
+C.append(mk.card(1446, 'Natuurpark Lelystad', {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Natuurpark \u00b7 begrazing met wisent, eland en oerrund', 'list 36 \u00b7 no. 165'],
+ 'loc': '\U0001f4cd Tussen Lelystad en de Oostvaardersplassen \u00b7 Natuurpark \u00b7 Middelgroot',
+ 'desc': '<b>Natuurpark Lelystad</b> werd in 1970 aangelegd met een opvallend uitgangspunt: het toont de <b>oorspronkelijke Europese fauna</b> die in Nederland is uitgestorven. Er lopen <b>wisenten, elanden, oerrunderen en Przewalskipaarden</b> in ruime, begraasde terreinen \u2014 dieren die hier duizenden jaren geleden vanzelfsprekend waren en pas door bejaging en ontbossing verdwenen. Die opzet paste bij een idee dat in dezelfde jaren in Flevoland opkwam: dat je natuur niet alleen kunt beschermen maar ook <b>opnieuw kunt samenstellen</b>. Het park werd zo een voorloper van het denken dat kort daarna in de Oostvaardersplassen tot volle wasdom kwam. Naast de grote grazers is er gewoon polderbos, met <b>havik, ijsvogel, boomklever en bever</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (jonge dieren en zang), sep\u2013okt (bronst van edelherten en elanden)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 grote grazers zijn dan het actiefst.',
+ 'why': ['Aangelegd in <b>1970</b> om de uitgestorven Europese fauna te tonen.',
+         '<b>Wisent, eland, oerrund en Przewalskipaard</b> in begraasde terreinen.',
+         'Vroeg voorbeeld van het idee dat natuur <b>opnieuw samengesteld</b> kan worden.',
+         'Voorloper van het denken achter de <b>Oostvaardersplassen</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f9ac <b>Jonge dieren</b> bij de kuddes.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>IJsvogel</b> langs de waterpartijen.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f98c <b>Bronst</b> van edelhert en eland.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>Roofvogels</b> boven de open begrazingsvlakten.'],
+ 'wild': ['\U0001f9ac Wisent \u00b7 Eland \u00b7 Oerrund (Heckrund) \u00b7 Przewalskipaard', '\U0001f98c Edelhert \u00b7 Ree \u00b7 Vos', '\U0001f426 IJsvogel \u00b7 Boomklever \u00b7 \U0001f985 Havik', '\U0001f9ab Bever langs het water', '\U0001f333 Es \u00b7 Wilg \u00b7 Els'],
+ 'trail': ['Parkeren bij de <b>ingang van het natuurpark</b>; vaste route langs de terreinen.',
+           'Kom <b>vroeg</b> \u2014 de grote grazers zijn dan zichtbaar en actief.',
+           'September\u2013oktober voor de <b>bronst</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Grote grazers \u2014 houd afstand \u00b7 \U0001f6b6 Vaste routes'
+}, {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Nature park \u00b7 grazing with bison, elk and aurochs-type cattle', 'list 36 \u00b7 no. 165'],
+ 'loc': '\U0001f4cd Between Lelystad and the Oostvaardersplassen \u00b7 Nature park \u00b7 Medium-sized',
+ 'desc': '<b>Natuurpark Lelystad</b> was created in 1970 on a striking premise: it shows the <b>original European fauna</b> that has died out in the Netherlands. <b>European bison, elk, aurochs-type cattle and Przewalski horses</b> roam spacious grazed enclosures \u2014 animals that were a matter of course here thousands of years ago and vanished only through hunting and deforestation. That approach fitted an idea emerging in Flevoland in the same years: that nature can not only be protected but also <b>reassembled</b>. The park thus became a forerunner of the thinking that came to full flower shortly afterwards in the Oostvaardersplassen. Beside the large grazers there is ordinary polder woodland, with <b>goshawk, kingfisher, nuthatch and beaver</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (young animals and song), Sep\u2013Oct (red deer and elk rut)<br>\n    <b>Best time of day:</b> Early morning \u2014 large grazers are then most active.',
+ 'why': ['Created in <b>1970</b> to show the extinct European fauna.',
+         '<b>Bison, elk, aurochs-type cattle and Przewalski horse</b> in grazed enclosures.',
+         'An early example of the idea that nature can be <b>reassembled</b>.',
+         'Forerunner of the thinking behind the <b>Oostvaardersplassen</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f9ac <b>Young animals</b> among the herds.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Kingfisher</b> along the water features.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f98c <b>Rut</b> of red deer and elk.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>Raptors</b> above the open grazing plains.'],
+ 'wild': ['\U0001f9ac European bison \u00b7 Elk \u00b7 Heck cattle \u00b7 Przewalski horse', '\U0001f98c Red deer \u00b7 Roe deer \u00b7 Fox', '\U0001f426 Kingfisher \u00b7 Nuthatch \u00b7 \U0001f985 Goshawk', '\U0001f9ab Beaver along the water', '\U0001f333 Ash \u00b7 Willow \u00b7 Alder'],
+ 'trail': ['Park at the <b>nature park entrance</b>; fixed route past the enclosures.',
+           'Come <b>early</b> \u2014 the large grazers are then visible and active.',
+           'September\u2013October for the <b>rut</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Large grazers \u2014 keep your distance \u00b7 \U0001f6b6 Fixed routes'
+}))
+
+C.append(mk.card(1447, 'Oostvaardersplassen', {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Moeras \u00b7 Natura 2000 \u00b7 wereldberoemd rewildingexperiment', 'list 36 \u00b7 no. 166'],
+ 'loc': '\U0001f4cd Tussen Lelystad en Almere \u00b7 Moeras en graslandvlakte \u00b7 Zeer groot',
+ 'desc': 'De <b>Oostvaardersplassen</b> zijn per ongeluk ontstaan. Toen Zuidelijk Flevoland in 1968 droogviel, was dit laaggelegen deel bestemd voor industrie, maar de aanleg werd uitgesteld \u2014 en in de tussentijd vulde het gebied zich met water, riet en vogels. Binnen enkele jaren bleek er een <b>moeras van internationale betekenis</b> te zijn ontstaan, met roerdompen, lepelaars en de eerste Nederlandse broedende <b>zeearenden</b> sinds mensenheugenis. De beslissing om het te behouden leidde tot het beroemdste en meest omstreden natuurexperiment van Nederland: begrazing door <b>Heckrunderen, konikpaarden en edelherten</b> zonder bijvoeren, om een natuurlijk systeem na te bootsen. Na de strenge winters en de maatschappelijke discussie wordt de begrazing nu actiever beheerd. Het moeras blijft spectaculair.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (moerasvogels en jonge grazers), sep\u2013okt (hertenbronst), nov\u2013feb (zeearend en ganzen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 vanuit de hutten met de zon in de rug.',
+ 'n2k': 'Natura 2000-gebied \u2014 moeras, rietland en graslandvlakte; van internationale betekenis voor moerasvogels.',
+ 'why': ['Ontstond <b>per ongeluk</b> \u2014 het gebied was voor industrie bestemd.',
+         'Binnen jaren een <b>moeras van internationale betekenis</b>.',
+         'Eerste Nederlandse broedende <b>zeearenden</b> sinds mensenheugenis.',
+         'Het beroemdste en meest <b>omstreden natuurexperiment</b> van Nederland.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Roerdomp</b> hoempt; lepelaars keren terug.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f985 <b>Zeearend</b> broedt \u2014 volg de horst vanaf de hut.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f98c <b>Edelhertenbronst</b> \u2014 burlen over de vlakte.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Duizenden ganzen</b> en jagende roofvogels.'],
+ 'wild': ['\U0001f985 Zeearend \u00b7 Slechtvalk \u00b7 Bruine kiekendief \u00b7 Blauwe kiekendief', '\U0001f426 Roerdomp \u00b7 Lepelaar \u00b7 Grote zilverreiger \u00b7 Baardman', '\U0001f434 Konikpaard \u00b7 Heckrund \u00b7 \U0001f98c Edelhert', '\U0001f9a2 Grauwe gans \u00b7 Kolgans \u00b7 Brandgans', '\U0001f9ab Vos \u00b7 Bever'],
+ 'trail': ['Parkeren bij <b>Buitencentrum Oostvaardersplassen</b> of de <b>Praambult</b>.',
+           'Gebruik de <b>vogelkijkhutten</b> \u2014 het moeras zelf is niet toegankelijk.',
+           'Neem een <b>telescoop</b> mee; de afstanden zijn groot.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Grote grazers \u00b7 \U0001f6b6 Vaste routes en hutten'
+}, {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Marsh \u00b7 Natura 2000 \u00b7 world-famous rewilding experiment', 'list 36 \u00b7 no. 166'],
+ 'loc': '\U0001f4cd Between Lelystad and Almere \u00b7 Marsh and grassland plain \u00b7 Very large',
+ 'desc': 'The <b>Oostvaardersplassen</b> came about by accident. When Southern Flevoland fell dry in 1968, this low-lying part was earmarked for industry, but construction was postponed \u2014 and in the meantime the area filled with water, reed and birds. Within a few years a <b>marsh of international importance</b> had formed, with bitterns, spoonbills and the first Dutch breeding <b>white-tailed eagles</b> in living memory. The decision to keep it led to the most famous and most contested nature experiment in the Netherlands: grazing by <b>Heck cattle, konik horses and red deer</b> without supplementary feeding, to mimic a natural system. After the severe winters and the public debate, the grazing is now managed more actively. The marsh remains spectacular.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (marsh birds and young grazers), Sep\u2013Oct (deer rut), Nov\u2013Feb (white-tailed eagle and geese)<br>\n    <b>Best time of day:</b> Early morning \u2014 from the hides with the sun behind you.',
+ 'n2k_en': 'Natura 2000 site \u2014 marsh, reedland and grassland plain; of international importance for marsh birds.',
+ 'why': ['Came about <b>by accident</b> \u2014 the area was earmarked for industry.',
+         'Within years a <b>marsh of international importance</b>.',
+         'First Dutch breeding <b>white-tailed eagles</b> in living memory.',
+         'The most famous and most <b>contested nature experiment</b> in the country.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f426 <b>Bittern</b> booms; spoonbills return.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f985 <b>White-tailed eagle</b> breeds \u2014 watch the eyrie from the hide.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f98c <b>Red deer rut</b> \u2014 roaring across the plain.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Thousands of geese</b> and hunting raptors.'],
+ 'wild': ['\U0001f985 White-tailed eagle \u00b7 Peregrine \u00b7 Marsh harrier \u00b7 Hen harrier', '\U0001f426 Bittern \u00b7 Spoonbill \u00b7 Great white egret \u00b7 Bearded reedling', '\U0001f434 Konik horse \u00b7 Heck cattle \u00b7 \U0001f98c Red deer', '\U0001f9a2 Greylag \u00b7 White-fronted goose \u00b7 Barnacle goose', '\U0001f9ab Fox \u00b7 Beaver'],
+ 'trail': ['Park at the <b>Oostvaardersplassen visitor centre</b> or the <b>Praambult</b>.',
+           'Use the <b>bird hides</b> \u2014 the marsh itself is not accessible.',
+           'Bring a <b>telescope</b>; the distances are large.'],
+ 'foot': '\U0001f436 Dogs not allowed \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Large grazers \u00b7 \U0001f6b6 Fixed routes and hides'
+}, card_class='card water'))
+
+C.append(mk.card(1448, 'Hollandse Hout', {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Polderbos \u00b7 bos grenzend aan de Oostvaardersplassen', 'list 36 \u00b7 no. 167'],
+ 'loc': '\U0001f4cd Tussen Lelystad en de Oostvaardersplassen \u00b7 Polderbos \u00b7 Groot',
+ 'desc': 'De <b>Hollandse Hout</b> grenst direct aan de Oostvaardersplassen, en dat maakt het bos meer dan een gewoon polderbos: het is de <b>schakel</b> tussen het open moerasgebied en de rest van Flevoland. Grote grazers en edelherten trekken erdoorheen, en juist die combinatie van bos en begrazing levert een structuur op die je zelden ziet \u2014 open plekken, ruige zomen en dood hout blijven liggen. Dat laatste is ecologisch cruciaal: <b>dood hout</b> herbergt in Europa naar schatting een derde van alle bosgebonden soorten, van kevers tot zwammen tot spechten. In een bos van zeventig jaar oud is het bijzonder dat er al zoveel staat. Er broeden <b>zeearend, havik, zwarte specht en boomklever</b>, en er lopen <b>edelherten, ree\u00ebn en vossen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Sep\u2013okt</b> (hertenbronst), apr\u2013jun (zang en broedende roofvogels)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend of avondschemer \u2014 herten trekken dan door het bos.',
+ 'why': ['<b>Schakel</b> tussen de Oostvaardersplassen en de rest van Flevoland.',
+         'Begrazing door edelherten geeft <b>open plekken en ruige zomen</b>.',
+         '<b>Dood hout</b> herbergt een derde van alle bosgebonden soorten in Europa.',
+         'Bijzonder veel dood hout voor een bos van <b>zeventig jaar</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f985 <b>Zeearend</b> vliegt over vanuit de Oostvaardersplassen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Zwarte specht</b> roffelt op dood hout.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f98c <b>Edelhertenbronst</b> \u2014 burlen in het bos.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> op de dode stammen.'],
+ 'wild': ['\U0001f985 Zeearend \u00b7 Havik \u00b7 Buizerd', '\U0001f426 Zwarte specht \u00b7 Boomklever \u00b7 Grote bonte specht', '\U0001f98c Edelhert \u00b7 Ree \u00b7 Vos', '\U0001f344 Zwammen op dood hout', '\U0001fab2 Kevers in dood hout'],
+ 'trail': ['Parkeren aan de <b>rand van Lelystad</b>; paden richting de Oostvaardersplassen.',
+           'Let op het <b>dode hout</b> \u2014 vol spechtengaten en zwammen.',
+           'Kom in <b>oktober</b> voor de burlende herten.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Grote grazers in de bronsttijd \u00b7 \U0001f6b6 Goed padennet'
+}, {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Polder wood \u00b7 woodland adjoining the Oostvaardersplassen', 'list 36 \u00b7 no. 167'],
+ 'loc': '\U0001f4cd Between Lelystad and the Oostvaardersplassen \u00b7 Polder wood \u00b7 Large',
+ 'desc': 'The <b>Hollandse Hout</b> adjoins the Oostvaardersplassen directly, which makes it more than an ordinary polder wood: it is the <b>link</b> between the open marsh and the rest of Flevoland. Large grazers and red deer move through it, and that combination of woodland and grazing produces a structure you rarely see \u2014 clearings, rough fringes and dead wood left in place. The last is ecologically crucial: in Europe <b>dead wood</b> is estimated to harbour a third of all woodland-dependent species, from beetles to fungi to woodpeckers. In a wood only seventy years old it is remarkable that so much already stands. <b>White-tailed eagle, goshawk, black woodpecker and nuthatch</b> breed, and <b>red deer, roe deer and foxes</b> roam.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Sep\u2013Oct</b> (deer rut), Apr\u2013Jun (song and breeding raptors)<br>\n    <b>Best time of day:</b> Early morning or dusk \u2014 deer then move through the wood.',
+ 'why': ['<b>Link</b> between the Oostvaardersplassen and the rest of Flevoland.',
+         'Grazing by red deer creates <b>clearings and rough fringes</b>.',
+         '<b>Dead wood</b> harbours a third of all woodland species in Europe.',
+         'Remarkably much dead wood for a wood of <b>seventy years</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f985 <b>White-tailed eagle</b> flies over from the Oostvaardersplassen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Black woodpecker</b> drums on dead wood.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f98c <b>Red deer rut</b> \u2014 roaring in the wood.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> on the dead trunks.'],
+ 'wild': ['\U0001f985 White-tailed eagle \u00b7 Goshawk \u00b7 Buzzard', '\U0001f426 Black woodpecker \u00b7 Nuthatch \u00b7 Great spotted woodpecker', '\U0001f98c Red deer \u00b7 Roe deer \u00b7 Fox', '\U0001f344 Bracket fungi on dead wood', '\U0001fab2 Beetles in dead wood'],
+ 'trail': ['Park on the <b>edge of Lelystad</b>; paths lead towards the Oostvaardersplassen.',
+           'Note the <b>dead wood</b> \u2014 full of woodpecker holes and fungi.',
+           'Come in <b>October</b> for the roaring deer.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Large grazers in the rut \u00b7 \U0001f6b6 Good path network'
+}))
+
+C.append(mk.card(1449, 'Burchtkamp', {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Grasland \u00b7 open begrazingsgebied bij de Oostvaardersplassen', 'list 36 \u00b7 no. 168'],
+ 'loc': '\U0001f4cd Bij Lelystad, grenzend aan de Oostvaardersplassen \u00b7 Grasland met struweel \u00b7 Middelgroot',
+ 'desc': 'De <b>Burchtkamp</b> is een open begraasd gebied aan de rand van de Oostvaardersplassen, en de naam is samengesteld uit twee oude woorden: <b>burcht</b> \u2014 hier waarschijnlijk verwijzend naar een verhoogd of versterkt punt \u2014 en <b>kamp</b>, dat in het Nederlands een <b>omheind stuk land</b> betekent, van het Latijnse <i>campus</i>. Kampen waren in het oude cultuurlandschap de individueel ontgonnen percelen, in tegenstelling tot de gemeenschappelijke essen. Als naam in een polder van 1968 is het dus een bewuste ontlening aan het oude land. Het terrein zelf is grasland met struweel, begraasd en daardoor gevarieerd. Het functioneert als <b>foerageergebied</b> voor vogels uit het aangrenzende moeras: <b>grote zilverreiger, blauwe reiger, zeearend en ganzen</b> zijn er regelmatig te zien.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Nov\u2013feb</b> (ganzen en roofvogels), apr\u2013jun (broedvogels in het struweel)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 reigers en roofvogels foerageren dan.',
+ 'why': ['<b>Kamp</b> = omheind stuk land, van het Latijnse <i>campus</i>.',
+         'Kampen waren <b>individueel ontgonnen</b> percelen, anders dan de essen.',
+         'Bewuste ontlening aan het <b>oude land</b> in een polder van 1968.',
+         '<b>Foerageergebied</b> voor vogels uit het aangrenzende moeras.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Struweelvogels</b> broeden in de bosjes.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f426 <b>Grote zilverreiger</b> foerageert in het grasland.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f985 <b>Zeearend</b> passeert vanuit het moeras.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Ganzen</b> in grote groepen op het gras.'],
+ 'wild': ['\U0001f426 Grote zilverreiger \u00b7 Blauwe reiger \u00b7 Lepelaar', '\U0001f985 Zeearend \u00b7 Buizerd \u00b7 Blauwe kiekendief', '\U0001f9a2 Grauwe gans \u00b7 Kolgans \u00b7 Brandgans', '\U0001f426 Grasmus \u00b7 Roodborsttapuit in het struweel', '\U0001f98c Ree \u00b7 Vos \u00b7 Haas'],
+ 'trail': ['Parkeren bij <b>Lelystad</b>; kijk vanaf de paden aan de rand.',
+           'Neem een <b>verrekijker</b> \u2014 de vogels staan vaak midden op het gras.',
+           'Winter voor de <b>ganzen en roofvogels</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Begrazingsgebied \u00b7 \U0001f6b6 Paden langs de rand'
+}, {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Grassland \u00b7 open grazing area by the Oostvaardersplassen', 'list 36 \u00b7 no. 168'],
+ 'loc': '\U0001f4cd Near Lelystad, adjoining the Oostvaardersplassen \u00b7 Grassland with scrub \u00b7 Medium-sized',
+ 'desc': 'The <b>Burchtkamp</b> is an open grazed area on the edge of the Oostvaardersplassen, and the name is compounded from two old words: <b>burcht</b>, castle \u2014 here probably referring to a raised or fortified point \u2014 and <b>kamp</b>, which in Dutch means an <b>enclosed piece of land</b>, from the Latin <i>campus</i>. Kampen were the individually reclaimed parcels of the old cultural landscape, in contrast to the communal open fields. As a name in a polder of 1968 it is therefore a deliberate borrowing from the old country. The site itself is grassland with scrub, grazed and thereby varied. It functions as a <b>foraging area</b> for birds from the adjoining marsh: <b>great white egret, grey heron, white-tailed eagle and geese</b> are regularly seen.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Nov\u2013Feb</b> (geese and raptors), Apr\u2013Jun (breeding birds in the scrub)<br>\n    <b>Best time of day:</b> Early morning \u2014 herons and raptors then forage.',
+ 'why': ['<b>Kamp</b> = enclosed piece of land, from the Latin <i>campus</i>.',
+         'Kampen were <b>individually reclaimed</b> parcels, unlike the open fields.',
+         'A deliberate borrowing from the <b>old country</b> in a 1968 polder.',
+         '<b>Foraging area</b> for birds from the adjoining marsh.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Scrub birds</b> breed in the thickets.',
+          '<span class="months">May\u2013Aug</span> \U0001f426 <b>Great white egret</b> forages in the grassland.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f985 <b>White-tailed eagle</b> passes over from the marsh.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Geese</b> in large flocks on the grass.'],
+ 'wild': ['\U0001f426 Great white egret \u00b7 Grey heron \u00b7 Spoonbill', '\U0001f985 White-tailed eagle \u00b7 Buzzard \u00b7 Hen harrier', '\U0001f9a2 Greylag \u00b7 White-fronted goose \u00b7 Barnacle goose', '\U0001f426 Whitethroat \u00b7 Stonechat in the scrub', '\U0001f98c Roe deer \u00b7 Fox \u00b7 Brown hare'],
+ 'trail': ['Park at <b>Lelystad</b>; watch from the paths along the edge.',
+           'Bring <b>binoculars</b> \u2014 the birds are often out in the middle of the grass.',
+           'Winter for the <b>geese and raptors</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Grazing area \u00b7 \U0001f6b6 Paths along the edge'
+}))
+
+mk.insert(C, '1444')
+mk.progress(1449)
+mk.check()

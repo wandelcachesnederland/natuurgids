@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1430, 'Wormer- en Jisperveld', {
+ 'tags': ['Noord-Holland \u00b7 Wormerland', 'Veenweide \u00b7 Natura 2000 \u00b7 grootste aaneengesloten veenweide van West-Europa', 'list 36 \u00b7 no. 149'],
+ 'loc': '\U0001f4cd Tussen Wormer, Jisp en Wormerveer \u00b7 Veenweide \u00b7 Zeer groot',
+ 'desc': 'Het <b>Wormer- en Jisperveld</b> is met ruim tweeduizend hectare het <b>grootste aaneengesloten veenweidegebied van West-Europa</b>, en het is een landschap dat je vooral vanaf het water begrijpt. Het bestaat uit honderden smalle percelen gescheiden door sloten, en het overgrote deel is <b>alleen per boot bereikbaar</b> \u2014 de boeren varen hun koeien nog steeds naar de wei. Dat verklaart waarom het gebied zo gaaf is gebleven: schaalvergroting is er letterlijk onmogelijk zonder het slotenpatroon te dempen. Het waterpeil is hoog en de bemesting laag, en dat maakt het tot een van de belangrijkste <b>weidevogelgebieden van Nederland</b>, met duizenden broedparen <b>grutto, tureluur, kievit en slobeend</b>, plus moerasvogels als <b>roerdomp en purperreiger</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (weidevogeltop), nov\u2013feb (ganzen en smienten)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 het weidevogelkoor is hier op zijn overweldigendst.',
+ 'n2k': 'Natura 2000-gebied \u2014 laagveen, veenmosrietland en weidevogelgrasland; habitat noordse woelmuis.',
+ 'why': ['Met 2000 hectare de <b>grootste aaneengesloten veenweide van West-Europa</b>.',
+         'Het grootste deel is <b>alleen per boot bereikbaar</b> \u2014 koeien varen naar de wei.',
+         'Schaalvergroting is er <b>letterlijk onmogelijk</b> zonder sloten te dempen.',
+         'Duizenden broedparen <b>grutto, tureluur en slobeend</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Grutto\u2019s</b> keren in duizenden terug.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Tureluur, kievit en slobeend</b> broeden.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Purperreiger</b> foerageert in de sloten.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Ganzen en smienten</b> in grote aantallen.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Kievit \u00b7 Slobeend \u00b7 Watersnip', '\U0001f426 Roerdomp \u00b7 Purperreiger \u00b7 Snor \u00b7 Baardman', '\U0001f42d Noordse woelmuis \u00b7 Waterspitsmuis', '\U0001f9a0 Groene glazenmaker \u00b7 \U0001f33f Krabbenscheer', '\U0001f985 Bruine kiekendief \u00b7 Zeearend (winter)'],
+ 'trail': ['Parkeren bij <b>Wormer</b> of <b>Jisp</b>; het gebied is vooral per <b>kano of fluisterboot</b> te beleven.',
+           'Vanaf de <b>dijken</b> heb je overzicht over het slotenpatroon.',
+           'April\u2013mei is de <b>topperiode</b>; blijf buiten de percelen.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f6f6 Vooral per boot \u00b7 \u26a0\ufe0f Topweidevogelgebied'
+}, {
+ 'tags': ['North Holland \u00b7 Wormerland', 'Peat meadow \u00b7 Natura 2000 \u00b7 largest continuous peat meadow in western Europe', 'list 36 \u00b7 no. 149'],
+ 'loc': '\U0001f4cd Between Wormer, Jisp and Wormerveer \u00b7 Peat meadow \u00b7 Very large',
+ 'desc': 'At more than two thousand hectares, the <b>Wormer- en Jisperveld</b> is the <b>largest continuous peat-meadow area in western Europe</b>, and it is a landscape you understand best from the water. It consists of hundreds of narrow parcels separated by ditches, and the great majority is <b>reachable only by boat</b> \u2014 farmers still ferry their cows out to pasture. That explains why the area has stayed so intact: scaling up is literally impossible without filling in the ditch pattern. The water level is high and fertilisation low, making it one of the most important <b>meadow-bird areas in the Netherlands</b>, with thousands of breeding pairs of <b>godwit, redshank, lapwing and shoveler</b>, plus marsh birds such as <b>bittern and purple heron</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (meadow-bird peak), Nov\u2013Feb (geese and wigeon)<br>\n    <b>Best time of day:</b> Early morning \u2014 the meadow-bird chorus is at its most overwhelming here.',
+ 'n2k_en': 'Natura 2000 site \u2014 fen, sphagnum reedland and meadow-bird grassland; root vole habitat.',
+ 'why': ['At 2000 hectares the <b>largest continuous peat meadow in western Europe</b>.',
+         'Most of it is <b>reachable only by boat</b> \u2014 cows are ferried to pasture.',
+         'Scaling up is <b>literally impossible</b> without filling in ditches.',
+         'Thousands of breeding pairs of <b>godwit, redshank and shoveler</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Godwits</b> return in their thousands.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Redshank, lapwing and shoveler</b> breed.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Purple heron</b> forages in the ditches.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Geese and wigeon</b> in large numbers.'],
+ 'wild': ['\U0001f426 Godwit \u00b7 Redshank \u00b7 Lapwing \u00b7 Shoveler \u00b7 Snipe', '\U0001f426 Bittern \u00b7 Purple heron \u00b7 Savi\u2019s warbler \u00b7 Bearded reedling', '\U0001f42d Root vole \u00b7 Water shrew', '\U0001f9a0 Green hawker \u00b7 \U0001f33f Water soldier', '\U0001f985 Marsh harrier \u00b7 White-tailed eagle (winter)'],
+ 'trail': ['Park at <b>Wormer</b> or <b>Jisp</b>; the area is best experienced by <b>canoe or electric boat</b>.',
+           'From the <b>dikes</b> you get an overview of the ditch pattern.',
+           'April\u2013May is the <b>peak period</b>; stay off the parcels.'],
+ 'foot': '\U0001f436 Dogs not allowed \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f6f6 Mainly by boat \u00b7 \u26a0\ufe0f Prime meadow-bird area'
+}, card_class='card water'))
+
+C.append(mk.card(1431, 'Purmerbos', {
+ 'tags': ['Noord-Holland \u00b7 Purmerend', 'Stadsbos \u00b7 jong bos in een droogmakerij', 'list 36 \u00b7 no. 150'],
+ 'loc': '\U0001f4cd Tussen Purmerend en Ilpendam \u00b7 Stadsbos \u00b7 Groot',
+ 'desc': 'Het <b>Purmerbos</b> is in de jaren zeventig aangelegd in de <b>Purmer</b>, het meer dat in 1622 werd drooggemalen. Het hoort tot een generatie bossen die na de oorlog met een expliciet sociaal doel werden geplant: de <b>Randstadgroenstructuur</b> moest de snel groeiende steden recreatieruimte geven, en er werd bewust gekozen voor snel groeiende soorten zoals populier en es om binnen \u00e9\u00e9n mensenleven resultaat te hebben. Dat werkte: het bos is nu volwassen en verrassend gevarieerd, met open plekken, waterpartijen en oude lanen. Op de zware kleibodem groeit een rijke ondergroei, en het bos herbergt inmiddels <b>havik, ransuil, grote bonte specht en boomklever</b>. In de herfst is het rijk aan <b>paddenstoelen</b>, en er leven <b>ree\u00ebn en vossen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang en voorjaarsgroen), sep\u2013nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rustig voordat de stad uitloopt.',
+ 'why': ['Aangelegd in de <b>Purmer</b>, drooggemalen in 1622.',
+         'Onderdeel van de naoorlogse <b>Randstadgroenstructuur</b>.',
+         'Snelgroeiende soorten gekozen voor resultaat <b>binnen \u00e9\u00e9n mensenleven</b>.',
+         'Nu volwassen bos met <b>havik, ransuil en boomklever</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f985 <b>Havik</b> baltst boven het bos.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f3b6 <b>Voorjaarskoor</b> in de lanen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> op de kleibodem.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f989 <b>Ransuilen</b> in vaste roestbomen.'],
+ 'wild': ['\U0001f985 Havik \u00b7 Buizerd \u00b7 \U0001f989 Ransuil \u00b7 Bosuil', '\U0001f426 Grote bonte specht \u00b7 Boomklever \u00b7 Zwartkop', '\U0001f98c Ree \u00b7 Vos \u00b7 Haas', '\U0001f344 Boleten \u00b7 Inktzwammen \u00b7 Elfenbankje', '\U0001f333 Populier \u00b7 Es \u00b7 Eik \u00b7 Els'],
+ 'trail': ['Parkeren aan de <b>rand van Purmerend</b>; uitgebreid padennet.',
+           'Zoek de <b>open plekken en waterpartijen</b> voor variatie.',
+           'Oktober is de beste maand voor <b>paddenstoelen</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b6 Goed padennet \u00b7 \U0001f6b4 Fietspaden'
+}, {
+ 'tags': ['North Holland \u00b7 Purmerend', 'City wood \u00b7 young woodland in a drained lake polder', 'list 36 \u00b7 no. 150'],
+ 'loc': '\U0001f4cd Between Purmerend and Ilpendam \u00b7 City wood \u00b7 Large',
+ 'desc': 'The <b>Purmerbos</b> was planted in the 1970s in the <b>Purmer</b>, the lake pumped dry in 1622. It belongs to a generation of woodlands planted after the war with an explicit social purpose: the <b>Randstad green structure</b> was to give the fast-growing cities recreational space, and fast-growing species such as poplar and ash were deliberately chosen to achieve results within a single lifetime. It worked: the wood is now mature and surprisingly varied, with clearings, water features and old avenues. A rich understorey grows on the heavy clay soil, and the wood now holds <b>goshawk, long-eared owl, great spotted woodpecker and nuthatch</b>. In autumn it is rich in <b>fungi</b>, and <b>roe deer and foxes</b> live here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song and spring green), Sep\u2013Nov (fungi)<br>\n    <b>Best time of day:</b> Early morning \u2014 quiet before the town comes out.',
+ 'why': ['Planted in the <b>Purmer</b>, pumped dry in 1622.',
+         'Part of the post-war <b>Randstad green structure</b>.',
+         'Fast-growing species chosen for results <b>within one lifetime</b>.',
+         'Now mature woodland with <b>goshawk, long-eared owl and nuthatch</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f985 <b>Goshawk</b> displays above the wood.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f3b6 <b>Spring chorus</b> in the avenues.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> on the clay soil.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f989 <b>Long-eared owls</b> at regular roosts.'],
+ 'wild': ['\U0001f985 Goshawk \u00b7 Buzzard \u00b7 \U0001f989 Long-eared owl \u00b7 Tawny owl', '\U0001f426 Great spotted woodpecker \u00b7 Nuthatch \u00b7 Blackcap', '\U0001f98c Roe deer \u00b7 Fox \u00b7 Brown hare', '\U0001f344 Boletes \u00b7 Inkcaps \u00b7 Turkeytail', '\U0001f333 Poplar \u00b7 Ash \u00b7 Oak \u00b7 Alder'],
+ 'trail': ['Park at the <b>edge of Purmerend</b>; extensive path network.',
+           'Seek out the <b>clearings and water features</b> for variety.',
+           'October is the best month for <b>fungi</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b6 Good path network \u00b7 \U0001f6b4 Cycle paths'
+}))
+
+C.append(mk.card(1432, 'Rietland Katwoude', {
+ 'tags': ['Noord-Holland \u00b7 Waterland', 'Rietland \u00b7 buitendijks moeras aan het Markermeer', 'list 36 \u00b7 no. 151'],
+ 'loc': '\U0001f4cd Bij Katwoude, tussen Monnickendam en Volendam \u00b7 Rietland \u00b7 Klein',
+ 'desc': 'Het <b>Rietland Katwoude</b> ligt buitendijks aan het Markermeer, en de naam van het dorp verwijst naar het <b>woud</b> dat hier ooit op het veen groeide. Het rietland zelf is jonger: het ontstond na de afsluiting van de Zuiderzee in 1932, toen het brakke water zoet werd en riet zich massaal langs de oevers kon vestigen. Dat proces heeft langs het hele Markermeer een <b>rietgordel</b> opgeleverd die er in de zoute tijd niet was. Nu staat die gordel onder druk: doordat het peil kunstmatig vlak wordt gehouden verjongt het riet niet meer, en het slaat om in ruigte. Waar het riet nog goed is, broeden <b>roerdomp, snor, baardman en rietzanger</b>; in de winter jagen er <b>blauwe kiekendieven en velduilen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (rietvogels), nov\u2013feb (roofvogels boven het riet)<br>\n    <b>Beste tijd van de dag:</b> Zonsopkomst \u2014 roerdomp hoempt en het riet is stil.',
+ 'why': ['De <b>rietgordel</b> ontstond pas na de afsluiting van de Zuiderzee (1932).',
+         'In de zoute tijd bestond deze vegetatie hier <b>niet</b>.',
+         'Een <b>vlak gehouden peil</b> remt de verjonging van het riet.',
+         'Broedplaats van <b>roerdomp, snor en baardman</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Roerdomp</b> hoempt bij zonsopkomst.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f33e <b>Snor, baardman en rietzanger</b> in het riet.',
+          '<span class="months">Aug\u2013Okt</span> \U0001f426 <b>Zwaluwenslaapplaats</b> in de rietvelden.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>Blauwe kiekendief en velduil</b> jagen laag.'],
+ 'wild': ['\U0001f426 Roerdomp \u00b7 Snor \u00b7 Baardman \u00b7 Rietzanger', '\U0001f985 Bruine kiekendief \u00b7 Blauwe kiekendief \u00b7 Velduil', '\U0001f33e Riet \u00b7 Lisdodde \u00b7 Rietruigte', '\U0001f42d Noordse woelmuis \u00b7 Waterspitsmuis', '\U0001f986 Watervogels op het Markermeer'],
+ 'trail': ['Parkeren bij <b>Katwoude</b>; kijk vanaf de dijk over het rietland.',
+           'Kom bij <b>zonsopkomst</b> voor de roerdomp.',
+           'Winter voor <b>kiekendieven en velduilen</b> boven het riet.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Rietland niet betreden \u00b7 \U0001f6b4 Fietsroute over de dijk'
+}, {
+ 'tags': ['North Holland \u00b7 Waterland', 'Reedland \u00b7 foreland marsh on the Markermeer', 'list 36 \u00b7 no. 151'],
+ 'loc': '\U0001f4cd Near Katwoude, between Monnickendam and Volendam \u00b7 Reedland \u00b7 Small',
+ 'desc': 'The <b>Rietland Katwoude</b> lies outside the dike on the Markermeer, and the village name refers to the <b>woud</b>, forest, that once grew here on the peat. The reedland itself is younger: it arose after the closing of the Zuiderzee in 1932, when the brackish water turned fresh and reed could establish along the banks on a huge scale. That process produced a <b>reed belt</b> along the entire Markermeer that did not exist in the salt era. Now that belt is under pressure: because the water level is kept artificially flat the reed no longer rejuvenates and turns to rough vegetation. Where the reed is still good, <b>bittern, Savi\u2019s warbler, bearded reedling and sedge warbler</b> breed; in winter <b>hen harriers and short-eared owls</b> hunt there.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (reed birds), Nov\u2013Feb (raptors over the reed)<br>\n    <b>Best time of day:</b> Sunrise \u2014 the bittern booms and the reed is still.',
+ 'why': ['The <b>reed belt</b> arose only after the closing of the Zuiderzee (1932).',
+         'In the salt era this vegetation <b>did not exist</b> here.',
+         'A <b>flat water level</b> inhibits rejuvenation of the reed.',
+         'Breeding ground of <b>bittern, Savi\u2019s warbler and bearded reedling</b>.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f426 <b>Bittern</b> booms at sunrise.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f33e <b>Savi\u2019s warbler, bearded reedling and sedge warbler</b> in the reed.',
+          '<span class="months">Aug\u2013Oct</span> \U0001f426 <b>Swallow roost</b> in the reedbeds.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>Hen harrier and short-eared owl</b> hunt low.'],
+ 'wild': ['\U0001f426 Bittern \u00b7 Savi\u2019s warbler \u00b7 Bearded reedling \u00b7 Sedge warbler', '\U0001f985 Marsh harrier \u00b7 Hen harrier \u00b7 Short-eared owl', '\U0001f33e Reed \u00b7 Bulrush \u00b7 Reed rough', '\U0001f42d Root vole \u00b7 Water shrew', '\U0001f986 Waterfowl on the Markermeer'],
+ 'trail': ['Park at <b>Katwoude</b>; watch over the reedland from the dike.',
+           'Come at <b>sunrise</b> for the bittern.',
+           'Winter for <b>harriers and short-eared owls</b> over the reed.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Do not enter the reedland \u00b7 \U0001f6b4 Cycle route on the dike'
+}, card_class='card water'))
+
+C.append(mk.card(1433, 'Heitje van Katham', {
+ 'tags': ['Noord-Holland \u00b7 Waterland', 'Schraalland \u00b7 zandopduiking in het veenlandschap', 'list 36 \u00b7 no. 152'],
+ 'loc': '\U0001f4cd Bij Katham, nabij Monnickendam \u00b7 Schraal grasland \u00b7 Zeer klein',
+ 'desc': 'Het <b>Heitje van Katham</b> is een curiositeit: een piepklein stukje <b>heide midden in het veenweidegebied</b> van Waterland, waar heide eigenlijk niet thuishoort. De verklaring zit in de bodem. Op deze plek ligt een <b>zandopduiking</b> \u2014 waarschijnlijk opgebracht zand of een oude zandkop \u2014 die net boven het veen uitsteekt en dus zure, droge en voedselarme omstandigheden biedt. Precies die drie factoren zijn wat struikheide nodig heeft. <b>Katham</b> zelf combineert <i>kat</i>, mogelijk van een oude persoonsnaam of van <i>kate</i> (kleine woning), met <b>ham</b>, de bekende term voor een bocht land in het water. Op het heitje groeien <b>struikheide, buntgras en korstmossen</b>, en er vliegen <b>heidevlinders en graafbijen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Aug\u2013sep</b> (heidebloei), jun\u2013aug (insecten op het zand)<br>\n    <b>Beste tijd van de dag:</b> Warme middag \u2014 graafbijen en vlinders zijn dan actief.',
+ 'why': ['Een stukje <b>heide midden in veenweidegebied</b> \u2014 ecologisch onlogisch.',
+         'De verklaring is een <b>zandopduiking</b> boven het veen.',
+         'Zuur, droog en voedselarm: precies wat <b>struikheide</b> nodig heeft.',
+         '<b>Ham</b> = bocht land in het water; <b>kate</b> = kleine woning.'],
+ 'phen': ['<span class="months">Jun\u2013Aug</span> \U0001f41d <b>Graafbijen</b> nestelen in het open zand.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f338 <b>Struikheide</b> kleurt paars.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f98b <b>Heidevlinders</b> op de bloeiende heide.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f344 <b>Korstmossen</b> vallen op na de bloei.'],
+ 'wild': ['\U0001f338 Struikheide \u00b7 Buntgras \u00b7 Korstmossen', '\U0001f41d Graafbijen \u00b7 Graafwespen', '\U0001f98b Heivlinder \u00b7 Bruin blauwtje', '\U0001f426 Graspieper \u00b7 Roodborsttapuit', '\U0001f997 Sprinkhanen op het zand'],
+ 'trail': ['Parkeren bij <b>Monnickendam</b>; het heitje ligt aan een landweg.',
+           'Zeer klein \u2014 bekijk het <b>vanaf de rand</b>.',
+           'Augustus voor de <b>paarse bloei</b>.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Zeer kwetsbaar \u2014 niet betreden'
+}, {
+ 'tags': ['North Holland \u00b7 Waterland', 'Poor grassland \u00b7 sand outcrop in the peat landscape', 'list 36 \u00b7 no. 152'],
+ 'loc': '\U0001f4cd Near Katham, close to Monnickendam \u00b7 Poor grassland \u00b7 Very small',
+ 'desc': 'The <b>Heitje van Katham</b> is a curiosity: a tiny patch of <b>heath in the middle of the peat-meadow country</b> of Waterland, where heath really does not belong. The explanation lies in the soil. At this spot there is a <b>sand outcrop</b> \u2014 probably imported sand or an old sandy knoll \u2014 that just rises above the peat and so offers acid, dry and nutrient-poor conditions. Those three factors are exactly what ling needs. <b>Katham</b> itself combines <i>kat</i>, possibly from an old personal name or from <i>kate</i> (a small cottage), with <b>ham</b>, the familiar term for a bend of land in the water. On the little heath grow <b>ling, grey hair-grass and lichens</b>, and <b>heath butterflies and mining bees</b> fly here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Aug\u2013Sep</b> (heather flowering), Jun\u2013Aug (insects on the sand)<br>\n    <b>Best time of day:</b> Warm afternoon \u2014 mining bees and butterflies are then active.',
+ 'why': ['A patch of <b>heath in peat-meadow country</b> \u2014 ecologically illogical.',
+         'The explanation is a <b>sand outcrop</b> above the peat.',
+         'Acid, dry and nutrient-poor: exactly what <b>ling</b> needs.',
+         '<b>Ham</b> = bend of land in the water; <b>kate</b> = small cottage.'],
+ 'phen': ['<span class="months">Jun\u2013Aug</span> \U0001f41d <b>Mining bees</b> nest in the open sand.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f338 <b>Ling</b> turns purple.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f98b <b>Heath butterflies</b> on the flowering heather.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f344 <b>Lichens</b> stand out after flowering.'],
+ 'wild': ['\U0001f338 Ling \u00b7 Grey hair-grass \u00b7 Lichens', '\U0001f41d Mining bees \u00b7 Digger wasps', '\U0001f98b Grayling \u00b7 Brown argus', '\U0001f426 Meadow pipit \u00b7 Stonechat', '\U0001f997 Grasshoppers on the sand'],
+ 'trail': ['Park at <b>Monnickendam</b>; the little heath lies along a country lane.',
+           'Very small \u2014 view it <b>from the edge</b>.',
+           'August for the <b>purple flowering</b>.'],
+ 'foot': '\U0001f436 Dogs not allowed \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Very fragile \u2014 do not enter'
+}, card_class='card dune'))
+
+C.append(mk.card(1434, 'Noorderveen', {
+ 'tags': ['Noord-Holland \u00b7 Waterland', 'Veenweide \u00b7 natte graslanden met petgaten', 'list 36 \u00b7 no. 153'],
+ 'loc': '\U0001f4cd Ten noorden van Broek in Waterland \u00b7 Veenweide \u00b7 Middelgroot',
+ 'desc': 'Het <b>Noorderveen</b> hoort bij het veenweidecomplex van Waterland, een streek die zijn naam eer aandoet: hier is meer water dan land, en het veen ligt zo laag dat het onder de zeespiegel is gezakt. Dat <b>bodemdaling</b> is de kern van het Waterlandse probleem \u2014 zodra veen wordt ontwaterd, oxideert het en klinkt het in, waardoor het maaiveld daalt en er nog dieper moet worden bemalen. Het is een neerwaartse spiraal die al achthonderd jaar loopt. In het Noorderveen wordt die spiraal bewust <b>omgekeerd</b>: het peil is verhoogd, percelen zijn vernat en er zijn petgaten uitgegraven. Het resultaat is nat grasland met veenmos en rietkragen, waar <b>watersnip, tureluur, rietgors en bruine kiekendief</b> broeden.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (weidevogels), mei\u2013jul (veenflora en libellen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 mist boven de natte percelen.',
+ 'why': ['Waterland: <b>meer water dan land</b>, veen onder de zeespiegel.',
+         '<b>Bodemdaling</b>: ontwaterd veen oxideert en klinkt in.',
+         'Een neerwaartse spiraal die al <b>achthonderd jaar</b> loopt.',
+         'Hier bewust <b>omgekeerd</b>: peil omhoog, percelen vernat.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Watersnip</b> baltst boven de natte percelen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Tureluur en rietgors</b> broeden.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33f <b>Veenmos en veenpluis</b> in de natste hoeken.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de petgaten.'],
+ 'wild': ['\U0001f426 Watersnip \u00b7 Tureluur \u00b7 Grutto \u00b7 Rietgors', '\U0001f985 Bruine kiekendief', '\U0001f33f Veenmos \u00b7 Veenpluis \u00b7 Zeggen', '\U0001f9a0 Libellen \u00b7 Groene glazenmaker', '\U0001f42d Noordse woelmuis (mogelijk)'],
+ 'trail': ['Parkeren bij <b>Broek in Waterland</b>; paden en dijken langs het gebied.',
+           'Let op het <b>hoogteverschil</b> tussen veen en omringende polder.',
+           'Blijf in het broedseizoen <b>op de paden</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Weidevogelgebied \u00b7 \U0001f97e Zeer nat'
+}, {
+ 'tags': ['North Holland \u00b7 Waterland', 'Peat meadow \u00b7 wet grasslands with turf pits', 'list 36 \u00b7 no. 153'],
+ 'loc': '\U0001f4cd North of Broek in Waterland \u00b7 Peat meadow \u00b7 Medium-sized',
+ 'desc': 'The <b>Noorderveen</b> belongs to the peat-meadow complex of Waterland, a district that lives up to its name: there is more water than land here, and the peat has sunk so low that it lies below sea level. That <b>subsidence</b> is the core of the Waterland problem \u2014 as soon as peat is drained it oxidises and compacts, so the ground level drops and pumping must go deeper still. It is a downward spiral that has been running for eight hundred years. In the Noorderveen that spiral is deliberately <b>reversed</b>: the level has been raised, parcels rewetted and turf pits dug. The result is wet grassland with sphagnum and reed fringes, where <b>snipe, redshank, reed bunting and marsh harrier</b> breed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (meadow birds), May\u2013Jul (bog flora and dragonflies)<br>\n    <b>Best time of day:</b> Early morning \u2014 mist over the wet parcels.',
+ 'why': ['Waterland: <b>more water than land</b>, peat below sea level.',
+         '<b>Subsidence</b>: drained peat oxidises and compacts.',
+         'A downward spiral running for <b>eight hundred years</b>.',
+         'Here deliberately <b>reversed</b>: level raised, parcels rewetted.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Snipe</b> drums above the wet parcels.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Redshank and reed bunting</b> breed.',
+          '<span class="months">May\u2013Jul</span> \U0001f33f <b>Sphagnum and cottongrass</b> in the wettest corners.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the turf pits.'],
+ 'wild': ['\U0001f426 Snipe \u00b7 Redshank \u00b7 Godwit \u00b7 Reed bunting', '\U0001f985 Marsh harrier', '\U0001f33f Sphagnum \u00b7 Cottongrass \u00b7 Sedges', '\U0001f9a0 Dragonflies \u00b7 Green hawker', '\U0001f42d Root vole (possible)'],
+ 'trail': ['Park at <b>Broek in Waterland</b>; paths and dikes along the area.',
+           'Note the <b>height difference</b> between peat and surrounding polder.',
+           'In the breeding season keep <b>to the paths</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Meadow-bird area \u00b7 \U0001f97e Very wet'
+}, card_class='card water'))
+
+mk.insert(C, '1429')
+mk.progress(1434)
+mk.check()

@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1450, 'De Knar landschapselementen', {
+ 'tags': ['Flevoland \u00b7 Zeewolde', 'Landschapselementen \u00b7 bosjes, singels en poelen in het akkerland', 'list 36 \u00b7 no. 169'],
+ 'loc': '\U0001f4cd Bij Zeewolde, in de polder De Knar \u00b7 Kleine elementen \u00b7 Klein',
+ 'desc': 'Bij <b>De Knar</b> ligt een reeks kleine landschapselementen \u2014 bosjes, houtsingels, poelen en ruige perceelsranden \u2014 die bij de inrichting van de polder bewust in het akkerland zijn gelegd. Dat was vooruitstrevend, want in de jaren zestig gold het akkerbouwgebied van Flevoland als een <b>productielandschap</b> waarin natuur nauwelijks een plaats had. De naam <b>knar</b> is dialectisch en betekent een <b>knoest of oneffenheid</b>; als veldnaam duidt het op een oneffen, moeilijk bewerkbaar stuk grond. Precies zulke plekken kregen de landschapselementen. Ecologisch werken ze als <b>stapstenen</b>: zonder deze bosjes zou een vogel of vleermuis kilometers kaal akkerland moeten oversteken. Er broeden <b>geelgors, grasmus en steenuil</b>, en de poelen herbergen <b>amfibieën en libellen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang in de singels), mrt\u2013apr (amfibieën in de poelen)<br>\n    <b>Beste tijd van de dag:</b> Avondschemer \u2014 steenuilen en vleermuizen langs de singels.',
+ 'why': ['Kleine elementen bewust aangelegd in een <b>productielandschap</b>.',
+         '<b>Knar</b> = knoest of oneffenheid; moeilijk bewerkbare grond.',
+         'Ze werken als <b>stapstenen</b> door kilometers kaal akkerland.',
+         '<b>Geelgors, grasmus en steenuil</b> in de singels.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f438 <b>Amfibieën</b> planten zich voort in de poelen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Geelgors en grasmus</b> zingen in de singels.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f987 <b>Vleermuizen</b> volgen de singels als vliegroute.',
+          '<span class="months">Sep\u2013Okt</span> \U0001fad0 <b>Bessen</b> trekken lijsters aan.'],
+ 'wild': ['\U0001f426 Geelgors \u00b7 Grasmus \u00b7 \U0001f989 Steenuil', '\U0001f438 Kikkers \u00b7 Padden \u00b7 Watersalamander', '\U0001f9a0 Libellen boven de poelen', '\U0001f987 Vleermuizen langs de singels', '\U0001f333 Meidoorn \u00b7 Sleedoorn \u00b7 Els'],
+ 'trail': ['Parkeren bij <b>Zeewolde</b>; de elementen liggen langs landwegen.',
+           'Fiets van element naar element \u2014 het <b>netwerk</b> is het onderwerp.',
+           'Kom in de <b>schemer</b> voor steenuil en vleermuizen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Respecteer de akkers \u00b7 \U0001f6b4 Fietsroute'
+}, {
+ 'tags': ['Flevoland \u00b7 Zeewolde', 'Landscape elements \u00b7 copses, tree lines and pools in farmland', 'list 36 \u00b7 no. 169'],
+ 'loc': '\U0001f4cd Near Zeewolde, in the De Knar polder \u00b7 Small elements \u00b7 Small',
+ 'desc': 'At <b>De Knar</b> lies a series of small landscape elements \u2014 copses, tree lines, pools and rough field margins \u2014 deliberately placed in the arable land when the polder was laid out. That was progressive, for in the 1960s Flevoland\u2019s arable region was regarded as a <b>production landscape</b> in which nature had scarcely a place. The name <b>knar</b> is dialect and means a <b>knot or unevenness</b>; as a field name it indicates an uneven, hard-to-work piece of ground. It was precisely such spots that received the landscape elements. Ecologically they work as <b>stepping stones</b>: without these copses a bird or bat would have to cross kilometres of bare arable land. <b>Yellowhammer, whitethroat and little owl</b> breed, and the pools hold <b>amphibians and dragonflies</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song in the tree lines), Mar\u2013Apr (amphibians in the pools)<br>\n    <b>Best time of day:</b> Dusk \u2014 little owls and bats along the tree lines.',
+ 'why': ['Small elements deliberately created in a <b>production landscape</b>.',
+         '<b>Knar</b> = knot or unevenness; hard-to-work ground.',
+         'They work as <b>stepping stones</b> across kilometres of bare arable land.',
+         '<b>Yellowhammer, whitethroat and little owl</b> in the tree lines.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f438 <b>Amphibians</b> breed in the pools.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Yellowhammer and whitethroat</b> sing in the lines.',
+          '<span class="months">May\u2013Jul</span> \U0001f987 <b>Bats</b> follow the lines as flight routes.',
+          '<span class="months">Sep\u2013Oct</span> \U0001fad0 <b>Berries</b> attract thrushes.'],
+ 'wild': ['\U0001f426 Yellowhammer \u00b7 Whitethroat \u00b7 \U0001f989 Little owl', '\U0001f438 Frogs \u00b7 Toads \u00b7 Newts', '\U0001f9a0 Dragonflies above the pools', '\U0001f987 Bats along the tree lines', '\U0001f333 Hawthorn \u00b7 Blackthorn \u00b7 Alder'],
+ 'trail': ['Park at <b>Zeewolde</b>; the elements lie along country lanes.',
+           'Cycle from element to element \u2014 the <b>network</b> is the subject.',
+           'Come at <b>dusk</b> for little owl and bats.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Respect the fields \u00b7 \U0001f6b4 Cycle route'
+}))
+
+C.append(mk.card(1451, 'Larservaartbos', {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Polderbos \u00b7 lintbos langs een vaart', 'list 36 \u00b7 no. 170'],
+ 'loc': '\U0001f4cd Langs de Larservaart bij Lelystad \u00b7 Lintbos \u00b7 Klein',
+ 'desc': 'Het <b>Larservaartbos</b> is een smalle strook bos langs de <b>Larservaart</b>, en die vorm is geen toeval. Bij de inrichting van Flevoland werden langs de hoofdvaarten stroken bos geplant, oorspronkelijk om de <b>wind te breken</b>: op de kale nieuwe polder was winderosie een reëel probleem, en jonge gewassen konden letterlijk worden weggeblazen. Die windsingels zijn inmiddels volgroeid en vervullen een tweede functie waarvoor ze nooit bedoeld waren. Lange, doorlopende bosstroken werken namelijk als <b>ecologische verbindingszone</b>: dieren die zich niet over open akkers durven te verplaatsen \u2014 vleermuizen, kleine zoogdieren, veel bosvogels \u2014 gebruiken ze als route door de polder. Er broeden <b>boomkruiper, zwartkop en grote bonte specht</b>, en langs het water jaagt de <b>ijsvogel</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang langs het lint), sep\u2013okt (trekvogels volgen de strook)<br>\n    <b>Beste tijd van de dag:</b> Schemer \u2014 vleermuizen gebruiken het lint als vliegroute.',
+ 'why': ['Geplant om de <b>wind te breken</b> op de kale nieuwe polder.',
+         'Winderosie kon jonge gewassen letterlijk <b>wegblazen</b>.',
+         'Nu een <b>ecologische verbindingszone</b> waarvoor het nooit bedoeld was.',
+         'Vleermuizen en bosvogels gebruiken het lint als <b>route</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Zwartkop en boomkruiper</b> zingen langs het lint.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>IJsvogel</b> jaagt boven de vaart.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> volgen de bosstrook in de schemer.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f426 <b>Trekvogels</b> gebruiken het lint als route.'],
+ 'wild': ['\U0001f426 Boomkruiper \u00b7 Zwartkop \u00b7 Grote bonte specht', '\U0001f426 IJsvogel langs de vaart', '\U0001f987 Gewone dwergvleermuis \u00b7 Watervleermuis', '\U0001f98c Ree \u00b7 Vos \u00b7 Haas', '\U0001f333 Es \u00b7 Populier \u00b7 Wilg'],
+ 'trail': ['Parkeren bij <b>Lelystad</b>; volg het pad langs de <b>Larservaart</b>.',
+           'Loop of fiets het <b>hele lint</b> \u2014 dat maakt de functie zichtbaar.',
+           'Schemer voor de <b>vleermuizen</b> boven het water.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b4 Fietspad langs de vaart \u00b7 \U0001f6b6 Lang lint'
+}, {
+ 'tags': ['Flevoland \u00b7 Lelystad', 'Polder wood \u00b7 ribbon wood along a canal', 'list 36 \u00b7 no. 170'],
+ 'loc': '\U0001f4cd Along the Larservaart near Lelystad \u00b7 Ribbon wood \u00b7 Small',
+ 'desc': 'The <b>Larservaartbos</b> is a narrow strip of woodland along the <b>Larservaart</b>, and that shape is no accident. When Flevoland was laid out, strips of woodland were planted along the main canals, originally to <b>break the wind</b>: on the bare new polder wind erosion was a real problem, and young crops could literally be blown away. Those shelterbelts are now mature and fulfil a second function they were never intended for. Long, continuous strips of woodland work as an <b>ecological corridor</b>: animals that will not cross open arable land \u2014 bats, small mammals, many woodland birds \u2014 use them as a route through the polder. <b>Treecreeper, blackcap and great spotted woodpecker</b> breed, and the <b>kingfisher</b> hunts along the water.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song along the ribbon), Sep\u2013Oct (migrants follow the strip)<br>\n    <b>Best time of day:</b> Dusk \u2014 bats use the ribbon as a flight route.',
+ 'why': ['Planted to <b>break the wind</b> on the bare new polder.',
+         'Wind erosion could literally <b>blow away</b> young crops.',
+         'Now an <b>ecological corridor</b> it was never intended to be.',
+         'Bats and woodland birds use the ribbon as a <b>route</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Blackcap and treecreeper</b> sing along the ribbon.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Kingfisher</b> hunts over the canal.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> follow the wooded strip at dusk.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f426 <b>Migrants</b> use the ribbon as a route.'],
+ 'wild': ['\U0001f426 Treecreeper \u00b7 Blackcap \u00b7 Great spotted woodpecker', '\U0001f426 Kingfisher along the canal', '\U0001f987 Common pipistrelle \u00b7 Daubenton\u2019s bat', '\U0001f98c Roe deer \u00b7 Fox \u00b7 Brown hare', '\U0001f333 Ash \u00b7 Poplar \u00b7 Willow'],
+ 'trail': ['Park at <b>Lelystad</b>; follow the path along the <b>Larservaart</b>.',
+           'Walk or cycle the <b>whole ribbon</b> \u2014 that makes its function visible.',
+           'Dusk for the <b>bats</b> above the water.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b4 Cycle path along the canal \u00b7 \U0001f6b6 Long ribbon'
+}))
+
+C.append(mk.card(1452, 'Toppad Urk', {
+ 'tags': ['Flevoland \u00b7 Urk', 'Voormalig eiland \u00b7 keileemklif aan het IJsselmeer', 'list 36 \u00b7 no. 171'],
+ 'loc': '\U0001f4cd Urk, aan het IJsselmeer \u00b7 Oude eilandrand \u00b7 Klein',
+ 'desc': 'Het <b>Toppad</b> loopt langs de noordwestkant van <b>Urk</b>, en het is de plek waar je nog kunt zien dat dit ooit een <b>eiland in de Zuiderzee</b> was. Urk ligt op een <b>keileemkop</b>: een restant van de voorlaatste ijstijd, toen het landijs hier keileem afzette \u2014 een taaie mengeling van klei, zand en zwerfstenen. Die harde bult weerstond de zee terwijl het omringende veen wegspoelde, en zo bleef Urk over als eiland tot de inpoldering het in 1942 aan het vasteland vastlegde. Langs het Toppad ligt de oude <b>klifrand</b> met keileem en zwerfkeien in de basis. Het is de enige plek in Flevoland met natuurlijk reliëf uit de ijstijd. Langs de dijk trekken <b>steltlopers en meeuwen</b>, en op het water zitten \u2019s winters <b>duikeenden</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Nov\u2013feb</b> (duikeenden en meeuwen), aug\u2013okt (doortrek langs de kust)<br>\n    <b>Beste tijd van de dag:</b> Avond \u2014 licht over het IJsselmeer vanaf het Toppad.',
+ 'why': ['Urk was een <b>eiland in de Zuiderzee</b> tot de inpoldering in 1942.',
+         'Het ligt op een <b>keileemkop</b> uit de voorlaatste ijstijd.',
+         'Die harde bult <b>weerstond de zee</b> terwijl het veen wegspoelde.',
+         'Enige plek in Flevoland met <b>natuurlijk ijstijdreliëf</b>.'],
+ 'phen': ['<span class="months">Aug\u2013Okt</span> \U0001f426 <b>Doortrekkende steltlopers</b> langs de kust.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Duikeenden</b> op het IJsselmeer.',
+          '<span class="months">Nov\u2013Mrt</span> \U0001f54a\ufe0f <b>Meeuwen</b> in grote aantallen bij de haven.',
+          '<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Voorjaarstrek</b> langs de oude eilandrand.'],
+ 'wild': ['\U0001f986 Kuifeend \u00b7 Topper \u00b7 Brilduiker \u00b7 Nonnetje', '\U0001f54a\ufe0f Zilvermeeuw \u00b7 Kokmeeuw \u00b7 Grote mantelmeeuw', '\U0001f426 Steenloper \u00b7 Oeverloper \u00b7 Scholekster', '\U0001faa8 Zwerfkeien en keileem in de klifrand', '\U0001f985 Slechtvalk (winter)'],
+ 'trail': ['Parkeren in <b>Urk</b>; het Toppad loopt langs de noordwestkust.',
+           'Zoek de <b>zwerfkeien</b> \u2014 aangevoerd door het landijs uit Scandinavië.',
+           'Winter voor de <b>duikeenden</b> op het IJsselmeer.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Voormalig eiland \u00b7 \U0001f6b6 Kustpad'
+}, {
+ 'tags': ['Flevoland \u00b7 Urk', 'Former island \u00b7 boulder-clay cliff on the IJsselmeer', 'list 36 \u00b7 no. 171'],
+ 'loc': '\U0001f4cd Urk, on the IJsselmeer \u00b7 Old island edge \u00b7 Small',
+ 'desc': 'The <b>Toppad</b> runs along the north-west side of <b>Urk</b>, and it is the place where you can still see that this was once an <b>island in the Zuiderzee</b>. Urk sits on a <b>boulder-clay knoll</b>: a remnant of the penultimate ice age, when the land ice deposited boulder clay here \u2014 a tough mixture of clay, sand and erratic stones. That hard hump resisted the sea while the surrounding peat washed away, and so Urk survived as an island until the reclamation attached it to the mainland in 1942. Along the Toppad lies the old <b>cliff edge</b> with boulder clay and erratics at its base. It is the only place in Flevoland with natural ice-age relief. <b>Waders and gulls</b> pass along the dike, and <b>diving ducks</b> use the water in winter.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Nov\u2013Feb</b> (diving ducks and gulls), Aug\u2013Oct (passage along the coast)<br>\n    <b>Best time of day:</b> Evening \u2014 light over the IJsselmeer from the Toppad.',
+ 'why': ['Urk was an <b>island in the Zuiderzee</b> until the reclamation of 1942.',
+         'It sits on a <b>boulder-clay knoll</b> from the penultimate ice age.',
+         'That hard hump <b>resisted the sea</b> while the peat washed away.',
+         'The only place in Flevoland with <b>natural ice-age relief</b>.'],
+ 'phen': ['<span class="months">Aug\u2013Oct</span> \U0001f426 <b>Passage waders</b> along the coast.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Diving ducks</b> on the IJsselmeer.',
+          '<span class="months">Nov\u2013Mar</span> \U0001f54a\ufe0f <b>Gulls</b> in large numbers by the harbour.',
+          '<span class="months">Mar\u2013May</span> \U0001f426 <b>Spring migration</b> along the old island edge.'],
+ 'wild': ['\U0001f986 Tufted duck \u00b7 Scaup \u00b7 Goldeneye \u00b7 Smew', '\U0001f54a\ufe0f Herring gull \u00b7 Black-headed gull \u00b7 Great black-backed gull', '\U0001f426 Turnstone \u00b7 Common sandpiper \u00b7 Oystercatcher', '\U0001faa8 Erratic boulders and boulder clay in the cliff edge', '\U0001f985 Peregrine (winter)'],
+ 'trail': ['Park in <b>Urk</b>; the Toppad runs along the north-west coast.',
+           'Look for the <b>erratic boulders</b> \u2014 carried here by ice from Scandinavia.',
+           'Winter for the <b>diving ducks</b> on the IJsselmeer.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f Former island \u00b7 \U0001f6b6 Coastal path'
+}, card_class='card dune'))
+
+C.append(mk.card(1453, 'Schokland en Schokkerbos', {
+ 'tags': ['Flevoland \u00b7 Noordoostpolder', 'Voormalig eiland \u00b7 UNESCO-werelderfgoed met bos', 'list 36 \u00b7 no. 172'],
+ 'loc': '\U0001f4cd Tussen Ens en Nagele, Noordoostpolder \u00b7 Voormalig eiland met bos \u00b7 Middelgroot',
+ 'desc': '<b>Schokland</b> was tot 1859 een bewoond eiland in de Zuiderzee, en het is het eerste Nederlandse <b>UNESCO-werelderfgoed</b> (1995). Het verhaal is aangrijpend: het eiland kromp door de zee eeuwenlang, tot het nog maar een paar honderd meter breed was en de bewoners bij elke storm om hun leven vreesden. In 1859 besloot de regering het te <b>ontruimen</b> \u2014 de bevolking werd verplicht verhuisd. Sinds de inpoldering ligt Schokland als een <b>langgerekte verhoging</b> in de vlakke polder, met de kerk en de terpen nog zichtbaar. Rondom is het <b>Schokkerbos</b> aangeplant. Het contrast tussen het eeuwenoude eiland en het jonge bos maakt de plek uniek. Er broeden <b>havik, ransuil en boomklever</b>, en er groeit een rijke <b>paddenstoelenflora</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Sep\u2013nov</b> (paddenstoelen en herfstlicht), apr\u2013jun (zang in het bos)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 laag licht toont het reliëf van het oude eiland.',
+ 'n2k': 'UNESCO-werelderfgoed sinds 1995 \u2014 archeologisch en cultuurhistorisch monument.',
+ 'why': ['Bewoond <b>eiland in de Zuiderzee</b> tot de ontruiming in 1859.',
+         'Eerste Nederlandse <b>UNESCO-werelderfgoed</b> (1995).',
+         'De bevolking werd in 1859 <b>verplicht verhuisd</b> vanwege de zee.',
+         'Ligt nu als <b>langgerekte verhoging</b> in de vlakke polder.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f985 <b>Havik</b> baltst boven het Schokkerbos.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en zwartkop</b> zingen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> in het bos.',
+          '<span class="months">Okt\u2013Mrt</span> \U0001f3db\ufe0f <b>Eilandreliëf</b> het best zichtbaar zonder blad.'],
+ 'wild': ['\U0001f985 Havik \u00b7 Buizerd \u00b7 \U0001f989 Ransuil', '\U0001f426 Boomklever \u00b7 Grote bonte specht \u00b7 Zwartkop', '\U0001f344 Boleten \u00b7 Inktzwammen \u00b7 Elfenbankje', '\U0001f98c Ree \u00b7 Vos \u00b7 Haas', '\U0001f333 Es \u00b7 Populier \u00b7 Eik'],
+ 'trail': ['Parkeren bij <b>Museum Schokland</b>; paden over het eiland en door het bos.',
+           'Loop de <b>oude eilandrand</b> af \u2014 het hoogteverschil is nog voelbaar.',
+           'Bezoek het <b>museum</b> voor het verhaal van de ontruiming.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Terrein gratis, museum entree \u00b7 \U0001f3db\ufe0f UNESCO-werelderfgoed'
+}, {
+ 'tags': ['Flevoland \u00b7 Noordoostpolder', 'Former island \u00b7 UNESCO World Heritage with woodland', 'list 36 \u00b7 no. 172'],
+ 'loc': '\U0001f4cd Between Ens and Nagele, Noordoostpolder \u00b7 Former island with wood \u00b7 Medium-sized',
+ 'desc': '<b>Schokland</b> was an inhabited island in the Zuiderzee until 1859, and it is the first Dutch <b>UNESCO World Heritage Site</b> (1995). The story is poignant: the sea shrank the island for centuries, until it was only a few hundred metres wide and the inhabitants feared for their lives in every storm. In 1859 the government decided to <b>evacuate</b> it \u2014 the population was compulsorily moved. Since the reclamation Schokland has lain as an <b>elongated rise</b> in the flat polder, with the church and the mounds still visible. Around it the <b>Schokkerbos</b> was planted. The contrast between the ancient island and the young wood makes the place unique. <b>Goshawk, long-eared owl and nuthatch</b> breed, and a rich <b>fungus flora</b> grows.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Sep\u2013Nov</b> (fungi and autumn light), Apr\u2013Jun (song in the wood)<br>\n    <b>Best time of day:</b> Early morning \u2014 low light reveals the relief of the old island.',
+ 'n2k_en': 'UNESCO World Heritage since 1995 \u2014 archaeological and cultural-historical monument.',
+ 'why': ['An inhabited <b>island in the Zuiderzee</b> until the evacuation of 1859.',
+         'The first Dutch <b>UNESCO World Heritage Site</b> (1995).',
+         'The population was <b>compulsorily moved</b> in 1859 because of the sea.',
+         'Now lies as an <b>elongated rise</b> in the flat polder.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f985 <b>Goshawk</b> displays above the Schokkerbos.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and blackcap</b> sing.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> in the wood.',
+          '<span class="months">Oct\u2013Mar</span> \U0001f3db\ufe0f <b>Island relief</b> best visible without leaves.'],
+ 'wild': ['\U0001f985 Goshawk \u00b7 Buzzard \u00b7 \U0001f989 Long-eared owl', '\U0001f426 Nuthatch \u00b7 Great spotted woodpecker \u00b7 Blackcap', '\U0001f344 Boletes \u00b7 Inkcaps \u00b7 Turkeytail', '\U0001f98c Roe deer \u00b7 Fox \u00b7 Brown hare', '\U0001f333 Ash \u00b7 Poplar \u00b7 Oak'],
+ 'trail': ['Park at <b>Museum Schokland</b>; paths cross the island and the wood.',
+           'Walk the <b>old island edge</b> \u2014 the height difference is still palpable.',
+           'Visit the <b>museum</b> for the story of the evacuation.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Grounds free, museum entry fee \u00b7 \U0001f3db\ufe0f UNESCO World Heritage'
+}))
+
+C.append(mk.card(1454, 'Kamperhoek en Ketelbos', {
+ 'tags': ['Flevoland \u00b7 Dronten', 'Polderbos en kust \u00b7 vogeltrekpunt aan het Ketelmeer', 'list 36 \u00b7 no. 173'],
+ 'loc': '\U0001f4cd Noordoostpunt van Oostelijk Flevoland, aan het Ketelmeer \u00b7 Bos en oever \u00b7 Middelgroot',
+ 'desc': 'De <b>Kamperhoek</b> is de noordoostelijke punt van Oostelijk Flevoland, waar de polder uitsteekt in het <b>Ketelmeer</b>, en dat maakt de plek tot een van de beste <b>vogeltrekposten</b> van Nederland. Trekvogels volgen liever land dan water, en waar een landtong in open water steekt hopen ze zich op voordat ze de oversteek wagen \u2014 het effect dat vogelaars <b>stuwing</b> noemen. Op najaarsdagen met oostenwind trekken hier tienduizenden vinken, leeuweriken en spreeuwen langs. Het aangrenzende <b>Ketelbos</b> vangt de vogels op die neerstrijken. Behalve trek is er ook broedvogelrijkdom: <b>havik, buizerd, ijsvogel en zwarte specht</b>, en op het Ketelmeer overwinteren <b>duikeenden en zaagbekken</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Sep\u2013nov</b> (najaarstrek), mrt\u2013mei (voorjaarstrek), nov\u2013feb (watervogels)<br>\n    <b>Beste tijd van de dag:</b> Eerste twee uur na zonsopkomst \u2014 dan is de trek het sterkst.',
+ 'why': ['Landtong in het <b>Ketelmeer</b> \u2014 een van de beste trektelposten van Nederland.',
+         'Trekvogels volgen liever land dan water en hopen zich op: <b>stuwing</b>.',
+         'Op oostenwinddagen trekken hier <b>tienduizenden vogels</b> langs.',
+         'Het <b>Ketelbos</b> vangt de neerstrijkende vogels op.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Voorjaarstrek</b> langs de punt.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Zwarte specht en ijsvogel</b> broeden.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Najaarstrek</b> \u2014 tienduizenden vinken en leeuweriken.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Zaagbekken en duikeenden</b> op het Ketelmeer.'],
+ 'wild': ['\U0001f426 Vink \u00b7 Veldleeuwerik \u00b7 Spreeuw \u00b7 Kramsvogel (trek)', '\U0001f985 Havik \u00b7 Buizerd \u00b7 Slechtvalk \u00b7 Zeearend', '\U0001f986 Grote zaagbek \u00b7 Nonnetje \u00b7 Brilduiker', '\U0001f426 Zwarte specht \u00b7 IJsvogel', '\U0001f98c Ree \u00b7 Vos'],
+ 'trail': ['Parkeren bij de <b>Kamperhoek</b>; telpost en paden door het Ketelbos.',
+           'Kom in <b>oktober bij oostenwind</b> \u2014 dan is de trek het spectaculairst.',
+           'Wees er <b>bij zonsopkomst</b>; de eerste uren tellen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f426 Vogeltrektelpost \u00b7 \U0001f6b6 Paden en dijk'
+}, {
+ 'tags': ['Flevoland \u00b7 Dronten', 'Polder wood and coast \u00b7 migration watchpoint on the Ketelmeer', 'list 36 \u00b7 no. 173'],
+ 'loc': '\U0001f4cd North-eastern tip of Eastern Flevoland, on the Ketelmeer \u00b7 Wood and shore \u00b7 Medium-sized',
+ 'desc': 'The <b>Kamperhoek</b> is the north-eastern tip of Eastern Flevoland, where the polder juts into the <b>Ketelmeer</b>, and that makes it one of the best <b>migration watchpoints</b> in the Netherlands. Migrants prefer to follow land rather than water, and where a spit of land projects into open water they pile up before daring the crossing \u2014 the effect birders call <b>funnelling</b>. On autumn days with an easterly wind, tens of thousands of chaffinches, skylarks and starlings pass here. The adjoining <b>Ketelbos</b> catches the birds that drop in. Besides migration there is breeding richness: <b>goshawk, buzzard, kingfisher and black woodpecker</b>, and <b>diving ducks and sawbills</b> winter on the Ketelmeer.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Sep\u2013Nov</b> (autumn migration), Mar\u2013May (spring migration), Nov\u2013Feb (waterfowl)<br>\n    <b>Best time of day:</b> The first two hours after sunrise \u2014 migration is then strongest.',
+ 'why': ['A spit into the <b>Ketelmeer</b> \u2014 one of the best migration counts in the country.',
+         'Migrants prefer land to water and pile up: <b>funnelling</b>.',
+         'On easterly days <b>tens of thousands of birds</b> pass here.',
+         'The <b>Ketelbos</b> catches the birds that drop in.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f426 <b>Spring migration</b> along the point.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Black woodpecker and kingfisher</b> breed.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Autumn migration</b> \u2014 tens of thousands of finches and larks.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Sawbills and diving ducks</b> on the Ketelmeer.'],
+ 'wild': ['\U0001f426 Chaffinch \u00b7 Skylark \u00b7 Starling \u00b7 Fieldfare (migration)', '\U0001f985 Goshawk \u00b7 Buzzard \u00b7 Peregrine \u00b7 White-tailed eagle', '\U0001f986 Goosander \u00b7 Smew \u00b7 Goldeneye', '\U0001f426 Black woodpecker \u00b7 Kingfisher', '\U0001f98c Roe deer \u00b7 Fox'],
+ 'trail': ['Park at the <b>Kamperhoek</b>; watchpoint and paths through the Ketelbos.',
+           'Come in <b>October on an easterly wind</b> \u2014 migration is then most spectacular.',
+           'Be there <b>at sunrise</b>; the first hours count.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f426 Migration watchpoint \u00b7 \U0001f6b6 Paths and dike'
+}))
+
+mk.insert(C, '1449')
+mk.progress(1454)
+mk.check()

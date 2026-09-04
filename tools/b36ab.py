@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1415, 'Mijzenpolder', {
+ 'tags': ['Noord-Holland \u00b7 Alkmaar', 'Veenweide \u00b7 onvergraven veenpolder met weidevogels', 'list 36 \u00b7 no. 134'],
+ 'loc': '\U0001f4cd Tussen Avenhorn, Schermerhorn en Ursem \u00b7 Veenweide \u00b7 Groot',
+ 'desc': 'De <b>Mijzenpolder</b> is een zeldzaamheid: een groot veenweidegebied dat <b>nooit is vergraven of drooggemalen</b>. Rondom liggen de beroemde droogmakerijen \u2014 Beemster, Schermer, Heerhugowaard \u2014 maar de Mijzen bleef liggen zoals hij was, op het oorspronkelijke veenpakket. Daardoor is het maaiveld hier hoger dan in de omringende polders, en is de oude <b>slagenverkaveling</b> uit de middeleeuwse ontginning nog volledig leesbaar: lange smalle percelen loodrecht op een ontginningsas. Omdat het waterpeil hoog bleef en de bemesting laag, is dit een van de <b>beste weidevogelgebieden van Noord-Holland</b>, met hoge dichtheden <b>grutto, tureluur, kievit en slobeend</b>. In de sloten bloeit <b>waterviolier</b> en groeit krabbenscheer.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels op hun best), nov\u2013feb (ganzen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 het weidevogelkoor is dan overweldigend.',
+ 'why': ['Groot veenweidegebied dat <b>nooit is vergraven of drooggemalen</b>.',
+         'Maaiveld ligt <b>hoger</b> dan de omringende droogmakerijen.',
+         'Middeleeuwse <b>slagenverkaveling</b> nog volledig leesbaar.',
+         'Een van de <b>beste weidevogelgebieden</b> van Noord-Holland.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Grutto\u2019s</b> arriveren in grote aantallen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Tureluur, kievit en slobeend</b> broeden.',
+          '<span class="months">Mei\u2013Jun</span> \U0001f33f <b>Waterviolier</b> bloeit in de sloten.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Ganzen</b> foerageren op de weilanden.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Kievit \u00b7 Scholekster \u00b7 Watersnip', '\U0001f986 Slobeend \u00b7 Zomertaling \u00b7 Krakeend', '\U0001f33f Waterviolier \u00b7 Krabbenscheer \u00b7 Dotterbloem', '\U0001f9a2 Kolgans \u00b7 Grauwe gans \u00b7 Smient', '\U0001f985 Bruine kiekendief \u00b7 Buizerd'],
+ 'trail': ['Parkeren bij <b>Ursem</b> of <b>Avenhorn</b>; kijk vanaf de wegen en dijken.',
+           'Let op de <b>lange smalle percelen</b> \u2014 middeleeuwse slagenverkaveling.',
+           'April en mei zijn <b>de</b> maanden; blijf strikt op de weg.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Topweidevogelgebied \u2014 niet betreden mrt\u2013jun \u00b7 \U0001f6b4 Fietsroute'
+}, {
+ 'tags': ['North Holland \u00b7 Alkmaar', 'Peat meadow \u00b7 undug peat polder with meadow birds', 'list 36 \u00b7 no. 134'],
+ 'loc': '\U0001f4cd Between Avenhorn, Schermerhorn and Ursem \u00b7 Peat meadow \u00b7 Large',
+ 'desc': 'The <b>Mijzenpolder</b> is a rarity: a large peat-meadow area that was <b>never dug away or pumped dry</b>. All around lie the famous drained lake polders \u2014 Beemster, Schermer, Heerhugowaard \u2014 but the Mijzen stayed as it was, on the original peat layer. As a result the ground level here is higher than in the surrounding polders, and the old <b>strip parcelling</b> from the medieval reclamation is still fully legible: long narrow parcels at right angles to a reclamation axis. Because the water level stayed high and fertilisation low, this is one of the <b>best meadow-bird areas in North Holland</b>, with high densities of <b>godwit, redshank, lapwing and shoveler</b>. <b>Water violet</b> flowers in the ditches and water soldier grows there.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds at their best), Nov\u2013Feb (geese)<br>\n    <b>Best time of day:</b> Early morning \u2014 the meadow-bird chorus is then overwhelming.',
+ 'why': ['Large peat-meadow area <b>never dug away or pumped dry</b>.',
+         'Ground level lies <b>higher</b> than the surrounding drained polders.',
+         'Medieval <b>strip parcelling</b> still fully legible.',
+         'One of the <b>best meadow-bird areas</b> in North Holland.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Godwits</b> arrive in large numbers.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Redshank, lapwing and shoveler</b> breed.',
+          '<span class="months">May\u2013Jun</span> \U0001f33f <b>Water violet</b> flowers in the ditches.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Geese</b> forage on the meadows.'],
+ 'wild': ['\U0001f426 Godwit \u00b7 Redshank \u00b7 Lapwing \u00b7 Oystercatcher \u00b7 Snipe', '\U0001f986 Shoveler \u00b7 Garganey \u00b7 Gadwall', '\U0001f33f Water violet \u00b7 Water soldier \u00b7 Marsh marigold', '\U0001f9a2 White-fronted goose \u00b7 Greylag \u00b7 Wigeon', '\U0001f985 Marsh harrier \u00b7 Buzzard'],
+ 'trail': ['Park at <b>Ursem</b> or <b>Avenhorn</b>; watch from the roads and dikes.',
+           'Note the <b>long narrow parcels</b> \u2014 medieval strip parcelling.',
+           'April and May are <b>the</b> months; keep strictly to the road.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Prime meadow-bird area \u2014 do not enter Mar\u2013Jun \u00b7 \U0001f6b4 Cycle route'
+}, card_class='card water'))
+
+C.append(mk.card(1416, 'De Hulk', {
+ 'tags': ['Noord-Holland \u00b7 Hoorn', 'Buitendijks land \u00b7 oude zeedijkpolder aan het Markermeer', 'list 36 \u00b7 no. 135'],
+ 'loc': '\U0001f4cd Tussen Hoorn en Scharwoude, aan het Markermeer \u00b7 Buitendijks grasland \u00b7 Klein',
+ 'desc': '<b>De Hulk</b> ligt buitendijks aan het Markermeer, en de naam is een oud zeewoord: een <b>hulk</b> was een log, breed vrachtschip, maar in landschapsnamen duidt het op een <b>bocht of kromming</b> in de kustlijn. Hier maakt de oude Westfriese Omringdijk inderdaad een scherpe knik. Het buitendijkse land is ontstaan door <b>aanslibbing</b> tegen de dijk aan, en zulke stroken zijn ecologisch bijzonder omdat ze nooit zijn bemest of scheurgeploegd. Sinds de afsluiting van de Zuiderzee is het zoet geworden, maar de <b>zilte flora</b> is deels blijven staan op de hoogste delen. Het is een belangrijke plek voor <b>steltlopers</b>: kluut, tureluur en scholekster broeden er, en in de trektijd rusten er <b>grutto\u2019s en kemphanen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (broedende steltlopers), aug\u2013okt (doortrek langs het Markermeer)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 laag licht over het water en actieve vogels.',
+ 'why': ['<b>Hulk</b> duidt in landschapsnamen op een <b>bocht in de kustlijn</b>.',
+         'Buitendijks land ontstaan door <b>aanslibbing</b> tegen de dijk.',
+         'Nooit bemest of gescheurd \u2014 daardoor <b>ecologisch waardevol</b>.',
+         'Restanten <b>zilte flora</b> op de hoogste delen.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Kluut en tureluur</b> broeden buitendijks.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Zilte flora</b> op de hoge delen.',
+          '<span class="months">Aug\u2013Okt</span> \U0001f426 <b>Grutto\u2019s en kemphanen</b> op doortrek.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Watervogels</b> op het Markermeer.'],
+ 'wild': ['\U0001f426 Kluut \u00b7 Tureluur \u00b7 Scholekster \u00b7 Kievit', '\U0001f426 Grutto \u00b7 Kemphaan (doortrek)', '\U0001f33c Zilte rus \u00b7 Zeeaster (restanten)', '\U0001f986 Smient \u00b7 Krakeend \u00b7 Fuut', '\U0001f985 Bruine kiekendief \u00b7 Slechtvalk (winter)'],
+ 'trail': ['Parkeren bij <b>Scharwoude</b>; kijk vanaf de <b>Westfriese Omringdijk</b>.',
+           'De dijk biedt <b>overzicht</b> over het buitendijkse land.',
+           'Kom in augustus\u2013september voor <b>doortrekkende steltlopers</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Broedgebied \u2014 blijf op de dijk \u00b7 \U0001f6b4 Fietsroute over de dijk'
+}, {
+ 'tags': ['North Holland \u00b7 Hoorn', 'Land outside the dike \u00b7 old sea-dike polder on the Markermeer', 'list 36 \u00b7 no. 135'],
+ 'loc': '\U0001f4cd Between Hoorn and Scharwoude, on the Markermeer \u00b7 Foreland grassland \u00b7 Small',
+ 'desc': '<b>De Hulk</b> lies outside the dike on the Markermeer, and the name is an old sea word: a <b>hulk</b> was a heavy, broad cargo ship, but in landscape names it indicates a <b>bend or curve</b> in the coastline. Here the old West Frisian Ring Dike does indeed make a sharp turn. The foreland arose through <b>silting</b> against the dike, and such strips are ecologically notable because they were never fertilised or ploughed up. Since the closing of the Zuiderzee the water has turned fresh, but the <b>salt flora</b> has partly persisted on the highest parts. It is an important place for <b>waders</b>: avocet, redshank and oystercatcher breed there, and <b>godwits and ruffs</b> rest during migration.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (breeding waders), Aug\u2013Oct (passage along the Markermeer)<br>\n    <b>Best time of day:</b> Early morning \u2014 low light over the water and active birds.',
+ 'why': ['<b>Hulk</b> in landscape names indicates a <b>bend in the coastline</b>.',
+         'Foreland formed by <b>silting</b> against the dike.',
+         'Never fertilised or ploughed \u2014 hence <b>ecologically valuable</b>.',
+         'Remnants of <b>salt flora</b> on the highest parts.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Avocet and redshank</b> breed outside the dike.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Salt flora</b> on the high parts.',
+          '<span class="months">Aug\u2013Oct</span> \U0001f426 <b>Godwits and ruffs</b> on passage.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Waterfowl</b> on the Markermeer.'],
+ 'wild': ['\U0001f426 Avocet \u00b7 Redshank \u00b7 Oystercatcher \u00b7 Lapwing', '\U0001f426 Black-tailed godwit \u00b7 Ruff (passage)', '\U0001f33c Saltmarsh rush \u00b7 Sea aster (remnants)', '\U0001f986 Wigeon \u00b7 Gadwall \u00b7 Great crested grebe', '\U0001f985 Marsh harrier \u00b7 Peregrine (winter)'],
+ 'trail': ['Park at <b>Scharwoude</b>; watch from the <b>West Frisian Ring Dike</b>.',
+           'The dike gives an <b>overview</b> of the foreland.',
+           'Come in August\u2013September for <b>passage waders</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Breeding ground \u2014 keep to the dike \u00b7 \U0001f6b4 Cycle route on the dike'
+}, card_class='card water'))
+
+C.append(mk.card(1417, 'Uiterdijken', {
+ 'tags': ['Noord-Holland \u00b7 Hoorn', 'Buitendijks grasland \u00b7 rietkragen langs het Markermeer', 'list 36 \u00b7 no. 136'],
+ 'loc': '\U0001f4cd Langs het Markermeer bij Hoorn \u00b7 Buitendijkse stroken \u00b7 Klein',
+ 'desc': 'De <b>Uiterdijken</b> zijn de smalle stroken land tussen de zeedijk en het water, en het woord is verwant aan <b>uiterwaard</b>: <i>uiter</i> betekent <b>buitenste</b>, het land dat buiten de dijk ligt. In de Zuiderzeetijd waren deze stroken zoute of brakke <b>kwelders</b> die bij storm regelmatig onderliepen; boeren gebruikten ze als zomerweide en accepteerden dat de winter ze zou overspoelen. Na de Afsluitdijk (1932) werd het water zoet en veranderde de vegetatie in enkele decennia van zilt naar riet. Wat bleef is een <b>lijnvormig natuurlint</b> langs de hele kust, wat het uitzonderlijk waardevol maakt als <b>trekcorridor</b>. Er broeden <b>rietzanger, kleine karekiet, blauwborst en baardman</b>, en in de winter foerageren <b>ganzen en zwanen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (rietvogels), sep\u2013nov (trek langs het lint)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rietvogels zingen en het water is stil.',
+ 'why': ['<b>Uiter</b> = buitenste; land dat buiten de dijk ligt.',
+         'Waren in de Zuiderzeetijd zoute <b>kwelders</b> en zomerweide.',
+         'Na de <b>Afsluitdijk (1932)</b> in decennia van zilt naar riet veranderd.',
+         'Lijnvormig lint langs de kust \u2014 waardevolle <b>trekcorridor</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Rietzanger en blauwborst</b> zingen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Baardman</b> in de dichte rietkragen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Trekvogels</b> volgen het rietlint.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Ganzen en zwanen</b> op de stroken.'],
+ 'wild': ['\U0001f33e Rietzanger \u00b7 Kleine karekiet \u00b7 Blauwborst \u00b7 Baardman', '\U0001f9a2 Kolgans \u00b7 Grauwe gans \u00b7 Kleine zwaan', '\U0001f985 Bruine kiekendief \u00b7 Slechtvalk', '\U0001f9a0 Libellen langs de oevers', '\U0001f41f Snoek \u00b7 Baars in de oeverzone'],
+ 'trail': ['Parkeren bij <b>Hoorn</b>; volg de <b>dijk</b> langs het Markermeer.',
+           'Kijk van de dijk <b>naar beneden</b> in de rietkragen.',
+           'Mei is de beste maand voor <b>rietvogelzang</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b4 Fietsroute over de dijk \u00b7 \u26a0\ufe0f Rietkragen kwetsbaar'
+}, {
+ 'tags': ['North Holland \u00b7 Hoorn', 'Foreland grassland \u00b7 reed fringes along the Markermeer', 'list 36 \u00b7 no. 136'],
+ 'loc': '\U0001f4cd Along the Markermeer near Hoorn \u00b7 Foreland strips \u00b7 Small',
+ 'desc': 'The <b>Uiterdijken</b> are the narrow strips of land between the sea dike and the water, and the word is related to <b>uiterwaard</b>, floodplain: <i>uiter</i> means <b>outermost</b>, the land lying outside the dike. In Zuiderzee days these strips were salt or brackish <b>salt marshes</b> that regularly flooded in storms; farmers used them as summer pasture and accepted that winter would submerge them. After the Afsluitdijk (1932) the water turned fresh and within decades the vegetation changed from saline to reed. What remains is a <b>linear ribbon of nature</b> along the entire coast, making it exceptionally valuable as a <b>migration corridor</b>. <b>Sedge warbler, reed warbler, bluethroat and bearded reedling</b> breed, and <b>geese and swans</b> forage in winter.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (reed birds), Sep\u2013Nov (migration along the ribbon)<br>\n    <b>Best time of day:</b> Early morning \u2014 reed birds singing and the water still.',
+ 'why': ['<b>Uiter</b> = outermost; land lying outside the dike.',
+         'Were salt <b>marshes</b> and summer pasture in Zuiderzee days.',
+         'After the <b>Afsluitdijk (1932)</b> shifted from saline to reed in decades.',
+         'A linear ribbon along the coast \u2014 valuable <b>migration corridor</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Sedge warbler and bluethroat</b> sing.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Bearded reedling</b> in the dense reed.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Migrants</b> follow the reed ribbon.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Geese and swans</b> on the strips.'],
+ 'wild': ['\U0001f33e Sedge warbler \u00b7 Reed warbler \u00b7 Bluethroat \u00b7 Bearded reedling', '\U0001f9a2 White-fronted goose \u00b7 Greylag \u00b7 Bewick\u2019s swan', '\U0001f985 Marsh harrier \u00b7 Peregrine', '\U0001f9a0 Dragonflies along the banks', '\U0001f41f Pike \u00b7 Perch in the bank zone'],
+ 'trail': ['Park at <b>Hoorn</b>; follow the <b>dike</b> along the Markermeer.',
+           'Look <b>down</b> from the dike into the reed fringes.',
+           'May is the best month for <b>reed-bird song</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b4 Cycle route on the dike \u00b7 \u26a0\ufe0f Reed fringes fragile'
+}, card_class='card water'))
+
+C.append(mk.card(1418, 'Kogen', {
+ 'tags': ['Noord-Holland \u00b7 Hoorn', 'Buitendijks land \u00b7 kooglanden aan de oude Zuiderzeekust', 'list 36 \u00b7 no. 137'],
+ 'loc': '\U0001f4cd Langs de Westfriese Omringdijk \u00b7 Buitendijks grasland \u00b7 Klein',
+ 'desc': 'De <b>Kogen</b> zijn buitendijkse landen langs de oude Zuiderzeekust, en de naam is het meervoud van <b>koog</b>: land dat buiten de dijk ligt en bij hoog water onderloopt. In Noord-Holland en op de Waddeneilanden komt het woord veelvuldig voor. Kooglanden ontstonden doordat zich tegen de zeedijk <b>slib</b> afzette; naarmate de strook hoger werd, groeide er kweldervegetatie op en kon hij als zomerweide dienen. Vaak werd zo\u2019n koog na verloop van tijd <b>bedijkt</b>, waarna zich buiten de nieuwe dijk weer een koog vormde \u2014 een cyclus die de Noord-Hollandse kustlijn stap voor stap heeft opgebouwd. De huidige Kogen zijn zoete graslanden met greppels en rietranden, waar <b>tureluur, kluut en scholekster</b> broeden en \u2019s winters <b>ganzen</b> foerageren.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (broedende steltlopers), nov\u2013feb (ganzen op de kooglanden)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 vanaf de dijk met de zon in de rug.',
+ 'why': ['<b>Koog</b> = buitendijks land dat bij hoog water onderloopt.',
+         'Ontstaan doordat <b>slib</b> zich tegen de zeedijk afzette.',
+         'Werd vaak later <b>bedijkt</b>, waarna zich een nieuwe koog vormde.',
+         'Die cyclus bouwde de <b>Noord-Hollandse kustlijn</b> stap voor stap op.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Kluut en tureluur</b> broeden op de kooglanden.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Graslandflora</b> in de greppels.',
+          '<span class="months">Aug\u2013Okt</span> \U0001f426 <b>Doortrekkende steltlopers</b>.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Ganzen</b> foerageren buitendijks.'],
+ 'wild': ['\U0001f426 Kluut \u00b7 Tureluur \u00b7 Scholekster \u00b7 Kievit', '\U0001f9a2 Kolgans \u00b7 Brandgans \u00b7 Grauwe gans', '\U0001f33c Graslandflora \u00b7 rietranden', '\U0001f985 Bruine kiekendief \u00b7 Buizerd', '\U0001f986 Smient \u00b7 Wintertaling'],
+ 'trail': ['Parkeren langs de <b>Westfriese Omringdijk</b>; kijk vanaf de dijkkruin.',
+           'Combineer met <b>De Hulk</b> en de <b>Uiterdijken</b> in \u00e9\u00e9n fietsroute.',
+           'Blijf op de dijk in het <b>broedseizoen</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b4 Fietsroute \u00b7 \u26a0\ufe0f Broedgebied apr\u2013jun'
+}, {
+ 'tags': ['North Holland \u00b7 Hoorn', 'Foreland \u00b7 koog lands on the old Zuiderzee coast', 'list 36 \u00b7 no. 137'],
+ 'loc': '\U0001f4cd Along the West Frisian Ring Dike \u00b7 Foreland grassland \u00b7 Small',
+ 'desc': 'The <b>Kogen</b> are forelands along the old Zuiderzee coast, and the name is the plural of <b>koog</b>: land lying outside the dike that floods at high water. The word occurs frequently in North Holland and on the Wadden islands. Koog lands formed as <b>silt</b> settled against the sea dike; as the strip grew higher, salt-marsh vegetation established and it could serve as summer pasture. Often such a koog was in time <b>embanked</b>, after which a new koog formed outside the new dike \u2014 a cycle that built up the North Holland coastline step by step. The present Kogen are freshwater grasslands with ditches and reed edges, where <b>redshank, avocet and oystercatcher</b> breed and <b>geese</b> forage in winter.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (breeding waders), Nov\u2013Feb (geese on the koog lands)<br>\n    <b>Best time of day:</b> Morning \u2014 from the dike with the sun behind you.',
+ 'why': ['<b>Koog</b> = foreland that floods at high water.',
+         'Formed as <b>silt</b> settled against the sea dike.',
+         'Often later <b>embanked</b>, after which a new koog formed.',
+         'That cycle built up the <b>North Holland coastline</b> step by step.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Avocet and redshank</b> breed on the koog lands.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Grassland flora</b> in the ditches.',
+          '<span class="months">Aug\u2013Oct</span> \U0001f426 <b>Passage waders</b>.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f9a2 <b>Geese</b> forage outside the dike.'],
+ 'wild': ['\U0001f426 Avocet \u00b7 Redshank \u00b7 Oystercatcher \u00b7 Lapwing', '\U0001f9a2 White-fronted goose \u00b7 Barnacle goose \u00b7 Greylag', '\U0001f33c Grassland flora \u00b7 reed edges', '\U0001f985 Marsh harrier \u00b7 Buzzard', '\U0001f986 Wigeon \u00b7 Teal'],
+ 'trail': ['Park along the <b>West Frisian Ring Dike</b>; watch from the dike crest.',
+           'Combine with <b>De Hulk</b> and the <b>Uiterdijken</b> in one cycle route.',
+           'Stay on the dike in the <b>breeding season</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b4 Cycle route \u00b7 \u26a0\ufe0f Breeding ground Apr\u2013Jun'
+}, card_class='card water'))
+
+C.append(mk.card(1419, 'Eilandspolder', {
+ 'tags': ['Noord-Holland \u00b7 Alkmaar', 'Veenweide \u00b7 Natura 2000 \u00b7 onvergraven veeneiland', 'list 36 \u00b7 no. 138'],
+ 'loc': '\U0001f4cd Tussen Graft-De Rijp, Driehuizen en Schermerhorn \u00b7 Veenweide \u00b7 Groot',
+ 'desc': 'De <b>Eilandspolder</b> dankt zijn naam aan zijn ligging: het is letterlijk een <b>eiland van onvergraven veen</b>, omringd door de diepe droogmakerijen Schermer en Beemster. Toen die meren in de zeventiende eeuw werden drooggemalen, bleef deze strook liggen \u2014 en juist daardoor is het een van de gaafste voorbeelden van middeleeuws <b>veenontginningslandschap</b> in Nederland. Het patroon van lange, smalle percelen gescheiden door sloten is er sinds de twaalfde eeuw nauwelijks veranderd, en veel percelen zijn <b>alleen per boot bereikbaar</b>. Die ontoegankelijkheid is de ecologische kracht: het is Natura 2000-gebied en een topgebied voor <b>weidevogels en moerasvogels</b>, met grutto, tureluur, watersnip, <b>purperreiger</b> en <b>noordse woelmuis</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels), mei\u2013aug (moerasvogels en libellen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 het weidevogelkoor draagt ver over het open veen.',
+ 'n2k': 'Natura 2000-gebied \u2014 laagveen, veenmosrietland en habitat van de noordse woelmuis.',
+ 'why': ['Letterlijk een <b>eiland van onvergraven veen</b> tussen twee droogmakerijen.',
+         'Middeleeuws verkavelingspatroon sinds de <b>twaalfde eeuw</b> nauwelijks veranderd.',
+         'Veel percelen zijn <b>alleen per boot bereikbaar</b>.',
+         'Habitat van de <b>noordse woelmuis</b>, een Nederlandse endeem.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Grutto\u2019s</b> keren terug op het veen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Watersnip en tureluur</b> broeden.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f426 <b>Purperreiger</b> foerageert in de sloten.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Groene glazenmaker</b> boven de krabbenscheer.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Watersnip \u00b7 Kemphaan', '\U0001f426 Purperreiger \u00b7 Roerdomp \u00b7 Snor', '\U0001f42d Noordse woelmuis \u00b7 Waterspitsmuis', '\U0001f9a0 Groene glazenmaker \u00b7 \U0001f33f Krabbenscheer', '\U0001f985 Bruine kiekendief \u00b7 Zeearend (winter)'],
+ 'trail': ['Parkeren bij <b>De Rijp</b> of <b>Driehuizen</b>; deels alleen per <b>kano of boot</b>.',
+           'Bekijk het verkavelingspatroon <b>vanaf de dijk</b> \u2014 het is spectaculair regelmatig.',
+           'April\u2013mei voor weidevogels; blijf buiten de percelen.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f6f6 Deels alleen per boot \u00b7 \u26a0\ufe0f Broedgebied'
+}, {
+ 'tags': ['North Holland \u00b7 Alkmaar', 'Peat meadow \u00b7 Natura 2000 \u00b7 undug peat island', 'list 36 \u00b7 no. 138'],
+ 'loc': '\U0001f4cd Between Graft-De Rijp, Driehuizen and Schermerhorn \u00b7 Peat meadow \u00b7 Large',
+ 'desc': 'The <b>Eilandspolder</b> owes its name to its position: it is literally an <b>island of undug peat</b>, surrounded by the deep drained polders of the Schermer and Beemster. When those lakes were pumped dry in the seventeenth century, this strip was left \u2014 and precisely for that reason it is one of the finest examples of medieval <b>peat reclamation landscape</b> in the Netherlands. The pattern of long, narrow parcels separated by ditches has scarcely changed since the twelfth century, and many parcels are <b>reachable only by boat</b>. That inaccessibility is its ecological strength: it is a Natura 2000 site and a prime area for <b>meadow and marsh birds</b>, with godwit, redshank, snipe, <b>purple heron</b> and <b>root vole</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds), May\u2013Aug (marsh birds and dragonflies)<br>\n    <b>Best time of day:</b> Early morning \u2014 the meadow-bird chorus carries far over the open peat.',
+ 'n2k_en': 'Natura 2000 site \u2014 fen, sphagnum reedland and habitat of the root vole.',
+ 'why': ['Literally an <b>island of undug peat</b> between two drained polders.',
+         'Medieval parcelling pattern scarcely changed since the <b>twelfth century</b>.',
+         'Many parcels are <b>reachable only by boat</b>.',
+         'Habitat of the <b>root vole</b>, a Dutch endemic subspecies.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Godwits</b> return to the peat.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Snipe and redshank</b> breed.',
+          '<span class="months">May\u2013Aug</span> \U0001f426 <b>Purple heron</b> forages in the ditches.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Green hawker</b> above the water soldier.'],
+ 'wild': ['\U0001f426 Godwit \u00b7 Redshank \u00b7 Snipe \u00b7 Ruff', '\U0001f426 Purple heron \u00b7 Bittern \u00b7 Savi\u2019s warbler', '\U0001f42d Root vole \u00b7 Water shrew', '\U0001f9a0 Green hawker \u00b7 \U0001f33f Water soldier', '\U0001f985 Marsh harrier \u00b7 White-tailed eagle (winter)'],
+ 'trail': ['Park at <b>De Rijp</b> or <b>Driehuizen</b>; partly accessible only by <b>canoe or boat</b>.',
+           'View the parcelling pattern <b>from the dike</b> \u2014 it is spectacularly regular.',
+           'April\u2013May for meadow birds; stay off the parcels.'],
+ 'foot': '\U0001f436 Dogs not allowed \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f6f6 Partly boat-only \u00b7 \u26a0\ufe0f Breeding ground'
+}, card_class='card water'))
+
+mk.insert(C, '1414')
+mk.progress(1419)
+mk.check()

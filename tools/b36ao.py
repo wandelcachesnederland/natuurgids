@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1480, 'Recreatiebos Hardenberg', {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Recreatiebos \u00b7 gemengd bos met vijvers aan de stadsrand', 'list 36 \u00b7 no. 199'],
+ 'loc': '\U0001f4cd Aan de rand van Hardenberg \u00b7 Recreatiebos \u00b7 Middelgroot',
+ 'desc': 'Het <b>recreatiebos van Hardenberg</b> werd in de jaren zestig en zeventig aangelegd op voormalige heide- en woeste gronden, in een tijd waarin de overheid stelselmatig <b>stadsrandbossen</b> liet planten. Achter dat beleid zat een sociaal motief: door de vijfdaagse werkweek en de auto kregen gewone gezinnen voor het eerst massaal vrije tijd, en er was behoefte aan groen op fietsafstand van de stad. Zulke bossen werden dan ook ontworpen mét wandelpaden, vijvers en speelweiden. Ecologisch zijn ze inmiddels waardevol geworden: zestig jaar oud, met <b>dood hout, struiklagen en oude naaldhoutopstanden</b>. Er broeden <b>bosuil, grote bonte specht en havik</b>, en de vijvers trekken <b>libellen en amfibieën</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang en amfibieën), sep\u2013nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 v\u00f3\u00f3r de wandelaars en fietsers.',
+ 'why': ['Aangelegd op voormalige <b>heide- en woeste gronden</b>.',
+         'Deel van het beleid om <b>stadsrandbossen</b> te planten.',
+         'Motief: de <b>vijfdaagse werkweek</b> gaf gezinnen massaal vrije tijd.',
+         'Nu zestig jaar oud met <b>dood hout en struiklagen</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f989 <b>Bosuil</b> roept in de late winter.',
+          '<span class="months">Mrt\u2013Apr</span> \U0001f438 <b>Amfibieën</b> in de vijvers.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Spechten en zangvogels</b> in het bos.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> onder naald- en loofhout.'],
+ 'wild': ['\U0001f989 Bosuil \u00b7 \U0001f426 Grote bonte specht \u00b7 Zwartkop', '\U0001f985 Havik \u00b7 Buizerd \u00b7 Sperwer', '\U0001f438 Kikkers \u00b7 Padden \u00b7 \U0001f9a0 Libellen', '\U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98c Ree \u00b7 \U0001f98a Vos', '\U0001f333 Grove den \u00b7 Beuk \u00b7 Eik \u00b7 Berk'],
+ 'trail': ['Parkeren aan de <b>rand van Hardenberg</b>; ruim padennet.',
+           'Loop langs de <b>vijvers</b> voor libellen en amfibieën.',
+           'Vroege ochtend voor de <b>rust</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f9d2 Gezinsvriendelijk \u00b7 \U0001f6b4 Fietspaden'
+}, {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Recreational wood \u00b7 mixed wood with ponds on the town edge', 'list 36 \u00b7 no. 199'],
+ 'loc': '\U0001f4cd On the edge of Hardenberg \u00b7 Recreational wood \u00b7 Medium-sized',
+ 'desc': 'The <b>recreational wood of Hardenberg</b> was laid out in the 1960s and 1970s on former heath and waste ground, in an era when the government systematically had <b>town-edge woods</b> planted. Behind that policy lay a social motive: the five-day working week and the car gave ordinary families mass leisure time for the first time, and green space within cycling distance of the town was needed. Such woods were therefore designed with footpaths, ponds and play meadows. Ecologically they have become valuable: sixty years old, with <b>dead wood, shrub layers and older conifer stands</b>. <b>Tawny owl, great spotted woodpecker and goshawk</b> breed, and the ponds attract <b>dragonflies and amphibians</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song and amphibians), Sep\u2013Nov (fungi)<br>\n    <b>Best time of day:</b> Early morning \u2014 before the walkers and cyclists.',
+ 'why': ['Laid out on former <b>heath and waste ground</b>.',
+         'Part of the policy of planting <b>town-edge woods</b>.',
+         'Motive: the <b>five-day week</b> gave families mass leisure time.',
+         'Now sixty years old with <b>dead wood and shrub layers</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f989 <b>Tawny owl</b> calls in late winter.',
+          '<span class="months">Mar\u2013Apr</span> \U0001f438 <b>Amphibians</b> in the ponds.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Woodpeckers and songbirds</b> in the wood.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> under conifers and broadleaves.'],
+ 'wild': ['\U0001f989 Tawny owl \u00b7 \U0001f426 Great spotted woodpecker \u00b7 Blackcap', '\U0001f985 Goshawk \u00b7 Buzzard \u00b7 Sparrowhawk', '\U0001f438 Frogs \u00b7 Toads \u00b7 \U0001f9a0 Dragonflies', '\U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98c Roe deer \u00b7 \U0001f98a Fox', '\U0001f333 Scots pine \u00b7 Beech \u00b7 Oak \u00b7 Birch'],
+ 'trail': ['Park on the <b>edge of Hardenberg</b>; an extensive path network.',
+           'Walk past the <b>ponds</b> for dragonflies and amphibians.',
+           'Early morning for <b>quiet</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f9d2 Family-friendly \u00b7 \U0001f6b4 Cycle paths'
+}))
+
+C.append(mk.card(1481, 'Het Engelandsche Bosch', {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Landgoedbos \u00b7 oud loofbos met lanenstructuur', 'list 36 \u00b7 no. 200'],
+ 'loc': '\U0001f4cd Bij Rheeze, ten zuiden van Hardenberg \u00b7 Landgoedbos \u00b7 Middelgroot',
+ 'desc': 'Het <b>Engelandsche Bosch</b> heeft een naam die verwarring wekt: hij verwijst niet naar Engeland maar naar het oude woord <b>eng</b> of <b>enk</b> \u2014 hooggelegen bouwland, zoals in de Drentse en Twentse esdorpen. Het bos ligt dan ook op en rond een oude eng bij Rheeze, op een <b>dekzandrug</b> boven het natte Vechtdal. De rechte <b>lanen</b> die het bos doorsnijden verraden een negentiende-eeuwse landgoedaanleg: eigenaren van bezittingen in het Vechtdal lieten hun heidevelden bebossen en er lanenstelsels doorheen leggen, deels voor houtopbrengst, deels als statussymbool. Nu staan er oude <b>beuken en eiken</b>, met <b>boomklever, bosuil, holenduif</b> en in de herfst veel <b>paddenstoelen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang en voorjaarsflora), sep\u2013nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 licht valt door de lanen.',
+ 'why': ['<b>Engeland</b> komt van <b>eng</b> of enk: hooggelegen bouwland.',
+         'Het bos ligt op een <b>dekzandrug</b> boven het natte Vechtdal.',
+         'Rechte <b>lanen</b> verraden negentiende-eeuwse landgoedaanleg.',
+         'Bebossing van heide, deels voor hout, deels als <b>statussymbool</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f989 <b>Bosuil</b> roept vanuit de lanen.',
+          '<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Voorjaarsflora</b> onder de beuken.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en holenduif</b> in de holtes.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> onder oude bomen.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 Holenduif \u00b7 Grote bonte specht', '\U0001f989 Bosuil \u00b7 \U0001f985 Havik \u00b7 Buizerd', '\U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98c Ree \u00b7 Boommarter', '\U0001f344 Boleten \u00b7 Amanieten \u00b7 Russula\u2019s', '\U0001f333 Oude beuk \u00b7 Zomereik \u00b7 Grove den'],
+ 'trail': ['Parkeren bij <b>Rheeze</b>; lanen en bospaden door het gebied.',
+           'Volg een <b>laan</b> in de lengte \u2014 het landgoedontwerp wordt zichtbaar.',
+           'Herfst voor de <b>paddenstoelen</b> onder de oude bomen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3fa Landgoedstructuur \u00b7 \U0001f6b6 Lanenpaden'
+}, {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Estate wood \u00b7 old broadleaf wood with avenues', 'list 36 \u00b7 no. 200'],
+ 'loc': '\U0001f4cd Near Rheeze, south of Hardenberg \u00b7 Estate wood \u00b7 Medium-sized',
+ 'desc': 'The <b>Engelandsche Bosch</b> has a name that causes confusion: it refers not to England but to the old word <b>eng</b> or <b>enk</b> \u2014 elevated arable land, as in the es villages of Drenthe and Twente. The wood accordingly lies on and around an old eng near Rheeze, on a <b>cover-sand ridge</b> above the wet Vecht valley. The straight <b>avenues</b> cutting through the wood betray a nineteenth-century estate layout: owners of properties in the Vecht valley had their heathlands planted with trees and avenue systems laid through them, partly for timber, partly as a status symbol. Old <b>beeches and oaks</b> now stand there, with <b>nuthatch, tawny owl, stock dove</b> and many <b>fungi</b> in autumn.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song and spring flora), Sep\u2013Nov (fungi)<br>\n    <b>Best time of day:</b> Early morning \u2014 light falls down the avenues.',
+ 'why': ['<b>Engeland</b> comes from <b>eng</b> or enk: elevated arable land.',
+         'The wood lies on a <b>cover-sand ridge</b> above the wet Vecht valley.',
+         'Straight <b>avenues</b> betray a nineteenth-century estate layout.',
+         'Heath afforested partly for timber, partly as a <b>status symbol</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f989 <b>Tawny owl</b> calls from the avenues.',
+          '<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Spring flora</b> beneath the beeches.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and stock dove</b> in the cavities.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> beneath the old trees.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Stock dove \u00b7 Great spotted woodpecker', '\U0001f989 Tawny owl \u00b7 \U0001f985 Goshawk \u00b7 Buzzard', '\U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98c Roe deer \u00b7 Pine marten', '\U0001f344 Boletes \u00b7 Amanitas \u00b7 Brittlegills', '\U0001f333 Old beech \u00b7 Pedunculate oak \u00b7 Scots pine'],
+ 'trail': ['Park at <b>Rheeze</b>; avenues and woodland paths cross the area.',
+           'Follow an <b>avenue</b> lengthwise \u2014 the estate design becomes visible.',
+           'Autumn for the <b>fungi</b> beneath the old trees.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3fa Estate structure \u00b7 \U0001f6b6 Avenue paths'
+}))
+
+C.append(mk.card(1482, 'Hardenberg-Oost landschapselementen', {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Landschapselementen \u00b7 houtwallen en singels op het zand', 'list 36 \u00b7 no. 201'],
+ 'loc': '\U0001f4cd Ten oosten van Hardenberg \u00b7 Kleine elementen \u00b7 Klein',
+ 'desc': 'Ten oosten van Hardenberg, richting de Duitse grens, ligt een kleinschalig zandlandschap met <b>houtwallen, singels en kleine bosjes</b>. De <b>houtwal</b> is hier het kenmerkende element: een aarden wal met hakhout erop, aangelegd als <b>veekering</b> in een tijd zonder prikkeldraad. Het vee moest van het bouwland worden gehouden, en een wal met dicht hakhout van eik, els en hazelaar was daarvoor de enige praktische oplossing. Elke acht à twaalf jaar werd het hout afgezet voor geriefhout en brandstof, waardoor de wallen eeuwenlang in stand bleven. Ze zijn nu ecologisch waardevol als <b>lijnvormige elementen</b>: <b>das, steenuil, geelgors en hazelworm</b> zijn ervan afhankelijk.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (zang en bloei), okt\u2013nov (bessen en herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Avondschemer \u2014 das en steenuil langs de wallen.',
+ 'why': ['De <b>houtwal</b> was een veekering in een tijd zonder prikkeldraad.',
+         'Aarden wal met dicht <b>hakhout</b> van eik, els en hazelaar.',
+         'Elke acht à twaalf jaar afgezet voor <b>geriefhout en brandstof</b>.',
+         'Nu waardevolle <b>lijnvormige elementen</b> voor das en steenuil.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Voorjaarsflora</b> op de walvoet.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Geelgors en grasmus</b> zingen op de wallen.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f9a1 <b>Das</b> volgt de wallen als looproute.',
+          '<span class="months">Okt\u2013Nov</span> \U0001fad0 <b>Bessen en hazelnoten</b> op het hakhout.'],
+ 'wild': ['\U0001f9a1 Das \u00b7 \U0001f989 Steenuil \u00b7 \U0001f426 Geelgors', '\U0001f98e Hazelworm \u00b7 Levendbarende hagedis', '\U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98c Ree \u00b7 \U0001f98a Vos', '\U0001f41d Wilde bijen op de walkanten', '\U0001f333 Zomereik \u00b7 Els \u00b7 Hazelaar \u00b7 Meidoorn'],
+ 'trail': ['Parkeren bij <b>Hardenberg</b>; zandwegen langs de houtwallen.',
+           'Bekijk een <b>walprofiel</b>: de aarden rug is nog goed te zien.',
+           'Schemer voor <b>das en steenuil</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Respecteer de erven \u00b7 \U0001f6b6 Zandwegen'
+}, {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Landscape elements \u00b7 hedgebanks and tree lines on sand', 'list 36 \u00b7 no. 201'],
+ 'loc': '\U0001f4cd East of Hardenberg \u00b7 Small elements \u00b7 Small',
+ 'desc': 'East of Hardenberg, towards the German border, lies a small-scale sandy landscape of <b>hedgebanks, tree lines and small copses</b>. The <b>houtwal</b> or hedgebank is the characteristic element here: an earthen bank topped with coppice, built as <b>stock-proof fencing</b> in an age without barbed wire. Cattle had to be kept off the arable, and a bank with dense coppice of oak, alder and hazel was the only practical solution. Every eight to twelve years the wood was cut for utility timber and fuel, which kept the banks intact for centuries. They are now ecologically valuable as <b>linear elements</b>: <b>badger, little owl, yellowhammer and slow worm</b> depend on them.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (song and flowering), Oct\u2013Nov (berries and autumn colour)<br>\n    <b>Best time of day:</b> Dusk \u2014 badger and little owl along the banks.',
+ 'why': ['The <b>hedgebank</b> was stock fencing in an age without barbed wire.',
+         'An earthen bank with dense <b>coppice</b> of oak, alder and hazel.',
+         'Cut every eight to twelve years for <b>timber and fuel</b>.',
+         'Now valuable <b>linear elements</b> for badger and little owl.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Spring flora</b> at the foot of the bank.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Yellowhammer and whitethroat</b> sing on the banks.',
+          '<span class="months">May\u2013Aug</span> \U0001f9a1 <b>Badger</b> follows the banks as a route.',
+          '<span class="months">Oct\u2013Nov</span> \U0001fad0 <b>Berries and hazelnuts</b> on the coppice.'],
+ 'wild': ['\U0001f9a1 Badger \u00b7 \U0001f989 Little owl \u00b7 \U0001f426 Yellowhammer', '\U0001f98e Slow worm \u00b7 Common lizard', '\U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98c Roe deer \u00b7 \U0001f98a Fox', '\U0001f41d Wild bees on the bank sides', '\U0001f333 Pedunculate oak \u00b7 Alder \u00b7 Hazel \u00b7 Hawthorn'],
+ 'trail': ['Park at <b>Hardenberg</b>; sandy tracks run along the hedgebanks.',
+           'Study a <b>bank profile</b>: the earthen ridge is still clear.',
+           'Dusk for <b>badger and little owl</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Respect the farmyards \u00b7 \U0001f6b6 Sandy tracks'
+}))
+
+C.append(mk.card(1483, 'Rheeze', {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Esdorp \u00b7 oude es en landgoed aan de Vecht', 'list 36 \u00b7 no. 202'],
+ 'loc': '\U0001f4cd Rheeze, ten zuidwesten van Hardenberg \u00b7 Esdorp en landgoed \u00b7 Middelgroot',
+ 'desc': '<b>Rheeze</b> is een van de oudste nederzettingen van het Vechtdal en toont het klassieke <b>esdorpmodel</b> nog volledig: een <b>es</b> op de hoge zandrug voor het bouwland, <b>groenlanden</b> in het lage Vechtdal voor het hooi, en heidevelden daarachter voor de schapen en de plaggen. Die drieslag was geen keuze maar een noodzaak \u2014 het hele systeem draaide op de mest die schapen \u2019s nachts in de potstal achterlieten, gemengd met heideplaggen en uitgereden over de es. Zonder heide geen mest, zonder mest geen graan. Rond Rheeze liggen bovendien <b>oude landgoedbossen</b>. Er broeden <b>steenuil, groene specht en ijsvogel</b>, en de <b>das</b> is er algemeen.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang en voorjaarsflora), okt\u2013nov (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Avondschemer \u2014 das en steenuil rond de es.',
+ 'why': ['Toont het klassieke <b>esdorpmodel</b> nog volledig.',
+         'Es voor het graan, <b>groenlanden</b> voor het hooi, heide voor de schapen.',
+         'Het systeem draaide op <b>potstalmest</b> van schapen en heideplaggen.',
+         'Zonder heide geen mest, zonder mest <b>geen graan</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Voorjaarsflora</b> in de landgoedbossen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Groene specht en steenuil</b> rond de es.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f9a1 <b>Das</b> actief langs de esranden.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> in de oude lanen.'],
+ 'wild': ['\U0001f989 Steenuil \u00b7 \U0001f426 Groene specht \u00b7 IJsvogel', '\U0001f9a1 Das \u00b7 \U0001f98a Vos \u00b7 \U0001f98c Ree', '\U0001f987 Vleermuizen in de oude bomen', '\U0001f33c Stinzenflora \u00b7 Bosanemoon', '\U0001f333 Oude eik \u00b7 Beuk \u00b7 Els'],
+ 'trail': ['Parkeren in <b>Rheeze</b>; zandwegen over de es en naar de Vecht.',
+           'Loop van de <b>es naar het Vechtdal</b> \u2014 dat toont de drieslag.',
+           'Schemer voor <b>das en steenuil</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3fa Esdorplandschap \u00b7 \U0001f6b6 Zandwegen'
+}, {
+ 'tags': ['Overijssel \u00b7 Hardenberg', 'Es village \u00b7 old arable dome and estate on the Vecht', 'list 36 \u00b7 no. 202'],
+ 'loc': '\U0001f4cd Rheeze, south-west of Hardenberg \u00b7 Es village and estate \u00b7 Medium-sized',
+ 'desc': '<b>Rheeze</b> is one of the oldest settlements in the Vecht valley and still shows the classic <b>es-village model</b> in full: an <b>es</b> on the high sand ridge for arable, <b>green lands</b> in the low Vecht valley for hay, and heathlands behind for the sheep and the sods. That threefold system was not a choice but a necessity \u2014 the whole thing ran on the manure sheep left overnight in the byre, mixed with heather sods and spread over the es. No heath, no manure; no manure, no grain. Around Rheeze lie <b>old estate woods</b> as well. <b>Little owl, green woodpecker and kingfisher</b> breed, and the <b>badger</b> is common.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song and spring flora), Oct\u2013Nov (autumn colour)<br>\n    <b>Best time of day:</b> Dusk \u2014 badger and little owl around the es.',
+ 'why': ['Still shows the classic <b>es-village model</b> in full.',
+         'Es for grain, <b>green lands</b> for hay, heath for the sheep.',
+         'The system ran on <b>byre manure</b> of sheep and heather sods.',
+         'No heath, no manure; no manure, <b>no grain</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Spring flora</b> in the estate woods.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Green woodpecker and little owl</b> around the es.',
+          '<span class="months">May\u2013Aug</span> \U0001f9a1 <b>Badger</b> active along the es edges.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> in the old avenues.'],
+ 'wild': ['\U0001f989 Little owl \u00b7 \U0001f426 Green woodpecker \u00b7 Kingfisher', '\U0001f9a1 Badger \u00b7 \U0001f98a Fox \u00b7 \U0001f98c Roe deer', '\U0001f987 Bats in the old trees', '\U0001f33c Stinzen flora \u00b7 Wood anemone', '\U0001f333 Old oak \u00b7 Beech \u00b7 Alder'],
+ 'trail': ['Park in <b>Rheeze</b>; sandy tracks cross the es and reach the Vecht.',
+           'Walk from the <b>es to the Vecht valley</b> \u2014 that shows the threefold system.',
+           'Dusk for <b>badger and little owl</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3fa Es-village landscape \u00b7 \U0001f6b6 Sandy tracks'
+}))
+
+C.append(mk.card(1484, 'Vechtdal', {
+ 'tags': ['Overijssel \u00b7 Ommen en Hardenberg', 'Rivierdal \u00b7 regenrivier met rivierduinen', 'list 36 \u00b7 no. 203'],
+ 'loc': '\U0001f4cd Van Gramsbergen via Hardenberg en Ommen naar Zwolle \u00b7 Rivierdal \u00b7 Zeer groot',
+ 'desc': 'Het <b>Vechtdal</b> is het brede dal van de <b>Overijsselse Vecht</b>, en het is het meest dynamische zandrivierlandschap van Nederland. De Vecht is een <b>regenrivier</b>: ze wordt niet gevoed door gletsjers of grote stuwmeren maar uitsluitend door neerslag in Duitsland en Twente, waardoor haar afvoer binnen dagen kan verveelvoudigen. Die grillige rivier heeft in het dal <b>rivierduinen</b> opgeworpen \u2014 zand dat bij lage waterstanden droogviel en door de wind werd opgestoven. Nergens anders in Nederland liggen zulke duinen midden in een rivierdal. Na eeuwen normalisatie wordt de Vecht sinds 2005 stapsgewijs <b>hermeanderd</b>. Het dal huisvest <b>bever, otter, ijsvogel, oeverzwaluw</b> en zeldzame <b>stroomdalflora</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013jul</b> (stroomdalflora en oeverzwaluw), nov\u2013feb (hoogwater)<br>\n    <b>Beste tijd van de dag:</b> Schemer \u2014 bever en otter langs de oevers.',
+ 'n2k': 'Natura 2000-gebied Vecht- en Beneden-Reggegebied \u2014 rivierduinen, stroomdalgraslanden en beekbegeleidend bos.',
+ 'why': ['De Vecht is een <b>regenrivier</b>, gevoed door neerslag alleen.',
+         'De afvoer kan binnen <b>dagen verveelvoudigen</b> na regen.',
+         '<b>Rivierduinen</b> midden in een rivierdal \u2014 uniek in Nederland.',
+         'Sinds 2005 stapsgewijs <b>hermeanderd</b> na eeuwen normalisatie.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Oeverzwaluw</b> graaft in de steilranden.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Stroomdalflora</b> op de rivierduinen.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de meanders.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f30a <b>Hoogwater</b> \u2014 de rivier vult het hele dal.'],
+ 'wild': ['\U0001f9ab Bever \u00b7 \U0001f9a6 Otter \u00b7 \U0001f98c Ree', '\U0001f426 IJsvogel \u00b7 Oeverzwaluw \u00b7 Kleine plevier \u00b7 Wielewaal', '\U0001f41f Winde \u00b7 Kopvoorn \u00b7 Serpeling \u00b7 Rivierdonderpad', '\U0001f33c Steenanjer \u00b7 Kruisdistel \u00b7 Zandblauwtje', '\U0001f98e Zandhagedis op de rivierduinen'],
+ 'trail': ['Parkeren bij <b>Ommen</b>, Hardenberg of Gramsbergen; lange dalroutes.',
+           'Zoek de <b>rivierduinen</b> \u2014 zandkoppen midden in het dal.',
+           'Schemer voor <b>bever en otter</b> langs de meanders.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Hoogwater in de winter'
+}, {
+ 'tags': ['Overijssel \u00b7 Ommen and Hardenberg', 'River valley \u00b7 rain river with river dunes', 'list 36 \u00b7 no. 203'],
+ 'loc': '\U0001f4cd From Gramsbergen via Hardenberg and Ommen to Zwolle \u00b7 River valley \u00b7 Very large',
+ 'desc': 'The <b>Vecht valley</b> is the broad valley of the <b>Overijsselse Vecht</b>, and it is the most dynamic sandy-river landscape in the Netherlands. The Vecht is a <b>rain river</b>: fed not by glaciers or large reservoirs but purely by rainfall in Germany and Twente, so that its discharge can multiply within days. That capricious river has thrown up <b>river dunes</b> in the valley \u2014 sand that fell dry at low water and was blown up by the wind. Nowhere else in the Netherlands do such dunes lie in the middle of a river valley. After centuries of canalisation the Vecht has been progressively <b>remeandered</b> since 2005. The valley holds <b>beaver, otter, kingfisher, sand martin</b> and rare <b>river-valley flora</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Jul</b> (river flora and sand martin), Nov\u2013Feb (high water)<br>\n    <b>Best time of day:</b> Dusk \u2014 beaver and otter along the banks.',
+ 'n2k_en': 'Natura 2000 site Vecht and Lower Regge \u2014 river dunes, river-valley grassland and riparian woodland.',
+ 'why': ['The Vecht is a <b>rain river</b>, fed by rainfall alone.',
+         'Its discharge can <b>multiply within days</b> after rain.',
+         '<b>River dunes</b> in the middle of a river valley \u2014 unique in the country.',
+         'Progressively <b>remeandered</b> since 2005 after centuries of canalisation.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Sand martins</b> dig into the steep banks.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>River-valley flora</b> on the river dunes.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the meanders.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f30a <b>High water</b> \u2014 the river fills the whole valley.'],
+ 'wild': ['\U0001f9ab Beaver \u00b7 \U0001f9a6 Otter \u00b7 \U0001f98c Roe deer', '\U0001f426 Kingfisher \u00b7 Sand martin \u00b7 Little ringed plover \u00b7 Golden oriole', '\U0001f41f Ide \u00b7 Chub \u00b7 Dace \u00b7 Bullhead', '\U0001f33c Maiden pink \u00b7 Field eryngo \u00b7 Sheep\u2019s bit', '\U0001f98e Sand lizard on the river dunes'],
+ 'trail': ['Park at <b>Ommen</b>, Hardenberg or Gramsbergen; long valley routes.',
+           'Look for the <b>river dunes</b> \u2014 sandy knolls in mid-valley.',
+           'Dusk for <b>beaver and otter</b> along the meanders.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f High water in winter'
+}, card_class='card water'))
+
+mk.insert(C, '1479')
+mk.progress(1484)
+mk.check()

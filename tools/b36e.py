@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1301, 'Rottige Meente', {
+ 'tags': ['Friesland \u00b7 Weststellingwerf', 'Laagveenmoeras \u00b7 petgaten, trilveen en moerasbos', 'list 36 \u00b7 no. 20'],
+ 'loc': '\U0001f4cd Bij Nijetrijne en Scherpenzeel \u00b7 Laagveenmoeras \u00b7 Groot',
+ 'desc': 'De <b>Rottige Meente</b> is het Friese laagveenmoeras bij uitstek, en het is de directe noordelijke voortzetting van het Weerribben-Wieden-systeem. De naam is oud en betekent zoiets als \u2018rottend gemeenschappelijk land\u2019 \u2014 <i>meente</i> is verwant aan <i>gemeenschap</i>, en verwijst naar het feit dat het veen hier eeuwenlang <b>gemeenschappelijk bezit</b> was waar iedereen turf mocht steken. Dat steken gebeurde in lange, smalle stroken: het veen werd uit een <b>petgat</b> gebaggerd en te drogen gelegd op de <b>legakker</b> ernaast. Dat patroon van afwisselend water en smalle landribbels is nog overal zichtbaar en bepaalt de hele natuurwaarde \u2014 want die randlengte tussen water en land is enorm, en juist op die overgang gebeurt alles. Er broeden <b>purperreiger, roerdomp, zwarte stern en snor</b>, de <b>otter</b> is teruggekeerd, en in de trilvenen groeien <b>ronde zonnedauw en veenmosorchis</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013aug</b> (moerasvogels, libellen en orchidee\u00ebn), okt\u2013nov (herfstkleuren)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 en per kano voor het beste zicht op de petgaten.',
+ 'why': ['Het Friese <b>laagveenmoeras bij uitstek</b>, noordelijk vervolg van de Weerribben.',
+         'Nog overal zichtbaar patroon van <b>petgaten en legakkers</b>.',
+         'Enorme <b>randlengte</b> tussen water en land \u2014 de sleutel tot de soortenrijkdom.',
+         'Broedplaats van <b>purperreiger, roerdomp en zwarte stern</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f4a8 <b>Roerdomp</b> hoempt over de petgaten.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Purperreiger en zwarte stern</b> in het moeras.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33c <b>Orchidee\u00ebn</b> bloeien in het trilveen.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Groene glazenmaker</b> boven de krabbenscheer.'],
+ 'wild': ['\U0001f426 Purperreiger \u00b7 Roerdomp \u00b7 Zwarte stern', '\U0001f9a6 Otter', '\U0001f426 Snor \u00b7 Grote karekiet', '\U0001f33c Ronde zonnedauw \u00b7 Veenmosorchis', '\U0001f9a0 Groene glazenmaker \u00b7 Gevlekte witsnuitlibel'],
+ 'trail': ['Parkeren bij <b>Nijetrijne</b> of <b>Scherpenzeel</b>; gemarkeerde wandelroutes.',
+           'Het gebied is het mooist <b>per kano</b> \u2014 verhuur ter plaatse.',
+           'Uitkijkpunten en een <b>vogelkijkhut</b> aan de rand van de petgaten.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Legakkers zijn smal en glad \u00b7 \U0001f9ed Staatsbosbeheer \u00b7 \U0001f6f6 Kano aanbevolen'
+}, {
+ 'tags': ['Friesland \u00b7 Weststellingwerf', 'Fen marsh \u00b7 peat cuttings, quaking fen and marsh woodland', 'list 36 \u00b7 no. 20'],
+ 'loc': '\U0001f4cd Near Nijetrijne and Scherpenzeel \u00b7 Fen marsh \u00b7 Large',
+ 'desc': 'The <b>Rottige Meente</b> is the Frisian fen marsh par excellence, and the direct northern continuation of the Weerribben-Wieden system. The name is old and means something like \u2018rotting common land\u2019 \u2014 <i>meente</i> is cognate with <i>community</i>, and refers to the fact that the peat here was for centuries <b>common property</b> where anyone could cut turf. That cutting was done in long, narrow strips: the peat was dredged from a <b>petgat</b> (cutting) and laid to dry on the <b>legakker</b> (drying baulk) beside it. That pattern of alternating water and narrow ridges of land is still visible everywhere and determines the whole natural value \u2014 because the length of edge between water and land is enormous, and it is precisely on that transition that everything happens. <b>Purple heron, bittern, black tern and Savi\u2019s warbler</b> breed here, the <b>otter</b> has returned, and <b>round-leaved sundew and fen orchid</b> grow in the quaking fens.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Aug</b> (marsh birds, dragonflies and orchids), Oct\u2013Nov (autumn colours)<br>\n    <b>Best time of day:</b> Early morning \u2014 and by canoe for the best view of the cuttings.',
+ 'why': ['The Frisian <b>fen marsh par excellence</b>, northern continuation of the Weerribben.',
+         'Pattern of <b>peat cuttings and drying baulks</b> still visible everywhere.',
+         'Enormous <b>edge length</b> between water and land \u2014 the key to the species richness.',
+         'Breeding site for <b>purple heron, bittern and black tern</b>.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f4a8 <b>Bittern</b> booming over the cuttings.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Purple heron and black tern</b> in the marsh.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33c <b>Orchids</b> flower in the quaking fen.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Green hawker</b> above the water soldier.'],
+ 'wild': ['\U0001f426 Purple heron \u00b7 Bittern \u00b7 Black tern', '\U0001f9a6 Otter', '\U0001f426 Savi\u2019s warbler \u00b7 Great reed warbler', '\U0001f33c Round-leaved sundew \u00b7 Fen orchid', '\U0001f9a0 Green hawker \u00b7 Yellow-spotted whiteface'],
+ 'trail': ['Park at <b>Nijetrijne</b> or <b>Scherpenzeel</b>; waymarked walking routes.',
+           'The area is finest <b>by canoe</b> \u2014 hire available locally.',
+           'Viewpoints and a <b>bird hide</b> at the edge of the cuttings.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Drying baulks are narrow and slippery \u00b7 \U0001f9ed Staatsbosbeheer \u00b7 \U0001f6f6 Canoe recommended'
+}, card_class='card water'))
+
+C.append(mk.card(1302, 'Sonnega', {
+ 'tags': ['Friesland \u00b7 Weststellingwerf', 'Veenweide \u00b7 nat grasland en petgaten', 'list 36 \u00b7 no. 21'],
+ 'loc': '\U0001f4cd Bij Sonnega en Oldetrijne \u00b7 Veenweidegebied \u00b7 Klein',
+ 'desc': 'Bij het gehucht <b>Sonnega</b> ligt een strook veenweide die de overgang vormt tussen de Rottige Meente en het agrarische land van Weststellingwerf. Zulke <b>overgangszones</b> worden vaak over het hoofd gezien, maar ze zijn ecologisch onmisbaar: een moeras dat abrupt tegen intensief grasland aan grenst, verliest zijn buitenrand aan uitspoelende meststoffen en verdroging. Een brede, extensief beheerde zone ertussen werkt als <b>buffer</b>. Hier gebeurt precies dat: percelen met een <b>verhoogd waterpeil</b> en late maaidata liggen als een gordel om het moeras. Het resultaat is dat weidevogels als <b>grutto, tureluur en watersnip</b> hier kunnen broeden terwijl ze in het moeras zelf geen plek vinden \u2014 zij hebben juist open, kruidenrijk grasland nodig. In de sloten en resterende <b>petgaten</b> leven de grote modderkruiper en de kleine watersalamander.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels), mei\u2013jul (kruidenrijk grasland in bloei)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 baltsende watersnippen bij zonsopkomst.',
+ 'why': ['<b>Bufferzone</b> tussen laagveenmoeras en agrarisch land.',
+         'Verhoogd peil en <b>late maaidata</b> maken weidevogelbroed mogelijk.',
+         'Weidevogels vinden hier wat het moeras niet biedt: <b>open grasland</b>.',
+         'Sloten en petgaten met <b>grote modderkruiper</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Watersnip</b> baltst boven de natte percelen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Grutto en tureluur</b> met kuikens.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Kruidenrijk grasland</b> in volle bloei.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f426 Doortrekkende <b>steltlopers</b> op plas-dras.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Watersnip', '\U0001f426 Gele kwikstaart \u00b7 Veldleeuwerik', '\U0001f41f Grote modderkruiper', '\U0001f438 Kleine watersalamander', '\U0001f33c Echte koekoeksbloem \u00b7 Dotterbloem'],
+ 'trail': ['Parkeren in <b>Sonnega</b>; polderwegen doorkruisen het gebied.',
+           'Goed te combineren met de <b>Rottige Meente</b> ernaast.',
+           'Blijf op de <b>wegen en paden</b> \u2014 weidevogelgebied.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Broedseizoen mrt\u2013jun: niet betreden \u00b7 \U0001f6b4 Fietsroute'
+}, {
+ 'tags': ['Friesland \u00b7 Weststellingwerf', 'Peat meadow \u00b7 wet grassland and peat cuttings', 'list 36 \u00b7 no. 21'],
+ 'loc': '\U0001f4cd Near Sonnega and Oldetrijne \u00b7 Peat meadow area \u00b7 Small',
+ 'desc': 'By the hamlet of <b>Sonnega</b> lies a strip of peat meadow forming the transition between the Rottige Meente and the farmland of Weststellingwerf. Such <b>transition zones</b> are often overlooked, but they are ecologically indispensable: a marsh abutting intensive grassland abruptly loses its outer edge to leaching fertiliser and desiccation. A broad, extensively managed zone in between acts as a <b>buffer</b>. That is exactly what happens here: parcels with a <b>raised water level</b> and late mowing dates lie like a belt around the marsh. The result is that meadow birds such as <b>godwit, redshank and snipe</b> can breed here while finding no place in the marsh itself \u2014 they need open, herb-rich grassland. Spined loach and smooth newt live in the ditches and remaining <b>peat cuttings</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds), May\u2013Jul (herb-rich grassland in flower)<br>\n    <b>Best time of day:</b> Early morning \u2014 drumming snipe at sunrise.',
+ 'why': ['<b>Buffer zone</b> between fen marsh and farmland.',
+         'Raised level and <b>late mowing dates</b> make meadow-bird breeding possible.',
+         'Meadow birds find here what the marsh does not offer: <b>open grassland</b>.',
+         'Ditches and cuttings with <b>spined loach</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Snipe</b> drumming above the wet parcels.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Godwit and redshank</b> with chicks.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Herb-rich grassland</b> in full flower.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f426 Passage <b>waders</b> on the shallow flooded parts.'],
+ 'wild': ['\U0001f426 Black-tailed godwit \u00b7 Redshank \u00b7 Snipe', '\U0001f426 Yellow wagtail \u00b7 Skylark', '\U0001f41f Spined loach', '\U0001f438 Smooth newt', '\U0001f33c Ragged robin \u00b7 Marsh marigold'],
+ 'trail': ['Park in <b>Sonnega</b>; polder roads cross the area.',
+           'Easily combined with the adjacent <b>Rottige Meente</b>.',
+           'Keep to <b>roads and paths</b> \u2014 meadow-bird ground.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Breeding season Mar\u2013Jun: do not enter \u00b7 \U0001f6b4 Cycle route'
+}))
+
+C.append(mk.card(1303, 'Kuinderbos', {
+ 'tags': ['Flevoland \u00b7 Noordoostpolder', 'Productiebos \u00b7 gemengd bos op zeebodem', 'list 36 \u00b7 no. 22'],
+ 'loc': '\U0001f4cd Bij Kuinre en Bant \u00b7 Bos op drooggelegde zeebodem \u00b7 Groot',
+ 'desc': 'Het <b>Kuinderbos</b> is een van de eerste bossen die na de drooglegging van de <b>Noordoostpolder</b> (1942) werden aangeplant, en dat maakt het tot een levend experiment. Men wist toen namelijk niet welke bomen zouden aanslaan op een <b>voormalige zeebodem</b>: de grond was kalkrijk, zout en volkomen onvergroeid. Daarom is het bos aangelegd als een lappendeken van tientallen <b>proefvakken</b> met verschillende soorten \u2014 populier, es, esdoorn, eik, lariks, douglas \u2014 en die vakken zijn nog altijd herkenbaar als je erdoorheen loopt. Wat niemand had voorzien, is dat het kalkrijke zand een <b>uitzonderlijke paddenstoelenflora</b> zou voortbrengen: het Kuinderbos geldt als een van de rijkste mycologische gebieden van Nederland, met honderden soorten waaronder zeldzame <b>satijnzwammen en wasplaten</b>. Ook groeien er inmiddels tientallen soorten <b>orchidee\u00ebn</b> op de open, kalkrijke plekken.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Sep\u2013nov</b> (paddenstoelen \u2014 de absolute topper), mei\u2013jul (orchidee\u00ebn)<br>\n    <b>Beste tijd van de dag:</b> Ochtend na een natte nacht \u2014 dan zijn de paddenstoelen op hun mooist.',
+ 'why': ['Aangelegd als <b>proeftuin</b>: tientallen boomsoortvakken op nieuwe zeebodem.',
+         'Een van de <b>rijkste paddenstoelengebieden</b> van Nederland.',
+         'Kalkrijk zand levert zeldzame <b>wasplaten en satijnzwammen</b>.',
+         'Tientallen soorten <b>orchidee\u00ebn</b> op de open plekken.'],
+ 'phen': ['<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Orchidee\u00ebn</b> bloeien op de kalkrijke open plekken.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f426 <b>Wielewaal en havik</b> in de oudere vakken.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelenpiek</b> \u2014 honderden soorten.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f341 <b>Herfstkleur</b> verschilt per proefvak.'],
+ 'wild': ['\U0001f344 Wasplaten \u00b7 Satijnzwammen \u00b7 Russula\u2019s', '\U0001f33c Rietorchis \u00b7 Bijenorchis \u00b7 Bosorchis', '\U0001f426 Wielewaal \u00b7 Havik \u00b7 Bosuil', '\U0001f98c Ree', '\U0001f333 Populier \u00b7 Es \u00b7 Lariks \u00b7 Douglas'],
+ 'trail': ['Parkeren bij <b>Kuinre</b>; gemarkeerde routes door de proefvakken.',
+           'Kom in de <b>herfst</b> \u2014 daar dankt het bos zijn faam aan.',
+           'Blijf op de paden en <b>pluk geen paddenstoelen</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Paddenstoelen niet plukken \u00b7 \U0001f9ed Staatsbosbeheer'
+}, {
+ 'tags': ['Flevoland \u00b7 Noordoostpolder', 'Production woodland \u00b7 mixed forest on sea floor', 'list 36 \u00b7 no. 22'],
+ 'loc': '\U0001f4cd Near Kuinre and Bant \u00b7 Woodland on reclaimed sea floor \u00b7 Large',
+ 'desc': 'The <b>Kuinderbos</b> is one of the first woods planted after the reclamation of the <b>Noordoostpolder</b> (1942), which makes it a living experiment. At the time nobody knew which trees would take on a <b>former sea floor</b>: the ground was lime-rich, salty and entirely unweathered. The wood was therefore laid out as a patchwork of dozens of <b>trial plots</b> with different species \u2014 poplar, ash, maple, oak, larch, Douglas fir \u2014 and those plots are still recognisable as you walk through. What nobody foresaw is that the lime-rich sand would produce an <b>exceptional fungal flora</b>: the Kuinderbos ranks among the richest mycological sites in the Netherlands, with hundreds of species including rare <b>pinkgills and waxcaps</b>. Dozens of species of <b>orchid</b> now also grow in the open, lime-rich spots.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Sep\u2013Nov</b> (fungi \u2014 the absolute highlight), May\u2013Jul (orchids)<br>\n    <b>Best time of day:</b> Morning after a wet night \u2014 the fungi are then at their finest.',
+ 'why': ['Laid out as a <b>test garden</b>: dozens of tree-species plots on new sea floor.',
+         'One of the <b>richest fungal sites</b> in the Netherlands.',
+         'Lime-rich sand yields rare <b>waxcaps and pinkgills</b>.',
+         'Dozens of <b>orchid</b> species in the open spots.'],
+ 'phen': ['<span class="months">May\u2013Jul</span> \U0001f33c <b>Orchids</b> flower in the lime-rich clearings.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f426 <b>Golden oriole and goshawk</b> in the older plots.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungal peak</b> \u2014 hundreds of species.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f341 <b>Autumn colour</b> differs from plot to plot.'],
+ 'wild': ['\U0001f344 Waxcaps \u00b7 Pinkgills \u00b7 Brittlegills', '\U0001f33c Marsh orchid \u00b7 Bee orchid \u00b7 Common spotted orchid', '\U0001f426 Golden oriole \u00b7 Goshawk \u00b7 Tawny owl', '\U0001f98c Roe deer', '\U0001f333 Poplar \u00b7 Ash \u00b7 Larch \u00b7 Douglas fir'],
+ 'trail': ['Park at <b>Kuinre</b>; waymarked routes through the trial plots.',
+           'Come in <b>autumn</b> \u2014 that is what the wood is famous for.',
+           'Keep to the paths and <b>do not pick fungi</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Do not pick fungi \u00b7 \U0001f9ed Staatsbosbeheer'
+}))
+
+C.append(mk.card(1304, 'De Weerribben', {
+ 'tags': ['Overijssel \u00b7 Steenwijkerland', 'Nationaal Park \u00b7 grootste laagveenmoeras van West-Europa', 'list 36 \u00b7 no. 23'],
+ 'loc': '\U0001f4cd Bij Ossenzijl, Kalenberg en Nederland \u00b7 Laagveenmoeras \u00b7 Zeer groot',
+ 'desc': 'De <b>Weerribben</b> vormen samen met De Wieden het <b>grootste laagveenmoeras van West-Europa</b>, en het hele landschap is door mensenhanden gemaakt zonder dat dat de bedoeling was. De namen zeggen het al: een <b>ribbe</b> is de smalle strook land waarop de turf te drogen lag, en een <b>weer</b> is het gat waaruit hij gebaggerd werd. Vanaf de zestiende eeuw is hier op industri\u00eble schaal turf gestoken, tot het landschap uit niets anders bestond dan een netwerk van waterstroken en landribbels. Toen de turfwinning stopte, begon de <b>verlanding</b> \u2014 en dat proces leverde trilveen op, een drijvende vegetatiemat die zo bijzonder is dat het gebied Nationaal Park werd. Hier leeft de <b>otter</b> in de grootste Nederlandse populatie, broeden <b>grote karekiet, purperreiger en roerdomp</b>, en vliegt de <b>grote vuurvlinder</b> \u2014 een soort die in Nederland alleen hier en in De Wieden voorkomt.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jun\u2013aug</b> (grote vuurvlinder, orchidee\u00ebn en moerasvogels), mrt\u2013mei (roerdomp)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend per kano \u2014 het water is dan stil en de dieren actief.',
+ 'n2k': 'Natura 2000-gebied \u2014 De Weerribben. Aangewezen voor <b>trilveen, veenmosrietland en overgangsveen</b>, en voor soorten als <b>otter, grote vuurvlinder, gestreepte waterroofkever, roerdomp, purperreiger en grote karekiet</b>. Het beheer richt zich op het in stand houden van alle stadia van de verlandingsreeks door periodiek nieuwe petgaten te graven en rietland jaarlijks te maaien.',
+ 'why': ['<b>Grootste laagveenmoeras van West-Europa</b>, en Nationaal Park.',
+         'Landschap van <b>weren en ribben</b> \u2014 gaten en droogstroken van de turfwinning.',
+         'Enige Nederlandse vindplaats (met De Wieden) van de <b>grote vuurvlinder</b>.',
+         'Grootste <b>otterpopulatie</b> van Nederland.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f4a8 <b>Roerdomp</b> hoempt \u2014 hoorbaar over kilometers.',
+          '<span class="months">Mei\u2013Jun</span> \U0001f426 <b>Grote karekiet</b> zingt in overjarig riet.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98b <b>Grote vuurvlinder</b> boven de moerasvarens.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33c <b>Orchidee\u00ebn</b> in het trilveen.'],
+ 'wild': ['\U0001f98b Grote vuurvlinder', '\U0001f9a6 Otter', '\U0001f426 Grote karekiet \u00b7 Purperreiger \u00b7 Roerdomp', '\U0001f9a0 Gestreepte waterroofkever \u00b7 Groene glazenmaker', '\U0001f33c Moeraskartelblad \u00b7 Veenmosorchis \u00b7 Zonnedauw'],
+ 'trail': ['Bezoekerscentrum in <b>Ossenzijl</b>; verhuur van kano\u2019s en fluisterboten.',
+           'Wandelroutes over de <b>ribben</b> vanaf Kalenberg en Nederland.',
+           'Het gebied is fundamenteel een <b>waterlandschap</b> \u2014 ga het water op.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis (parkeren en vaarhuur betaald) \u00b7 \u26a0\ufe0f Trilveen niet betreden \u00b7 \U0001f9ed Staatsbosbeheer \u00b7 \U0001f6f6 Fluisterboot of kano'
+}, {
+ 'tags': ['Overijssel \u00b7 Steenwijkerland', 'National Park \u00b7 largest fen marsh in Western Europe', 'list 36 \u00b7 no. 23'],
+ 'loc': '\U0001f4cd Near Ossenzijl, Kalenberg and Nederland \u00b7 Fen marsh \u00b7 Very large',
+ 'desc': 'The <b>Weerribben</b>, together with De Wieden, form the <b>largest fen marsh in Western Europe</b>, and the entire landscape was made by human hands without that ever being the intention. The names say it all: a <b>ribbe</b> is the narrow strip of land on which the turf lay to dry, and a <b>weer</b> is the hole it was dredged from. From the sixteenth century turf was cut here on an industrial scale, until the landscape consisted of nothing but a network of water strips and land ridges. When peat extraction ceased, <b>terrestrialisation</b> began \u2014 and that process produced quaking fen, a floating vegetation mat so special that the area became a National Park. Here the <b>otter</b> lives in the largest Dutch population, <b>great reed warbler, purple heron and bittern</b> breed, and the <b>large copper butterfly</b> flies \u2014 a species occurring in the Netherlands only here and in De Wieden.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jun\u2013Aug</b> (large copper, orchids and marsh birds), Mar\u2013May (bittern)<br>\n    <b>Best time of day:</b> Early morning by canoe \u2014 the water is still and the animals active.',
+ 'n2k_en': 'Natura 2000 site \u2014 De Weerribben. Designated for <b>quaking fens, sphagnum reedland and transition mires</b>, and for species such as <b>otter, large copper, spotted diving beetle, bittern, purple heron and great reed warbler</b>. Management focuses on maintaining every stage of the terrestrialisation sequence by periodically digging new cuttings and mowing reedland annually.',
+ 'why': ['<b>Largest fen marsh in Western Europe</b>, and a National Park.',
+         'Landscape of <b>weren and ribben</b> \u2014 holes and drying strips of peat cutting.',
+         'Only Dutch site (with De Wieden) for the <b>large copper butterfly</b>.',
+         'Largest <b>otter population</b> in the Netherlands.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f4a8 <b>Bittern</b> booming \u2014 audible for kilometres.',
+          '<span class="months">May\u2013Jun</span> \U0001f426 <b>Great reed warbler</b> sings in old standing reed.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98b <b>Large copper</b> above the marsh ferns.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33c <b>Orchids</b> in the quaking fen.'],
+ 'wild': ['\U0001f98b Large copper butterfly', '\U0001f9a6 Otter', '\U0001f426 Great reed warbler \u00b7 Purple heron \u00b7 Bittern', '\U0001f9a0 Spotted diving beetle \u00b7 Green hawker', '\U0001f33c Marsh lousewort \u00b7 Fen orchid \u00b7 Sundew'],
+ 'trail': ['Visitor centre at <b>Ossenzijl</b>; canoe and whisper-boat hire.',
+           'Walking routes along the <b>ribben</b> from Kalenberg and Nederland.',
+           'The area is fundamentally a <b>water landscape</b> \u2014 get onto the water.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free (parking and boat hire paid) \u00b7 \u26a0\ufe0f Do not enter the quaking fen \u00b7 \U0001f9ed Staatsbosbeheer \u00b7 \U0001f6f6 Whisper boat or canoe'
+}, card_class='card water'))
+
+C.append(mk.card(1305, 'Kolken langs de Zuiderzeedijk', {
+ 'tags': ['Flevoland / Overijssel \u00b7 Noordoostpolder', 'Wielen \u00b7 diepe dijkdoorbraakgaten', 'list 36 \u00b7 no. 24'],
+ 'loc': '\U0001f4cd Langs de oude Zuiderzeedijk bij Blokzijl en Vollenhove \u00b7 Kolken \u00b7 Klein',
+ 'desc': 'Langs de oude <b>Zuiderzeedijk</b> ligt een reeks ronde, opvallend diepe waterplassen: de <b>kolken</b> of <b>wielen</b>. Elk daarvan is het litteken van een <b>dijkdoorbraak</b>. Wanneer de zee door de dijk brak, schoot het water met enorme kracht door de bres en spoelde het een diepe ketel uit de bodem \u2014 soms tien tot vijftien meter diep, veel dieper dan de omliggende sloten. Zo\u2019n gat was daarna niet meer te dichten, en dus legde men de nieuwe dijk in een boog erom heen. Die bochten in de dijk verraden nog altijd waar het is misgegaan. Ecologisch zijn de kolken kleine juweeltjes: door hun diepte hebben ze een <b>stabiele temperatuur</b> en helder, koel water, waarin bijzondere waterplanten en amfibie\u00ebn leven. Rond de oevers staan vaak oude <b>knotwilgen en meidoorns</b>, en in het water broeden <b>fuut en dodaars</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (amfibie\u00ebn en broedvogels), jul\u2013aug (waterplanten en libellen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 dan is het water het helderst en zie je tot op de bodem.',
+ 'why': ['<b>Littekens van dijkdoorbraken</b> \u2014 uitgekolkt door doorstromend zeewater.',
+         'De <b>bochten in de dijk</b> verraden nog waar het misging.',
+         'Uitzonderlijk <b>diep en koel water</b> met stabiele temperatuur.',
+         'Oude <b>knotwilgen en meidoorns</b> langs de oevers.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f438 <b>Amfibie\u00ebn</b> trekken naar de kolken om te paaien.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Fuut en dodaars</b> broeden op het water.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven het heldere water.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f341 <b>Knotwilgen</b> in herfstkleur langs de dijk.'],
+ 'wild': ['\U0001f426 Fuut \u00b7 Dodaars \u00b7 Meerkoet', '\U0001f438 Kleine watersalamander \u00b7 Groene kikker', '\U0001f9a0 Libellen', '\U0001f333 Knotwilg \u00b7 Meidoorn \u00b7 Vlier', '\U0001f33f Waterplanten in helder water'],
+ 'trail': ['Volg de <b>oude Zuiderzeedijk</b> tussen Blokzijl en Vollenhove.',
+           'De kolken liggen aan de <b>landzijde</b> van de dijk \u2014 goed te zien vanaf de kruin.',
+           'Uitstekend per <b>fiets</b>: de dijkroute rijgt ze aaneen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Steile, diepe oevers \u2014 niet zwemmen \u00b7 \U0001f6b4 Dijkfietsroute'
+}, {
+ 'tags': ['Flevoland / Overijssel \u00b7 Noordoostpolder', 'Scour holes \u00b7 deep dike-breach pools', 'list 36 \u00b7 no. 24'],
+ 'loc': '\U0001f4cd Along the old Zuiderzee dike near Blokzijl and Vollenhove \u00b7 Scour holes \u00b7 Small',
+ 'desc': 'Along the old <b>Zuiderzee dike</b> lies a series of round, strikingly deep pools: the <b>kolken</b> or <b>wielen</b>. Each is the scar of a <b>dike breach</b>. When the sea broke through the dike, the water shot through the gap with enormous force and scoured a deep cauldron out of the ground \u2014 sometimes ten to fifteen metres deep, far deeper than the surrounding ditches. Such a hole could no longer be closed, so the new dike was laid in a curve around it. Those bends in the dike still betray where things went wrong. Ecologically the pools are small gems: their depth gives them a <b>stable temperature</b> and clear, cool water, in which unusual water plants and amphibians live. Old <b>pollard willows and hawthorns</b> often stand around the banks, and <b>great crested and little grebe</b> breed on the water.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (amphibians and breeding birds), Jul\u2013Aug (water plants and dragonflies)<br>\n    <b>Best time of day:</b> Morning \u2014 the water is then clearest and you can see to the bottom.',
+ 'why': ['<b>Scars of dike breaches</b> \u2014 scoured out by inrushing sea water.',
+         'The <b>bends in the dike</b> still betray where it went wrong.',
+         'Exceptionally <b>deep, cool water</b> with a stable temperature.',
+         'Old <b>pollard willows and hawthorns</b> along the banks.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f438 <b>Amphibians</b> move to the pools to spawn.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Great crested and little grebe</b> breed on the water.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the clear water.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f341 <b>Pollard willows</b> in autumn colour along the dike.'],
+ 'wild': ['\U0001f426 Great crested grebe \u00b7 Little grebe \u00b7 Coot', '\U0001f438 Smooth newt \u00b7 Green frog', '\U0001f9a0 Dragonflies', '\U0001f333 Pollard willow \u00b7 Hawthorn \u00b7 Elder', '\U0001f33f Water plants in clear water'],
+ 'trail': ['Follow the <b>old Zuiderzee dike</b> between Blokzijl and Vollenhove.',
+           'The pools lie on the <b>land side</b> of the dike \u2014 well seen from the crest.',
+           'Excellent <b>by bicycle</b>: the dike route strings them together.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Steep, deep banks \u2014 no swimming \u00b7 \U0001f6b4 Dike cycle route'
+}, card_class='card water'))
+
+mk.insert(C, '1300')
+mk.progress(1305)
+mk.check()

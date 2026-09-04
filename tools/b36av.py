@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1515, 'Middenduin', {
+ 'tags': ['Noord-Holland \u00b7 Overveen', 'Binnenduinrand \u00b7 duinbos en graslanden met oude aardappelakkers', 'list 36 \u00b7 no. 234'],
+ 'loc': '\U0001f4cd Overveen, tussen Bloemendaal en Zandvoort \u00b7 Duinbos \u00b7 Middelgroot',
+ 'desc': '<b>Middenduin</b> ligt op de binnenduinrand bij Overveen en draagt de sporen van een opvallend stuk landbouwgeschiedenis: de <b>duinakkers</b>. In de negentiende eeuw werden in de duinvalleien percelen uitgegraven tot vlak boven het grondwater, zodat de gewassen zelfs in droge zomers vocht konden bereiken. Op die kunstmatig verlaagde akkers werden aardappelen en groenten geteeld voor Haarlem en Amsterdam. Zulke <b>afgezande vlaktes</b> zijn nu botanisch waardevol: door het afgraven kwam <b>kalkrijk zand</b> aan de oppervlakte, en juist daarop groeien zeldzame duinplanten. Er komen <b>orchideeën, parnassia en duinviooltje</b> voor, en er broeden <b>nachtegaal en boomleeuwerik</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013jul</b> (duinflora en orchideeën)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 nachtegalen in het struweel.',
+ 'why': ['Draagt sporen van negentiende-eeuwse <b>duinakkers</b>.',
+         'Percelen werden uitgegraven tot <b>vlak boven het grondwater</b>.',
+         'Zo bereikten gewassen ook in droge zomers <b>vocht</b>.',
+         'Het afgraven bracht <b>kalkrijk zand</b> aan de oppervlakte.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nachtegaal</b> zingt in het duinstruweel.',
+          '<span class="months">Mei\u2013Jun</span> \U0001f33a <b>Orchideeën</b> op de afgezande vlaktes.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f33c <b>Parnassia</b> in de vochtige valleien.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> in het duinbos.'],
+ 'wild': ['\U0001f426 Nachtegaal \u00b7 Boomleeuwerik \u00b7 Groene specht', '\U0001f33a Rietorchis \u00b7 Bijenorchis \u00b7 Parnassia \u00b7 Duinviooltje', '\U0001f98c Ree \u00b7 \U0001f98a Vos \u00b7 Konijn', '\U0001f98b Duinparelmoervlinder \u00b7 \U0001f41d Wilde bijen', '\U0001f333 Duineik \u00b7 Duindoorn \u00b7 Wilde liguster'],
+ 'trail': ['Parkeren in <b>Overveen</b>; paden door duinbos en valleien.',
+           'Zoek de <b>vlakke, verlaagde percelen</b> \u2014 dat zijn de oude akkers.',
+           'Juni voor de <b>orchideeën</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Kwetsbare duinflora \u00b7 \U0001f6b6 Duinpaden'
+}, {
+ 'tags': ['North Holland \u00b7 Overveen', 'Inner dune edge \u00b7 dune wood and grassland with old potato fields', 'list 36 \u00b7 no. 234'],
+ 'loc': '\U0001f4cd Overveen, between Bloemendaal and Zandvoort \u00b7 Dune wood \u00b7 Medium-sized',
+ 'desc': '<b>Middenduin</b> lies on the inner dune edge near Overveen and bears the traces of a striking piece of agricultural history: the <b>dune fields</b>. In the nineteenth century, parcels in the dune valleys were dug out to just above the groundwater, so that crops could reach moisture even in dry summers. On those artificially lowered fields, potatoes and vegetables were grown for Haarlem and Amsterdam. Such <b>sand-stripped flats</b> are now botanically valuable: the digging brought <b>lime-rich sand</b> to the surface, and it is precisely there that rare dune plants grow. <b>Orchids, grass-of-Parnassus and dune pansy</b> occur, and <b>nightingale and woodlark</b> breed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Jul</b> (dune flora and orchids)<br>\n    <b>Best time of day:</b> Early morning \u2014 nightingales in the scrub.',
+ 'why': ['Bears traces of nineteenth-century <b>dune fields</b>.',
+         'Parcels were dug out to <b>just above the groundwater</b>.',
+         'Crops could thus reach <b>moisture</b> even in dry summers.',
+         'The digging brought <b>lime-rich sand</b> to the surface.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nightingale</b> sings in the dune scrub.',
+          '<span class="months">May\u2013Jun</span> \U0001f33a <b>Orchids</b> on the sand-stripped flats.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f33c <b>Grass-of-Parnassus</b> in the damp valleys.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> in the dune wood.'],
+ 'wild': ['\U0001f426 Nightingale \u00b7 Woodlark \u00b7 Green woodpecker', '\U0001f33a Marsh orchid \u00b7 Bee orchid \u00b7 Grass-of-Parnassus \u00b7 Dune pansy', '\U0001f98c Roe deer \u00b7 \U0001f98a Fox \u00b7 Rabbit', '\U0001f98b Niobe fritillary \u00b7 \U0001f41d Wild bees', '\U0001f333 Dune oak \u00b7 Sea buckthorn \u00b7 Wild privet'],
+ 'trail': ['Park in <b>Overveen</b>; paths cross dune wood and valleys.',
+           'Look for the <b>flat, lowered parcels</b> \u2014 those are the old fields.',
+           'June for the <b>orchids</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Fragile dune flora \u00b7 \U0001f6b6 Dune paths'
+}, card_class='card dune'))
+
+C.append(mk.card(1516, 'Brouwerskolkpark', {
+ 'tags': ['Noord-Holland \u00b7 Bloemendaal', 'Duinpark \u00b7 park bij een oude waterkolk', 'list 36 \u00b7 no. 235'],
+ 'loc': '\U0001f4cd Overveen, aan de duinvoet \u00b7 Duinpark \u00b7 Klein',
+ 'desc': 'Het <b>Brouwerskolkpark</b> dankt zijn naam aan de <b>brouwerijen</b> die hier ooit stonden. Aan de duinvoet komt <b>duinwater</b> aan de oppervlakte: regenwater dat door tientallen meters kalkrijk zand is gefilterd en er glashelder en kiemvrij uitkomt. In een tijd waarin stadswater levensgevaarlijk vervuild was, was dat duinwater goud waard \u2014 Haarlemse brouwers vestigden zich er dan ook, en het <b>Haarlemse bier</b> dankte zijn faam mede aan deze bron. Later werd hetzelfde principe op industriële schaal toegepast toen Amsterdam in 1853 zijn drinkwater uit de duinen ging halen. Het park heeft nu <b>oude bomen, vijvers en beekjes</b>, met <b>ijsvogel, boomklever en vleermuizen</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013mei</b> (voorjaarsflora en zang), okt\u2013nov (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 ijsvogel bij de beekjes.',
+ 'why': ['Genoemd naar de <b>brouwerijen</b> die hier van duinwater profiteerden.',
+         'Duinwater is door kalkrijk zand gefilterd: <b>helder en kiemvrij</b>.',
+         'Toen stadswater vervuild was, was dat water <b>goud waard</b>.',
+         'Amsterdam haalde vanaf <b>1853</b> zijn drinkwater uit de duinen.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Voorjaarsflora</b> onder de oude bomen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en zwartkop</b> zingen.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> boven de vijvers.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f426 <b>IJsvogel</b> bij de nooit bevriezende beekjes.'],
+ 'wild': ['\U0001f426 IJsvogel \u00b7 Boomklever \u00b7 Grote bonte specht', '\U0001f987 Vleermuizen boven het water', '\U0001f438 Amfibieën in de vijvers', '\U0001f33c Voorjaarsflora \u00b7 Daslook', '\U0001f333 Oude beuk \u00b7 Es \u00b7 Els'],
+ 'trail': ['Parkeren in <b>Overveen</b>; het park ligt aan de duinvoet.',
+           'Zoek de <b>kwelbeekjes</b> \u2014 ze bevriezen zelden.',
+           'Winter voor de <b>ijsvogel</b> bij het open water.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b6 Korte routes \u00b7 \U0001f9d2 Gezinsvriendelijk'
+}, {
+ 'tags': ['North Holland \u00b7 Bloemendaal', 'Dune park \u00b7 park at an old water pool', 'list 36 \u00b7 no. 235'],
+ 'loc': '\U0001f4cd Overveen, at the dune foot \u00b7 Dune park \u00b7 Small',
+ 'desc': 'The <b>Brouwerskolkpark</b> owes its name to the <b>breweries</b> that once stood here. At the dune foot, <b>dune water</b> surfaces: rainwater filtered through tens of metres of lime-rich sand, emerging crystal clear and free of germs. In an age when city water was dangerously polluted, that dune water was worth its weight in gold \u2014 Haarlem brewers accordingly settled here, and <b>Haarlem beer</b> owed its fame partly to this source. Later the same principle was applied on an industrial scale when Amsterdam began drawing its drinking water from the dunes in 1853. The park now has <b>old trees, ponds and brooks</b>, with <b>kingfisher, nuthatch and bats</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013May</b> (spring flora and song), Oct\u2013Nov (autumn colour)<br>\n    <b>Best time of day:</b> Early morning \u2014 kingfisher at the brooks.',
+ 'why': ['Named after the <b>breweries</b> that used the dune water.',
+         'Dune water is filtered by lime-rich sand: <b>clear and germ-free</b>.',
+         'When city water was polluted, that water was <b>worth gold</b>.',
+         'Amsterdam drew drinking water from the dunes from <b>1853</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Spring flora</b> beneath the old trees.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and blackcap</b> sing.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> above the ponds.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f426 <b>Kingfisher</b> at the never-freezing brooks.'],
+ 'wild': ['\U0001f426 Kingfisher \u00b7 Nuthatch \u00b7 Great spotted woodpecker', '\U0001f987 Bats above the water', '\U0001f438 Amphibians in the ponds', '\U0001f33c Spring flora \u00b7 Ramsons', '\U0001f333 Old beech \u00b7 Ash \u00b7 Alder'],
+ 'trail': ['Park in <b>Overveen</b>; the park lies at the dune foot.',
+           'Find the <b>seepage brooks</b> \u2014 they rarely freeze.',
+           'Winter for the <b>kingfisher</b> at the open water.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b6 Short routes \u00b7 \U0001f9d2 Family-friendly'
+}))
+
+C.append(mk.card(1517, 'Kraansvlak', {
+ 'tags': ['Noord-Holland \u00b7 Zandvoort', 'Duingebied \u00b7 wisentenreservaat in Zuid-Kennemerland', 'list 36 \u00b7 no. 236'],
+ 'loc': '\U0001f4cd Tussen Overveen en Zandvoort \u00b7 Duingebied met grote grazers \u00b7 Groot',
+ 'desc': 'Het <b>Kraansvlak</b> is beroemd geworden als het eerste gebied van West-Europa waar sinds <b>2007</b> weer <b>wisenten</b> \u2014 Europese bizons \u2014 vrij rondlopen. De achterliggende gedachte is ecologisch: het duin groeide dicht met struweel en gras doordat konijnen door ziektes waren gedecimeerd en grote grazers al eeuwen ontbraken. Wisenten doen wat geen maaimachine kan: ze <b>schuren tegen struiken, nemen zandbaden en trekken bast van bomen</b>, waardoor er open zandplekken en gevarieerde structuur ontstaan. Het experiment is internationaal gevolgd. Op de zo ontstane open plekken profiteren <b>zandhagedis, tapuit, duinparelmoervlinder</b> en zeldzame <b>duinflora</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013jul</b> (duinflora en insecten), aug\u2013sep (wisenten actief in de bronst)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 grazers en reptielen actief.',
+ 'n2k': 'Natura 2000-gebied Kennemerland-Zuid \u2014 grijze duinen, duinbossen en vochtige duinvalleien.',
+ 'why': ['Eerste gebied van West-Europa met vrij levende <b>wisenten</b> (2007).',
+         'Het duin groeide dicht doordat <b>konijnen</b> waren gedecimeerd.',
+         'Wisenten schuren, nemen <b>zandbaden</b> en trekken bast \u2014 dat opent het duin.',
+         'Het experiment werd <b>internationaal gevolgd</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Tapuit</b> broedt in konijnenholen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33a <b>Duinflora</b> bloeit op de open plekken.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98e <b>Zandhagedis</b> op het open zand.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f9ac <b>Wisenten</b> in de bronst.'],
+ 'wild': ['\U0001f9ac Wisent \u00b7 Konikpaard \u00b7 Schotse hooglander', '\U0001f98e Zandhagedis \u00b7 \U0001f426 Tapuit \u00b7 Nachtegaal', '\U0001f98b Duinparelmoervlinder \u00b7 Heivlinder', '\U0001f98a Vos \u00b7 \U0001f98c Ree \u00b7 Damhert', '\U0001f33a Duinviooltje \u00b7 Parnassia \u00b7 Zandzegge'],
+ 'trail': ['Parkeren bij <b>Overveen</b> of Zandvoort; wandelroute door het wisentengebied.',
+           'Houd <b>ruime afstand</b> van de wisenten \u2014 het zijn wilde dieren.',
+           'Vroege ochtend voor grazers en <b>reptielen</b>.'],
+ 'foot': '\U0001f436 Honden verboden \u00b7 \U0001f4b6 Toegang met kaart \u00b7 \u26a0\ufe0f Wisenten: afstand houden \u00b7 \U0001f30d Natura 2000'
+}, {
+ 'tags': ['North Holland \u00b7 Zandvoort', 'Dune area \u00b7 wisent reserve in South Kennemerland', 'list 36 \u00b7 no. 236'],
+ 'loc': '\U0001f4cd Between Overveen and Zandvoort \u00b7 Dune area with large grazers \u00b7 Large',
+ 'desc': 'The <b>Kraansvlak</b> became famous as the first area in Western Europe where <b>wisents</b> \u2014 European bison \u2014 have roamed free again since <b>2007</b>. The reasoning is ecological: the dunes had grown over with scrub and grass because rabbits had been decimated by disease and large grazers had been absent for centuries. Wisents do what no mowing machine can: they <b>rub against bushes, take sand baths and strip bark from trees</b>, creating open sandy patches and varied structure. The experiment has been followed internationally. On the resulting open patches, <b>sand lizard, wheatear, Niobe fritillary</b> and rare <b>dune flora</b> benefit.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Jul</b> (dune flora and insects), Aug\u2013Sep (wisents active in the rut)<br>\n    <b>Best time of day:</b> Early morning \u2014 grazers and reptiles active.',
+ 'n2k_en': 'Natura 2000 site Kennemerland-Zuid \u2014 grey dunes, dune woodland and humid dune slacks.',
+ 'why': ['First area in Western Europe with free-roaming <b>wisents</b> (2007).',
+         'The dunes closed over because <b>rabbits</b> had been decimated.',
+         'Wisents rub, take <b>sand baths</b> and strip bark \u2014 opening the dunes.',
+         'The experiment has been <b>followed internationally</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Wheatear</b> breeds in rabbit burrows.',
+          '<span class="months">May\u2013Jul</span> \U0001f33a <b>Dune flora</b> flowers on the open patches.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98e <b>Sand lizard</b> on the open sand.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f9ac <b>Wisents</b> in the rut.'],
+ 'wild': ['\U0001f9ac Wisent \u00b7 Konik horse \u00b7 Highland cattle', '\U0001f98e Sand lizard \u00b7 \U0001f426 Wheatear \u00b7 Nightingale', '\U0001f98b Niobe fritillary \u00b7 Grayling butterfly', '\U0001f98a Fox \u00b7 \U0001f98c Roe deer \u00b7 Fallow deer', '\U0001f33a Dune pansy \u00b7 Grass-of-Parnassus \u00b7 Sand sedge'],
+ 'trail': ['Park at <b>Overveen</b> or Zandvoort; a marked route crosses the wisent area.',
+           'Keep a <b>wide distance</b> from the wisents \u2014 they are wild animals.',
+           'Early morning for grazers and <b>reptiles</b>.'],
+ 'foot': '\U0001f436 No dogs \u00b7 \U0001f4b6 Entry with permit \u00b7 \u26a0\ufe0f Wisents: keep your distance \u00b7 \U0001f30d Natura 2000'
+}, card_class='card dune'))
+
+C.append(mk.card(1518, 'Elswout', {
+ 'tags': ['Noord-Holland \u00b7 Overveen', 'Buitenplaats \u00b7 zeventiende-eeuws landgoed op de binnenduinrand', 'list 36 \u00b7 no. 237'],
+ 'loc': '\U0001f4cd Overveen, binnenduinrand \u00b7 Buitenplaats \u00b7 Middelgroot',
+ 'desc': '<b>Elswout</b> is een van de oudste en grootste buitenplaatsen van de binnenduinrand, aangelegd vanaf <b>1634</b> door de Amsterdamse koopman Carel Gaeff. De aanleg toont hoeveel geld en macht er in de Gouden Eeuw omging: het duinterrein werd letterlijk <b>afgegraven en herschapen</b> \u2014 duintoppen weggehaald, valleien uitgediept, vijvers en waterlopen aangelegd met water dat vanzelf uit het duin kwam. Zand dat vrijkwam werd per schip naar Amsterdam gebracht om er grachtengordelfunderingen mee op te hogen. Zo betaalde de aanleg zichzelf terug. Nu staan er <b>eeuwenoude beuken en eiken</b>, met <b>bosuil, boomklever, holenduif, vleermuizen</b> en een rijke <b>stinzenflora</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013apr</b> (stinzenflora), apr\u2013jun (zang), okt\u2013nov (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 licht door de oude lanen.',
+ 'why': ['Aangelegd vanaf <b>1634</b> door een Amsterdamse koopman.',
+         'Het duinterrein werd <b>afgegraven en herschapen</b>.',
+         'Vrijgekomen zand ging per schip naar de <b>Amsterdamse grachtengordel</b>.',
+         'Zo betaalde de aanleg <b>zichzelf terug</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzenflora</b> bloeit onder de oude bomen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en holenduif</b> in de holtes.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> boven de vijvers.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> in de beukenlanen.'],
+ 'wild': ['\U0001f989 Bosuil \u00b7 \U0001f426 Boomklever \u00b7 Holenduif \u00b7 IJsvogel', '\U0001f987 Vleermuizen in holtes en kelders', '\U0001f98c Ree \u00b7 \U0001f98a Vos \u00b7 \U0001f43f\ufe0f Eekhoorn', '\U0001f33c Sneeuwklokje \u00b7 Bosanemoon \u00b7 Daslook', '\U0001f333 Eeuwenoude beuk \u00b7 Eik \u00b7 Linde'],
+ 'trail': ['Parkeren bij <b>Elswout</b> in Overveen; lanen en bospaden.',
+           'Let op het <b>kunstmatige reliëf</b> \u2014 dit duin is herschapen.',
+           'Maart voor de <b>stinzenflora</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Rijksmonument \u00b7 \U0001f6b6 Lanenroutes'
+}, {
+ 'tags': ['North Holland \u00b7 Overveen', 'Country estate \u00b7 seventeenth-century estate on the inner dune edge', 'list 36 \u00b7 no. 237'],
+ 'loc': '\U0001f4cd Overveen, inner dune edge \u00b7 Country estate \u00b7 Medium-sized',
+ 'desc': '<b>Elswout</b> is one of the oldest and largest estates on the inner dune edge, laid out from <b>1634</b> by the Amsterdam merchant Carel Gaeff. The layout shows how much money and power circulated in the Golden Age: the dune terrain was literally <b>dug away and remade</b> \u2014 dune tops removed, valleys deepened, ponds and watercourses created with water that welled from the dunes of its own accord. Sand released was shipped to Amsterdam to raise the foundations of the canal ring. The works thus paid for themselves. Now <b>centuries-old beeches and oaks</b> stand here, with <b>tawny owl, nuthatch, stock dove, bats</b> and a rich <b>stinzen flora</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Apr</b> (stinzen flora), Apr\u2013Jun (song), Oct\u2013Nov (autumn colour)<br>\n    <b>Best time of day:</b> Early morning \u2014 light down the old avenues.',
+ 'why': ['Laid out from <b>1634</b> by an Amsterdam merchant.',
+         'The dune terrain was <b>dug away and remade</b>.',
+         'Released sand was shipped to the <b>Amsterdam canal ring</b>.',
+         'The works thus <b>paid for themselves</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzen flora</b> flowers beneath the old trees.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and stock dove</b> in the cavities.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> above the ponds.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> in the beech avenues.'],
+ 'wild': ['\U0001f989 Tawny owl \u00b7 \U0001f426 Nuthatch \u00b7 Stock dove \u00b7 Kingfisher', '\U0001f987 Bats in cavities and cellars', '\U0001f98c Roe deer \u00b7 \U0001f98a Fox \u00b7 \U0001f43f\ufe0f Red squirrel', '\U0001f33c Snowdrop \u00b7 Wood anemone \u00b7 Ramsons', '\U0001f333 Centuries-old beech \u00b7 Oak \u00b7 Lime'],
+ 'trail': ['Park at <b>Elswout</b> in Overveen; avenues and woodland paths.',
+           'Note the <b>artificial relief</b> \u2014 this dune was remade.',
+           'March for the <b>stinzen flora</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f National monument \u00b7 \U0001f6b6 Avenue routes'
+}))
+
+C.append(mk.card(1519, 'Koningshof', {
+ 'tags': ['Noord-Holland \u00b7 Overveen', 'Buitenplaats \u00b7 klein landgoed aan de duinvoet', 'list 36 \u00b7 no. 238'],
+ 'loc': '\U0001f4cd Overveen, binnenduinrand \u00b7 Buitenplaats \u00b7 Klein',
+ 'desc': '<b>Koningshof</b> is een kleine buitenplaats aan de duinvoet bij Overveen, onderdeel van de bijna aaneengesloten reeks landgoederen die zich van Haarlem tot Zandvoort uitstrekt. Die concentratie is geen toeval: de <b>binnenduinrand</b> bood alles wat een zeventiende-eeuwse koopman zocht \u2014 hoge droge grond die niet overstroomde, schoon <b>duinwater</b>, beschutting tegen zeewind, en een ligging op enkele uren varen van Amsterdam. Het resultaat is een van de dichtste concentraties historische buitenplaatsen van Europa. Op Koningshof staan <b>oude bomen</b> met holtes en dood hout, waar <b>boomklever, grote bonte specht, bosuil</b> en <b>vleermuizen</b> van profiteren; in het voorjaar bloeit er <b>stinzenflora</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013apr</b> (stinzenflora), apr\u2013jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rustig tussen de oude bomen.',
+ 'why': ['Deel van een bijna aaneengesloten <b>reeks landgoederen</b>.',
+         'De binnenduinrand bood hoge droge grond en schoon <b>duinwater</b>.',
+         'Beschutting tegen zeewind, op <b>uren varen</b> van Amsterdam.',
+         'Een van de dichtste concentraties <b>buitenplaatsen van Europa</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzenflora</b> onder de oude bomen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en zwartkop</b> zingen.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> in boomholtes.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> op dood hout.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 Grote bonte specht \u00b7 Zwartkop', '\U0001f989 Bosuil \u00b7 \U0001f985 Sperwer', '\U0001f987 Vleermuizen \u00b7 \U0001f43f\ufe0f Eekhoorn', '\U0001f33c Sneeuwklokje \u00b7 Bosanemoon \u00b7 Speenkruid', '\U0001f333 Oude beuk \u00b7 Eik \u00b7 Linde'],
+ 'trail': ['Parkeren in <b>Overveen</b>; korte paden over de buitenplaats.',
+           'Combineer met <b>Elswout</b> en Middenduin ernaast.',
+           'Maart voor de <b>stinzenflora</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Historische buitenplaats \u00b7 \U0001f6b6 Korte routes'
+}, {
+ 'tags': ['North Holland \u00b7 Overveen', 'Country estate \u00b7 small estate at the dune foot', 'list 36 \u00b7 no. 238'],
+ 'loc': '\U0001f4cd Overveen, inner dune edge \u00b7 Country estate \u00b7 Small',
+ 'desc': '<b>Koningshof</b> is a small country estate at the dune foot near Overveen, part of the almost continuous series of estates stretching from Haarlem to Zandvoort. That concentration is no accident: the <b>inner dune edge</b> offered everything a seventeenth-century merchant sought \u2014 high dry ground that did not flood, clean <b>dune water</b>, shelter from the sea wind, and a location a few hours\u2019 sail from Amsterdam. The result is one of the densest concentrations of historic country estates in Europe. At Koningshof stand <b>old trees</b> with cavities and dead wood, benefiting <b>nuthatch, great spotted woodpecker, tawny owl</b> and <b>bats</b>; in spring <b>stinzen flora</b> blooms.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Apr</b> (stinzen flora), Apr\u2013Jun (song)<br>\n    <b>Best time of day:</b> Early morning \u2014 quiet among the old trees.',
+ 'why': ['Part of an almost continuous <b>series of estates</b>.',
+         'The inner dune edge offered high dry ground and clean <b>dune water</b>.',
+         'Shelter from the sea wind, <b>hours\u2019 sail</b> from Amsterdam.',
+         'One of the densest concentrations of <b>estates in Europe</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzen flora</b> beneath the old trees.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and blackcap</b> sing.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> in tree cavities.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> on dead wood.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Great spotted woodpecker \u00b7 Blackcap', '\U0001f989 Tawny owl \u00b7 \U0001f985 Sparrowhawk', '\U0001f987 Bats \u00b7 \U0001f43f\ufe0f Red squirrel', '\U0001f33c Snowdrop \u00b7 Wood anemone \u00b7 Lesser celandine', '\U0001f333 Old beech \u00b7 Oak \u00b7 Lime'],
+ 'trail': ['Park in <b>Overveen</b>; short paths cross the estate.',
+           'Combine with <b>Elswout</b> and Middenduin next door.',
+           'March for the <b>stinzen flora</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f Historic estate \u00b7 \U0001f6b6 Short routes'
+}))
+
+mk.insert(C, '1514')
+mk.progress(1519)
+mk.check()

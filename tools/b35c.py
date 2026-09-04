@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1257, 'Bosjes van Verwey', {
+ 'tags': ['Noord-Holland \u00b7 Bergen', 'Duinbos \u00b7 landgoedbos', 'list 35 \u00b7 no. 10'],
+ 'loc': '\U0001f4cd Bij Bergen aan Zee \u00b7 Duinbos \u00b7 Klein gebied',
+ 'desc': 'De <b>Bosjes van Verwey</b> zijn genoemd naar de dichter <b>Albert Verwey</b> (1865\u20131937), die in Noordwijk woonde maar wiens naam in Bergen verbonden raakte aan deze bosjes in de duinrand \u2014 het dorp was in het begin van de twintigste eeuw een verzamelplaats van schrijvers en schilders, de <b>Bergense School</b>. Landschappelijk is het een <b>overgangsbos</b>: aangeplant op de binnenduinrand, waar het duinzand overgaat in de oude strandwallen met een humusrijkere bodem. Die combinatie levert een verrassend rijk bos op met <b>beuk, eik, es en iep</b> en een ondergroei die in het voorjaar vol staat met <b>bosanemoon, speenkruid en gevlekte aronskelk</b>. Doordat de bosjes beschut liggen achter de zeereep, vormen ze in de trektijd een <b>vogelmagneet</b>: uitgeputte zangvogels die net de Noordzee zijn overgestoken strijken hier als eerste neer, en zeldzaamheden zijn er geen uitzondering.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013mei</b> (voorjaarsflora en doortrek), sep\u2013okt (najaarstrek \u2014 de beste periode voor zeldzaamheden)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 doortrekkers foerageren dan het actiefst.',
+ 'why': ['<b>Vogelmagneet</b> in de trektijd \u2014 eerste dekking na de Noordzee.',
+         'Rijk <b>binnenduinrandbos</b> op de overgang duin\u2013strandwal.',
+         'Verbonden met de <b>Bergense School</b> van schilders en dichters.',
+         'Voorjaarsflora met bosanemoon en gevlekte aronskelk.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Bosanemoon en speenkruid</b> op de bosbodem.',
+          '<span class="months">Apr\u2013Mei</span> \U0001f426 <b>Voorjaarstrek</b> \u2014 fitis, tjiftjaf en vliegenvangers.',
+          '<span class="months">Mei\u2013Jun</span> \U0001f426 <b>Nachtegaal</b> zingt in het struweel.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f426 <b>Najaarstrek</b> \u2014 bladkoning en andere dwaalgasten.'],
+ 'wild': ['\U0001f426 Nachtegaal \u00b7 Bonte vliegenvanger', '\U0001f426 Bladkoning (doortrek)', '\U0001f426 Sperwer \u00b7 Bosuil', '\U0001f33c Bosanemoon \u00b7 Gevlekte aronskelk', '\U0001f333 Beuk \u00b7 Es \u00b7 Iep'],
+ 'trail': ['Parkeren in <b>Bergen</b> of bij Bergen aan Zee.',
+           'Korte <b>paden</b> door de bosjes; goed te combineren met het duinreservaat.',
+           'In de trektijd \u2014 neem een <b>verrekijker</b> mee en loop langzaam.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Klein gebied \u2014 blijf op de paden \u00b7 \U0001f6b6 Kort'
+}, {
+ 'tags': ['North Holland \u00b7 Bergen', 'Dune woodland \u00b7 estate wood', 'list 35 \u00b7 no. 10'],
+ 'loc': '\U0001f4cd Near Bergen aan Zee \u00b7 Dune woodland \u00b7 Small area',
+ 'desc': 'The <b>Bosjes van Verwey</b> are named after the poet <b>Albert Verwey</b> (1865\u20131937), who lived in Noordwijk but whose name became attached in Bergen to these copses on the dune edge \u2014 in the early twentieth century the village was a gathering place for writers and painters, the <b>Bergen School</b>. In landscape terms it is a <b>transition wood</b>: planted on the inner dune margin, where dune sand gives way to the old beach ridges with their more humus-rich soil. That combination yields a surprisingly rich wood of <b>beech, oak, ash and elm</b> with an understorey full in spring of <b>wood anemone, lesser celandine and lords-and-ladies</b>. Because the copses lie sheltered behind the foredune, they act as a <b>bird magnet</b> during migration: exhausted songbirds that have just crossed the North Sea drop in here first, and rarities are no exception.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013May</b> (spring flora and passage), Sep\u2013Oct (autumn migration \u2014 the best period for rarities)<br>\n    <b>Best time of day:</b> Early morning \u2014 when migrants feed most actively.',
+ 'why': ['<b>Bird magnet</b> during migration \u2014 the first cover after the North Sea.',
+         'Rich <b>inner dune-margin wood</b> on the dune\u2013beach ridge transition.',
+         'Linked to the <b>Bergen School</b> of painters and poets.',
+         'Spring flora with wood anemone and lords-and-ladies.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Wood anemone and lesser celandine</b> on the woodland floor.',
+          '<span class="months">Apr\u2013May</span> \U0001f426 <b>Spring passage</b> \u2014 willow warbler, chiffchaff and flycatchers.',
+          '<span class="months">May\u2013Jun</span> \U0001f426 <b>Nightingale</b> sings in the scrub.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f426 <b>Autumn passage</b> \u2014 yellow-browed warbler and other vagrants.'],
+ 'wild': ['\U0001f426 Nightingale \u00b7 Pied flycatcher', '\U0001f426 Yellow-browed warbler (passage)', '\U0001f426 Sparrowhawk \u00b7 Tawny owl', '\U0001f33c Wood anemone \u00b7 Lords-and-ladies', '\U0001f333 Beech \u00b7 Ash \u00b7 Elm'],
+ 'trail': ['Park in <b>Bergen</b> or at Bergen aan Zee.',
+           'Short <b>paths</b> through the copses; easily combined with the dune reserve.',
+           'In migration season \u2014 bring <b>binoculars</b> and walk slowly.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Small site \u2014 keep to the paths \u00b7 \U0001f6b6 Short'
+}, card_class='card estate'))
+
+C.append(mk.card(1258, 'Weitje van Pietje', {
+ 'tags': ['Noord-Holland \u00b7 Bergen', 'Duinweitje \u00b7 orchidee\u00ebnvindplaats', 'list 35 \u00b7 no. 11'],
+ 'loc': '\U0001f4cd In de binnenduinrand bij Bergen \u00b7 Vochtig duingrasland \u00b7 Zeer klein',
+ 'desc': 'Weinig natuurgebieden in Nederland hebben zo\u2019n huiselijke naam en zo\u2019n grote botanische betekenis. Het <b>Weitje van Pietje</b> is niet meer dan een handvol hectares vochtig duingrasland in de binnenduinrand, maar het is een van de rijkste <b>orchidee\u00ebnvindplaatsen</b> van Noord-Holland. De verklaring ligt in de bodem: hier komt <b>kalkrijk duinwater</b> als kwel aan de oppervlakte, waardoor een <b>basenrijk, voedselarm</b> milieu ontstaat \u2014 de combinatie waar orchidee\u00ebn op gedijen en die door bemesting en verdroging vrijwel overal is verdwenen. In juni staan er honderden <b>rietorchissen en gevlekte orchissen</b>, met daartussen <b>parnassia, moeraswespenorchis en zeldzame zeggen</b>. Het weitje wordt <b>jaarlijks gehooid</b> en het maaisel wordt afgevoerd; zonder dat verschraalt het niet en wint riet binnen enkele jaren. Vrijwilligers doen een groot deel van dat werk met de zeis.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Juni</b> \u2014 orchidee\u00ebnpiek; jul\u2013aug voor parnassia en wespenorchis<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 dauw op de bloemen en zacht licht voor foto\u2019s.',
+ 'why': ['Een van de rijkste <b>orchidee\u00ebnweitjes</b> van Noord-Holland.',
+         '<b>Kalkrijke kwel</b> zorgt voor een basenrijk, voedselarm milieu.',
+         'Honderden <b>rietorchissen</b> in juni op enkele hectares.',
+         'In stand gehouden door <b>hooibeheer met de zeis</b> door vrijwilligers.'],
+ 'phen': ['<span class="months">Mei\u2013Jun</span> \U0001f33a <b>Rietorchis en gevlekte orchis</b> \u2014 de hoofdbloei.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33a <b>Moeraswespenorchis</b> in de natste delen.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f90d <b>Parnassia</b> sluit het seizoen af.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f33e <b>Hooien en afvoeren</b> \u2014 het beheer dat alles mogelijk maakt.'],
+ 'wild': ['\U0001f33a Rietorchis \u00b7 Gevlekte orchis', '\U0001f33a Moeraswespenorchis', '\U0001f90d Parnassia', '\U0001f33f Zeldzame zeggen \u00b7 Blauwe knoop', '\U0001f98b Weidevlinders'],
+ 'trail': ['Parkeren in <b>Bergen</b>; het weitje ligt aan een duinpad.',
+           '<b>Niet betreden</b> \u2014 de flora is te kwetsbaar; bekijk het vanaf de rand.',
+           'Soms <b>excursies</b> in juni via de beheerder of KNNV.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Zeer kwetsbaar \u2014 alleen vanaf de rand bekijken \u00b7 \U0001f6b6 Zeer kort'
+}, {
+ 'tags': ['North Holland \u00b7 Bergen', 'Dune meadow \u00b7 orchid site', 'list 35 \u00b7 no. 11'],
+ 'loc': '\U0001f4cd On the inner dune margin near Bergen \u00b7 Damp dune grassland \u00b7 Very small',
+ 'desc': 'Few nature sites in the Netherlands have such a homely name and such botanical importance. The <b>Weitje van Pietje</b> (\u2018Pete\u2019s little meadow\u2019) is no more than a handful of hectares of damp dune grassland on the inner dune margin, but it is one of the richest <b>orchid sites</b> in North Holland. The explanation lies in the soil: <b>calcareous dune water</b> seeps to the surface here, creating a <b>base-rich, nutrient-poor</b> environment \u2014 the combination orchids thrive on and which fertilisation and drying out have destroyed almost everywhere else. In June hundreds of <b>southern marsh orchids and heath spotted orchids</b> stand here, with <b>grass-of-Parnassus, marsh helleborine and rare sedges</b> among them. The meadow is <b>mown for hay annually</b> and the cuttings removed; without that it would not stay impoverished and reed would take over within a few years. Volunteers do much of that work with the scythe.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>June</b> \u2014 orchid peak; Jul\u2013Aug for grass-of-Parnassus and helleborine<br>\n    <b>Best time of day:</b> Morning \u2014 dew on the flowers and soft light for photographs.',
+ 'why': ['One of the richest <b>orchid meadows</b> in North Holland.',
+         '<b>Calcareous seepage</b> creates a base-rich, nutrient-poor environment.',
+         'Hundreds of <b>southern marsh orchids</b> in June on a few hectares.',
+         'Maintained by <b>hay management with the scythe</b> by volunteers.'],
+ 'phen': ['<span class="months">May\u2013Jun</span> \U0001f33a <b>Southern marsh and spotted orchid</b> \u2014 the main flowering.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33a <b>Marsh helleborine</b> in the wettest parts.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f90d <b>Grass-of-Parnassus</b> closes the season.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f33e <b>Mowing and removal</b> \u2014 the management that makes it all possible.'],
+ 'wild': ['\U0001f33a Southern marsh orchid \u00b7 Spotted orchid', '\U0001f33a Marsh helleborine', '\U0001f90d Grass-of-Parnassus', '\U0001f33f Rare sedges \u00b7 Devil\u2019s-bit scabious', '\U0001f98b Grassland butterflies'],
+ 'trail': ['Park in <b>Bergen</b>; the meadow lies beside a dune path.',
+           '<b>Do not enter</b> \u2014 the flora is too fragile; view it from the edge.',
+           'Occasional <b>guided visits</b> in June via the manager or KNNV.'],
+ 'foot': '\U0001f436 No dogs \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Very fragile \u2014 view from the edge only \u00b7 \U0001f6b6 Very short'
+}))
+
+C.append(mk.card(1259, 'Proeftuin Geestmerambacht', {
+ 'tags': ['Noord-Holland \u00b7 Langedijk', 'Recreatiegebied \u00b7 nieuwe natuur op ruilverkaveling', 'list 35 \u00b7 no. 12'],
+ 'loc': '\U0001f4cd Bij Alkmaar en Langedijk \u00b7 Recreatie- en natuurgebied \u00b7 Groot gebied',
+ 'desc': 'Het <b>Geestmerambacht</b> was tot in de jaren zestig het beroemdste stukje Nederland dat vrijwel niemand kende: een <b>eilandenrijk</b> van duizenden piepkleine akkertjes, alleen per schuit bereikbaar, waar generaties tuinders kool teelden op percelen zo smal dat er geen kar op paste. De <b>ruilverkaveling</b> van 1968\u20131975 heeft dat landschap vrijwel volledig weggevaagd \u2014 sloten gedempt, percelen samengevoegd, een van de ingrijpendste landschapsveranderingen uit de Nederlandse geschiedenis. Als compensatie werd een groot <b>recreatiegebied</b> aangelegd, en de <b>Proeftuin</b> is het deel waar natuurontwikkeling voorop staat. Het is jonge natuur, dus geen zeldzame relictsoorten, maar wel verrassend levendig: <b>rietoevers, bloemrijke bermen, ruigtes en waterpartijen</b> trekken <b>bruine kiekendief, blauwborst en ijsvogel</b>. Wie het oude landschap wil zien moet naar het <b>Museum BroekerVeiling</b> in Broek op Langedijk.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (broedvogels en bloemrijke bermen), nov\u2013feb (watervogels)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rustig, v\u00f3\u00f3r de recreanten.',
+ 'why': ['Compensatie voor de ingrijpende <b>ruilverkaveling</b> van het eilandenrijk.',
+         'Jonge natuur met <b>rietoevers, ruigtes en waterpartijen</b>.',
+         '<b>Bruine kiekendief, blauwborst en ijsvogel</b> in korte tijd gevestigd.',
+         'Geschiedenis te zien bij de nabije <b>BroekerVeiling</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Blauwborst</b> zingt vanaf de rietkragen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f985 <b>Bruine kiekendief</b> jaagt laag over het riet.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f33c <b>Bloemrijke bermen</b> vol vlinders en zweefvliegen.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Watervogels</b> op de plassen.'],
+ 'wild': ['\U0001f426 Blauwborst \u00b7 Rietzanger', '\U0001f985 Bruine kiekendief', '\U0001f426 IJsvogel', '\U0001f98b Vlinders in de bermen', '\U0001f33f Riet \u00b7 Kruidenrijke ruigte'],
+ 'trail': ['Meerdere parkeerplaatsen rond het gebied bij <b>Alkmaar</b> en <b>Sint Pancras</b>.',
+           'Uitgebreid netwerk van <b>wandel-, fiets- en ruiterpaden</b>.',
+           'Combineer met <b>Museum BroekerVeiling</b> voor het historische verhaal.'],
+ 'foot': '\U0001f436 Honden aan de lijn, losloopgebieden aanwezig \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Druk recreatiegebied in de zomer \u00b7 \U0001f6b4 Veel paden'
+}, {
+ 'tags': ['North Holland \u00b7 Langedijk', 'Recreation area \u00b7 new nature on consolidated land', 'list 35 \u00b7 no. 12'],
+ 'loc': '\U0001f4cd Near Alkmaar and Langedijk \u00b7 Recreation and nature area \u00b7 Large area',
+ 'desc': 'Until the 1960s the <b>Geestmerambacht</b> was the most famous corner of the Netherlands that almost nobody knew: an <b>archipelago</b> of thousands of tiny fields reachable only by punt, where generations of growers raised cabbages on plots too narrow for a cart. The <b>land consolidation</b> of 1968\u20131975 swept that landscape away almost completely \u2014 ditches filled, plots merged, one of the most drastic landscape changes in Dutch history. As compensation a large <b>recreation area</b> was created, and the <b>Proeftuin</b> is the section where nature development takes priority. It is young nature, so there are no rare relict species, but it is surprisingly lively: <b>reed margins, flower-rich verges, tall-herb stands and open water</b> attract <b>marsh harrier, bluethroat and kingfisher</b>. Anyone wanting to see the old landscape should visit the <b>Museum BroekerVeiling</b> at Broek op Langedijk.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (breeding birds and flowery verges), Nov\u2013Feb (waterfowl)<br>\n    <b>Best time of day:</b> Early morning \u2014 quiet, before the day visitors.',
+ 'why': ['Compensation for the drastic <b>land consolidation</b> of the archipelago.',
+         'Young nature with <b>reed margins, tall herbs and open water</b>.',
+         '<b>Marsh harrier, bluethroat and kingfisher</b> established in a short time.',
+         'The history can be seen at the nearby <b>BroekerVeiling</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Bluethroat</b> sings from the reed fringes.',
+          '<span class="months">May\u2013Jul</span> \U0001f985 <b>Marsh harrier</b> quarters low over the reeds.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f33c <b>Flowery verges</b> full of butterflies and hoverflies.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Waterfowl</b> on the lakes.'],
+ 'wild': ['\U0001f426 Bluethroat \u00b7 Sedge warbler', '\U0001f985 Marsh harrier', '\U0001f426 Kingfisher', '\U0001f98b Butterflies on the verges', '\U0001f33f Reed \u00b7 Herb-rich rough grassland'],
+ 'trail': ['Several car parks around the area near <b>Alkmaar</b> and <b>Sint Pancras</b>.',
+           'Extensive network of <b>walking, cycling and bridle paths</b>.',
+           'Combine with <b>Museum BroekerVeiling</b> for the historical story.'],
+ 'foot': '\U0001f436 Dogs on lead, off-lead zones available \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Busy recreation area in summer \u00b7 \U0001f6b4 Many paths'
+}, card_class='card water'))
+
+C.append(mk.card(1260, 'Noordhollands Duinreservaat', {
+ 'tags': ['Noord-Holland \u00b7 Castricum\u2013Bergen\u2013Wijk aan Zee', 'Duin \u00b7 kalkrijk duinlandschap en waterwinning', 'list 35 \u00b7 no. 13'],
+ 'loc': '\U0001f4cd Van Wijk aan Zee tot Bergen \u00b7 Duingebied \u00b7 Ruim 5.300 ha',
+ 'desc': 'Het <b>Noordhollands Duinreservaat</b> is met ruim 5.300 hectare het grootste aaneengesloten duingebied van de provincie en strekt zich uit over vijfentwintig kilometer kust. Anders dan Schoorl is dit duin <b>kalkrijk</b>, en dat verklaart de botanische rijkdom: hier groeien <b>duinviooltje, wondklaver, hondskruid en rietorchis</b>, en het gebied telt honderden plantensoorten. De geschiedenis is er tegelijk er\u00e9n van waterwinning \u2014 vanaf 1853 werd hier <b>duinwater</b> gewonnen voor Amsterdam en de IJmond, en later werd <b>rivierwater ge\u00efnfiltreerd</b> om de bel weer aan te vullen. Die infiltratie heeft veel schade gedaan (voedselrijk water, verstoorde gradi\u00ebnten) en wordt sinds de jaren negentig teruggedrongen ten gunste van <b>natuurherstel</b>. Grote grazers \u2014 <b>Schotse hooglanders, konikpaarden en damherten</b> \u2014 houden het duin open, en het gebied is een bolwerk voor de <b>zandhagedis</b> en de teruggekeerde <b>das</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013jul</b> (duinflora en orchidee\u00ebn), sep\u2013nov (bronsttijd damhert en paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend of avond \u2014 damherten en vossen dan het actiefst.',
+ 'why': ['Grootste <b>aaneengesloten duingebied</b> van Noord-Holland (5.300 ha).',
+         '<b>Kalkrijk</b> duin met honderden plantensoorten en orchidee\u00ebn.',
+         'Anderhalve eeuw <b>waterwinning</b>, nu grootschalig natuurherstel.',
+         'Begrazing door <b>hooglanders, koniks en damherten</b>.'],
+ 'phen': ['<span class="months">Apr\u2013Mei</span> \U0001f426 <b>Nachtegaal</b> \u2014 het duin zit er vol mee.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33a <b>Duinflora</b> \u2014 hondskruid, wondklaver en duinviooltje.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f98e <b>Zandhagedis</b> zont op open zandplekken.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f98c <b>Bronst van het damhert</b> \u2014 burlende bokken.'],
+ 'wild': ['\U0001f98c Damhert \u00b7 Ree', '\U0001f9a1 Das \u00b7 Vos', '\U0001f98e Zandhagedis', '\U0001f426 Nachtegaal \u00b7 Boomleeuwerik', '\U0001f33a Hondskruid \u00b7 Duinviooltje \u00b7 Wondklaver'],
+ 'trail': ['Ingangen bij <b>Castricum</b>, <b>Bakkum</b>, <b>Egmond</b>, <b>Bergen</b> en <b>Wijk aan Zee</b>.',
+           'Bezoekerscentrum <b>De Hoep</b> in Castricum als startpunt.',
+           'Honderden kilometers <b>wandel- en fietspaden</b>; toegangskaart vereist.'],
+ 'foot': '\U0001f436 Honden aan de lijn in aangewezen delen \u00b7 \U0001f4b6 Toegangskaart PWN vereist \u00b7 \u26a0\ufe0f Grote grazers \u2014 houd afstand \u00b7 \U0001f9ed PWN'
+}, {
+ 'tags': ['North Holland \u00b7 Castricum\u2013Bergen\u2013Wijk aan Zee', 'Dune \u00b7 calcareous dunes and water extraction', 'list 35 \u00b7 no. 13'],
+ 'loc': '\U0001f4cd From Wijk aan Zee to Bergen \u00b7 Dune area \u00b7 Over 5,300 ha',
+ 'desc': 'At over 5,300 hectares the <b>Noordhollands Duinreservaat</b> is the largest continuous dune area in the province, stretching along twenty-five kilometres of coast. Unlike Schoorl these dunes are <b>calcareous</b>, which explains their botanical wealth: <b>dune pansy, kidney vetch, pyramidal orchid and southern marsh orchid</b> grow here, and the area holds hundreds of plant species. Its history is also one of water supply \u2014 from 1853 <b>dune water</b> was extracted here for Amsterdam and the IJmond, and later <b>river water was infiltrated</b> to replenish the lens. That infiltration did much damage (nutrient-rich water, disrupted gradients) and has been rolled back since the 1990s in favour of <b>ecological restoration</b>. Large grazers \u2014 <b>Highland cattle, konik horses and fallow deer</b> \u2014 keep the dunes open, and the area is a stronghold for the <b>sand lizard</b> and the returned <b>badger</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Jul</b> (dune flora and orchids), Sep\u2013Nov (fallow deer rut and fungi)<br>\n    <b>Best time of day:</b> Early morning or evening \u2014 fallow deer and foxes most active.',
+ 'why': ['Largest <b>continuous dune area</b> in North Holland (5,300 ha).',
+         '<b>Calcareous</b> dunes with hundreds of plant species and orchids.',
+         'A century and a half of <b>water extraction</b>, now large-scale restoration.',
+         'Grazing by <b>Highland cattle, koniks and fallow deer</b>.'],
+ 'phen': ['<span class="months">Apr\u2013May</span> \U0001f426 <b>Nightingale</b> \u2014 the dunes are full of them.',
+          '<span class="months">May\u2013Jul</span> \U0001f33a <b>Dune flora</b> \u2014 pyramidal orchid, kidney vetch and dune pansy.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f98e <b>Sand lizard</b> basking on open sand.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f98c <b>Fallow deer rut</b> \u2014 groaning bucks.'],
+ 'wild': ['\U0001f98c Fallow deer \u00b7 Roe deer', '\U0001f9a1 Badger \u00b7 Fox', '\U0001f98e Sand lizard', '\U0001f426 Nightingale \u00b7 Woodlark', '\U0001f33a Pyramidal orchid \u00b7 Dune pansy \u00b7 Kidney vetch'],
+ 'trail': ['Entrances at <b>Castricum</b>, <b>Bakkum</b>, <b>Egmond</b>, <b>Bergen</b> and <b>Wijk aan Zee</b>.',
+           'Visitor centre <b>De Hoep</b> in Castricum as a starting point.',
+           'Hundreds of kilometres of <b>walking and cycling paths</b>; entry ticket required.'],
+ 'foot': '\U0001f436 Dogs on lead in designated areas \u00b7 \U0001f4b6 PWN entry ticket required \u00b7 \u26a0\ufe0f Large grazers \u2014 keep your distance \u00b7 \U0001f9ed PWN'
+}, card_class='card dune',
+   n2k='Natura 2000-gebied <b>Noordhollands Duinreservaat</b> \u2014 aangewezen voor grijze duinen, duindoornstruwelen, vochtige duinvalleien en duinbossen.',
+   n2k_en='Natura 2000 site <b>Noordhollands Duinreservaat</b> \u2014 designated for grey dunes, sea-buckthorn scrub, humid dune slacks and dune woodland.'))
+
+C.append(mk.card(1261, '\u2019t Oude Hof en Maesdammerhof', {
+ 'tags': ['Noord-Holland \u00b7 Bergen', 'Landgoed \u00b7 historische buitenplaats', 'list 35 \u00b7 no. 14'],
+ 'loc': '\U0001f4cd In en bij Bergen \u00b7 Buitenplaats met park en oud bos \u00b7 Klein gebied',
+ 'desc': '<b>\u2019t Oude Hof</b> in Bergen is het park van een verdwenen <b>buitenplaats</b>: het slot van de heren van Bergen werd in 1799 verwoest tijdens de Engels-Russische invasie, maar het park bleef. Wat je nu ziet is een <b>parkbos</b> in Engelse landschapsstijl met slingerpaden, waterpartijen en een monumentaal <b>beukenlaanstelsel</b> \u2014 sommige bomen zijn ruim twee eeuwen oud. Het nabijgelegen <b>Maesdammerhof</b> vult dat aan met kleinschalige bosjes en weitjes. Voor de natuur zijn juist de <b>oude bomen</b> het kapitaal: dikke beuken en eiken met holtes, scheuren en dood hout in de kroon herbergen <b>vleermuizen, boomklever, grote bonte specht en zeldzame kevers</b>. Bovendien ligt het park op de <b>binnenduinrand</b>, met kalkrijke, vochtige grond, en dat levert een uitbundige <b>stinzenflora</b>: sneeuwklokje, boerenkrokus, holwortel en vingerhelmbloem, ooit aangeplant en sindsdien verwilderd.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Feb\u2013apr</b> (stinzenflora \u2014 de hoofdattractie), okt\u2013nov (herfstkleur van de oude beuken)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 laag zonlicht door de kale kruinen op het bloementapijt.',
+ 'why': ['Park van een in <b>1799 verwoest slot</b> \u2014 het bos overleefde.',
+         'Monumentale <b>beukenlanen</b> van ruim twee eeuwen oud.',
+         'Uitbundige <b>stinzenflora</b>: sneeuwklokje, holwortel, vingerhelmbloem.',
+         'Oude bomen met holtes voor <b>vleermuizen en spechten</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Mrt</span> \U0001f90d <b>Sneeuwklokjes en boerenkrokus</b> \u2014 eerste tapijten.',
+          '<span class="months">Mrt\u2013Apr</span> \U0001f49c <b>Holwortel en vingerhelmbloem</b> in volle bloei.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en grote bonte specht</b> in de oude beuken.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> van de monumentale lanen.'],
+ 'wild': ['\U0001f987 Vleermuizen in boomholtes', '\U0001f426 Boomklever \u00b7 Grote bonte specht', '\U0001f90d Sneeuwklokje \u00b7 Boerenkrokus', '\U0001f49c Holwortel \u00b7 Vingerhelmbloem', '\U0001f333 Monumentale beuken en eiken'],
+ 'trail': ['Parkeren in het centrum van <b>Bergen</b>; het park ligt aan de dorpsrand.',
+           'Vrij toegankelijke <b>slingerpaden</b>; een rondje duurt ongeveer een uur.',
+           'In maart <b>druk</b> vanwege de stinzenflora \u2014 kom vroeg.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Kwetsbare stinzenflora \u2014 op de paden blijven \u00b7 \U0001f6b6 Ca. 1 uur'
+}, {
+ 'tags': ['North Holland \u00b7 Bergen', 'Estate \u00b7 historic country seat', 'list 35 \u00b7 no. 14'],
+ 'loc': '\U0001f4cd In and near Bergen \u00b7 Country estate with park and old woodland \u00b7 Small area',
+ 'desc': '<b>\u2019t Oude Hof</b> in Bergen is the park of a vanished <b>country seat</b>: the castle of the lords of Bergen was destroyed in 1799 during the Anglo-Russian invasion, but the park survived. What you see today is a <b>parkland wood</b> in the English landscape style with winding paths, water features and a monumental system of <b>beech avenues</b> \u2014 some trees are well over two centuries old. The nearby <b>Maesdammerhof</b> adds small-scale copses and meadows. For nature it is precisely the <b>old trees</b> that are the capital: thick beeches and oaks with cavities, splits and deadwood in the crown shelter <b>bats, nuthatch, great spotted woodpecker and rare beetles</b>. The park also lies on the <b>inner dune margin</b>, with calcareous, damp soil, producing an exuberant <b>stinzen flora</b>: snowdrop, early crocus, hollowroot and bird-in-a-bush, once planted and naturalised ever since.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Feb\u2013Apr</b> (stinzen flora \u2014 the main attraction), Oct\u2013Nov (autumn colour of the old beeches)<br>\n    <b>Best time of day:</b> Morning \u2014 low sunlight through bare crowns onto the carpet of flowers.',
+ 'why': ['Park of a castle <b>destroyed in 1799</b> \u2014 the wood survived.',
+         'Monumental <b>beech avenues</b> more than two centuries old.',
+         'Exuberant <b>stinzen flora</b>: snowdrop, hollowroot, bird-in-a-bush.',
+         'Old trees with cavities for <b>bats and woodpeckers</b>.'],
+ 'phen': ['<span class="months">Feb\u2013Mar</span> \U0001f90d <b>Snowdrops and early crocus</b> \u2014 the first carpets.',
+          '<span class="months">Mar\u2013Apr</span> \U0001f49c <b>Hollowroot and bird-in-a-bush</b> in full flower.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and great spotted woodpecker</b> in the old beeches.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> in the monumental avenues.'],
+ 'wild': ['\U0001f987 Bats in tree cavities', '\U0001f426 Nuthatch \u00b7 Great spotted woodpecker', '\U0001f90d Snowdrop \u00b7 Early crocus', '\U0001f49c Hollowroot \u00b7 Bird-in-a-bush', '\U0001f333 Monumental beeches and oaks'],
+ 'trail': ['Park in the centre of <b>Bergen</b>; the park lies on the village edge.',
+           'Freely accessible <b>winding paths</b>; a circuit takes about an hour.',
+           '<b>Busy</b> in March because of the stinzen flora \u2014 come early.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Fragile stinzen flora \u2014 keep to the paths \u00b7 \U0001f6b6 Approx. 1 hour'
+}, card_class='card estate'))
+
+mk.insert(C, '1256')
+mk.progress(1261)
+mk.check()

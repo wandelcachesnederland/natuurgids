@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1605, 'Agelerbroek', {
+ 'tags': ['Overijssel · Dinkelland', 'Elzenbroekbos · kwelgevoed moerasbos aan de Tilligterbeek', 'list 36 · no. 324'],
+ 'loc': '📍 Agelo, gemeente Dinkelland · Natura 2000 · Middelgroot',
+ 'desc': 'Het <b>Agelerbroek</b> is een <b>elzenbroekbos</b> — een moerasbos dat grote delen van het jaar blank staat. Aan de westkant komt <b>kwelwater</b> uit de stuwwal omhoog, dat als het beekje <b>Het Vree</b> naar de Tilligterbeek stroomt; op die plekken staat het bos zelfs in juni nog onder water. De ruilverkaveling legde de <b>Tilligterbeek</b> eind jaren zestig recht voor de ontwatering, en verdroogde daarmee de oostkant — maar de kwelrijke westkant bleef nat. Samen met Achter de Voort en Voltherbroek vormt het broek het Natura 2000-gebied waar <b>boomkikker en kamsalamander</b> leven.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei–jul</b> (boomkikker), apr–mei (voorjaarsflora)<br>\n    <b>Beste tijd van de dag:</b> Avond — de boomkikkers roepen dan het hardst.',
+ 'why': ['Een <b>elzenbroekbos</b> dat het grootste deel van het jaar nat is.',
+         '<b>Kwelwater</b> uit de stuwwal voedt het beekje Het Vree.',
+         'De <b>Tilligterbeek</b> werd rechtgetrokken en verdroogde de oostkant.',
+         'Leefgebied van <b>boomkikker en kamsalamander</b>.'],
+ 'phen': ['<span class="months">Apr–Mei</span> 🌼 <b>Dotterbloem</b> op de kwelplekken.',
+          '<span class="months">Mei–Jun</span> 🐸 <b>Boomkikker</b> roept vanuit de bosrand.',
+          '<span class="months">Jun–Aug</span> 🪰 <b>Bosbeekjuffer</b> langs Het Vree.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> in het elzenbroek.'],
+ 'wild': ['🐸 Boomkikker · Bruine kikker', '🦎 Kamsalamander · Kleine watersalamander', '🪰 Bosbeekjuffer · Gewone pantserjuffer', '🌼 Dotterbloem · Gele lis · Moerasspirea', '🌳 Zwarte els · Wilg · Zomereik'],
+ 'trail': ['Parkeren bij <b>Agelo</b>; wandelroutes langs het broek.',
+           'Kom op een <b>zomeravond</b> voor het boomkikkerkoor.',
+           'Blijf op de <b>paden</b> — de broekbodem is kwetsbaar.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Nat moerasbos — paden volgen · 🚶 Wandelpaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Alder carr · seepage-fed marsh wood by the Tilligterbeek', 'list 36 · no. 324'],
+ 'loc': '📍 Agelo, Dinkelland municipality · Natura 2000 · Medium-sized',
+ 'desc': 'The <b>Agelerbroek</b> is an <b>alder carr</b> — a marsh wood standing flooded for much of the year. On the west side <b>seepage</b> rises from the ice-pushed ridge and flows as the brooklet <b>Het Vree</b> towards the Tilligterbeek; there the wood stands under water even in June. Land consolidation straightened the <b>Tilligterbeek</b> in the late 1960s for drainage, drying out the east side — but the seepage-rich west side stayed wet. With Achter de Voort and Voltherbroek the carr forms the Natura 2000 site where <b>tree frog and great crested newt</b> live.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May–Jul</b> (tree frog), Apr–May (spring flora)<br>\n    <b>Best time of day:</b> Evening — the tree frogs call loudest then.',
+ 'why': ['An <b>alder carr</b> that is wet for most of the year.',
+         '<b>Seepage</b> from the ridge feeds the brooklet Het Vree.',
+         'The <b>Tilligterbeek</b> was straightened and dried out the east side.',
+         'Habitat of <b>tree frog and great crested newt</b>.'],
+ 'phen': ['<span class="months">Apr–May</span> 🌼 <b>Marsh marigold</b> on the seepage spots.',
+          '<span class="months">May–Jun</span> 🐸 <b>Tree frog</b> calls from the wood edge.',
+          '<span class="months">Jun–Aug</span> 🪰 <b>Beautiful demoiselle</b> along Het Vree.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> in the alder carr.'],
+ 'wild': ['🐸 Tree frog · Common frog', '🦎 Great crested newt · Smooth newt', '🪰 Beautiful demoiselle · Common blue damselfly', '🌼 Marsh marigold · Yellow iris · Meadowsweet', '🌳 Black alder · Willow · Pedunculate oak'],
+ 'trail': ['Park at <b>Agelo</b>; walking routes along the carr.',
+           'Come on a <b>summer evening</b> for the tree frog chorus.',
+           'Keep to the <b>paths</b> — the carr floor is fragile.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Wet marsh wood — follow the paths · 🚶 Footpaths'
+}, n2k='Natura 2000-gebied <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b> — aangewezen voor vochtige alluviale bossen, blauwgraslanden en soorten als kamsalamander en boomkikker.',
+   n2k_en='Natura 2000 site <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b> — designated for alluvial forests, fen meadows and species such as great crested newt and tree frog.'))
+
+C.append(mk.card(1606, 'Hunenborg', {
+ 'tags': ['Overijssel · Dinkelland', 'Ringwalburg · middeleeuwse versterking in het broekland', 'list 36 · no. 325'],
+ 'loc': '📍 Volthe, gemeente Dinkelland · Rijksmonument · Klein',
+ 'desc': 'De <b>Hunenborg</b> is een <b>ringwalburg</b> langs het Kanaal Almelo-Nordhorn bij Volthe — een aarden versterking van rond het jaar <b>1050</b>, waarschijnlijk gebouwd in opdracht van de <b>bisschop van Utrecht</b>. Het terrein bestaat uit een hoge en een lage burg, omgeven door wal en gracht; de <b>Vereniging Oudheidkamer Twente</b> liet er in 1916 opgraven onder leiding van archeoloog Jan Hendrik Holwerda. De beboste wallen zijn nu een archeologisch monument én natuurgebied in beheer bij <b>Landschap Overijssel</b> — een stille plek waar geschiedenis en broekbos samenvallen.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (zang), okt–nov (herfst)<br>\n    <b>Beste tijd van de dag:</b> Ochtend — het licht valt op de wallen.',
+ 'why': ['Een <b>ringwalburg</b> uit omstreeks het jaar 1050.',
+         'Waarschijnlijk gebouwd in opdracht van de <b>bisschop van Utrecht</b>.',
+         'In <b>1916</b> opgegraven door Holwerda.',
+         'Nu archeologisch monument én <b>broekbos</b> van Landschap Overijssel.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Voorjaarsflora</b> op de wallen.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Zanglijster en zwartkop</b> in het broekbos.',
+          '<span class="months">Mei–Aug</span> 🦇 <b>Vleermuizen</b> langs de gracht.',
+          '<span class="months">Okt–Nov</span> 🍄 <b>Paddenstoelen</b> op de walbodems.'],
+ 'wild': ['🐦 Zwartkop · Zanglijster · Boomklever', '🦇 Vleermuizen in de oude bomen', '🦌 Ree · Egel · Haas', '🌼 Bosanemoon · Gele dovenetel', '🌳 Zomereik · Zwarte els · Hazelaar'],
+ 'trail': ['Parkeren bij <b>Volthe</b>; wandelroute over de wallen.',
+           'Bekijk de <b>wal en gracht</b> — het middeleeuwse grondplan is afleesbaar.',
+           'Respecteer het <b>archeologisch monument</b>.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🏯 Ringwalburg · 🚶 Wallenpaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Ring fort · medieval earthwork in the brookland', 'list 36 · no. 325'],
+ 'loc': '📍 Volthe, Dinkelland municipality · National monument · Small',
+ 'desc': 'The <b>Hunenborg</b> is a <b>ring fort</b> along the Almelo-Nordhorn canal near Volthe — an earthwork of around the year <b>1050</b>, probably built on the orders of the <b>bishop of Utrecht</b>. The site consists of a high and a low fort, ringed by rampart and moat; the <b>Vereniging Oudheidkamer Twente</b> had it excavated in 1916 under the archaeologist Jan Hendrik Holwerda. The wooded ramparts are now both an archaeological monument and a nature area managed by <b>Landschap Overijssel</b> — a quiet place where history and carr woodland coincide.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (song), Oct–Nov (autumn)<br>\n    <b>Best time of day:</b> Morning — the light falls on the ramparts.',
+ 'why': ['A <b>ring fort</b> from around the year 1050.',
+         'Probably built on the orders of the <b>bishop of Utrecht</b>.',
+         'Excavated in <b>1916</b> by Holwerda.',
+         'Now an archaeological monument and <b>carr wood</b> of Landschap Overijssel.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Spring flora</b> on the ramparts.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Song thrush and blackcap</b> in the carr.',
+          '<span class="months">May–Aug</span> 🦇 <b>Bats</b> along the moat.',
+          '<span class="months">Oct–Nov</span> 🍄 <b>Fungi</b> on the rampart floors.'],
+ 'wild': ['🐦 Blackcap · Song thrush · Nuthatch', '🦇 Bats in the old trees', '🦌 Roe deer · Hedgehog · Hare', '🌼 Wood anemone · Yellow archangel', '🌳 Pedunculate oak · Black alder · Hazel'],
+ 'trail': ['Park at <b>Volthe</b>; walking route over the ramparts.',
+           'Read the <b>rampart and moat</b> — the medieval ground plan is legible.',
+           'Respect the <b>archaeological monument</b>.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🏯 Ring fort · 🚶 Rampart paths'
+}))
+
+C.append(mk.card(1607, 'Voltherbroek', {
+ 'tags': ['Overijssel · Dinkelland', 'Broekbos · nat beekdallandschap bij Volthe', 'list 36 · no. 326'],
+ 'loc': '📍 Volthe, gemeente Dinkelland · Natura 2000 · Middelgroot',
+ 'desc': 'Het <b>Voltherbroek</b> is de derde kern van het Natura 2000-gebied <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>, gelegen in het beekdallandschap tussen de stuwwallen van Ootmarsum en Oldenzaal. Net als zijn zusters is het van oudsher <b>vochtig en moeilijk begaanbaar</b>: elzenbroekbossen, moerassen en natte graslanden, doorsneden door poelen en oude houtwallen. De lage ligging en de <b>kwel</b> uit de stuwwal houden het water lang vast, en dat maakt het tot leefgebied van <b>kamsalamander en boomkikker</b> — vlak bij de Hunenborg en de Wiekermeden.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei–jul</b> (amfibieën), apr–mei (flora)<br>\n    <b>Beste tijd van de dag:</b> Avond — amfibieën worden actief.',
+ 'why': ['Derde kern van Natura 2000 <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>.',
+         'Van oudsher <b>vochtig en moeilijk begaanbaar</b>.',
+         'Elzenbroek, moerassen en <b>natte graslanden</b>.',
+         'Vlak bij de <b>Hunenborg</b> en de Wiekermeden.'],
+ 'phen': ['<span class="months">Apr–Mei</span> 🌼 <b>Dotterbloem en pinksterbloem</b> in het natte gras.',
+          '<span class="months">Mei–Jun</span> 🐸 <b>Boomkikker</b> roept langs de bosrand.',
+          '<span class="months">Jun–Aug</span> 🦎 <b>Kamsalamander</b> in de poelen.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> in het broek.'],
+ 'wild': ['🐸 Boomkikker · Bruine kikker', '🦎 Kamsalamander · Alpenwatersalamander', '🪰 Weidebeekjuffer · Bosbeekjuffer', '🌼 Dotterbloem · Pinksterbloem · Moerasspirea', '🌳 Zwarte els · Wilg · Hazelaar'],
+ 'trail': ['Parkeren bij <b>Volthe</b>; wandelroutes door het broek.',
+           'Combineer met de <b>Hunenborg</b> en de Wiekermeden.',
+           'Blijf op de <b>paden</b> — het broek is kwetsbaar.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Nat broekland — paden volgen · 🚶 Wandelpaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Carr woodland · wet brook-valley landscape near Volthe', 'list 36 · no. 326'],
+ 'loc': '📍 Volthe, Dinkelland municipality · Natura 2000 · Medium-sized',
+ 'desc': 'The <b>Voltherbroek</b> is the third core of the Natura 2000 site <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>, in the brook-valley landscape between the ice-pushed ridges of Ootmarsum and Oldenzaal. Like its sisters it is traditionally <b>damp and hard to enter</b>: alder carrs, marshes and wet grasslands, cut through by pools and old hedge banks. Its low position and the <b>seepage</b> from the ridge hold the water for a long time, making it a habitat of <b>great crested newt and tree frog</b> — close to the Hunenborg and the Wiekermeden.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May–Jul</b> (amphibians), Apr–May (flora)<br>\n    <b>Best time of day:</b> Evening — amphibians become active.',
+ 'why': ['Third core of Natura 2000 <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>.',
+         'Traditionally <b>damp and hard to enter</b>.',
+         'Alder carr, marsh and <b>wet grassland</b>.',
+         'Close to the <b>Hunenborg</b> and the Wiekermeden.'],
+ 'phen': ['<span class="months">Apr–May</span> 🌼 <b>Marsh marigold and cuckooflower</b> in the wet grass.',
+          '<span class="months">May–Jun</span> 🐸 <b>Tree frog</b> calls along the wood edge.',
+          '<span class="months">Jun–Aug</span> 🦎 <b>Great crested newt</b> in the pools.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> in the carr.'],
+ 'wild': ['🐸 Tree frog · Common frog', '🦎 Great crested newt · Alpine newt', '🪰 Banded demoiselle · Beautiful demoiselle', '🌼 Marsh marigold · Cuckooflower · Meadowsweet', '🌳 Black alder · Willow · Hazel'],
+ 'trail': ['Park at <b>Volthe</b>; walking routes through the carr.',
+           'Combine with the <b>Hunenborg</b> and the Wiekermeden.',
+           'Keep to the <b>paths</b> — the carr is fragile.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Wet carr — follow the paths · 🚶 Footpaths'
+}, n2k='Natura 2000-gebied <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b> — aangewezen voor vochtige alluviale bossen, blauwgraslanden en soorten als kamsalamander en boomkikker.',
+   n2k_en='Natura 2000 site <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b> — designated for alluvial forests, fen meadows and species such as great crested newt and tree frog.'))
+
+C.append(mk.card(1608, 'Erve Scholten Linde', {
+ 'tags': ['Overijssel · Dinkelland', 'Erve · monumentaal Twents erf bij Rossum', 'list 36 · no. 327'],
+ 'loc': '📍 Rossum, gemeente Dinkelland · Erve · Klein',
+ 'desc': '<b>Erve Scholten Linde</b> is een monumentaal Twents <b>erve</b> — een boerenhof met de kenmerkende <b>los hoes</b>-bebouwing, waar mens en vee ooit onder één rieten kap leefden. De getoogde niendeur in de onderschoer draagt het jaartal <b>1638</b>; een tweede deurboog vermeldt 1678. Zo’n erf was meer dan een boerderij: het was een naam in het landschap, verbonden aan een geslacht dat generaties lang dezelfde grond bewerkte. Rondom ligt het kleinschalige hoevenlandschap van Rossum — essen, houtwallen en de beekdalen van de maten — waar het erf nog precies op zijn plek staat.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (bloei), okt–nov (herfst)<br>\n    <b>Beste tijd van de dag:</b> Ochtend — het erf ligt er dan stil bij.',
+ 'why': ['Een <b>erve</b> met los hoes-traditie: mens en vee onder één kap.',
+         'Niendeur met het jaartal <b>1638</b>; deurboog 1678.',
+         'Een <b>naam in het landschap</b>, verbonden aan een geslacht.',
+         'Omgeven door het <b>hoevenlandschap</b> van Rossum.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Voorjaarsbloei</b> in de houtwallen.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Boerenzwaluw en huismus</b> rond het erf.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Vlinders</b> op de erfranden.',
+          '<span class="months">Okt–Nov</span> 🍂 <b>Herfstkleur</b> rond de boerderij.'],
+ 'wild': ['🐦 Boerenzwaluw · Huismus · Witte kwikstaart', '🦇 Vleermuizen in de schuren', '🦌 Ree · Egel · Haas', '🌼 Gewone margriet · Knoopkruid', '🌳 Zomereik · Meidoorn · Hazelaar'],
+ 'trail': ['Parkeren in <b>Rossum</b>; landweggetjes naar het erf.',
+           'Bekijk de <b>getoogde niendeur</b> — het erf is particulier bewoond.',
+           'Combineer met de <b>Rossumermeden</b>.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Particulier erf — vanaf de weg bekijken · 🚶 Landweggetjes'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Farmstead · monumental Twente erve near Rossum', 'list 36 · no. 327'],
+ 'loc': '📍 Rossum, Dinkelland municipality · Farmstead · Small',
+ 'desc': '<b>Erve Scholten Linde</b> is a monumental Twente <b>erve</b> — a farmstead with the characteristic <b>los hoes</b> building, where people and livestock once lived under a single thatched roof. The arched kitchen door in the base wall carries the year <b>1638</b>; a second door arch records 1678. Such an erve was more than a farm: it was a name in the landscape, tied to a lineage that worked the same ground for generations. Around it lies the small-scale farmstead landscape of Rossum — es fields, hedge banks and the brook valleys of the maten — where the erve still sits exactly in place.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (blossom), Oct–Nov (autumn)<br>\n    <b>Best time of day:</b> Morning — the farmstead lies quiet.',
+ 'why': ['An <b>erve</b> in the los hoes tradition: people and livestock under one roof.',
+         'Kitchen door with the year <b>1638</b>; door arch 1678.',
+         'A <b>name in the landscape</b>, tied to a lineage.',
+         'Surrounded by the <b>farmstead landscape</b> of Rossum.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Spring blossom</b> in the hedge banks.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Barn swallow and house sparrow</b> around the farm.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Butterflies</b> on the yard edges.',
+          '<span class="months">Oct–Nov</span> 🍂 <b>Autumn colour</b> around the farmhouse.'],
+ 'wild': ['🐦 Barn swallow · House sparrow · White wagtail', '🦇 Bats in the barns', '🦌 Roe deer · Hedgehog · Hare', '🌼 Oxeye daisy · Brown knapweed', '🌳 Pedunculate oak · Hawthorn · Hazel'],
+ 'trail': ['Park in <b>Rossum</b>; country lanes to the farm.',
+           'Admire the <b>arched kitchen door</b> — the farm is privately occupied.',
+           'Combine with the <b>Rossumermeden</b>.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Private farm — view from the road · 🚶 Country lanes'
+}))
+
+C.append(mk.card(1609, 'Singraven', {
+ 'tags': ['Overijssel · Dinkelland', 'Landgoed · havezate met watermolen aan de Dinkel', 'list 36 · no. 328'],
+ 'loc': '📍 Denekamp, Noordoost-Twente · Landgoed · Middelgroot',
+ 'desc': '<b>Singraven</b> is een landgoed aan de <b>Dinkel</b> bij Denekamp, waarvan de historie als riddergoed teruggaat tot <b>1381</b>. Centraal staan het statige Huis Singraven met de kunstcollectie van de laatste eigenaar W.F.J. Laan, het koetshuis, en de beroemde <b>watermolen</b> uit 1448 met drie onderslagraderen — ooit oliemolen, korenmolen en houtzaagmolen, later ook jeneverstokerij en bakkerij. Rondom wisselen bossen, lanen, akkers, weilanden en moerassen elkaar af, met de kronkelende Dinkel als levensader en een <b>arboretum</b> bij het huis.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (zang en bloei), okt–nov (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Ochtend langs de Dinkel.',
+ 'why': ['Riddergoed sinds <b>1381</b> aan de Dinkel.',
+         '<b>Watermolen</b> uit 1448 met drie onderslagraderen.',
+         'Huis Singraven met de <b>kunstcollectie</b> van W.F.J. Laan.',
+         'Bossen, lanen, moerassen en een <b>arboretum</b>.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Stinzenflora</b> onder de lanen.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Wielewaal en zwarte specht</b> in het oude loofhout.',
+          '<span class="months">Mei–Aug</span> 🦇 <b>Vleermuizen</b> boven de Dinkel.',
+          '<span class="months">Okt–Nov</span> 🍂 <b>Herfstkleur</b> in de lanen.'],
+ 'wild': ['🐦 Wielewaal · Zwarte specht · IJsvogel', '🦇 Vleermuizen in de oude gebouwen', '🦌 Ree · Eekhoorn · Das', '🌼 Bosanemoon · Daslook · Sneeuwklokje', '🌳 Zomereik · Beuk · Zwarte els'],
+ 'trail': ['Parkeren bij de <b>watermolen</b> (Molendijk, Denekamp).',
+           'Loop langs de <b>Dinkel</b> en bekijk de drie raderen.',
+           'Rondleidingen door <b>Huis Singraven</b> en de molen in het seizoen.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis (landgoed) · ⚙️ Watermolen 1448 · 🚶 Lanen en paden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Estate · havezate with water mill on the Dinkel', 'list 36 · no. 328'],
+ 'loc': '📍 Denekamp, North-east Twente · Estate · Medium-sized',
+ 'desc': '<b>Singraven</b> is an estate on the <b>Dinkel</b> near Denekamp, whose history as a knightly seat reaches back to <b>1381</b>. At its centre stand the stately Huis Singraven with the art collection of its last owner W.F.J. Laan, the coach house, and the famous <b>water mill</b> of 1448 with three undershot wheels — once an oil mill, a corn mill and a sawmill, later also a gin distillery and bakery. Around it woods, avenues, arable fields, meadows and marshes alternate, with the meandering Dinkel as its lifeline and an <b>arboretum</b> by the house.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (song and blossom), Oct–Nov (autumn colour)<br>\n    <b>Best time of day:</b> Morning along the Dinkel.',
+ 'why': ['A knightly seat since <b>1381</b> on the Dinkel.',
+         '<b>Water mill</b> of 1448 with three undershot wheels.',
+         'Huis Singraven with the <b>art collection</b> of W.F.J. Laan.',
+         'Woods, avenues, marshes and an <b>arboretum</b>.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Stinzen flora</b> under the avenues.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Golden oriole and black woodpecker</b> in the old broadleaf wood.',
+          '<span class="months">May–Aug</span> 🦇 <b>Bats</b> above the Dinkel.',
+          '<span class="months">Oct–Nov</span> 🍂 <b>Autumn colour</b> in the avenues.'],
+ 'wild': ['🐦 Golden oriole · Black woodpecker · Kingfisher', '🦇 Bats in the old buildings', '🦌 Roe deer · Squirrel · Badger', '🌼 Wood anemone · Wild garlic · Snowdrop', '🌳 Pedunculate oak · Beech · Black alder'],
+ 'trail': ['Park at the <b>water mill</b> (Molendijk, Denekamp).',
+           'Walk along the <b>Dinkel</b> and view the three wheels.',
+           'Guided tours of <b>Huis Singraven</b> and the mill in season.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free (estate) · ⚙️ Water mill 1448 · 🚶 Avenues and paths'
+}))
+
+mk.insert(C, '1604')
+mk.progress(1609)
+mk.check()

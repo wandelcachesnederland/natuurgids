@@ -1,0 +1,203 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1545, 'Houtdorperveld en Speulderveld', {
+ 'tags': ['Gelderland \u00b7 Ermelo en Putten', 'Heide \u00b7 uitgestrekte schaapsheide op de Veluwe', 'list 36 \u00b7 no. 264'],
+ 'loc': '\U0001f4cd Tussen Ermelo, Putten en Garderen \u00b7 Heide \u00b7 Groot',
+ 'desc': 'Het <b>Houtdorperveld</b> en <b>Speulderveld</b> vormen samen een van de grootste aaneengesloten heidevlakten van de Veluwe. Hier loopt nog een echte <b>schaapskudde</b>, en dat is geen folklore maar noodzaak: heide is een <b>cultuurlandschap</b> dat zonder ingrijpen binnen enkele decennia dichtgroeit met berk, den en pijpenstrootje. Schapen vreten jonge boompjes weg en nemen met hun vacht en hoeven zaden mee van de ene heidehoek naar de andere \u2014 een levende <b>zaadverspreider</b> die planten verbindt die anders geïsoleerd zouden raken. Op de vlakte broeden <b>veldleeuwerik, boomleeuwerik, roodborsttapuit en nachtzwaluw</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Aug\u2013sep</b> (heidebloei), jun\u2013jul (nachtzwaluw in de schemer)<br>\n    <b>Beste tijd van de dag:</b> Zonsopkomst voor zang, schemer voor nachtzwaluw.',
+ 'n2k': 'Natura 2000-gebied Veluwe \u2014 droge heiden, stuifzand en oude eikenbossen.',
+ 'why': ['Een van de grootste <b>aaneengesloten heidevlakten</b> van de Veluwe.',
+         'Heide is een <b>cultuurlandschap</b>; zonder beheer groeit het dicht.',
+         'De <b>schaapskudde</b> vreet jonge berk en den weg.',
+         'Schapen verspreiden <b>zaden</b> in vacht en hoeven tussen heidehoeken.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomleeuwerik en veldleeuwerik</b> zingen boven de vlakte.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f989 <b>Nachtzwaluw</b> snorrend in de schemer.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heidebloei</b> kleurt het veld paars.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f41d <b>Heidebijen en wespen</b> op de late bloei.'],
+ 'wild': ['\U0001f426 Veldleeuwerik \u00b7 Boomleeuwerik \u00b7 Roodborsttapuit \u00b7 Nachtzwaluw', '\U0001f985 Buizerd \u00b7 Havik \u00b7 Boomvalk', '\U0001f98e Levendbarende hagedis \u00b7 Zandhagedis \u00b7 Adder', '\U0001f411 Schaapskudde als beheerder', '\U0001f49c Struikhei \u00b7 Dophei \u00b7 Jeneverbes'],
+ 'trail': ['Parkeren bij <b>Speulde</b> of Houtdorp; brede paden over de heide.',
+           'Informeer naar de route van de <b>schaapskudde</b>.',
+           'Kom bij zonsondergang in juni voor de <b>nachtzwaluw</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Weinig schaduw'
+}, {
+ 'tags': ['Gelderland \u00b7 Ermelo and Putten', 'Heath \u00b7 extensive sheep heath on the Veluwe', 'list 36 \u00b7 no. 264'],
+ 'loc': '\U0001f4cd Between Ermelo, Putten and Garderen \u00b7 Heath \u00b7 Large',
+ 'desc': 'The <b>Houtdorperveld</b> and <b>Speulderveld</b> together form one of the largest continuous heaths of the Veluwe. A real <b>sheep flock</b> still walks here, and that is not folklore but necessity: heath is a <b>cultural landscape</b> that without intervention closes over within decades with birch, pine and purple moor-grass. Sheep browse away young saplings and carry seeds in their fleece and hooves from one corner of heath to another \u2014 a living <b>seed disperser</b> connecting plants that would otherwise become isolated. <b>Skylark, woodlark, stonechat and nightjar</b> breed on the plain.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Aug\u2013Sep</b> (heather bloom), Jun\u2013Jul (nightjar at dusk)<br>\n    <b>Best time of day:</b> Sunrise for song, dusk for nightjar.',
+ 'n2k_en': 'Natura 2000 site Veluwe \u2014 dry heaths, drift sand and old oak woods.',
+ 'why': ['One of the largest <b>continuous heaths</b> of the Veluwe.',
+         'Heath is a <b>cultural landscape</b>; unmanaged it closes over.',
+         'The <b>sheep flock</b> browses away young birch and pine.',
+         'Sheep spread <b>seeds</b> in fleece and hooves between heath patches.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Woodlark and skylark</b> sing above the plain.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f989 <b>Nightjar</b> churring at dusk.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heather bloom</b> turns the field purple.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f41d <b>Heath bees and wasps</b> on the late flowers.'],
+ 'wild': ['\U0001f426 Skylark \u00b7 Woodlark \u00b7 Stonechat \u00b7 Nightjar', '\U0001f985 Buzzard \u00b7 Goshawk \u00b7 Hobby', '\U0001f98e Viviparous lizard \u00b7 Sand lizard \u00b7 Adder', '\U0001f411 Sheep flock as manager', '\U0001f49c Heather \u00b7 Cross-leaved heath \u00b7 Juniper'],
+ 'trail': ['Park at <b>Speulde</b> or Houtdorp; broad paths cross the heath.',
+           'Ask after the route of the <b>sheep flock</b>.',
+           'Come at sunset in June for the <b>nightjar</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Little shade'
+}, card_class='card heath'))
+
+C.append(mk.card(1546, 'Petrea', {
+ 'tags': ['Gelderland \u00b7 Oldebroek', 'Landgoed \u00b7 bos en lanen op de noordelijke Veluwe', 'list 36 \u00b7 no. 265'],
+ 'loc': '\U0001f4cd Oldebroek, noordelijke Veluwe \u00b7 Landgoed \u00b7 Klein',
+ 'desc': '<b>Petrea</b> is een landgoed op de noordelijke Veluwe met een naam die rechtstreeks uit de plantkunde komt: <i>Quercus petraea</i> is de <b>wintereik</b>, de soortnaam betekent \u2018van de rotsen\u2019. De wintereik onderscheidt zich van de gewone zomereik door details die je in het veld kunt nalopen: <b>gesteelde bladeren maar ongesteelde eikels</b>, precies andersom dan bij de zomereik. Hij groeit bij voorkeur op wat drogere, hellende gronden \u2014 op de Veluwse stuwwallen dus \u2014 terwijl de zomereik de nattere laagten opzoekt. Op het landgoed broeden <b>boomklever, bosuil, grote bonte specht</b> en er leven <b>ree en das</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang), okt\u2013nov (herfstkleur en eikels)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 spechten en boomklevers actief.',
+ 'why': ['Genoemd naar <i>Quercus petraea</i>, de <b>wintereik</b>.',
+         'De soortnaam <b>petraea</b> betekent \u2018van de rotsen\u2019.',
+         'Wintereik: <b>gesteeld blad, ongesteelde eikels</b> \u2014 andersom dan zomereik.',
+         'Hij groeit op <b>drogere, hellende gronden</b> zoals de stuwwal.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Spechten roffelen</b> in de oude eiken.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en bosuil</b> broeden.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f330 <b>Eikelmast</b> \u2014 gaaien verstoppen voorraden.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> in de eikenlanen.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 Grote bonte specht \u00b7 Gaai', '\U0001f989 Bosuil \u00b7 \U0001f985 Buizerd \u00b7 Havik', '\U0001f98c Ree \u00b7 Das \u00b7 \U0001f43f\ufe0f Eekhoorn', '\U0001f344 Paddenstoelen op oud eikenhout', '\U0001f333 Wintereik \u00b7 Zomereik \u00b7 Beuk'],
+ 'trail': ['Parkeren bij <b>Oldebroek</b>; lanen door het landgoed.',
+           'Vergelijk in het veld <b>winter- en zomereik</b> aan blad en eikelsteel.',
+           'Oktober voor de <b>eikelmast</b> en de gaaien.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f333 Eikenlanen \u00b7 \U0001f6b6 Vlakke paden'
+}, {
+ 'tags': ['Gelderland \u00b7 Oldebroek', 'Country estate \u00b7 wood and avenues on the northern Veluwe', 'list 36 \u00b7 no. 265'],
+ 'loc': '\U0001f4cd Oldebroek, northern Veluwe \u00b7 Country estate \u00b7 Small',
+ 'desc': '<b>Petrea</b> is an estate on the northern Veluwe with a name taken straight from botany: <i>Quercus petraea</i> is the <b>sessile oak</b>, its species name meaning \u2018of the rocks\u2019. The sessile oak differs from the common pedunculate oak in details you can check in the field: <b>stalked leaves but unstalked acorns</b>, exactly the reverse of the pedunculate oak. It prefers somewhat drier, sloping ground \u2014 the Veluwe ice-pushed ridges, in other words \u2014 while the pedunculate oak seeks the wetter hollows. <b>Nuthatch, tawny owl and great spotted woodpecker</b> breed on the estate, and <b>roe deer and badger</b> live here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song), Oct\u2013Nov (autumn colour and acorns)<br>\n    <b>Best time of day:</b> Morning \u2014 woodpeckers and nuthatches active.',
+ 'why': ['Named after <i>Quercus petraea</i>, the <b>sessile oak</b>.',
+         'The species name <b>petraea</b> means \u2018of the rocks\u2019.',
+         'Sessile oak: <b>stalked leaves, unstalked acorns</b> \u2014 the reverse of pedunculate oak.',
+         'It grows on <b>drier, sloping ground</b> such as the ice-pushed ridge.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Woodpeckers drum</b> in the old oaks.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and tawny owl</b> breed.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f330 <b>Acorn mast</b> \u2014 jays hide their stores.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> in the oak avenues.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Great spotted woodpecker \u00b7 Jay', '\U0001f989 Tawny owl \u00b7 \U0001f985 Buzzard \u00b7 Goshawk', '\U0001f98c Roe deer \u00b7 Badger \u00b7 \U0001f43f\ufe0f Red squirrel', '\U0001f344 Fungi on old oak wood', '\U0001f333 Sessile oak \u00b7 Pedunculate oak \u00b7 Beech'],
+ 'trail': ['Park at <b>Oldebroek</b>; avenues cross the estate.',
+           'Compare <b>sessile and pedunculate oak</b> in the field by leaf and acorn stalk.',
+           'October for the <b>acorn mast</b> and the jays.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f333 Oak avenues \u00b7 \U0001f6b6 Level paths'
+}))
+
+C.append(mk.card(1547, 'Zwolse Bos', {
+ 'tags': ['Gelderland \u00b7 Hattem', 'Bos \u00b7 gemeentebos op de Veluwerand bij de IJssel', 'list 36 \u00b7 no. 266'],
+ 'loc': '\U0001f4cd Hattem, tussen Veluwe en IJssel \u00b7 Bos \u00b7 Middelgroot',
+ 'desc': 'Het <b>Zwolse Bos</b> bij Hattem ligt op een van de meest tekenende plekken van Nederland: precies waar de <b>Veluwse stuwwal</b> eindigt en de <b>IJsselvallei</b> begint. In enkele honderden meters ga je van droog, voedselarm dekzand naar natte rivierklei \u2014 en de vegetatie verandert mee van heideachtig dennenbos naar vochtig loofbos met es en els. Op de overgang treedt <b>kwel</b> op: regenwater dat op de Veluwe insijpelt komt hier na tientallen jaren ondergronds reizen weer aan de oppervlakte, mineraalrijk en met een constante temperatuur. Daar groeien <b>dotterbloem, bittere veldkers en paarbladig goudveil</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013mei</b> (kwelflora), sep\u2013nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 damp boven de kwelplekken.',
+ 'why': ['Ligt precies waar de <b>Veluwse stuwwal</b> overgaat in de IJsselvallei.',
+         'In honderden meters van <b>droog dekzand naar natte rivierklei</b>.',
+         'Op de overgang treedt <b>kwel</b> op uit de Veluwe.',
+         'Dat water reisde <b>tientallen jaren</b> ondergronds voor het opborrelt.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Paarbladig goudveil</b> op de kwelplekken.',
+          '<span class="months">Apr\u2013Mei</span> \U0001f33c <b>Dotterbloem en bittere veldkers</b> in bloei.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Zangvogels</b> in de vochtige loofbossen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> op de gradiënt.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 Grote bonte specht \u00b7 Kleine bonte specht', '\U0001f989 Bosuil \u00b7 \U0001f985 Buizerd \u00b7 Havik', '\U0001f98c Ree \u00b7 \U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98a Vos', '\U0001f33c Dotterbloem \u00b7 Bittere veldkers \u00b7 Paarbladig goudveil', '\U0001f333 Grove den op het zand \u00b7 Es en els in de kwelzone'],
+ 'trail': ['Parkeren in <b>Hattem</b>; paden van de stuwwal naar de IJsselvlakte.',
+           'Loop <b>bergafwaarts</b> \u2014 dan zie je de gradiënt in de juiste volgorde.',
+           'April voor de <b>kwelflora</b> aan de voet van de helling.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f4a7 Kwelgradiënt \u00b7 \U0001f6b6 Licht heuvelachtig'
+}, {
+ 'tags': ['Gelderland \u00b7 Hattem', 'Woodland \u00b7 municipal wood on the Veluwe edge by the IJssel', 'list 36 \u00b7 no. 266'],
+ 'loc': '\U0001f4cd Hattem, between Veluwe and IJssel \u00b7 Woodland \u00b7 Medium-sized',
+ 'desc': 'The <b>Zwolse Bos</b> near Hattem occupies one of the most telling spots in the Netherlands: exactly where the <b>Veluwe ice-pushed ridge</b> ends and the <b>IJssel valley</b> begins. Within a few hundred metres you pass from dry, nutrient-poor cover sand to wet river clay \u2014 and the vegetation shifts with it from heathy pine wood to damp broadleaf wood of ash and alder. At the transition <b>seepage</b> emerges: rainwater soaking into the Veluwe surfaces here after decades of underground travel, mineral-rich and at a constant temperature. There grow <b>marsh marigold, large bitter-cress and opposite-leaved golden-saxifrage</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013May</b> (seepage flora), Sep\u2013Nov (fungi)<br>\n    <b>Best time of day:</b> Morning \u2014 vapour above the seepage patches.',
+ 'why': ['Lies exactly where the <b>Veluwe ridge</b> meets the IJssel valley.',
+         'Within hundreds of metres from <b>dry cover sand to wet river clay</b>.',
+         '<b>Seepage</b> from the Veluwe emerges at the transition.',
+         'That water travelled <b>decades</b> underground before welling up.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Golden-saxifrage</b> on the seepage patches.',
+          '<span class="months">Apr\u2013May</span> \U0001f33c <b>Marsh marigold and bitter-cress</b> in flower.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Songbirds</b> in the damp broadleaf woods.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> along the gradient.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Great spotted woodpecker \u00b7 Lesser spotted woodpecker', '\U0001f989 Tawny owl \u00b7 \U0001f985 Buzzard \u00b7 Goshawk', '\U0001f98c Roe deer \u00b7 \U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98a Fox', '\U0001f33c Marsh marigold \u00b7 Large bitter-cress \u00b7 Golden-saxifrage', '\U0001f333 Scots pine on the sand \u00b7 Ash and alder in the seepage zone'],
+ 'trail': ['Park in <b>Hattem</b>; paths run from the ridge to the IJssel plain.',
+           'Walk <b>downhill</b> \u2014 the gradient then unfolds in the right order.',
+           'April for the <b>seepage flora</b> at the foot of the slope.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f4a7 Seepage gradient \u00b7 \U0001f6b6 Gently hilly'
+}))
+
+C.append(mk.card(1548, 'Renderklippen en Gemeentebossen Heerde', {
+ 'tags': ['Gelderland \u00b7 Heerde en Epe', 'Heide en stuifzand \u00b7 hoge heiderug met vergezichten', 'list 36 \u00b7 no. 267'],
+ 'loc': '\U0001f4cd Tussen Heerde, Epe en Elspeet \u00b7 Heide en stuifzand \u00b7 Groot',
+ 'desc': 'De <b>Renderklippen</b> zijn een langgerekte heiderug op de oostelijke Veluwe, en het woord <b>klip</b> is hier geen toeval: in oud Nederlands betekende het een <b>steile helling of rotsachtige rand</b>, en vanaf de rug kijk je inderdaad steil uit over de IJsselvallei. Het gebied is een klassiek voorbeeld van een <b>stuifzandlandschap in rust</b>: eeuwen van overbegrazing legden het zand bloot, waarna het bij elke storm verschoof en hele akkers en zelfs dorpen bedolf. Door bebossing en beheer kwam het tot stilstand, maar op enkele plekken laat men het zand nu weer <b>bewust stuiven</b> voor soorten als de <b>tapuit</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Aug\u2013sep</b> (heidebloei), apr\u2013jun (tapuit en boomleeuwerik)<br>\n    <b>Beste tijd van de dag:</b> Zonsopkomst \u2014 licht over de heiderug en de vallei.',
+ 'n2k': 'Natura 2000-gebied Veluwe \u2014 droge heiden, stuifzandheiden en zandverstuivingen.',
+ 'why': ['<b>Klip</b> betekende in oud Nederlands een steile helling of rotsrand.',
+         'Vanaf de rug kijk je steil uit over de <b>IJsselvallei</b>.',
+         'Klassiek <b>stuifzandlandschap</b>: overbegrazing legde het zand bloot.',
+         'Op plekken laat men het zand nu weer <b>bewust stuiven</b> voor de tapuit.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Tapuit en boomleeuwerik</b> op het open zand.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f989 <b>Nachtzwaluw</b> in de schemer.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heidebloei</b> over de hele rug.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstlicht</b> en zicht over de vallei.'],
+ 'wild': ['\U0001f426 Tapuit \u00b7 Boomleeuwerik \u00b7 Roodborsttapuit \u00b7 Nachtzwaluw', '\U0001f985 Buizerd \u00b7 Havik \u00b7 Boomvalk', '\U0001f98e Zandhagedis \u00b7 Levendbarende hagedis \u00b7 Adder', '\U0001f98c Ree \u00b7 \U0001f417 Wild zwijn \u00b7 \U0001f98a Vos', '\U0001f49c Struikhei \u00b7 Buntgras \u00b7 Jeneverbes'],
+ 'trail': ['Parkeren bij <b>Heerde</b> of langs de weg naar Elspeet.',
+           'Loop naar de <b>hoogste punten</b> voor het uitzicht over de IJsselvallei.',
+           'Blijf op de paden in de <b>actieve stuifzandplekken</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f3d4\ufe0f Vergezichten'
+}, {
+ 'tags': ['Gelderland \u00b7 Heerde and Epe', 'Heath and drift sand \u00b7 high heath ridge with wide views', 'list 36 \u00b7 no. 267'],
+ 'loc': '\U0001f4cd Between Heerde, Epe and Elspeet \u00b7 Heath and drift sand \u00b7 Large',
+ 'desc': 'The <b>Renderklippen</b> are a long heath ridge on the eastern Veluwe, and the word <b>klip</b> is no accident here: in old Dutch it meant a <b>steep slope or rocky edge</b>, and from the ridge you do indeed look steeply out over the IJssel valley. The area is a classic example of a <b>drift-sand landscape at rest</b>: centuries of overgrazing laid the sand bare, after which every storm shifted it and buried whole fields and even villages. Afforestation and management brought it to a halt, but in places the sand is now <b>deliberately allowed to drift</b> again for species such as the <b>wheatear</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Aug\u2013Sep</b> (heather bloom), Apr\u2013Jun (wheatear and woodlark)<br>\n    <b>Best time of day:</b> Sunrise \u2014 light across the ridge and the valley.',
+ 'n2k_en': 'Natura 2000 site Veluwe \u2014 dry heaths, drift-sand heaths and sand drifts.',
+ 'why': ['<b>Klip</b> in old Dutch meant a steep slope or rocky edge.',
+         'From the ridge you look steeply over the <b>IJssel valley</b>.',
+         'Classic <b>drift-sand landscape</b>: overgrazing laid the sand bare.',
+         'In places the sand is now <b>deliberately allowed to drift</b> for the wheatear.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Wheatear and woodlark</b> on the open sand.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f989 <b>Nightjar</b> at dusk.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heather bloom</b> across the whole ridge.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn light</b> and views over the valley.'],
+ 'wild': ['\U0001f426 Wheatear \u00b7 Woodlark \u00b7 Stonechat \u00b7 Nightjar', '\U0001f985 Buzzard \u00b7 Goshawk \u00b7 Hobby', '\U0001f98e Sand lizard \u00b7 Viviparous lizard \u00b7 Adder', '\U0001f98c Roe deer \u00b7 \U0001f417 Wild boar \u00b7 \U0001f98a Fox', '\U0001f49c Heather \u00b7 Grey hair-grass \u00b7 Juniper'],
+ 'trail': ['Park at <b>Heerde</b> or along the road to Elspeet.',
+           'Walk to the <b>highest points</b> for the view over the IJssel valley.',
+           'Keep to the paths in the <b>active drift-sand patches</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f3d4\ufe0f Wide views'
+}, card_class='card heath'))
+
+C.append(mk.card(1549, 'Heerderstrand en Heerdersprengen', {
+ 'tags': ['Gelderland \u00b7 Heerde', 'Sprengenbeken \u00b7 gegraven beken en waterplassen', 'list 36 \u00b7 no. 268'],
+ 'loc': '\U0001f4cd Heerde, oostelijke Veluwe \u00b7 Sprengenbeken \u00b7 Klein',
+ 'desc': 'Rond <b>Heerde</b> ligt een net van <b>sprengenbeken</b>: geen natuurlijke beken maar <b>door mensen gegraven watergangen</b>, aangelegd vanaf de late middeleeuwen om waterkracht te leveren aan papiermolens, korenmolens en wasserijen. Men groef een sleuf tot in het grondwater van de stuwwal, waarna het water vanzelf de spreng in liep en met een zorgvuldig berekend verval naar het molenrad stroomde. Op sommige plekken zijn de <b>sprengkoppen</b> nog te zien als diepe, met bomen omzoomde kuilen waar helder water uit de bodem welt. Het water heeft jaarrond <b>ongeveer tien graden</b>; daarom bevriezen de sprengen nooit en zit er \u2019s winters <b>ijsvogel</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Nov\u2013feb</b> (ijsvogel bij open water), apr\u2013jun (broedvogels)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 damp boven de sprengkoppen bij vorst.',
+ 'why': ['<b>Sprengen</b> zijn door mensen gegraven beken, geen natuurlijke.',
+         'Aangelegd voor waterkracht: <b>papiermolens, korenmolens, wasserijen</b>.',
+         'Men groef tot in het <b>grondwater van de stuwwal</b>.',
+         'Het water is jaarrond <b>tien graden</b> en bevriest daarom nooit.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f426 <b>Grote gele kwikstaart</b> bij de watervallen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Broedvogels</b> langs de beekbegeleidende bosjes.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> jagen boven het water.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f426 <b>IJsvogel</b> \u2014 sprengen bevriezen nooit.'],
+ 'wild': ['\U0001f426 IJsvogel \u00b7 Grote gele kwikstaart \u00b7 Waterspreeuw (zeldzaam)', '\U0001f41b Kokerjuffers \u00b7 Steenvliegen \u00b7 Beekfauna', '\U0001f987 Vleermuizen boven de beken', '\U0001f33f Beekbegeleidende mossen en varens', '\U0001f333 Els \u00b7 Es \u00b7 Beuk langs de sprengen'],
+ 'trail': ['Parkeren in <b>Heerde</b>; paden volgen de sprengen stroomafwaarts.',
+           'Zoek de <b>sprengkoppen</b>: diepe kuilen waar het water opwelt.',
+           'Kom bij <b>vorst</b> \u2014 dan damp het open water zichtbaar.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3fa Molengeschiedenis \u00b7 \U0001f6b6 Smalle beekpaden'
+}, {
+ 'tags': ['Gelderland \u00b7 Heerde', 'Spring brooks \u00b7 dug water channels and pools', 'list 36 \u00b7 no. 268'],
+ 'loc': '\U0001f4cd Heerde, eastern Veluwe \u00b7 Spring brooks \u00b7 Small',
+ 'desc': 'Around <b>Heerde</b> lies a network of <b>sprengen</b>: not natural brooks but <b>channels dug by people</b>, laid out from the late Middle Ages to supply water power to paper mills, corn mills and laundries. A trench was dug down into the groundwater of the ice-pushed ridge, after which water flowed into the spreng of its own accord and ran to the mill wheel on a carefully calculated gradient. In places the <b>spring heads</b> are still visible as deep, tree-lined hollows where clear water wells from the ground. The water is <b>about ten degrees</b> all year; the sprengen therefore never freeze and hold a <b>kingfisher</b> in winter.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Nov\u2013Feb</b> (kingfisher at open water), Apr\u2013Jun (breeding birds)<br>\n    <b>Best time of day:</b> Early morning \u2014 vapour above the spring heads in frost.',
+ 'why': ['<b>Sprengen</b> are human-dug brooks, not natural ones.',
+         'Built for water power: <b>paper mills, corn mills, laundries</b>.',
+         'Trenches were dug into the <b>groundwater of the ridge</b>.',
+         'The water stays <b>ten degrees</b> year-round and never freezes.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f426 <b>Grey wagtail</b> at the little falls.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Breeding birds</b> in the brookside copses.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Bats</b> hunt above the water.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f426 <b>Kingfisher</b> \u2014 the sprengen never freeze.'],
+ 'wild': ['\U0001f426 Kingfisher \u00b7 Grey wagtail \u00b7 Dipper (rare)', '\U0001f41b Caddisflies \u00b7 Stoneflies \u00b7 Brook fauna', '\U0001f987 Bats above the brooks', '\U0001f33f Brookside mosses and ferns', '\U0001f333 Alder \u00b7 Ash \u00b7 Beech along the sprengen'],
+ 'trail': ['Park in <b>Heerde</b>; paths follow the sprengen downstream.',
+           'Look for the <b>spring heads</b>: deep hollows where water wells up.',
+           'Come during <b>frost</b> \u2014 the open water then visibly steams.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3fa Mill history \u00b7 \U0001f6b6 Narrow brookside paths'
+}, card_class='card water'))
+
+mk.insert(C, '1544')
+mk.progress(1549)
+mk.check()

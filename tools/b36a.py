@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1282, 'S\u00fbdermarpolder', {
+ 'tags': ['Friesland \u00b7 S\u00fbdwest-Frysl\u00e2n', 'Weidevogelpolder \u00b7 nat grasland aan het IJsselmeer', 'list 36 \u00b7 no. 1'],
+ 'loc': '\U0001f4cd Bij Gaast en Ferwoude \u00b7 Nat poldergrasland \u00b7 Middelgroot',
+ 'desc': 'De <b>S\u00fbdermarpolder</b> ligt in de strook tussen de Friese IJsselmeerkust en het oude kleiweidegebied, en is een van de polders waar het waterschap en It Fryske Gea samen een <b>hoog zomerpeil</b> aanhouden. Dat is een radicale breuk met de gewoonte: normaal wordt het peil in het voorjaar juist verlaagd om het land berijdbaar te maken. Hier gebeurt het omgekeerde, en het resultaat is een polder die tot ver in mei <b>plas-dras</b> staat. Voor <b>grutto, kemphaan en watersnip</b> is dat precies de situatie waarin ze hun voedsel kunnen bereiken: de bodem blijft zacht en de bodemfauna zit ondiep. Doordat de polder vlak achter de IJsselmeerdijk ligt, is er bovendien <b>zoute kwel</b>, wat op de laagste plekken een zilte flora oplevert met <b>zilte rus, melkkruid en zeeaster</b> \u2014 een combinatie van weidevogelgebied en binnendijkse zilte vegetatie die zeldzaam is.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt\u2013jun</b> (weidevogels, piek in apr\u2013mei), aug\u2013sep (zilte flora en doortrek)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 de gruttokolonie is dan op zijn luidst.',
+ 'why': ['Bewust <b>hoog zomerpeil</b> \u2014 tegen alle landbouwgewoonte in.',
+         'Tot in mei <b>plas-dras</b>: zachte bodem en bereikbare bodemfauna.',
+         '<b>Zoute kwel</b> achter de IJsselmeerdijk geeft binnendijkse zilte flora.',
+         'Zeldzame combinatie van <b>weidevogelgebied en zilte vegetatie</b>.'],
+ 'phen': ['<span class="months">Mrt</span> \U0001f4a7 <b>Plas-dras</b> \u2014 de eerste grutto\u2019s vallen in.',
+          '<span class="months">Apr\u2013Mei</span> \U0001f426 <b>Kemphaan en watersnip</b> op de natste delen.',
+          '<span class="months">Mei\u2013Jun</span> \U0001f426 <b>Kuikentijd</b>; maaien uitgesteld tot de jongen vliegen.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f33f <b>Zeeaster en melkkruid</b> bloeien op de zilte plekken.'],
+ 'wild': ['\U0001f426 Grutto \u00b7 Tureluur \u00b7 Kemphaan', '\U0001f426 Watersnip \u00b7 Kievit', '\U0001f986 Slobeend \u00b7 Zomertaling', '\U0001f33f Zilte rus \u00b7 Melkkruid \u00b7 Zeeaster', '\U0001f985 Bruine kiekendief'],
+ 'trail': ['Parkeren bij <b>Gaast</b> of <b>Ferwoude</b>; kijken vanaf de polderwegen.',
+           'De <b>IJsselmeerdijk</b> geeft overzicht over de hele polder.',
+           '<b>Niet betreden</b> in het broedseizoen; neem een telescoop mee.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Weidevogelgebied \u2014 niet betreden mrt\u2013jun \u00b7 \U0001f9ed It Fryske Gea'
+}, {
+ 'tags': ['Friesland \u00b7 S\u00fbdwest-Frysl\u00e2n', 'Meadow bird polder \u00b7 wet grassland by the IJsselmeer', 'list 36 \u00b7 no. 1'],
+ 'loc': '\U0001f4cd Near Gaast and Ferwoude \u00b7 Wet polder grassland \u00b7 Medium-sized',
+ 'desc': 'The <b>S\u00fbdermarpolder</b> lies in the strip between the Frisian IJsselmeer coast and the old clay meadow region, and is one of the polders where the water board and It Fryske Gea jointly maintain a <b>high summer water level</b>. That is a radical break with custom: normally the level is lowered in spring to make the land trafficable. Here the opposite happens, and the result is a polder that stands <b>shallowly flooded</b> well into May. For <b>black-tailed godwit, ruff and snipe</b> that is exactly the situation in which they can reach their food: the soil stays soft and the soil fauna remains near the surface. Because the polder lies just behind the IJsselmeer dike there is also <b>saline seepage</b>, which on the lowest spots produces a saline flora with <b>saltmarsh rush, sea milkwort and sea aster</b> \u2014 a rare combination of meadow bird area and inland saline vegetation.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar\u2013Jun</b> (meadow birds, peaking Apr\u2013May), Aug\u2013Sep (saline flora and passage)<br>\n    <b>Best time of day:</b> Early morning \u2014 the godwit colony is then at its loudest.',
+ 'why': ['Deliberately <b>high summer level</b> \u2014 against all agricultural custom.',
+         'Shallow flooding <b>into May</b>: soft soil and reachable soil fauna.',
+         '<b>Saline seepage</b> behind the IJsselmeer dike gives inland salt flora.',
+         'Rare combination of <b>meadow bird area and saline vegetation</b>.'],
+ 'phen': ['<span class="months">Mar</span> \U0001f4a7 <b>Shallow flooding</b> \u2014 the first godwits drop in.',
+          '<span class="months">Apr\u2013May</span> \U0001f426 <b>Ruff and snipe</b> on the wettest parts.',
+          '<span class="months">May\u2013Jun</span> \U0001f426 <b>Chick season</b>; mowing delayed until the young fly.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f33f <b>Sea aster and sea milkwort</b> flower on the saline spots.'],
+ 'wild': ['\U0001f426 Black-tailed godwit \u00b7 Redshank \u00b7 Ruff', '\U0001f426 Snipe \u00b7 Lapwing', '\U0001f986 Shoveler \u00b7 Garganey', '\U0001f33f Saltmarsh rush \u00b7 Sea milkwort \u00b7 Sea aster', '\U0001f985 Marsh harrier'],
+ 'trail': ['Park at <b>Gaast</b> or <b>Ferwoude</b>; view from the polder roads.',
+           'The <b>IJsselmeer dike</b> gives an overview of the whole polder.',
+           '<b>Do not enter</b> during the breeding season; bring a telescope.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Meadow bird area \u2014 do not enter Mar\u2013Jun \u00b7 \U0001f9ed It Fryske Gea'
+}))
+
+C.append(mk.card(1283, 'Dijksfeart', {
+ 'tags': ['Friesland \u00b7 S\u00fbdwest-Frysl\u00e2n', 'Vaart \u00b7 oeverlanden en rietzomen', 'list 36 \u00b7 no. 2'],
+ 'loc': '\U0001f4cd Langs de Friese IJsselmeerkust bij Workum \u00b7 Vaart met oeverlanden \u00b7 Lang lint',
+ 'desc': 'De <b>Dijksfeart</b> \u2014 letterlijk \u2018dijkvaart\u2019 \u2014 loopt evenwijdig aan de oude zeedijk en is gegraven om het binnendijkse water af te voeren \u00e9n om klei te winnen voor de dijk zelf. Zulke vaarten zijn er langs de hele Friese kust, en ze vormen samen een <b>lineair netwerk</b> dat verrassend veel natuurwaarde herbergt. De vaart is <b>breed, luw en ondiep aan de randen</b>, met brede <b>rietzomen</b> waar riet, lisdodde en grote zeggen groeien. Voor rietvogels is dat ideaal: <b>rietzanger, kleine karekiet, snor en blauwborst</b> broeden er in dichtheden die je in de smalle poldersloten nooit haalt. Doordat de vaart pal achter de dijk ligt, ontvangt hij bovendien <b>brakke kwel</b>, wat aan de voet van de dijk zilte plekjes oplevert. In de winter is het open water een <b>toevluchtsoord</b> als het IJsselmeer ruw staat: dan schuilen er dodaars, futen en duikeenden.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (rietvogels op hun luidst), nov\u2013feb (schuilende watervogels bij ruw weer)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rietvogels zingen dan onafgebroken.',
+ 'why': ['<b>Dijkvaart</b> gegraven voor afwatering \u00e9n kleiwinning voor de dijk.',
+         'Brede <b>rietzomen</b> met hoge dichtheden rietvogels.',
+         '<b>Brakke kwel</b> aan de dijkvoet met zilte plekjes.',
+         '<b>Toevluchtsoord</b> voor watervogels als het IJsselmeer ruw staat.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Snor en rietzanger</b> zingen in de rietzomen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Blauwborst</b> met zijn blauwe borstschild.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de luwe oevers.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Duikeenden en futen</b> schuilen bij storm.'],
+ 'wild': ['\U0001f426 Rietzanger \u00b7 Kleine karekiet \u00b7 Snor', '\U0001f426 Blauwborst \u00b7 Rietgors', '\U0001f986 Dodaars \u00b7 Fuut \u00b7 Kuifeend', '\U0001f9a0 Libellen', '\U0001f33f Riet \u00b7 Lisdodde \u00b7 Grote zeggen'],
+ 'trail': ['Volg de <b>zeedijk</b> bij Workum; de vaart loopt er direct achter.',
+           'Fiets- en wandelpaden lopen over de <b>dijkkruin</b> \u2014 goed overzicht.',
+           'Combineer met de <b>Mokkebank</b> en de Workumerwaard.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Oevers drassig; blijf op de dijk \u00b7 \U0001f6b4 Fietsroute langs de kust'
+}, {
+ 'tags': ['Friesland \u00b7 S\u00fbdwest-Frysl\u00e2n', 'Canal \u00b7 bankside land and reed fringes', 'list 36 \u00b7 no. 2'],
+ 'loc': '\U0001f4cd Along the Frisian IJsselmeer coast near Workum \u00b7 Canal with bankside land \u00b7 Long ribbon',
+ 'desc': 'The <b>Dijksfeart</b> \u2014 literally \u2018dike canal\u2019 \u2014 runs parallel to the old sea dike and was dug both to drain the land behind it and to win clay for the dike itself. Such canals exist along the whole Frisian coast, and together they form a <b>linear network</b> holding surprising natural value. The canal is <b>wide, sheltered and shallow at the edges</b>, with broad <b>reed fringes</b> of reed, bulrush and large sedges. For reed birds that is ideal: <b>sedge warbler, reed warbler, Savi\u2019s warbler and bluethroat</b> breed here at densities never reached in narrow polder ditches. Because the canal lies immediately behind the dike it also receives <b>brackish seepage</b>, producing saline patches at the dike foot. In winter the open water is a <b>refuge</b> when the IJsselmeer is rough: little grebes, great crested grebes and diving ducks shelter there.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (reed birds at their loudest), Nov\u2013Feb (sheltering waterfowl in rough weather)<br>\n    <b>Best time of day:</b> Early morning \u2014 reed birds then sing without pause.',
+ 'why': ['<b>Dike canal</b> dug for drainage and for clay to build the dike.',
+         'Broad <b>reed fringes</b> with high densities of reed birds.',
+         '<b>Brackish seepage</b> at the dike foot with saline patches.',
+         '<b>Refuge</b> for waterfowl when the IJsselmeer is rough.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Savi\u2019s warbler and sedge warbler</b> sing in the reed fringes.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Bluethroat</b> with its blue breast shield.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the sheltered banks.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f986 <b>Diving ducks and grebes</b> shelter during storms.'],
+ 'wild': ['\U0001f426 Sedge warbler \u00b7 Reed warbler \u00b7 Savi\u2019s warbler', '\U0001f426 Bluethroat \u00b7 Reed bunting', '\U0001f986 Little grebe \u00b7 Great crested grebe \u00b7 Tufted duck', '\U0001f9a0 Dragonflies', '\U0001f33f Reed \u00b7 Bulrush \u00b7 Large sedges'],
+ 'trail': ['Follow the <b>sea dike</b> at Workum; the canal runs directly behind it.',
+           'Cycle and foot paths run along the <b>dike crest</b> \u2014 good overview.',
+           'Combine with the <b>Mokkebank</b> and the Workumerwaard.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Boggy banks; keep to the dike \u00b7 \U0001f6b4 Coastal cycle route'
+}, card_class='card water'))
+
+C.append(mk.card(1284, 'Mokkebank', {
+ 'tags': ['Friesland \u00b7 S\u00fbdwest-Frysl\u00e2n', 'IJsselmeerkust \u00b7 buitendijkse rietlanden en slikken', 'list 36 \u00b7 no. 3'],
+ 'loc': '\U0001f4cd Tussen Laaksum en Mirns, IJsselmeerkust \u00b7 Buitendijks natuurgebied \u00b7 Middelgroot',
+ 'desc': 'De <b>Mokkebank</b> is een van de mooiste buitendijkse gebieden langs de Friese IJsselmeerkust: een brede zone van <b>rietlanden, ondiepten en slikplaten</b> tussen de dijk en het open water. Zulke zones zijn zeldzaam geworden, want langs het grootste deel van het IJsselmeer loopt de dijk direct het diepe water in. Hier niet \u2014 en dat verschil is voor vogels enorm. De ondiepten zijn <b>foerageergebied</b> voor duizenden watervogels, en bij lage waterstand vallen slikranden droog waar <b>steltlopers</b> op afkomen. In het najaar is de Mokkebank vooral bekend als <b>ruiplaats</b>: eenden die tijdens de rui hun slagpennen verliezen en dus tijdelijk niet kunnen vliegen, zoeken luwe, veilige wateren op. Duizenden <b>krakeenden, slobeenden en tafeleenden</b> verzamelen zich hier. In het riet broeden <b>grote karekiet, roerdomp en baardman</b>, en de <b>zeearend</b> is inmiddels een regelmatige gast.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jul\u2013sep</b> (ruiende eenden \u2014 de piek), apr\u2013jun (rietvogels), nov\u2013feb (watervogels en zeearend)<br>\n    <b>Beste tijd van de dag:</b> Ochtend met de zon in de rug \u2014 het water ligt dan in het licht.',
+ 'why': ['Zeldzame <b>buitendijkse zone</b> met rietland, ondiepten en slikken.',
+         'Belangrijke <b>ruiplaats</b> voor duizenden eenden in de nazomer.',
+         'Broedplaats van <b>grote karekiet, roerdomp en baardman</b>.',
+         'De <b>zeearend</b> is een regelmatige gast geworden.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Grote karekiet</b> \u2014 luide zang in het overjarig riet.',
+          '<span class="months">Jul\u2013Sep</span> \U0001f986 <b>Ruiende eenden</b> \u2014 duizenden vogels, tijdelijk vleugellam.',
+          '<span class="months">Aug\u2013Okt</span> \U0001f426 <b>Steltlopers</b> op de droogvallende slikranden.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>Zeearend</b> jaagt boven het water.'],
+ 'wild': ['\U0001f426 Grote karekiet \u00b7 Roerdomp \u00b7 Baardman', '\U0001f986 Krakeend \u00b7 Slobeend \u00b7 Tafeleend', '\U0001f985 Zeearend \u00b7 Bruine kiekendief', '\U0001f426 Steltlopers op de slikken', '\U0001f33f Riet \u00b7 Ruwe bies'],
+ 'trail': ['Parkeren bij <b>Laaksum</b> of <b>Mirns</b>; kijkpunten op de dijk.',
+           'De <b>vogelkijkhut</b> geeft zicht over de ondiepten.',
+           'Grote delen zijn <b>afgesloten</b> \u2014 ruiende eenden mogen niet verstoord worden.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Ruigebied \u2014 verstoring is fataal in jul\u2013sep \u00b7 \U0001f9ed It Fryske Gea'
+}, {
+ 'tags': ['Friesland \u00b7 S\u00fbdwest-Frysl\u00e2n', 'IJsselmeer coast \u00b7 outer reedlands and mudflats', 'list 36 \u00b7 no. 3'],
+ 'loc': '\U0001f4cd Between Laaksum and Mirns, IJsselmeer coast \u00b7 Outer-dike reserve \u00b7 Medium-sized',
+ 'desc': 'The <b>Mokkebank</b> is one of the finest outer-dike areas along the Frisian IJsselmeer coast: a broad zone of <b>reedlands, shallows and mudflats</b> between the dike and the open water. Such zones have become rare, because along most of the IJsselmeer the dike runs straight into deep water. Not here \u2014 and for birds that difference is enormous. The shallows are <b>feeding grounds</b> for thousands of waterfowl, and at low water levels muddy margins fall dry and attract <b>waders</b>. In autumn the Mokkebank is best known as a <b>moulting site</b>: ducks that shed their flight feathers during the moult, and so cannot fly for a time, seek out sheltered, safe waters. Thousands of <b>gadwall, shoveler and pochard</b> gather here. In the reeds <b>great reed warbler, bittern and bearded reedling</b> breed, and the <b>white-tailed eagle</b> has become a regular visitor.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jul\u2013Sep</b> (moulting ducks \u2014 the peak), Apr\u2013Jun (reed birds), Nov\u2013Feb (waterfowl and white-tailed eagle)<br>\n    <b>Best time of day:</b> Morning with the sun behind you \u2014 the water then lies in the light.',
+ 'why': ['Rare <b>outer-dike zone</b> with reedland, shallows and mudflats.',
+         'Important <b>moulting site</b> for thousands of ducks in late summer.',
+         'Breeding site for <b>great reed warbler, bittern and bearded reedling</b>.',
+         'The <b>white-tailed eagle</b> has become a regular visitor.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Great reed warbler</b> \u2014 loud song in the old reed.',
+          '<span class="months">Jul\u2013Sep</span> \U0001f986 <b>Moulting ducks</b> \u2014 thousands of birds, temporarily flightless.',
+          '<span class="months">Aug\u2013Oct</span> \U0001f426 <b>Waders</b> on the exposed muddy margins.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>White-tailed eagle</b> hunting over the water.'],
+ 'wild': ['\U0001f426 Great reed warbler \u00b7 Bittern \u00b7 Bearded reedling', '\U0001f986 Gadwall \u00b7 Shoveler \u00b7 Pochard', '\U0001f985 White-tailed eagle \u00b7 Marsh harrier', '\U0001f426 Waders on the mudflats', '\U0001f33f Reed \u00b7 Club-rush'],
+ 'trail': ['Park at <b>Laaksum</b> or <b>Mirns</b>; viewpoints on the dike.',
+           'The <b>bird hide</b> overlooks the shallows.',
+           'Large parts are <b>closed</b> \u2014 moulting ducks must not be disturbed.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Moulting area \u2014 disturbance is fatal Jul\u2013Sep \u00b7 \U0001f9ed It Fryske Gea'
+}, card_class='card water',
+   n2k='Natura 2000-gebied <b>IJsselmeer</b> \u2014 aangewezen voor ruiende en overwinterende watervogels, rietmoerassen en broedvogels als roerdomp en grote karekiet.',
+   n2k_en='Natura 2000 site <b>IJsselmeer</b> \u2014 designated for moulting and wintering waterfowl, reed marshes and breeding birds such as bittern and great reed warbler.'))
+
+C.append(mk.card(1285, 'Rysterbosk en Murnzerklif', {
+ 'tags': ['Friesland \u00b7 Gaasterland', 'Klif \u00b7 keileemsteilrand met oud loofbos', 'list 36 \u00b7 no. 4'],
+ 'loc': '\U0001f4cd Bij Rijs en Mirns, Gaasterland \u00b7 Bos op keileemklif \u00b7 Middelgroot',
+ 'desc': 'In <b>Gaasterland</b> gebeurt iets wat in Friesland nergens anders voorkomt: het land loopt niet vlak in het IJsselmeer, maar eindigt in een <b>klif</b>. Het <b>Murnzerklif</b> (Mirnser Klif) is zo\u2019n steilrand, ontstaan doordat het landijs in de voorlaatste ijstijd hier een <b>keileemrug</b> achterliet die later door de golven van de Zuiderzee is afgeknaagd. Je kijkt er dus tegen een dwarsdoorsnede van de ijstijd aan, met <b>zwerfkeien</b> uit Scandinavi\u00eb in de wand. Direct erachter ligt het <b>Rysterbosk</b>, een oud loofbos op keileem \u2014 en die bodem verklaart de rijkdom: keileem houdt water vast en bevat kalk en mineralen, waardoor er <b>beuken, eiken en essen</b> groeien met een ondergroei van <b>bosanemoon, daslook en gele dovenetel</b>. In het bos broeden <b>havik, zwarte specht en wielewaal</b>, en langs de kliframd jaagt de <b>boomvalk</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013mei</b> (voorjaarsflora en vogelzang), okt\u2013nov (herfstkleur en paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Late middag op het klif \u2014 de zon staat dan boven het IJsselmeer.',
+ 'why': ['<b>Klif</b> aan het IJsselmeer \u2014 uniek in het vlakke Friesland.',
+         'Dwarsdoorsnede van <b>keileem</b> met Scandinavische zwerfkeien.',
+         'Oud loofbos op <b>kalk- en mineraalrijke</b> keileembodem.',
+         'Rijke voorjaarsflora met <b>daslook en bosanemoon</b>.'],
+ 'phen': ['<span class="months">Apr</span> \U0001f33c <b>Bosanemoon en daslook</b> bedekken de bosbodem.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Wielewaal en zwarte specht</b> in het opgaande bos.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f985 <b>Boomvalk</b> jaagt langs de kliframd.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> op de vochtige keileembodem.'],
+ 'wild': ['\U0001f426 Wielewaal \u00b7 Zwarte specht', '\U0001f985 Havik \u00b7 Boomvalk', '\U0001f98c Ree', '\U0001f33c Daslook \u00b7 Bosanemoon \u00b7 Gele dovenetel', '\U0001faa8 Zwerfkeien in de klifwand'],
+ 'trail': ['Parkeren bij <b>Rijs</b> of aan de weg naar <b>Mirns</b>.',
+           'Wandelroutes door het bos <b>naar het klif</b> met uitzicht over het IJsselmeer.',
+           'Combineer met het <b>Oudemirdumerklif</b> even verderop.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Steile klifrand \u2014 blijf achter de afzetting \u00b7 \U0001f9ed It Fryske Gea'
+}, {
+ 'tags': ['Friesland \u00b7 Gaasterland', 'Cliff \u00b7 boulder-clay bluff with old broadleaved wood', 'list 36 \u00b7 no. 4'],
+ 'loc': '\U0001f4cd Near Rijs and Mirns, Gaasterland \u00b7 Woodland on a boulder-clay cliff \u00b7 Medium-sized',
+ 'desc': 'In <b>Gaasterland</b> something happens that occurs nowhere else in Friesland: the land does not run flat into the IJsselmeer but ends in a <b>cliff</b>. The <b>Murnzerklif</b> (Mirnser Klif) is such a bluff, formed because the land ice of the penultimate glaciation left a <b>boulder-clay ridge</b> here that was later gnawed away by the waves of the Zuiderzee. You are therefore looking at a cross-section of the Ice Age, with <b>erratic boulders</b> from Scandinavia in the face. Directly behind it lies the <b>Rysterbosk</b>, an old broadleaved wood on boulder clay \u2014 and that soil explains its richness: boulder clay holds water and contains lime and minerals, so <b>beech, oak and ash</b> grow here with an understorey of <b>wood anemone, ramsons and yellow archangel</b>. In the wood <b>goshawk, black woodpecker and golden oriole</b> breed, and the <b>hobby</b> hunts along the cliff edge.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013May</b> (spring flora and birdsong), Oct\u2013Nov (autumn colour and fungi)<br>\n    <b>Best time of day:</b> Late afternoon on the cliff \u2014 the sun then stands over the IJsselmeer.',
+ 'why': ['A <b>cliff</b> on the IJsselmeer \u2014 unique in flat Friesland.',
+         'Cross-section of <b>boulder clay</b> with Scandinavian erratics.',
+         'Old broadleaved wood on <b>lime- and mineral-rich</b> boulder clay.',
+         'Rich spring flora with <b>ramsons and wood anemone</b>.'],
+ 'phen': ['<span class="months">Apr</span> \U0001f33c <b>Wood anemone and ramsons</b> cover the woodland floor.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Golden oriole and black woodpecker</b> in the high forest.',
+          '<span class="months">May\u2013Aug</span> \U0001f985 <b>Hobby</b> hunting along the cliff edge.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f344 <b>Fungi</b> on the damp boulder-clay soil.'],
+ 'wild': ['\U0001f426 Golden oriole \u00b7 Black woodpecker', '\U0001f985 Goshawk \u00b7 Hobby', '\U0001f98c Roe deer', '\U0001f33c Ramsons \u00b7 Wood anemone \u00b7 Yellow archangel', '\U0001faa8 Erratic boulders in the cliff face'],
+ 'trail': ['Park at <b>Rijs</b> or along the road to <b>Mirns</b>.',
+           'Walking routes through the wood <b>to the cliff</b>, with views over the IJsselmeer.',
+           'Combine with the <b>Oudemirdumerklif</b> a little further along.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Steep cliff edge \u2014 stay behind the fencing \u00b7 \U0001f9ed It Fryske Gea'
+}, card_class='card estate'))
+
+C.append(mk.card(1286, 'Oudemirdumerklif', {
+ 'tags': ['Friesland \u00b7 Gaasterland', 'Klif \u00b7 steilrand aan het IJsselmeer', 'list 36 \u00b7 no. 5'],
+ 'loc': '\U0001f4cd Bij Oudemirdum, Gaasterland \u00b7 Klif met bos en strand \u00b7 Klein gebied',
+ 'desc': 'Het <b>Oudemirdumerklif</b> is het bekendste van de Gaasterlandse kliffen en met ruim <b>tien meter</b> hoogteverschil ook een van de indrukwekkendste. De wand toont wat er onder Friesland ligt: een pakket <b>keileem</b> uit het Saalien, doorspekt met <b>zwerfkeien</b> die het landijs vanuit Scandinavi\u00eb heeft meegevoerd. Op sommige plekken zie je duidelijke <b>gelaagdheid</b> \u2014 lichte zandlenzen tussen donkere leem \u2014 die vertelt hoe het ijs zijn lading laagje voor laagje afzette. Aan de voet ligt een <b>keienstrand</b>, het enige van Friesland, ontstaan doordat de golven de fijne deeltjes wegspoelen en alleen de stenen achterlaten. Bovenop groeit een <b>hellingbos</b> van eik en beuk met plaatselijk zeer oude bomen. De <b>oeverzwaluw</b> nestelt in de steile wand, en op zomeravonden jagen er <b>vleermuizen</b> langs de bosrand boven het water.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (oeverzwaluwen en voorjaarsflora), okt\u2013nov (herfstkleur boven het water)<br>\n    <b>Beste tijd van de dag:</b> Avond \u2014 zonsondergang over het IJsselmeer vanaf de klifrand.',
+ 'why': ['Het bekendste en hoogste <b>klif</b> van Gaasterland (ruim 10 m).',
+         'Zichtbare <b>keileemgelaagdheid</b> met Scandinavische zwerfkeien.',
+         'Het enige <b>keienstrand</b> van Friesland aan de voet.',
+         '<b>Oeverzwaluwen</b> broeden in de steile wand.'],
+ 'phen': ['<span class="months">Apr\u2013Mei</span> \U0001f426 <b>Oeverzwaluwen</b> keren terug en graven nestholen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f33c <b>Voorjaarsflora</b> in het hellingbos.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> jagen langs de bosrand.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> weerspiegeld in het IJsselmeer.'],
+ 'wild': ['\U0001f426 Oeverzwaluw', '\U0001f987 Vleermuizen', '\U0001f426 Boomklever \u00b7 Grote bonte specht', '\U0001f333 Oude eiken en beuken', '\U0001faa8 Zwerfkeien op het strand'],
+ 'trail': ['Parkeren bij <b>Oudemirdum</b>; korte wandeling naar de klifrand.',
+           'Een trap voert omlaag naar het <b>keienstrand</b>.',
+           'Bezoekerscentrum <b>Mar en Klif</b> in Oudemirdum verklaart de geologie.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Klifrand instabiel \u2014 niet ondergraven, afstand houden \u00b7 \U0001f9ed It Fryske Gea'
+}, {
+ 'tags': ['Friesland \u00b7 Gaasterland', 'Cliff \u00b7 bluff on the IJsselmeer', 'list 36 \u00b7 no. 5'],
+ 'loc': '\U0001f4cd Near Oudemirdum, Gaasterland \u00b7 Cliff with wood and beach \u00b7 Small area',
+ 'desc': 'The <b>Oudemirdumerklif</b> is the best known of the Gaasterland cliffs and, at over <b>ten metres</b> of height, one of the most impressive. Its face shows what lies beneath Friesland: a body of <b>boulder clay</b> from the Saalian, studded with <b>erratic boulders</b> carried here from Scandinavia by the land ice. In places clear <b>layering</b> is visible \u2014 pale sand lenses between dark clay \u2014 telling how the ice deposited its load layer by layer. At the foot lies a <b>boulder beach</b>, the only one in Friesland, formed because the waves wash away the fine particles and leave only the stones. On top grows a <b>slope wood</b> of oak and beech with locally very old trees. The <b>sand martin</b> nests in the steep face, and on summer evenings <b>bats</b> hunt along the woodland edge above the water.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (sand martins and spring flora), Oct\u2013Nov (autumn colour above the water)<br>\n    <b>Best time of day:</b> Evening \u2014 sunset over the IJsselmeer from the cliff edge.',
+ 'why': ['The best-known and highest <b>cliff</b> in Gaasterland (over 10 m).',
+         'Visible <b>boulder-clay layering</b> with Scandinavian erratics.',
+         'The only <b>boulder beach</b> in Friesland at its foot.',
+         '<b>Sand martins</b> breed in the steep face.'],
+ 'phen': ['<span class="months">Apr\u2013May</span> \U0001f426 <b>Sand martins</b> return and dig nest holes.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f33c <b>Spring flora</b> in the slope wood.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Bats</b> hunt along the woodland edge.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> reflected in the IJsselmeer.'],
+ 'wild': ['\U0001f426 Sand martin', '\U0001f987 Bats', '\U0001f426 Nuthatch \u00b7 Great spotted woodpecker', '\U0001f333 Old oaks and beeches', '\U0001faa8 Erratic boulders on the beach'],
+ 'trail': ['Park at <b>Oudemirdum</b>; a short walk to the cliff edge.',
+           'A stairway leads down to the <b>boulder beach</b>.',
+           'Visitor centre <b>Mar en Klif</b> in Oudemirdum explains the geology.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Unstable cliff edge \u2014 do not undercut, keep your distance \u00b7 \U0001f9ed It Fryske Gea'
+}, card_class='card dune'))
+
+mk.insert(C, '1281', tocsec='List 36 \u00b7 Friesland: Gaasterland, IJsselmeerkust &amp; Zuidoosthoek (1282\u2013\u2026)')
+mk.progress(1286)
+mk.check()

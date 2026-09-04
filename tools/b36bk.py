@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1590, 'Bathmense Broek', {
+ 'tags': ['Overijssel · Deventer', 'Broekland · nat grasland in het Schipbeekdal', 'list 36 · no. 309'],
+ 'loc': '📍 Bathmen, gemeente Deventer · Broekland · Middelgroot',
+ 'desc': '<b>Bathmense Broek</b> is een van de drie broeken die samen het brongebied van de Schipbeek vormden: het Stokkumer, Holter en Bathmense broek — van oudsher <b>waterrijk en moerassig</b>. Een <b>broek</b> is laag, nat land langs een beek, en juist daar werd vroeger <b>turf</b> gestoken dat via de bevaarbare Schipbeek naar Deventer werd vervoerd. Nu is het een open, nat graslandgebied met <b>wilgen, elzen en sloten</b>, waar het grondwater hoog staat en <b>grutto, watersnip en gele kwikstaart</b> broeden — een van de weinige plekken in Salland waar het oude broekland nog herkenbaar is.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt–jun</b> (weidevogels), mei–jul (flora)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend — de grutto’s zijn dan het luidst.',
+ 'why': ['Een <b>broek</b> is laag, nat land langs een beek.',
+         'Met Stokkumer en Holter broek het brongebied van de <b>Schipbeek</b>.',
+         'Hier werd vroeger <b>turf</b> gestoken voor de stad Deventer.',
+         'Open nat grasland met <b>weidevogels en beekflora</b>.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🐦 <b>Grutto en kievit</b> keren terug.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Watersnip en gele kwikstaart</b> in het natte gras.',
+          '<span class="months">Mei–Jul</span> 🌼 <b>Dotterbloem en pinksterbloem</b> langs de sloten.',
+          '<span class="months">Sep–Okt</span> 🦆 <b>Doortrekkende eenden</b> op de plas-dras plekken.'],
+ 'wild': ['🐦 Grutto · Watersnip · Gele kwikstaart', '🦆 Slobeend · Zomertaling', '🐸 Bruine kikker · Kleine watersalamander', '🌼 Dotterbloem · Pinksterbloem · Echte koekoeksbloem', '🌳 Wilg · Zwarte els'],
+ 'trail': ['Parkeren in <b>Bathmen</b>; landwegen naar het broek.',
+           'Kijk vanaf de <b>randwegen</b> — het broek zelf is kwetsbaar in de broedtijd.',
+           'Combineer met een stuk langs de <b>Schipbeek</b>.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Broedseizoen mrt–jun — niet betreden · 🚶 Landwegen'
+}, {
+ 'tags': ['Overijssel · Deventer', 'Brookland · wet grassland in the Schipbeek valley', 'list 36 · no. 309'],
+ 'loc': '📍 Bathmen, Deventer municipality · Brookland · Medium-sized',
+ 'desc': '<b>Bathmense Broek</b> is one of the three broeken that together formed the headwaters of the Schipbeek: the Stokkumer, Holter and Bathmense broek — from old <b>watery and marshy</b>. A <b>broek</b> is low, wet land along a brook, and precisely there <b>turf</b> was once cut and shipped to Deventer along the navigable Schipbeek. Today it is an open, wet grassland area with <b>willows, alders and ditches</b>, where the groundwater stands high and <b>black-tailed godwit, snipe and yellow wagtail</b> breed — one of the few places in Salland where the old brookland is still recognisable.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar–Jun</b> (meadow birds), May–Jul (flora)<br>\n    <b>Best time of day:</b> Early morning — the godwits are loudest then.',
+ 'why': ['A <b>broek</b> is low, wet land along a brook.',
+         'With Stokkumer and Holter broek the headwaters of the <b>Schipbeek</b>.',
+         '<b>Turf</b> was once cut here for the city of Deventer.',
+         'Open wet grassland with <b>meadow birds and brook flora</b>.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🐦 <b>Black-tailed godwit and lapwing</b> return.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Snipe and yellow wagtail</b> in the wet grass.',
+          '<span class="months">May–Jul</span> 🌼 <b>Marsh marigold and cuckooflower</b> along the ditches.',
+          '<span class="months">Sep–Oct</span> 🦆 <b>Passing ducks</b> on the shallow pools.'],
+ 'wild': ['🐦 Black-tailed godwit · Snipe · Yellow wagtail', '🦆 Shoveler · Garganey', '🐸 Common frog · Smooth newt', '🌼 Marsh marigold · Cuckooflower · Ragged-robin', '🌳 Willow · Black alder'],
+ 'trail': ['Park in <b>Bathmen</b>; country roads to the brookland.',
+           'View from the <b>edge roads</b> — the brookland is vulnerable in the breeding season.',
+           'Combine with a stretch along the <b>Schipbeek</b>.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Breeding season Mar–Jun — do not enter · 🚶 Country roads'
+}))
+
+C.append(mk.card(1591, 'Oude Schipbeek', {
+ 'tags': ['Overijssel · Deventer', 'Beek · oude meanderende loop van de Schipbeek', 'list 36 · no. 310'],
+ 'loc': '📍 Tussen Bathmen en Deventer · Beekdal · Klein',
+ 'desc': 'De <b>Schipbeek</b> begon ooit als de <b>Marckelsche Becke</b> in het Stokkumer broek en mondde bij Deventer uit in de IJssel. Het tweede deel van haar naam vertelt de geschiedenis: <b>schip</b> — want vanuit Deventer werd de beek steeds verder <b>bevaarbaar</b> gemaakt, eerst voor de aanvoer van turf uit het Bathmense broek, later voor goederenvervoer. In de negentiende eeuw werd de sterk kronkelende beek <b>rechtgetrokken</b>, met een verval van bijna dertig meter van de Duitse grens tot Deventer. De <b>Oude Schipbeek</b> is zo’n afgesneden, stil geworden meander: een smal, helder watertje met <b>ijsvogel, grote gele kwikstaart en dotterbloem</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (ijsvogel en flora), sep–okt (herfst)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend langs het water.',
+ 'why': ['De beek heette eerst <b>Marckelsche Becke</b>.',
+         '<b>Schip</b> verwijst naar de bevaarbaarheid voor turf- en goederenvervoer.',
+         'In de negentiende eeuw <b>rechtgetrokken</b> — de oude meander bleef achter.',
+         'Stil watertje met <b>ijsvogel en grote gele kwikstaart</b>.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🐦 <b>Grote gele kwikstaart</b> op de oeverstenen.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>IJsvogel</b> schiet over het water.',
+          '<span class="months">Mei–Jul</span> 🌼 <b>Dotterbloem en gele lis</b> langs de oevers.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> in de oeverbomen.'],
+ 'wild': ['🐦 IJsvogel · Grote gele kwikstaart · Witte kwikstaart', '🦆 Wilde eend · Waterhoen', '🐟 Bermpje · Driedoornige stekelbaars', '🌼 Dotterbloem · Gele lis · Moerasspirea', '🌳 Zwarte els · Wilg'],
+ 'trail': ['Parkeren bij <b>Bathmen</b>; fietspad langs de rechtgetrokken beek.',
+           'Volg het <b>schouwpad</b> langs het water.',
+           'Let op de <b>ijsvogel</b> vanaf een bruggetje.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🌊 Oude beekloop · 🚶 Schouwpad en fietspad'
+}, {
+ 'tags': ['Overijssel · Deventer', 'Brook · old meandering course of the Schipbeek', 'list 36 · no. 310'],
+ 'loc': '📍 Between Bathmen and Deventer · Brook valley · Small',
+ 'desc': 'The <b>Schipbeek</b> began as the <b>Marckelsche Becke</b> in the Stokkumer broek and flowed into the IJssel at Deventer. Its second element tells the history: <b>schip</b>, ship — for from Deventer the brook was made ever more <b>navigable</b>, first to bring in turf from the Bathmense broek, later for goods. In the nineteenth century the strongly meandering brook was <b>straightened</b>, with a drop of almost thirty metres from the German border to Deventer. The <b>Oude Schipbeek</b> is one such cut-off, now silent meander: a narrow, clear stream with <b>kingfisher, grey wagtail and marsh marigold</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (kingfisher and flora), Sep–Oct (autumn)<br>\n    <b>Best time of day:</b> Early morning along the water.',
+ 'why': ['The brook was first called the <b>Marckelsche Becke</b>.',
+         '<b>Schip</b> refers to its navigability for turf and goods.',
+         'Straightened in the <b>nineteenth century</b> — the old meander was left behind.',
+         'A quiet stream with <b>kingfisher and grey wagtail</b>.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🐦 <b>Grey wagtail</b> on the bank stones.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Kingfisher</b> flashes over the water.',
+          '<span class="months">May–Jul</span> 🌼 <b>Marsh marigold and yellow iris</b> along the banks.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> in the bank trees.'],
+ 'wild': ['🐦 Kingfisher · Grey wagtail · White wagtail', '🦆 Mallard · Moorhen', '🐟 Stone loach · Three-spined stickleback', '🌼 Marsh marigold · Yellow iris · Meadowsweet', '🌳 Black alder · Willow'],
+ 'trail': ['Park at <b>Bathmen</b>; cycle path along the straightened brook.',
+           'Follow the <b>towpath</b> along the water.',
+           'Watch for the <b>kingfisher</b> from a footbridge.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🌊 Old brook course · 🚶 Towpath and cycle path'
+}))
+
+C.append(mk.card(1592, 'Dorth', {
+ 'tags': ['Overijssel · Deventer', 'Havezate · waterrijk landgoed langs de Dortherbeek', 'list 36 · no. 311'],
+ 'loc': '📍 Kring van Dorth, Bathmen · Landgoed · ca. 93 ha',
+ 'desc': 'In de buurtschap <b>Kring van Dorth</b>, ten zuidoosten van Deventer, werd in de veertiende eeuw een goed gesticht waarop kasteel <b>Dorth</b> verrees; de vroegste vermelding van de <b>Hof van Dorth</b> stamt uit 1311, toen het bezit was van Eliger van Heeckeren. Het kasteel werd in 1833 gesloopt en vervangen door een landhuis, maar het <b>waterrijke</b> landgoed langs de <b>Dortherbeek</b> bleef. Sinds 1986 beheert <b>Natuurmonumenten</b> de 93 hectare: oud loofbos waar in het voorjaar <b>narcissen, dalkruid en bosanemonen</b> bloeien, met een wandelroute van drie kilometer over het landgoed.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt–mei</b> (stinzenflora), apr–jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Ochtend langs de Dortherbeek.',
+ 'why': ['Vroegste vermelding in <b>1311</b> — de Hof van Dorth.',
+         'Genoemd naar <b>Eliger van Heeckeren</b>.',
+         'Waterrijk landgoed langs de <b>Dortherbeek</b>.',
+         'Sinds <b>1986</b> van Natuurmonumenten; 3 km wandelroute.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Narcissen</b> langs de beek.',
+          '<span class="months">Apr–Mei</span> 🌸 <b>Bosanemoon en dalkruid</b> op de bosbodem.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Zwarte specht en wielewaal</b> in het oude loofhout.',
+          '<span class="months">Okt–Nov</span> 🍄 <b>Paddenstoelen</b> op dood hout.'],
+ 'wild': ['🐦 Zwarte specht · Wielewaal · Boomklever', '🦡 Das · Ree · Eekhoorn', '🦇 Vleermuizen in de oude lanen', '🌼 Narcis · Dalkruid · Bosanemoon', '🌳 Zomereik · Beuk · Els'],
+ 'trail': ['Parkeren bij <b>Bathmen</b>; wandelroute van 3 km over het landgoed.',
+           'Loop langs de <b>Dortherbeek</b> — het van oudsher waterrijke hart.',
+           'Het <b>huis</b> is privé en niet te bezichtigen.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🏰 Havezate · 🚶 Wandelroute 3 km'
+}, {
+ 'tags': ['Overijssel · Deventer', 'Havezate · water-rich estate along the Dortherbeek', 'list 36 · no. 311'],
+ 'loc': '📍 Kring van Dorth, Bathmen · Estate · c. 93 ha',
+ 'desc': 'In the hamlet of <b>Kring van Dorth</b>, south-east of Deventer, an estate was founded in the fourteenth century on which castle <b>Dorth</b> rose; the earliest mention of the <b>Hof van Dorth</b> dates from 1311, when it belonged to Eliger van Heeckeren. The castle was demolished in 1833 and replaced by a manor house, but the <b>water-rich</b> estate along the <b>Dortherbeek</b> remained. Since 1986 <b>Natuurmonumenten</b> manages the 93 hectares: old broadleaf woodland where <b>narcissus, may lily and wood anemones</b> flower in spring, with a three-kilometre walk across the estate.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar–May</b> (stinzen flora), Apr–Jun (song)<br>\n    <b>Best time of day:</b> Morning along the Dortherbeek.',
+ 'why': ['Earliest mention in <b>1311</b> — the Hof van Dorth.',
+         'Named after <b>Eliger van Heeckeren</b>.',
+         'Water-rich estate along the <b>Dortherbeek</b>.',
+         'Natuurmonumenten since <b>1986</b>; 3 km walking route.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Narcissus</b> along the brook.',
+          '<span class="months">Apr–May</span> 🌸 <b>Wood anemone and may lily</b> on the woodland floor.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Black woodpecker and golden oriole</b> in the old broadleaf wood.',
+          '<span class="months">Oct–Nov</span> 🍄 <b>Fungi</b> on dead wood.'],
+ 'wild': ['🐦 Black woodpecker · Golden oriole · Nuthatch', '🦡 Badger · Roe deer · Squirrel', '🦇 Bats in the old avenues', '🌼 Narcissus · May lily · Wood anemone', '🌳 Pedunculate oak · Beech · Alder'],
+ 'trail': ['Park at <b>Bathmen</b>; 3 km walking route across the estate.',
+           'Walk along the <b>Dortherbeek</b> — the traditionally water-rich heart.',
+           'The <b>house</b> is private and cannot be visited.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🏰 Havezate · 🚶 3 km walking route'
+}))
+
+C.append(mk.card(1593, 'Het Langenbergerveld', {
+ 'tags': ['Overijssel · Rijssen-Holten', 'Veld · heiderestant aan de voet van de Langenberg', 'list 36 · no. 312'],
+ 'loc': '📍 Holten, Salland · Veld · Klein',
+ 'desc': '<b>Het Langenbergerveld</b> ligt aan de voet van de <b>Langenberg</b>, een van de heuvelruggen in het Holterberg-gebied. Het is een <b>veld</b> in de oude betekenis van het woord: gemeenschappelijk, schraal gebruikt grasland en heide dat te arm was voor de akkerbouw en daarom eeuwenlang als <b>woeste grond</b> werd gemaaid en beweid. Op zulke velden overleeft de oude heideflora — <b>struikhei, tormentil en grasklokje</b> — en zitten <b>boompieper, roodborsttapuit en zandhagedis</b>. De buurt van de Borkeld en de Holterberg maakt het tot een schakel in een groter heide- en boslandschap.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jun–sep</b> (heide en zandhagedis), apr–jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Middag — de veldrand warmt op.',
+ 'why': ['Aan de voet van de <b>Langenberg</b> bij Holten.',
+         'Een <b>veld</b> is oude, schraal gebruikte woeste grond.',
+         'Heiderestant met <b>struikhei en tormentil</b>.',
+         'Schakel tussen <b>Borkeld en Holterberg</b>.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🐦 <b>Boompieper</b> met zijn parachutesprong-zang.',
+          '<span class="months">Jun–Jul</span> 🐦 <b>Roodborsttapuit</b> op de veldrand.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Struikhei</b> kleurt het veld paars.',
+          '<span class="months">Mei–Aug</span> 🦎 <b>Zandhagedis</b> op de warme plekken.'],
+ 'wild': ['🐦 Boompieper · Roodborsttapuit · Geelgors', '🦎 Zandhagedis · Levendbarende hagedis', '🦋 Heivlinder · Kleine vuurvlinder', '🌸 Struikhei · Tormentil · Grasklokje', '🌲 Grove den · Berk'],
+ 'trail': ['Parkeren bij <b>Holten</b>; paden vanaf de voet van de Langenberg.',
+           'Loop door naar de <b>Borkeld</b> of de Holterberg.',
+           'Kijk in augustus naar de <b>paarse heide</b>.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🌸 Heiderestant · 🚶 Zandpaden'
+}, {
+ 'tags': ['Overijssel · Rijssen-Holten', 'Common · heath remnant at the foot of the Langenberg', 'list 36 · no. 312'],
+ 'loc': '📍 Holten, Salland · Common · Small',
+ 'desc': '<b>Het Langenbergerveld</b> lies at the foot of the <b>Langenberg</b>, one of the ridges in the Holterberg area. It is a <b>veld</b> in the old sense of the word: common, meagrely used grassland and heath too poor for arable, and therefore mown and grazed for centuries as <b>waste ground</b>. On such commons the old heath flora survives — <b>heather, tormentil and harebell</b> — with <b>tree pipit, stonechat and sand lizard</b>. Its proximity to the Borkeld and the Holterberg makes it a link in a larger heath and woodland landscape.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jun–Sep</b> (heather and sand lizard), Apr–Jun (song)<br>\n    <b>Best time of day:</b> Midday — the field edge warms up.',
+ 'why': ['At the foot of the <b>Langenberg</b> near Holten.',
+         'A <b>veld</b> is old, meagrely used common waste ground.',
+         'Heath remnant with <b>heather and tormentil</b>.',
+         'A link between the <b>Borkeld and Holterberg</b>.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🐦 <b>Tree pipit</b> with its parachute song.',
+          '<span class="months">Jun–Jul</span> 🐦 <b>Stonechat</b> on the field edge.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Heather</b> turns the common purple.',
+          '<span class="months">May–Aug</span> 🦎 <b>Sand lizard</b> on the warm spots.'],
+ 'wild': ['🐦 Tree pipit · Stonechat · Yellowhammer', '🦎 Sand lizard · Viviparous lizard', '🦋 Grayling · Small copper', '🌸 Heather · Tormentil · Harebell', '🌲 Scots pine · Birch'],
+ 'trail': ['Park at <b>Holten</b>; paths from the foot of the Langenberg.',
+           'Continue to the <b>Borkeld</b> or the Holterberg.',
+           'Come in August for the <b>purple heather</b>.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🌸 Heath remnant · 🚶 Sandy paths'
+}))
+
+C.append(mk.card(1594, 'Epserwaarden', {
+ 'tags': ['Gelderland · Lochem', 'Uiterwaard · stroomdalflora en riviernatuur', 'list 36 · no. 313'],
+ 'loc': '📍 Epse, gemeente Lochem · Uiterwaard · Middelgroot',
+ 'desc': 'De <b>Epserwaarden</b> liggen op de rechteroever van de IJssel, ten zuiden van Deventer bij <b>Epse</b>, en zijn een van de plekken waar je letterlijk “met je voeten in de IJssel” kunt staan. Het is een typische <b>uiterwaard</b>: buitendijks land dat bij hoogwater meestroomt en waar de rivier <b>zand en slib</b> neerlegt. Dat geeft <b>stroomdalflora</b> — wilde marjolein, beemdkroon en kattedoorn — en een rijkdom aan watervogels, van <b>grauwe gans tot kluut</b>. De veerpont naar de <b>Wilpsche Klei</b> en het bosje <b>het Eekwold</b> maken het tot een geliefde rivierwandeling.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jun–jul</b> (stroomdalflora), okt–mrt (wintergasten)<br>\n    <b>Beste tijd van de dag:</b> Middag — het licht over de rivier.',
+ 'why': ['Uiterwaard waar je letterlijk <b>“met je voeten in de IJssel”</b> staat.',
+         '<b>Stroomdalflora</b> als wilde marjolein en beemdkroon.',
+         'Wintergasten en doortrekkers op de <b>plas-dras</b> plekken.',
+         'Veerpont naar de <b>Wilpsche Klei</b> en het bosje het Eekwold.'],
+ 'phen': ['<span class="months">Jun–Jul</span> 🌸 <b>Wilde marjolein en beemdkroon</b> bloeien.',
+          '<span class="months">Jul–Sep</span> 🦩 <b>Kluut en kievit</b> op de slikranden.',
+          '<span class="months">Okt–Mrt</span> 🦢 <b>Winterganzen</b> op de uiterwaard.',
+          '<span class="months">Feb–Mei</span> 🐦 <b>Doortrek</b> van steltlopers.'],
+ 'wild': ['🦢 Grauwe gans · Kolgans · Smient', '🦩 Kluut · Kievit · Tureluur', '🦆 Slobeend · Wintertaling', '🌸 Wilde marjolein · Beemdkroon · Kattedoorn', '🌳 Schietwilg · Meidoorn'],
+ 'trail': ['Parkeren bij <b>Epse</b>; via de Bolmansweg naar de dijk.',
+           'Steek met de <b>veerpont</b> over naar de Wilpsche Klei.',
+           'Loop bij laag water naar de <b>oever</b> voor de riviernatuur.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Bij hoogwater overstroomt de uiterwaard · 🚶 Dijk- en uiterwaardpaden'
+}, {
+ 'tags': ['Gelderland · Lochem', 'Floodplain · river-valley flora and river nature', 'list 36 · no. 313'],
+ 'loc': '📍 Epse, Lochem municipality · Floodplain · Medium-sized',
+ 'desc': 'The <b>Epserwaarden</b> lie on the right bank of the IJssel, south of Deventer near <b>Epse</b>, and are one of the places where you can literally stand “with your feet in the IJssel”. It is a typical <b>floodplain</b>: outer-dike land that floods along with high water and where the river deposits <b>sand and silt</b>. That yields <b>river-valley flora</b> — wild marjoram, brown knapweed and restharrow — and a wealth of waterbirds, from <b>greylag goose to avocet</b>. The ferry to the <b>Wilpsche Klei</b> and the copse of <b>het Eekwold</b> make it a favourite riverside walk.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jun–Jul</b> (river-valley flora), Oct–Mar (winter visitors)<br>\n    <b>Best time of day:</b> Midday — the light over the river.',
+ 'why': ['A floodplain where you literally stand <b>“with your feet in the IJssel”</b>.',
+         '<b>River-valley flora</b> such as wild marjoram and knapweed.',
+         'Winter visitors and migrants on the <b>shallow pools</b>.',
+         'Ferry to the <b>Wilpsche Klei</b> and the copse of het Eekwold.'],
+ 'phen': ['<span class="months">Jun–Jul</span> 🌸 <b>Wild marjoram and knapweed</b> flower.',
+          '<span class="months">Jul–Sep</span> 🦩 <b>Avocet and lapwing</b> on the mud edges.',
+          '<span class="months">Oct–Mar</span> 🦢 <b>Winter geese</b> on the floodplain.',
+          '<span class="months">Feb–May</span> 🐦 <b>Passage</b> of waders.'],
+ 'wild': ['🦢 Greylag goose · White-fronted goose · Wigeon', '🦩 Avocet · Lapwing · Redshank', '🦆 Shoveler · Teal', '🌸 Wild marjoram · Brown knapweed · Restharrow', '🌳 Crack willow · Hawthorn'],
+ 'trail': ['Park at <b>Epse</b>; via the Bolmansweg to the dike.',
+           'Cross with the <b>ferry</b> to the Wilpsche Klei.',
+           'At low water walk to the <b>water’s edge</b> for the river nature.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ The floodplain floods at high water · 🚶 Dike and floodplain paths'
+}, card_class='card water',
+   n2k='Natura 2000-gebied <b>Uiterwaarden IJssel</b> — aangewezen voor stroomdalgraslanden, glanshaverhooilanden en vogels als kwartelkoning en grote karekiet.',
+   n2k_en='Natura 2000 site <b>Uiterwaarden IJssel</b> — designated for river-valley grassland, oat-grass meadows and birds such as corncrake and great reed warbler.'))
+
+mk.insert(C, '1589')
+mk.progress(1594)
+mk.check()

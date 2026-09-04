@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1535, 'Noordwijk', {
+ 'tags': ['Zuid-Holland \u00b7 Noordwijk', 'Kustlandschap \u00b7 zeereep, strand en binnenduin', 'list 36 \u00b7 no. 254'],
+ 'loc': '\U0001f4cd Noordwijk aan Zee \u00b7 Kustlandschap \u00b7 Middelgroot',
+ 'desc': 'De natuurterreinen bij <b>Noordwijk</b> beslaan de volle breedte van de kust: strand, zeereep en binnenduin. De <b>zeereep</b> \u2014 de voorste duinenrij \u2014 is de eigenlijke zeewering en wordt bijeengehouden door <b>helm</b>, een gras dat zo goed tegen overstuiving kan dat het er zelfs beter van groeit: hoe meer zand er op waait, hoe krachtiger het nieuwe wortels vormt. Zonder helm zou de Hollandse kust geen duinenrij hebben. Noordwijk was ooit een <b>vissersdorp</b> met platbodems die vanaf het strand de zee op werden geduwd, omdat er geen haven was. Op het strand overwinteren <b>drieteenstrandloper, steenloper en scholekster</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Sep\u2013nov</b> (trek langs de kust), mei\u2013jul (duinflora)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend of storm \u2014 dan komen zeevogels dichtbij.',
+ 'why': ['De <b>zeereep</b> is de eigenlijke zeewering van Holland.',
+         '<b>Helm</b> groeit juist beter naarmate het meer overstoven wordt.',
+         'Zonder helm zou de kust <b>geen duinenrij</b> hebben.',
+         'Noordwijk was een <b>vissersdorp zonder haven</b>: schepen vanaf het strand.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Voorjaarstrek</b> vlak langs de branding.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33a <b>Duinflora</b> in de zeereep en valleien.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Najaarstrek</b> \u2014 jagers en zeevogels bij wind uit zee.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f426 <b>Steenloper en drieteenstrandloper</b> op het strand.'],
+ 'wild': ['\U0001f426 Drieteenstrandloper \u00b7 Steenloper \u00b7 Scholekster', '\U0001f985 Slechtvalk \u00b7 Blauwe kiekendief in de winter', '\U0001f33a Blauwe zeedistel \u00b7 Zeeraket \u00b7 Helm', '\U0001f98a Vos \u00b7 Konijn \u00b7 \U0001f98e Zandhagedis', '\U0001f41a Schelpen en aanspoelsel op de vloedlijn'],
+ 'trail': ['Parkeren in <b>Noordwijk aan Zee</b>; strandopgangen en duinpaden.',
+           'Kom bij <b>westenwind</b> \u2014 dan komen zeevogels dicht onder de kust.',
+           'Blijf van de <b>zeereep</b> af: die is de waterkering.'],
+ 'foot': '\U0001f436 Honden aan de lijn (strandregels wisselen per seizoen) \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30a Kust \u00b7 \u26a0\ufe0f Zeereep niet betreden'
+}, {
+ 'tags': ['South Holland \u00b7 Noordwijk', 'Coastal landscape \u00b7 foredune, beach and inner dune', 'list 36 \u00b7 no. 254'],
+ 'loc': '\U0001f4cd Noordwijk aan Zee \u00b7 Coastal landscape \u00b7 Medium-sized',
+ 'desc': 'The nature areas at <b>Noordwijk</b> span the full width of the coast: beach, foredune and inner dune. The <b>foredune</b> \u2014 the front dune ridge \u2014 is the actual sea defence and is held together by <b>marram grass</b>, a grass so well adapted to being buried by sand that it actually grows better for it: the more sand blows over it, the more vigorously it forms new roots. Without marram the Holland coast would have no dune ridge. Noordwijk was once a <b>fishing village</b> whose flat-bottomed boats were pushed to sea straight off the beach, because there was no harbour. <b>Sanderling, turnstone and oystercatcher</b> winter on the beach.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Sep\u2013Nov</b> (coastal migration), May\u2013Jul (dune flora)<br>\n    <b>Best time of day:</b> Early morning or during a gale \u2014 seabirds come close.',
+ 'why': ['The <b>foredune</b> is the actual sea defence of Holland.',
+         '<b>Marram grass</b> grows better the more it is buried by sand.',
+         'Without marram the coast would have <b>no dune ridge</b>.',
+         'Noordwijk was a <b>harbourless fishing village</b>: boats launched off the beach.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f426 <b>Spring migration</b> just along the surf.',
+          '<span class="months">May\u2013Jul</span> \U0001f33a <b>Dune flora</b> in the foredune and slacks.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f426 <b>Autumn migration</b> \u2014 skuas and seabirds on onshore winds.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f426 <b>Turnstone and sanderling</b> on the beach.'],
+ 'wild': ['\U0001f426 Sanderling \u00b7 Turnstone \u00b7 Oystercatcher', '\U0001f985 Peregrine \u00b7 Hen harrier in winter', '\U0001f33a Sea holly \u00b7 Sea rocket \u00b7 Marram', '\U0001f98a Fox \u00b7 Rabbit \u00b7 \U0001f98e Sand lizard', '\U0001f41a Shells and strandline debris'],
+ 'trail': ['Park in <b>Noordwijk aan Zee</b>; beach access points and dune paths.',
+           'Come on a <b>westerly wind</b> \u2014 seabirds then pass close inshore.',
+           'Stay off the <b>foredune</b>: it is the flood defence.'],
+ 'foot': '\U0001f436 Dogs on lead (beach rules vary by season) \u00b7 \U0001f4b6 Free \u00b7 \U0001f30a Coast \u00b7 \u26a0\ufe0f Do not enter the foredune'
+}, card_class='card dune'))
+
+C.append(mk.card(1536, 'Wassergeest', {
+ 'tags': ['Zuid-Holland \u00b7 Noordwijkerhout', 'Geestgrond \u00b7 oud bollenland en strandwal', 'list 36 \u00b7 no. 255'],
+ 'loc': '\U0001f4cd Noordwijkerhout, Bollenstreek \u00b7 Geestgrond \u00b7 Klein',
+ 'desc': '<b>Wassergeest</b> draagt in zijn naam het woord <b>geest</b>, dat in de Bollenstreek overal opduikt \u2014 Noordwijkerhout, Voorhout, Hillegom, Sassenheim. Een <b>geest</b> is een oude, hooggelegen <b>strandwal</b>: een fossiele duinenrij die duizenden jaren geleden aan zee lag en later door nieuwe duinen van de kust werd afgesneden. Die zandruggen waren de enige droge grond in een verder drassig landschap en werden daarom het eerst bewoond en ontgonnen. Later bleken ze ideaal voor <b>bollenteelt</b>: goed doorlatend, kalkhoudend zand met grondwater vlak eronder. Op de resterende ruigten en bosjes leven <b>ringmus, groene specht en steenuil</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013mei</b> (bollenbloei rondom), jun\u2013jul (zang)<br>\n    <b>Beste tijd van de dag:</b> Avond \u2014 steenuil op paaltjes en daklijsten.',
+ 'why': ['Een <b>geest</b> is een oude, hooggelegen strandwal.',
+         'Die fossiele duinenrijen waren de <b>eerste droge grond</b> ter bewoning.',
+         'Hun kalkhoudende zand bleek ideaal voor <b>bollenteelt</b>.',
+         'De naam keert terug in Noordwijkerhout, Hillegom en <b>Sassenheim</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f337 <b>Krokus en narcis</b> op de omliggende velden.',
+          '<span class="months">Apr\u2013Mei</span> \U0001f33a <b>Tulpenbloei</b> in de Bollenstreek.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f426 <b>Ringmus en groene specht</b> in de randen.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f989 <b>Steenuil</b> actief in de schemer.'],
+ 'wild': ['\U0001f989 Steenuil \u00b7 \U0001f426 Ringmus \u00b7 Groene specht', '\U0001f985 Torenvalk \u00b7 Buizerd boven de akkers', '\U0001f43f\ufe0f Haas \u00b7 \U0001f98a Vos \u00b7 Egel', '\U0001f337 Bollenvelden \u00b7 Akkerkruiden op de randen', '\U0001f333 Knotwilg \u00b7 Meidoorn \u00b7 Es'],
+ 'trail': ['Parkeren in <b>Noordwijkerhout</b>; fiets- en wandelpaden door de geest.',
+           'Let op het <b>hoogteverschil</b>: de strandwal ligt merkbaar hoger.',
+           'April\u2013mei voor de <b>bollenvelden</b> rondom.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f337 Bollenstreek \u00b7 \U0001f6b6 Korte routes'
+}, {
+ 'tags': ['South Holland \u00b7 Noordwijkerhout', 'Geest soil \u00b7 old bulb land and beach ridge', 'list 36 \u00b7 no. 255'],
+ 'loc': '\U0001f4cd Noordwijkerhout, Bulb Region \u00b7 Geest soil \u00b7 Small',
+ 'desc': '<b>Wassergeest</b> carries in its name the word <b>geest</b>, which crops up all over the Bulb Region \u2014 Noordwijkerhout, Voorhout, Hillegom, Sassenheim. A <b>geest</b> is an old, elevated <b>beach ridge</b>: a fossil dune row that lay by the sea thousands of years ago and was later cut off from the coast by newer dunes. Those sandy ridges were the only dry ground in an otherwise boggy landscape and were therefore settled and cultivated first. Later they proved ideal for <b>bulb growing</b>: free-draining, lime-bearing sand with groundwater just below. <b>Tree sparrow, green woodpecker and little owl</b> live in the remaining rough edges and copses.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013May</b> (bulb flowering around), Jun\u2013Jul (song)<br>\n    <b>Best time of day:</b> Evening \u2014 little owl on posts and roof edges.',
+ 'why': ['A <b>geest</b> is an old, elevated beach ridge.',
+         'Those fossil dune rows were the <b>first dry ground</b> to be settled.',
+         'Their lime-bearing sand proved ideal for <b>bulb growing</b>.',
+         'The name recurs in Noordwijkerhout, Hillegom and <b>Sassenheim</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f337 <b>Crocus and daffodil</b> on the surrounding fields.',
+          '<span class="months">Apr\u2013May</span> \U0001f33a <b>Tulip bloom</b> across the Bulb Region.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f426 <b>Tree sparrow and green woodpecker</b> along the edges.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f989 <b>Little owl</b> active at dusk.'],
+ 'wild': ['\U0001f989 Little owl \u00b7 \U0001f426 Tree sparrow \u00b7 Green woodpecker', '\U0001f985 Kestrel \u00b7 Buzzard above the fields', '\U0001f43f\ufe0f Brown hare \u00b7 \U0001f98a Fox \u00b7 Hedgehog', '\U0001f337 Bulb fields \u00b7 Arable weeds along the margins', '\U0001f333 Pollard willow \u00b7 Hawthorn \u00b7 Ash'],
+ 'trail': ['Park in <b>Noordwijkerhout</b>; cycle and foot paths cross the geest.',
+           'Note the <b>height difference</b>: the beach ridge lies noticeably higher.',
+           'April\u2013May for the <b>bulb fields</b> around.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f337 Bulb Region \u00b7 \U0001f6b6 Short routes'
+}))
+
+C.append(mk.card(1537, 'Nieuw Leeuwenhorst', {
+ 'tags': ['Zuid-Holland \u00b7 Noordwijkerhout', 'Landgoedbos \u00b7 buitenplaatsbos met sterrenbos', 'list 36 \u00b7 no. 256'],
+ 'loc': '\U0001f4cd Noordwijkerhout, binnenduinrand \u00b7 Landgoedbos \u00b7 Klein',
+ 'desc': '<b>Nieuw Leeuwenhorst</b> is het bos van een verdwenen buitenplaats; het huis is gesloopt maar de <b>parkaanleg</b> bleef. Kenmerkend is het <b>sterrenbos</b>: rechte lanen die vanuit één punt stervormig uitwaaieren. Die vorm komt uit de zeventiende-eeuwse Franse tuinkunst en had een praktisch doel bij de <b>parforcejacht</b> \u2014 vanuit het middelpunt kon men alle lanen tegelijk overzien en het opgejaagde wild zien oversteken. Tegelijk was het een machtssymbool: de natuur geordend volgens de wil van de eigenaar. In het bos groeit <b>stinzenflora</b> en broeden <b>bosuil, boomklever en grote bonte specht</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Feb\u2013apr</b> (stinzenflora), sep\u2013nov (paddenstoelen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 licht valt door de rechte lanen.',
+ 'why': ['Bos van een <b>verdwenen buitenplaats</b>; de parkaanleg bleef.',
+         'Het <b>sterrenbos</b> waaiert stervormig uit vanuit één punt.',
+         'Die vorm diende de <b>parforcejacht</b>: alle lanen in één oogopslag.',
+         'Tegelijk een <b>machtssymbool</b>: natuur naar de wil van de eigenaar.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzenflora</b> op de bosbodem.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en zwartkop</b> zingen in de lanen.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> jagen langs de lanen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> onder de oude beuken.'],
+ 'wild': ['\U0001f989 Bosuil \u00b7 \U0001f426 Boomklever \u00b7 Grote bonte specht', '\U0001f33c Sneeuwklokje \u00b7 Bosanemoon \u00b7 Daslook', '\U0001f987 Vleermuizen langs de lanen', '\U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98c Ree \u00b7 \U0001f98a Vos', '\U0001f333 Oude beuk \u00b7 Eik \u00b7 Linde'],
+ 'trail': ['Parkeren bij <b>Noordwijkerhout</b>; lanenstelsel door het bos.',
+           'Zoek het <b>middelpunt van het sterrenbos</b> \u2014 daar komen de lanen samen.',
+           'Februari\u2013maart voor de <b>stinzenflora</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Historische parkaanleg \u00b7 \U0001f6b6 Vlakke lanen'
+}, {
+ 'tags': ['South Holland \u00b7 Noordwijkerhout', 'Estate wood \u00b7 country-house wood with star grove', 'list 36 \u00b7 no. 256'],
+ 'loc': '\U0001f4cd Noordwijkerhout, inner dune edge \u00b7 Estate wood \u00b7 Small',
+ 'desc': '<b>Nieuw Leeuwenhorst</b> is the wood of a vanished country estate; the house was demolished but the <b>park layout</b> remained. Characteristic is the <b>star grove</b>: straight avenues radiating star-fashion from a single point. That form comes from seventeenth-century French garden art and served a practical purpose in <b>par force hunting</b> \u2014 from the centre one could survey every avenue at once and see the driven game cross. It was equally a symbol of power: nature ordered according to the owner\u2019s will. <b>Stinzen flora</b> grows in the wood and <b>tawny owl, nuthatch and great spotted woodpecker</b> breed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Feb\u2013Apr</b> (stinzen flora), Sep\u2013Nov (fungi)<br>\n    <b>Best time of day:</b> Morning \u2014 light falls down the straight avenues.',
+ 'why': ['Wood of a <b>vanished country estate</b>; the park layout survived.',
+         'The <b>star grove</b> radiates from a single central point.',
+         'That form served <b>par force hunting</b>: every avenue at a glance.',
+         'It was equally a <b>symbol of power</b>: nature ordered by the owner.'],
+ 'phen': ['<span class="months">Feb\u2013Apr</span> \U0001f33c <b>Stinzen flora</b> on the woodland floor.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and blackcap</b> sing in the avenues.',
+          '<span class="months">May\u2013Aug</span> \U0001f987 <b>Bats</b> hunt along the avenues.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> beneath the old beeches.'],
+ 'wild': ['\U0001f989 Tawny owl \u00b7 \U0001f426 Nuthatch \u00b7 Great spotted woodpecker', '\U0001f33c Snowdrop \u00b7 Wood anemone \u00b7 Ramsons', '\U0001f987 Bats along the avenues', '\U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98c Roe deer \u00b7 \U0001f98a Fox', '\U0001f333 Old beech \u00b7 Oak \u00b7 Lime'],
+ 'trail': ['Park at <b>Noordwijkerhout</b>; a system of avenues crosses the wood.',
+           'Find the <b>centre of the star grove</b> \u2014 all avenues meet there.',
+           'February\u2013March for the <b>stinzen flora</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f Historic park layout \u00b7 \U0001f6b6 Level avenues'
+}))
+
+C.append(mk.card(1538, 'Coepelduinen', {
+ 'tags': ['Zuid-Holland \u00b7 Noordwijk en Katwijk', 'Duingebied \u00b7 open kalkrijk duin tussen twee badplaatsen', 'list 36 \u00b7 no. 257'],
+ 'loc': '\U0001f4cd Tussen Noordwijk en Katwijk \u00b7 Duingebied \u00b7 Klein',
+ 'desc': 'De <b>Coepelduinen</b> vormen een smalle maar bijzonder soortenrijke duinstrook tussen Noordwijk en Katwijk. Het gebied is beroemd om zijn <b>kalkrijke duingraslanden</b>, een van de meest bedreigde vegetatietypen van Europa. Het geheim is <b>schelpgruis</b>: het zand hier bevat veel fijngemalen schelpen, waardoor de bodem basisch blijft en soorten kunnen groeien die elders op het zure Nederlandse zand geen kans maken \u2014 <b>duinviooltje, geel zonneroosje, wondklaver, kleine ratelaar</b>. Zonder begrazing verruigt zo\u2019n grasland binnen enkele jaren, dus lopen er <b>schapen en konijnen</b> als beheerders. Er komen zeldzame <b>wilde bijen en dagvlinders</b> voor.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mei\u2013jul</b> (duingraslandflora en insecten)<br>\n    <b>Beste tijd van de dag:</b> Warme late ochtend \u2014 vlinders en bijen actief.',
+ 'n2k': 'Natura 2000-gebied Coepelduynen \u2014 grijze duinen, een van de kleinste Natura 2000-gebieden van Nederland.',
+ 'why': ['Beroemd om zijn <b>kalkrijke duingraslanden</b>.',
+         'Dat vegetatietype is een van de meest <b>bedreigde van Europa</b>.',
+         'Het geheim is <b>schelpgruis</b> dat de bodem basisch houdt.',
+         'Zonder <b>begrazing</b> verruigt het grasland binnen enkele jaren.'],
+ 'phen': ['<span class="months">Apr\u2013Mei</span> \U0001f33c <b>Voorjaarsflora</b> op de zuidhellingen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33a <b>Geel zonneroosje en wondklaver</b> in bloei.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f41d <b>Wilde bijen en dagvlinders</b> op de graslanden.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f426 <b>Trek</b> langs de kustlijn.'],
+ 'wild': ['\U0001f33a Duinviooltje \u00b7 Geel zonneroosje \u00b7 Wondklaver \u00b7 Kleine ratelaar', '\U0001f41d Zeldzame wilde bijen \u00b7 \U0001f98b Duinparelmoervlinder \u00b7 Kleine parelmoervlinder', '\U0001f426 Tapuit \u00b7 Graspieper \u00b7 Roodborsttapuit', '\U0001f98e Zandhagedis \u00b7 Konijn \u00b7 \U0001f98a Vos', '\U0001f411 Schapenbegrazing als beheer'],
+ 'trail': ['Parkeren in <b>Noordwijk</b> of Katwijk; paden door de duinstrook.',
+           'Juni voor de <b>duingraslandflora</b> op zijn hoogtepunt.',
+           'Blijf op de paden \u2014 het gebied is klein en <b>zeer kwetsbaar</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Zeer kwetsbaar duingrasland'
+}, {
+ 'tags': ['South Holland \u00b7 Noordwijk and Katwijk', 'Dune area \u00b7 open lime-rich dune between two seaside towns', 'list 36 \u00b7 no. 257'],
+ 'loc': '\U0001f4cd Between Noordwijk and Katwijk \u00b7 Dune area \u00b7 Small',
+ 'desc': 'The <b>Coepelduinen</b> form a narrow but exceptionally species-rich dune strip between Noordwijk and Katwijk. The area is famous for its <b>lime-rich dune grasslands</b>, one of the most threatened vegetation types in Europe. The secret is <b>shell grit</b>: the sand here contains much finely ground shell, keeping the soil alkaline so that species can grow which stand no chance elsewhere on acid Dutch sand \u2014 <b>dune pansy, common rock-rose, kidney vetch, yellow rattle</b>. Without grazing such grassland coarsens within a few years, so <b>sheep and rabbits</b> act as managers. Rare <b>wild bees and butterflies</b> occur.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>May\u2013Jul</b> (dune grassland flora and insects)<br>\n    <b>Best time of day:</b> Warm late morning \u2014 butterflies and bees active.',
+ 'n2k_en': 'Natura 2000 site Coepelduynen \u2014 grey dunes, one of the smallest Natura 2000 sites in the Netherlands.',
+ 'why': ['Famous for its <b>lime-rich dune grasslands</b>.',
+         'That vegetation type is among the <b>most threatened in Europe</b>.',
+         'The secret is <b>shell grit</b> keeping the soil alkaline.',
+         'Without <b>grazing</b> the grassland coarsens within a few years.'],
+ 'phen': ['<span class="months">Apr\u2013May</span> \U0001f33c <b>Spring flora</b> on the south-facing slopes.',
+          '<span class="months">May\u2013Jul</span> \U0001f33a <b>Rock-rose and kidney vetch</b> in flower.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f41d <b>Wild bees and butterflies</b> on the grasslands.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f426 <b>Migration</b> along the coastline.'],
+ 'wild': ['\U0001f33a Dune pansy \u00b7 Common rock-rose \u00b7 Kidney vetch \u00b7 Yellow rattle', '\U0001f41d Rare wild bees \u00b7 \U0001f98b Niobe fritillary \u00b7 Queen of Spain fritillary', '\U0001f426 Wheatear \u00b7 Meadow pipit \u00b7 Stonechat', '\U0001f98e Sand lizard \u00b7 Rabbit \u00b7 \U0001f98a Fox', '\U0001f411 Sheep grazing as management'],
+ 'trail': ['Park in <b>Noordwijk</b> or Katwijk; paths cross the dune strip.',
+           'June for the <b>dune grassland flora</b> at its peak.',
+           'Keep to the paths \u2014 the area is small and <b>highly vulnerable</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Very fragile dune grassland'
+}, card_class='card dune'))
+
+C.append(mk.card(1539, 'Westeinderplassen', {
+ 'tags': ['Noord-Holland \u00b7 Aalsmeer', 'Veenplassen \u00b7 water met legakkers en eilandjes', 'list 36 \u00b7 no. 258'],
+ 'loc': '\U0001f4cd Aalsmeer \u00b7 Veenplassen \u00b7 Groot',
+ 'desc': 'De <b>Westeinderplassen</b> bij Aalsmeer zijn ontstaan door <b>vervening</b>: eeuwenlang werd hier turf uit de bodem gebaggerd, tot het land letterlijk verdween en er open water overbleef. Wat resteerde zijn honderden smalle <b>legakkers</b> \u2014 de stroken waarop de natte turf te drogen werd gelegd \u2014 en zij vormen nu een doolhof van eilandjes. Op veel eilandjes staan <b>Aalsmeerse seringen</b>: de kwekers gebruikten de vochtige, luwe eilanden om seringen te forceren voor de bloemenveiling. De plassen zijn belangrijk voor <b>fuut, aalscholver, visdief en karekiet</b>, en er jaagt een <b>zeearend</b> in de winter.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (broedvogels en seringenbloei), nov\u2013feb (watervogels)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 vlak water en weinig vaarverkeer.',
+ 'why': ['Ontstaan door <b>vervening</b>: turfwinning tot het land verdween.',
+         'De honderden <b>legakkers</b> waren droogstroken voor natte turf.',
+         'Op de eilandjes staan de befaamde <b>Aalsmeerse seringen</b>.',
+         'Kwekers <b>forceerden</b> die in de luwte voor de bloemenveiling.'],
+ 'phen': ['<span class="months">Apr\u2013Mei</span> \U0001f337 <b>Seringen</b> bloeien op de eilandjes.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f426 <b>Karekiet en rietzanger</b> in de oeverzones.',
+          '<span class="months">Mei\u2013Aug</span> \U0001f426 <b>Visdief en fuut</b> met jongen op het water.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>Zeearend en watervogels</b> op de plassen.'],
+ 'wild': ['\U0001f426 Fuut \u00b7 Aalscholver \u00b7 Visdief \u00b7 Grote karekiet', '\U0001f985 Zeearend \u00b7 Bruine kiekendief \u00b7 Buizerd', '\U0001f9a6 Otter \u00b7 \U0001f9ab Bever langs de oevers', '\U0001f337 Aalsmeerse seringen \u00b7 Moerasflora op de legakkers', '\U0001f333 Wilg \u00b7 Els \u00b7 Riet'],
+ 'trail': ['Parkeren in <b>Aalsmeer</b>; het gebied is vooral <b>varend</b> te beleven.',
+           'Huur een <b>fluisterboot</b> of kano voor de smalle sloten tussen de legakkers.',
+           'Mei voor de <b>seringenbloei</b> op de eilandjes.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f6a4 Vooral per boot \u00b7 \U0001f4b6 Gratis vanaf de oever \u00b7 \U0001f3fa Veenontginningslandschap'
+}, {
+ 'tags': ['North Holland \u00b7 Aalsmeer', 'Peat lakes \u00b7 water with drying banks and islets', 'list 36 \u00b7 no. 258'],
+ 'loc': '\U0001f4cd Aalsmeer \u00b7 Peat lakes \u00b7 Large',
+ 'desc': 'The <b>Westeinderplassen</b> near Aalsmeer were created by <b>peat digging</b>: for centuries turf was dredged from the ground here until the land literally vanished and open water remained. What survives are hundreds of narrow <b>drying banks</b> \u2014 the strips on which the wet turf was laid to dry \u2014 and they now form a maze of islets. On many islets grow the <b>Aalsmeer lilacs</b>: growers used the damp, sheltered islands to force lilac for the flower auction. The lakes are important for <b>great crested grebe, cormorant, common tern and reed warbler</b>, and a <b>white-tailed eagle</b> hunts here in winter.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (breeding birds and lilac bloom), Nov\u2013Feb (waterbirds)<br>\n    <b>Best time of day:</b> Early morning \u2014 flat water and little boat traffic.',
+ 'why': ['Created by <b>peat digging</b> until the land itself disappeared.',
+         'The hundreds of <b>drying banks</b> were strips for wet turf.',
+         'The islets carry the celebrated <b>Aalsmeer lilacs</b>.',
+         'Growers <b>forced</b> them in the shelter for the flower auction.'],
+ 'phen': ['<span class="months">Apr\u2013May</span> \U0001f337 <b>Lilacs</b> flower on the islets.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f426 <b>Reed and sedge warblers</b> in the fringes.',
+          '<span class="months">May\u2013Aug</span> \U0001f426 <b>Common tern and grebe</b> with young on the water.',
+          '<span class="months">Nov\u2013Feb</span> \U0001f985 <b>White-tailed eagle and waterbirds</b> on the lakes.'],
+ 'wild': ['\U0001f426 Great crested grebe \u00b7 Cormorant \u00b7 Common tern \u00b7 Great reed warbler', '\U0001f985 White-tailed eagle \u00b7 Marsh harrier \u00b7 Buzzard', '\U0001f9a6 Otter \u00b7 \U0001f9ab Beaver along the banks', '\U0001f337 Aalsmeer lilacs \u00b7 Marsh flora on the drying banks', '\U0001f333 Willow \u00b7 Alder \u00b7 Reed'],
+ 'trail': ['Park in <b>Aalsmeer</b>; the area is best experienced <b>by boat</b>.',
+           'Hire a <b>silent electric boat</b> or canoe for the narrow ditches between the banks.',
+           'May for the <b>lilac bloom</b> on the islets.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f6a4 Mainly by boat \u00b7 \U0001f4b6 Free from the shore \u00b7 \U0001f3fa Peat reclamation landscape'
+}, card_class='card water'))
+
+mk.insert(C, '1534')
+mk.progress(1539)
+mk.check()

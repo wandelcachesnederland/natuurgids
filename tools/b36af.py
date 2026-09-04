@@ -1,0 +1,201 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1435, 'Guisveld', {
+ 'tags': ['Noord-Holland \u00b7 Zaanstad', 'Veenweide \u00b7 smalle stroken en rietland in de Zaanstreek', 'list 36 \u00b7 no. 154'],
+ 'loc': '\U0001f4cd Tussen Westzaan en Wormerveer \u00b7 Veenweide \u00b7 Middelgroot',
+ 'desc': 'Het <b>Guisveld</b> is een van de gaafste veenweidegebieden van de Zaanstreek en valt op door zijn extreem <b>smalle percelen</b>: sommige stroken zijn nauwelijks tien meter breed, gescheiden door sloten die je met een stap kunt overbruggen. Dat patroon is het gevolg van eeuwenlange <b>erfdeling</b> \u2014 bij elke generatie werd het land in de lengte gesplitst, zodat iedere erfgenaam een gelijk aandeel kreeg van zowel de hoge als de lage grond. Na tien generaties resteren linten in plaats van percelen. Voor moderne landbouw is dat onwerkbaar, en juist daarom is het gebied natuur geworden. Er groeien <b>veenmosrietland en trilveen</b>, en er broeden <b>rietzanger, snor, watersnip en bruine kiekendief</b>. In de sloten leeft de <b>groene glazenmaker</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (riet- en weidevogels), mei\u2013jul (trilveenflora)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rietvogelzang over het smalle slotenpatroon.',
+ 'why': ['Extreem <b>smalle percelen</b>, soms nauwelijks tien meter breed.',
+         'Gevolg van eeuwenlange <b>erfdeling</b> in de lengte.',
+         'Na tien generaties resteren <b>linten in plaats van percelen</b>.',
+         'Onwerkbaar voor landbouw \u2014 en daarom natuur geworden.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Rietzanger en snor</b> zingen in de kragen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Watersnip</b> baltst boven het veen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Trilveenflora</b> met zeggen en orchidee\u00ebn.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Groene glazenmaker</b> boven de krabbenscheer.'],
+ 'wild': ['\U0001f33e Rietzanger \u00b7 Snor \u00b7 Kleine karekiet \u00b7 Rietgors', '\U0001f426 Watersnip \u00b7 Grutto \u00b7 Tureluur', '\U0001f985 Bruine kiekendief', '\U0001f9a0 Groene glazenmaker \u00b7 \U0001f33f Krabbenscheer \u00b7 Veenmos', '\U0001f42d Noordse woelmuis'],
+ 'trail': ['Parkeren bij <b>Westzaan</b>; kijk vanaf de paden aan de rand.',
+           'Let op de <b>smalle stroken</b> \u2014 het gevolg van erfdeling.',
+           'Deels alleen per <b>kano</b> te verkennen.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6f6 Deels per boot \u00b7 \u26a0\ufe0f Kwetsbaar trilveen'
+}, {
+ 'tags': ['North Holland \u00b7 Zaanstad', 'Peat meadow \u00b7 narrow strips and reedland in the Zaan district', 'list 36 \u00b7 no. 154'],
+ 'loc': '\U0001f4cd Between Westzaan and Wormerveer \u00b7 Peat meadow \u00b7 Medium-sized',
+ 'desc': 'The <b>Guisveld</b> is one of the finest peat-meadow areas of the Zaan district and stands out for its extremely <b>narrow parcels</b>: some strips are barely ten metres wide, separated by ditches you can step across. That pattern results from centuries of <b>inheritance division</b> \u2014 with each generation the land was split lengthwise so every heir received an equal share of both the high and the low ground. After ten generations, ribbons remain instead of parcels. For modern farming this is unworkable, and that is exactly why the area has become nature. <b>Sphagnum reedland and quaking fen</b> grow here, and <b>sedge warbler, Savi\u2019s warbler, snipe and marsh harrier</b> breed. The <b>green hawker</b> lives in the ditches.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (reed and meadow birds), May\u2013Jul (quaking-fen flora)<br>\n    <b>Best time of day:</b> Early morning \u2014 reed-bird song over the narrow ditch pattern.',
+ 'why': ['Extremely <b>narrow parcels</b>, sometimes barely ten metres wide.',
+         'The result of centuries of <b>inheritance division</b> lengthwise.',
+         'After ten generations, <b>ribbons remain instead of parcels</b>.',
+         'Unworkable for farming \u2014 and so it became nature.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Sedge and Savi\u2019s warbler</b> sing in the fringes.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Snipe</b> drums above the peat.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Quaking-fen flora</b> with sedges and orchids.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Green hawker</b> above the water soldier.'],
+ 'wild': ['\U0001f33e Sedge warbler \u00b7 Savi\u2019s warbler \u00b7 Reed warbler \u00b7 Reed bunting', '\U0001f426 Snipe \u00b7 Godwit \u00b7 Redshank', '\U0001f985 Marsh harrier', '\U0001f9a0 Green hawker \u00b7 \U0001f33f Water soldier \u00b7 Sphagnum', '\U0001f42d Root vole'],
+ 'trail': ['Park at <b>Westzaan</b>; watch from the paths along the edge.',
+           'Note the <b>narrow strips</b> \u2014 the result of inheritance division.',
+           'Partly explorable only by <b>canoe</b>.'],
+ 'foot': '\U0001f436 Dogs not allowed \u00b7 \U0001f4b6 Free \u00b7 \U0001f6f6 Partly by boat \u00b7 \u26a0\ufe0f Fragile quaking fen'
+}, card_class='card water'))
+
+C.append(mk.card(1436, 'Kalverpolder', {
+ 'tags': ['Noord-Holland \u00b7 Zaanstad', 'Veenweide \u00b7 rietland naast de Zaanse Schans', 'list 36 \u00b7 no. 155'],
+ 'loc': '\U0001f4cd Bij Zaandijk, achter de Zaanse Schans \u00b7 Veenweide \u00b7 Klein',
+ 'desc': 'De <b>Kalverpolder</b> ligt pal achter de Zaanse Schans, en het contrast is opvallend: waar aan de ene kant honderdduizenden toeristen per jaar langs de molens lopen, ligt aan de andere kant een stil veenweidegebied dat grotendeels <b>alleen per boot bereikbaar</b> is. De naam verwijst naar het gebruik als weidegrond voor <b>kalveren</b> \u2014 jongvee kon op de natte, kleine percelen worden gezet waar melkkoeien te zwaar voor waren. Dat lichte gebruik heeft de bodem gespaard. Nu is het een mozaïek van <b>rietland, natte graslanden en petgaten</b> met veenmos. Er broeden <b>rietzanger, snor, baardman en watersnip</b>, en het is leefgebied van de <b>noordse woelmuis</b>, een ondersoort die alleen in Nederland voorkomt.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (rietvogels), mei\u2013jul (veenmosrietland in bloei)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 stil, voordat de Schans volloopt.',
+ 'why': ['Stil natuurgebied pal achter de drukke <b>Zaanse Schans</b>.',
+         'Genoemd naar het gebruik als weide voor <b>kalveren</b>, niet melkvee.',
+         'Dat <b>lichte gebruik</b> heeft de veenbodem gespaard.',
+         'Leefgebied van de <b>noordse woelmuis</b>, uniek voor Nederland.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Rietzanger en snor</b> in de kragen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Watersnip</b> baltst boven het veen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Veenmosrietland</b> met zeggen en orchidee\u00ebn.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de petgaten.'],
+ 'wild': ['\U0001f33e Rietzanger \u00b7 Snor \u00b7 Baardman \u00b7 Rietgors', '\U0001f426 Watersnip \u00b7 Grutto \u00b7 Tureluur', '\U0001f42d Noordse woelmuis \u00b7 Waterspitsmuis', '\U0001f33f Veenmos \u00b7 Zeggen \u00b7 Rietorchis', '\U0001f985 Bruine kiekendief'],
+ 'trail': ['Parkeren bij de <b>Zaanse Schans</b>; het gebied ligt er direct achter.',
+           'Grotendeels alleen per <b>kano</b> te verkennen.',
+           'Kom <b>vroeg</b> \u2014 de rust is het grootste contrast met de Schans.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6f6 Vooral per boot \u00b7 \u26a0\ufe0f Kwetsbaar veenmosrietland'
+}, {
+ 'tags': ['North Holland \u00b7 Zaanstad', 'Peat meadow \u00b7 reedland beside the Zaanse Schans', 'list 36 \u00b7 no. 155'],
+ 'loc': '\U0001f4cd Near Zaandijk, behind the Zaanse Schans \u00b7 Peat meadow \u00b7 Small',
+ 'desc': 'The <b>Kalverpolder</b> lies immediately behind the Zaanse Schans, and the contrast is striking: where on one side hundreds of thousands of tourists a year walk past the windmills, on the other lies a quiet peat-meadow area largely <b>reachable only by boat</b>. The name refers to its use as pasture for <b>calves</b> \u2014 young stock could be put on the wet, small parcels that were too soft for dairy cows. That light use spared the soil. It is now a mosaic of <b>reedland, wet grasslands and turf pits</b> with sphagnum. <b>Sedge warbler, Savi\u2019s warbler, bearded reedling and snipe</b> breed, and it is habitat for the <b>root vole</b>, a subspecies found only in the Netherlands.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (reed birds), May\u2013Jul (sphagnum reedland in flower)<br>\n    <b>Best time of day:</b> Early morning \u2014 quiet, before the Schans fills up.',
+ 'why': ['A quiet nature area right behind the busy <b>Zaanse Schans</b>.',
+         'Named for its use as pasture for <b>calves</b>, not dairy cattle.',
+         'That <b>light use</b> spared the peat soil.',
+         'Habitat of the <b>root vole</b>, unique to the Netherlands.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Sedge and Savi\u2019s warbler</b> in the fringes.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Snipe</b> drums above the peat.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Sphagnum reedland</b> with sedges and orchids.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the turf pits.'],
+ 'wild': ['\U0001f33e Sedge warbler \u00b7 Savi\u2019s warbler \u00b7 Bearded reedling \u00b7 Reed bunting', '\U0001f426 Snipe \u00b7 Godwit \u00b7 Redshank', '\U0001f42d Root vole \u00b7 Water shrew', '\U0001f33f Sphagnum \u00b7 Sedges \u00b7 Marsh orchid', '\U0001f985 Marsh harrier'],
+ 'trail': ['Park at the <b>Zaanse Schans</b>; the area lies directly behind it.',
+           'Largely explorable only by <b>canoe</b>.',
+           'Come <b>early</b> \u2014 the quiet is the sharpest contrast with the Schans.'],
+ 'foot': '\U0001f436 Dogs not allowed \u00b7 \U0001f4b6 Free \u00b7 \U0001f6f6 Mainly by boat \u00b7 \u26a0\ufe0f Fragile sphagnum reedland'
+}, card_class='card water'))
+
+C.append(mk.card(1437, 'De Reef en Westzijderveld', {
+ 'tags': ['Noord-Holland \u00b7 Zaanstad', 'Veenweide \u00b7 rietland en petgaten aan de stadsrand', 'list 36 \u00b7 no. 156'],
+ 'loc': '\U0001f4cd Tussen Zaandam en Westzaan \u00b7 Veenweide \u00b7 Middelgroot',
+ 'desc': '<b>De Reef</b> en het <b>Westzijderveld</b> vormen samen een groen wig tot diep in de bebouwing van Zaandam. De naam <b>reef</b> is verwant aan <i>rif</i> of <i>reep</i> en duidt op een <b>langgerekte, smalle strook</b> \u2014 precies wat het gebied is. Het Westzijderveld heet zo omdat het aan de westzijde van de Zaan ligt; de Zaanstreek werd van oudsher in oost- en westzijde verdeeld. Bijzonder is dat dit veen midden in een <b>industrieel gebied</b> ligt: de Zaanstreek was Nederlands eerste industriegebied, met honderden molens vanaf de zeventiende eeuw. Toch bleef dit veen liggen, te nat om te bebouwen. Nu is het rietland met petgaten, waar <b>snor, rietzanger, baardman en bruine kiekendief</b> broeden.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (rietvogels), mei\u2013jul (veenmosrietland)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend \u2014 rietzang tegen het stadsgeluid in.',
+ 'why': ['<b>Reef</b> = langgerekte, smalle strook, verwant aan <i>rif</i>.',
+         '<b>Westzijderveld</b> \u2014 de Zaanstreek kende oost- en westzijde.',
+         'Bleef liggen midden in <b>Nederlands eerste industriegebied</b>.',
+         'Te nat om te bebouwen \u2014 en daarom bewaard.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Snor en rietzanger</b> zingen in het riet.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Baardman</b> in de dichte rietkragen.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Veenmosrietland</b> in bloei.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de petgaten.'],
+ 'wild': ['\U0001f33e Snor \u00b7 Rietzanger \u00b7 Baardman \u00b7 Kleine karekiet', '\U0001f985 Bruine kiekendief', '\U0001f426 Watersnip \u00b7 Tureluur', '\U0001f33f Veenmos \u00b7 Krabbenscheer \u00b7 Zeggen', '\U0001f42d Noordse woelmuis'],
+ 'trail': ['Parkeren bij <b>Westzaan</b> of aan de rand van <b>Zaandam</b>; paden langs het veld.',
+           'Het contrast tussen <b>industrie en veen</b> is hier het onderwerp.',
+           'Mei is de beste maand voor <b>rietvogelzang</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \u26a0\ufe0f Kwetsbaar veen \u00b7 \U0001f68c Goed bereikbaar vanuit Zaandam'
+}, {
+ 'tags': ['North Holland \u00b7 Zaanstad', 'Peat meadow \u00b7 reedland and turf pits at the town edge', 'list 36 \u00b7 no. 156'],
+ 'loc': '\U0001f4cd Between Zaandam and Westzaan \u00b7 Peat meadow \u00b7 Medium-sized',
+ 'desc': '<b>De Reef</b> and the <b>Westzijderveld</b> together form a green wedge reaching deep into the built-up area of Zaandam. The name <b>reef</b> is related to <i>rif</i> or <i>reep</i> and denotes an <b>elongated, narrow strip</b> \u2014 exactly what the area is. The Westzijderveld is so called because it lies on the west side of the Zaan; the Zaan district was traditionally divided into east and west sides. Remarkably, this peat lies in the middle of an <b>industrial area</b>: the Zaan district was the Netherlands\u2019 first industrial region, with hundreds of windmills from the seventeenth century on. Yet this peat remained, too wet to build on. It is now reedland with turf pits, where <b>Savi\u2019s warbler, sedge warbler, bearded reedling and marsh harrier</b> breed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (reed birds), May\u2013Jul (sphagnum reedland)<br>\n    <b>Best time of day:</b> Early morning \u2014 reed song against the sound of the town.',
+ 'why': ['<b>Reef</b> = elongated, narrow strip, related to <i>rif</i>.',
+         '<b>Westzijderveld</b> \u2014 the Zaan district had east and west sides.',
+         'Survived in the middle of the <b>Netherlands\u2019 first industrial region</b>.',
+         'Too wet to build on \u2014 and therefore preserved.'],
+ 'phen': ['<span class="months">Apr\u2013Jun</span> \U0001f33e <b>Savi\u2019s and sedge warbler</b> sing in the reed.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Bearded reedling</b> in the dense fringes.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Sphagnum reedland</b> in flower.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the turf pits.'],
+ 'wild': ['\U0001f33e Savi\u2019s warbler \u00b7 Sedge warbler \u00b7 Bearded reedling \u00b7 Reed warbler', '\U0001f985 Marsh harrier', '\U0001f426 Snipe \u00b7 Redshank', '\U0001f33f Sphagnum \u00b7 Water soldier \u00b7 Sedges', '\U0001f42d Root vole'],
+ 'trail': ['Park at <b>Westzaan</b> or the edge of <b>Zaandam</b>; paths along the field.',
+           'The contrast between <b>industry and peat</b> is the subject here.',
+           'May is the best month for <b>reed-bird song</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \u26a0\ufe0f Fragile peat \u00b7 \U0001f68c Easily reached from Zaandam'
+}, card_class='card water'))
+
+C.append(mk.card(1438, 'Oostzanerveld', {
+ 'tags': ['Noord-Holland \u00b7 Oostzaan', 'Veenweide \u00b7 Natura 2000 \u00b7 rietland en trilveen', 'list 36 \u00b7 no. 157'],
+ 'loc': '\U0001f4cd Tussen Oostzaan en Landsmeer \u00b7 Veenweide \u00b7 Groot',
+ 'desc': 'Het <b>Oostzanerveld</b> is het tegenhanger van het Westzijderveld, aan de oostzijde van de Zaan, en het is een van de laatste grote veengebieden vlak bij Amsterdam. Het gebied ligt ingeklemd tussen de A8, de ringweg en de bebouwing, en toch is het ecologisch van Europees belang: het is <b>Natura 2000-gebied</b> vanwege zijn veenmosrietlanden en trilvenen. Die vegetaties zijn zeldzaam omdat ze een precieze <b>waterhuishouding</b> vragen \u2014 regenwater bovenop, geen indringend voedselrijk polderwater \u2014 en dat is in een omgeving vol gemalen en wegen lastig te realiseren. Het beheer draait dan ook om het isoleren van het veen. Er broeden <b>roerdomp, snor, baardman en purperreiger</b>, en er leeft de <b>noordse woelmuis</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jul</b> (moerasvogels), mei\u2013jul (trilveenflora)<br>\n    <b>Beste tijd van de dag:</b> Zonsopkomst \u2014 roerdomp hoempt boven het riet.',
+ 'n2k': 'Natura 2000-gebied \u2014 veenmosrietland, trilveen en habitat van de noordse woelmuis.',
+ 'why': ['Een van de <b>laatste grote veengebieden</b> vlak bij Amsterdam.',
+         'Natura 2000 om zijn <b>veenmosrietlanden en trilvenen</b>.',
+         'Die vragen regenwater bovenop en <b>geen voedselrijk polderwater</b>.',
+         'Het beheer draait om het <b>isoleren</b> van het veen.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Roerdomp</b> hoempt bij zonsopkomst.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f33e <b>Snor en baardman</b> in het rietland.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f33c <b>Trilveenflora</b> met zeggen en orchidee\u00ebn.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Groene glazenmaker</b> boven de sloten.'],
+ 'wild': ['\U0001f426 Roerdomp \u00b7 Snor \u00b7 Baardman \u00b7 Purperreiger', '\U0001f42d Noordse woelmuis \u00b7 Waterspitsmuis', '\U0001f33f Veenmos \u00b7 Zeggen \u00b7 Rietorchis \u00b7 Krabbenscheer', '\U0001f9a0 Groene glazenmaker \u00b7 Libellen', '\U0001f985 Bruine kiekendief'],
+ 'trail': ['Parkeren bij <b>Oostzaan</b>; paden en dijken langs de rand.',
+           'Grote delen zijn alleen per <b>kano</b> bereikbaar.',
+           'Kom bij <b>zonsopkomst</b> voor de roerdomp.'],
+ 'foot': '\U0001f436 Honden niet toegestaan \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f6f6 Deels per boot \u00b7 \u26a0\ufe0f Zeer kwetsbaar'
+}, {
+ 'tags': ['North Holland \u00b7 Oostzaan', 'Peat meadow \u00b7 Natura 2000 \u00b7 reedland and quaking fen', 'list 36 \u00b7 no. 157'],
+ 'loc': '\U0001f4cd Between Oostzaan and Landsmeer \u00b7 Peat meadow \u00b7 Large',
+ 'desc': 'The <b>Oostzanerveld</b> is the counterpart of the Westzijderveld, on the east side of the Zaan, and it is one of the last large peat areas close to Amsterdam. The area is squeezed between the A8, the ring road and the built-up zone, and yet it is of European ecological importance: it is a <b>Natura 2000 site</b> for its sphagnum reedlands and quaking fens. Those vegetations are rare because they demand a precise <b>water regime</b> \u2014 rainwater on top, no intruding nutrient-rich polder water \u2014 and that is hard to achieve in surroundings full of pumping stations and roads. Management therefore turns on isolating the peat. <b>Bittern, Savi\u2019s warbler, bearded reedling and purple heron</b> breed, and the <b>root vole</b> lives here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jul</b> (marsh birds), May\u2013Jul (quaking-fen flora)<br>\n    <b>Best time of day:</b> Sunrise \u2014 the bittern booms above the reed.',
+ 'n2k_en': 'Natura 2000 site \u2014 sphagnum reedland, quaking fen and root vole habitat.',
+ 'why': ['One of the <b>last large peat areas</b> close to Amsterdam.',
+         'Natura 2000 for its <b>sphagnum reedlands and quaking fens</b>.',
+         'These need rainwater on top and <b>no nutrient-rich polder water</b>.',
+         'Management turns on <b>isolating</b> the peat.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f426 <b>Bittern</b> booms at sunrise.',
+          '<span class="months">Apr\u2013Jul</span> \U0001f33e <b>Savi\u2019s warbler and bearded reedling</b> in the reedland.',
+          '<span class="months">May\u2013Jul</span> \U0001f33c <b>Quaking-fen flora</b> with sedges and orchids.',
+          '<span class="months">Jul\u2013Aug</span> \U0001f9a0 <b>Green hawker</b> above the ditches.'],
+ 'wild': ['\U0001f426 Bittern \u00b7 Savi\u2019s warbler \u00b7 Bearded reedling \u00b7 Purple heron', '\U0001f42d Root vole \u00b7 Water shrew', '\U0001f33f Sphagnum \u00b7 Sedges \u00b7 Marsh orchid \u00b7 Water soldier', '\U0001f9a0 Green hawker \u00b7 Dragonflies', '\U0001f985 Marsh harrier'],
+ 'trail': ['Park at <b>Oostzaan</b>; paths and dikes along the edge.',
+           'Large parts are reachable only by <b>canoe</b>.',
+           'Come at <b>sunrise</b> for the bittern.'],
+ 'foot': '\U0001f436 Dogs not allowed \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \U0001f6f6 Partly by boat \u00b7 \u26a0\ufe0f Very fragile'
+}, card_class='card water'))
+
+C.append(mk.card(1439, 'Westfriesland', {
+ 'tags': ['Noord-Holland \u00b7 Hoorn', 'Cultuurlandschap \u00b7 oud zeekleigebied met kolken en dijken', 'list 36 \u00b7 no. 158'],
+ 'loc': '\U0001f4cd Tussen Hoorn, Enkhuizen, Medemblik en Alkmaar \u00b7 Zeekleilandschap \u00b7 Zeer groot',
+ 'desc': '<b>Westfriesland</b> is het oude zeekleigebied achter de <b>Westfriese Omringdijk</b>, een veertig kilometer lange dijk die rond 1250 werd gesloten en daarmee een van de oudste nog bestaande waterstaatswerken van Nederland is. Wie de dijk volgt, ziet aan de binnenkant steeds weer diepe ronde plassen liggen: <b>kolken</b> of <b>wielen</b>, uitgeslagen door doorbrekend water bij dijkbreuken. Ze zijn de littekens van eeuwen strijd tegen de zee, en omdat ze te diep waren om te dempen, bleven ze liggen. Nu vormen ze samen met de dijkbermen een netwerk van kleine natuurgebieden in een verder intensief agrarisch landschap. In de kolken leven <b>amfibieën en libellen</b>, op de bermen bloeit een <b>schrale flora</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jun\u2013aug</b> (dijkbermbloei en libellen), mrt\u2013apr (amfibieën in de kolken)<br>\n    <b>Beste tijd van de dag:</b> Warme middag \u2014 insecten op de zuidhellingen van de dijk.',
+ 'why': ['De <b>Westfriese Omringdijk</b> werd rond 1250 gesloten \u2014 een van de oudste van Nederland.',
+         '<b>Kolken</b> en <b>wielen</b>: diepe plassen uitgeslagen bij dijkbreuken.',
+         'Te diep om te dempen \u2014 en daarom bewaard gebleven.',
+         'Kolken en bermen vormen een <b>netwerk van natuurgebiedjes</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f438 <b>Amfibieën</b> planten zich voort in de kolken.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f33c <b>Dijkbermen</b> in volle bloei.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Libellen</b> boven de kolken.',
+          '<span class="months">Sep\u2013Okt</span> \U0001f426 <b>Trekvogels</b> volgen de dijklijn.'],
+ 'wild': ['\U0001f438 Kikkers \u00b7 Padden \u00b7 Watersalamanders', '\U0001f9a0 Libellen \u00b7 Juffers in de kolken', '\U0001f33c Knoopkruid \u00b7 Margriet \u00b7 Wilde marjolein', '\U0001f98b Vlinders \u00b7 \U0001f41d Wilde bijen', '\U0001f426 Grasmus \u00b7 Kneu \u00b7 Geelgors'],
+ 'trail': ['De <b>Omringdijk</b> is als fietsroute over de volle veertig kilometer te volgen.',
+           'Stop bij de <b>kolken</b> \u2014 elk is een verhaal over een dijkbreuk.',
+           'Juli voor de <b>bermbloei</b> op de dijkhellingen.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Provinciaal monument \u00b7 \U0001f6b4 Lange fietsroute'
+}, {
+ 'tags': ['North Holland \u00b7 Hoorn', 'Cultural landscape \u00b7 old marine clay area with breach pools and dikes', 'list 36 \u00b7 no. 158'],
+ 'loc': '\U0001f4cd Between Hoorn, Enkhuizen, Medemblik and Alkmaar \u00b7 Marine clay landscape \u00b7 Very large',
+ 'desc': '<b>West Friesland</b> is the old marine clay region behind the <b>West Frisian Ring Dike</b>, a forty-kilometre dike closed around 1250 and thus one of the oldest surviving hydraulic works in the Netherlands. Following the dike, you keep seeing deep round pools on the inner side: <b>breach pools</b> or <b>wielen</b>, scoured out by water bursting through during dike failures. They are the scars of centuries of struggle against the sea, and because they were too deep to fill in, they remained. Together with the dike verges they now form a network of small nature sites in an otherwise intensively farmed landscape. <b>Amphibians and dragonflies</b> live in the pools, and a <b>poor, flower-rich flora</b> blooms on the verges.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jun\u2013Aug</b> (dike verge flowering and dragonflies), Mar\u2013Apr (amphibians in the pools)<br>\n    <b>Best time of day:</b> Warm afternoon \u2014 insects on the south-facing dike slopes.',
+ 'why': ['The <b>West Frisian Ring Dike</b> was closed around 1250 \u2014 among the oldest in the country.',
+         '<b>Breach pools</b> or <i>wielen</i>: deep pools scoured out during dike failures.',
+         'Too deep to fill in \u2014 and therefore preserved.',
+         'Pools and verges form a <b>network of small nature sites</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f438 <b>Amphibians</b> breed in the pools.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f33c <b>Dike verges</b> in full flower.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f9a0 <b>Dragonflies</b> above the pools.',
+          '<span class="months">Sep\u2013Oct</span> \U0001f426 <b>Migrants</b> follow the dike line.'],
+ 'wild': ['\U0001f438 Frogs \u00b7 Toads \u00b7 Newts', '\U0001f9a0 Dragonflies \u00b7 Damselflies in the pools', '\U0001f33c Knapweed \u00b7 Oxeye daisy \u00b7 Wild marjoram', '\U0001f98b Butterflies \u00b7 \U0001f41d Wild bees', '\U0001f426 Whitethroat \u00b7 Linnet \u00b7 Yellowhammer'],
+ 'trail': ['The <b>Ring Dike</b> can be followed as a cycle route over its full forty kilometres.',
+           'Stop at the <b>breach pools</b> \u2014 each is a story about a dike failure.',
+           'July for the <b>verge flowering</b> on the dike slopes.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f Provincial monument \u00b7 \U0001f6b4 Long cycle route'
+}))
+
+mk.insert(C, '1434')
+mk.progress(1439)
+mk.check()

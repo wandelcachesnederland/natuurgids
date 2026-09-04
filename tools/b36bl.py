@@ -1,0 +1,200 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1595, 'Bergvennen', {
+ 'tags': ['Overijssel · Dinkelland', 'Ven · heidevennen en jeneverbesstruweel', 'list 36 · no. 314'],
+ 'loc': '📍 Lattrop-Breklenkamp, Noordoost-Twente · Natura 2000 · ca. 200 voetbalvelden',
+ 'desc': 'De <b>Bergvennen</b> liggen tegen de Duitse grens bij Lattrop-Breklenkamp: zeven <b>vennen</b> in een landschap van droge en natte heide, schrale hooilanden en jeneverbesstruweel, samen met het Brecklenkampse Veld aangewezen als Natura 2000-gebied. De vennen zijn van oorsprong <b>regenwatergevoed en zuur</b>, en werden lange tijd kunstmatig nat gehouden; het herstel draait om het dempen van sloten, het kappen van dorstige dennen en het terugbrengen van de oude <b>slenk</b> (vallei), zodat het water weer in het gebied blijft. Samen met het Witte Veen en het Duitse Witte Venn vormen ze een keten van hoogveentjes op de grens.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jul–sep</b> (heidebloei), apr–jun (amfibieën en libellen)<br>\n    <b>Beste tijd van de dag:</b> Ochtend — de vennen liggen dan stil en spiegelglad.',
+ 'why': ['Zeven <b>vennen</b> in droge én natte heide.',
+         'Natura 2000 samen met het <b>Brecklenkampse Veld</b>.',
+         'Herstel van de oude <b>slenk</b> houdt het water vast.',
+         'Deel van een keten van <b>hoogveentjes</b> op de Duits-Nederlandse grens.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🦎 <b>Heikikker en kamsalamander</b> in de vennen.',
+          '<span class="months">Mei–Jul</span> 🪰 <b>Venwitsnuitlibel en koraaljuffer</b> langs de oevers.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Dopheide en struikhei</b> kleuren de randen.',
+          '<span class="months">Sep–Okt</span> 🍄 <b>Paddenstoelen</b> in het jeneverbesstruweel.'],
+ 'wild': ['🦎 Heikikker · Kamsalamander · Alpenwatersalamander', '🪰 Venwitsnuitlibel · Koraaljuffer', '🐦 Roodborsttapuit · Boompieper', '🌸 Kleine zonnedauw · Witte snavelbies · Veenpluis', '🌲 Jeneverbes · Grove den · Berk'],
+ 'trail': ['Parkeren bij <b>Lattrop-Breklenkamp</b>; wandelroutes rond de vennen.',
+           'Blijf op de <b>paden</b> — de oevers zijn kwetsbaar.',
+           'Kijk in augustus naar de <b>paarse heide</b> rond de vennen.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Kwetsbare venoevers — niet betreden · 🚶 Wandelpaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Fen · heath pools and juniper thicket', 'list 36 · no. 314'],
+ 'loc': '📍 Lattrop-Breklenkamp, North-east Twente · Natura 2000 · c. 200 football pitches',
+ 'desc': 'The <b>Bergvennen</b> lie against the German border near Lattrop-Breklenkamp: seven <b>fens</b> in a landscape of dry and wet heath, poor hay meadows and juniper thicket, designated together with the Brecklenkampse Veld as a Natura 2000 site. The fens are naturally <b>rain-fed and acid</b>, and were long kept artificially wet; restoration revolves around filling in ditches, felling thirsty pines and bringing back the old <b>slenk</b> (valley), so the water stays in the area. With the Witte Veen and the German Witte Venn they form a chain of small raised bogs on the border.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jul–Sep</b> (heather bloom), Apr–Jun (amphibians and dragonflies)<br>\n    <b>Best time of day:</b> Morning — the fens lie still and mirror-smooth then.',
+ 'why': ['Seven <b>fens</b> in dry and wet heath alike.',
+         'Natura 2000 together with the <b>Brecklenkampse Veld</b>.',
+         'Restoring the old <b>slenk</b> keeps the water in place.',
+         'Part of a chain of <b>small raised bogs</b> on the Dutch–German border.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🦎 <b>Moor frog and great crested newt</b> in the fens.',
+          '<span class="months">May–Jul</span> 🪰 <b>White-faced darter and demoiselle</b> along the banks.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Cross-leaved heath and heather</b> colour the edges.',
+          '<span class="months">Sep–Oct</span> 🍄 <b>Fungi</b> in the juniper thicket.'],
+ 'wild': ['🦎 Moor frog · Great crested newt · Alpine newt', '🪰 White-faced darter · Beautiful demoiselle', '🐦 Stonechat · Tree pipit', '🌸 Round-leaved sundew · White beak-sedge · Common cottongrass', '🌲 Juniper · Scots pine · Birch'],
+ 'trail': ['Park at <b>Lattrop-Breklenkamp</b>; walking routes around the fens.',
+           'Keep to the <b>paths</b> — the banks are fragile.',
+           'Come in August for the <b>purple heather</b> around the fens.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Fragile fen banks — do not enter · 🚶 Footpaths'
+}, n2k='Natura 2000-gebied <b>Bergvennen &amp; Brecklenkampse Veld</b> — aangewezen voor zure vennen, vochtige en droge heide en heischrale graslanden.',
+   n2k_en='Natura 2000 site <b>Bergvennen &amp; Brecklenkampse Veld</b> — designated for acid fens, wet and dry heath and matgrass swards.'))
+
+C.append(mk.card(1596, 'Hazelbekke', {
+ 'tags': ['Overijssel · Dinkelland', 'Beekdal · hazelaarrijk dal aan de voet van de stuwwal', 'list 36 · no. 315'],
+ 'loc': '📍 Bij Ootmarsum, Noordoost-Twente · Beekdal · Klein',
+ 'desc': 'De <b>Hazelbekke</b> is een klein beekdal bij Ootmarsum waarvan de naam al de vegetatie verraadt: een beekje tussen de <b>hazelaars</b>. Het ligt aan de voet van de stuwwal waarop de Kuiperberg ligt, en hoort bij hetzelfde bronnenrijke landschap als het nabije <b>Springendal</b> — grondwater dat uit de heuvelrug sijpelt en als heldere beekjes naar het lager gelegen broekland stroomt. Zo’n kwelgevoed dal is het domein van <b>gele kwikstaart, beekjuffer en dotterbloem</b>, en langs de wandelpaden wisselen houtwallen en hooilandjes elkaar af.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (kwelflora en beekjuffers), okt (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Ochtend langs het water.',
+ 'why': ['De naam zegt het: een beekje tussen de <b>hazelaars</b>.',
+         'Kwelwater uit de stuwwal voedt de <b>heldere beekjes</b>.',
+         'Broer van het bronnenrijke <b>Springendal</b>.',
+         'Domein van <b>beekjuffer, gele kwikstaart en dotterbloem</b>.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Dotterbloem</b> langs de oevers.',
+          '<span class="months">Mei–Jun</span> 🪰 <b>Weidebeekjuffer</b> boven het water.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Gele kwikstaart</b> op de oeverstenen.',
+          '<span class="months">Okt</span> 🍂 <b>Herfstkleur</b> in de hazelaars.'],
+ 'wild': ['🐦 Gele kwikstaart · Grote gele kwikstaart', '🪰 Weidebeekjuffer · Bosbeekjuffer', '🐸 Bruine kikker · Kleine watersalamander', '🌼 Dotterbloem · Moerasspirea · Gele lis', '🌳 Hazelaar · Zwarte els · Wilg'],
+ 'trail': ['Parkeren bij <b>Ootmarsum</b>; wandelroutes door het dal.',
+           'Combineer met de <b>Kuiperberg</b> en het Springendal.',
+           'Luister in mei naar de <b>beekjuffers</b> boven het water.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🌊 Kwelgevoed beekdal · 🚶 Wandelpaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Brook valley · hazel-rich dale at the foot of the ice-pushed ridge', 'list 36 · no. 315'],
+ 'loc': '📍 Near Ootmarsum, North-east Twente · Brook valley · Small',
+ 'desc': 'The <b>Hazelbekke</b> is a small brook valley near Ootmarsum whose name already betrays its vegetation: a brook between the <b>hazels</b>. It lies at the foot of the ice-pushed ridge carrying the Kuiperberg, and belongs to the same spring-rich landscape as the nearby <b>Springendal</b> — groundwater seeping from the ridge and flowing as clear brooks to the lower brookland. Such a seepage-fed dale is the domain of <b>grey wagtail, demoiselle and marsh marigold</b>, and along the paths hedge banks and hay meadows alternate.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (seepage flora and demoiselles), Oct (autumn colour)<br>\n    <b>Best time of day:</b> Morning along the water.',
+ 'why': ['The name says it: a brook between the <b>hazels</b>.',
+         'Seepage from the ice-pushed ridge feeds the <b>clear brooks</b>.',
+         'A sibling of the spring-rich <b>Springendal</b>.',
+         'Domain of <b>demoiselle, grey wagtail and marsh marigold</b>.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Marsh marigold</b> along the banks.',
+          '<span class="months">May–Jun</span> 🪰 <b>Banded demoiselle</b> above the water.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Grey wagtail</b> on the bank stones.',
+          '<span class="months">Oct</span> 🍂 <b>Autumn colour</b> in the hazels.'],
+ 'wild': ['🐦 Grey wagtail · Yellow wagtail', '🪰 Banded demoiselle · Beautiful demoiselle', '🐸 Common frog · Smooth newt', '🌼 Marsh marigold · Meadowsweet · Yellow iris', '🌳 Hazel · Black alder · Willow'],
+ 'trail': ['Park at <b>Ootmarsum</b>; walking routes through the dale.',
+           'Combine with the <b>Kuiperberg</b> and the Springendal.',
+           'Listen in May for the <b>demoiselles</b> above the water.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🌊 Seepage-fed brook valley · 🚶 Footpaths'
+}))
+
+C.append(mk.card(1597, 'Vasserheide en Vassergrafveld', {
+ 'tags': ['Overijssel · Tubbergen', 'Heide · grafheuvelveld op droge heide', 'list 36 · no. 316'],
+ 'loc': '📍 Vasse, gemeente Tubbergen · Heide · ca. 70 ha',
+ 'desc': 'De <b>Vasserheide</b> is een heidegebied van zo’n zeventig hectare van Landschap Overijssel; het <b>Vassergrafveld</b> (26 ha) is daarvan het archeologische hart. In de bodem liggen <b>grafheuvels</b> uit 4000–2500 v.Chr., urnenvelden en resten van <b>celtic fields</b> — akkertjes uit de ijzertijd die tot de eerste vestigingsplekken van mensen in Twente horen. Het beheer houdt de heuvels bewust <b>vrij van bomen en struiken</b>, en dat past precies bij het natuurdoel: droge struikhei op de hoge delen, dopheide in de lagere beekdalranden. Een zeldzaam voorbeeld waar archeologie en heidebeheer elkaar versterken.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jul–sep</b> (heidebloei), apr–jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Middag — het licht modelleert de grafheuvels.',
+ 'why': ['<b>Grafheuvels</b> van 4000–2500 v.Chr. in de heide.',
+         'Urnenvelden en <b>celtic fields</b> uit de ijzertijd.',
+         'Heidebeheer houdt de heuvels <b>vrij van opslag</b>.',
+         'Droge struikhei op de hoge delen, <b>dopheide</b> in de laagten.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🐦 <b>Boompieper en roodborsttapuit</b> op de heide.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Struikhei</b> kleurt de velden paars.',
+          '<span class="months">Mei–Aug</span> 🦎 <b>Zandhagedis</b> op de warme heuvelflanken.',
+          '<span class="months">Sep–Okt</span> 🍄 <b>Paddenstoelen</b> langs de randen.'],
+ 'wild': ['🐦 Boompieper · Roodborsttapuit · Geelgors', '🦎 Zandhagedis · Levendbarende hagedis', '🦋 Heivlinder · Kleine vuurvlinder', '🌸 Struikhei · Dopheide · Tormentil', '🌲 Grove den · Berk · Jeneverbes'],
+ 'trail': ['Parkeren bij <b>Vasse</b>; wandelpaden over het veld.',
+           'Loop de <b>grafheuvels</b> langs — respecteer de hoogten.',
+           'Combineer met het nabije <b>Haarlergrafveld</b>.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Archeologisch monument — heuvels niet betreden · 🚶 Zandpaden'
+}, {
+ 'tags': ['Overijssel · Tubbergen', 'Heath · grave-mound field on dry heath', 'list 36 · no. 316'],
+ 'loc': '📍 Vasse, Tubbergen municipality · Heath · c. 70 ha',
+ 'desc': 'The <b>Vasserheide</b> is a heath area of about seventy hectares owned by Landschap Overijssel; the <b>Vassergrafveld</b> (26 ha) is its archaeological heart. In the soil lie <b>burial mounds</b> from 4000–2500 BC, urn fields and remnants of <b>celtic fields</b> — small iron-age arable plots belonging to the earliest human settlements in Twente. Management deliberately keeps the mounds <b>free of trees and scrub</b>, and that fits the nature goal exactly: dry heather on the high parts, cross-leaved heath on the lower brook-valley edges. A rare place where archaeology and heath management reinforce each other.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jul–Sep</b> (heather bloom), Apr–Jun (song)<br>\n    <b>Best time of day:</b> Midday — the light models the burial mounds.',
+ 'why': ['<b>Burial mounds</b> of 4000–2500 BC in the heath.',
+         'Urn fields and <b>celtic fields</b> from the iron age.',
+         'Heath management keeps the mounds <b>free of saplings</b>.',
+         'Dry heather on the highs, <b>cross-leaved heath</b> in the lows.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🐦 <b>Tree pipit and stonechat</b> on the heath.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Heather</b> turns the fields purple.',
+          '<span class="months">May–Aug</span> 🦎 <b>Sand lizard</b> on the warm mound flanks.',
+          '<span class="months">Sep–Oct</span> 🍄 <b>Fungi</b> along the edges.'],
+ 'wild': ['🐦 Tree pipit · Stonechat · Yellowhammer', '🦎 Sand lizard · Viviparous lizard', '🦋 Grayling · Small copper', '🌸 Heather · Cross-leaved heath · Tormentil', '🌲 Scots pine · Birch · Juniper'],
+ 'trail': ['Park at <b>Vasse</b>; footpaths across the field.',
+           'Walk past the <b>burial mounds</b> — respect the heights.',
+           'Combine with the nearby <b>Haarlergrafveld</b>.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Archaeological monument — keep off the mounds · 🚶 Sandy paths'
+}))
+
+C.append(mk.card(1598, 'Kuiperberg', {
+ 'tags': ['Overijssel · Dinkelland', 'Stuwwalheuvel · uitzichtpunt met oriënteertafel', 'list 36 · no. 317'],
+ 'loc': '📍 Ootmarsum, Noordoost-Twente · Stuwwal · 71 m',
+ 'desc': 'De <b>Kuiperberg</b> is een 71 meter hoge heuvel ten westen van Ootmarsum, onderdeel van de stuwwal die doorloopt naar <b>Uelsen</b> in Duitsland. Het landijs schoof hier in het Saalien de ondergrond op, en sinds 1926 staat er op de top een <b>oriënteertafel</b>: bij helder weer kijk je van Oldenzaal tot Enschede en Hengelo. De laagste watertoren van Nederland (9,05 meter) kon zo laag blijven juist omdat hij op deze hoogte staat, en tegen de flank ligt de <b>joodse begraafplaats</b> van Ootmarsum (ca. 1786). Langs de hellingen wisselen glooiende essen, houtwallen en bosjes elkaar af.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Heel jaar</b> (uitzicht), apr–jun (zang), okt (herfst)<br>\n    <b>Beste tijd van de dag:</b> Late middag — het dal ligt dan in het gouden licht.',
+ 'why': ['Stuwwalheuvel van <b>71 meter</b> — deel van de rug naar Uelsen.',
+         '<b>Oriënteertafel</b> op de top sinds 1926.',
+         'Hier staat de <b>laagste watertoren</b> van Nederland (9,05 m).',
+         'Flank met <b>joodse begraafplaats</b> (1786) en glooiende essen.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Voorjaarsbloei</b> op de hellingen.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Geelgors en kneu</b> in de houtwallen.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Vlinders</b> op de warme zuidflank.',
+          '<span class="months">Okt</span> 🍂 <b>Herfstkleur</b> en vér uitzicht.'],
+ 'wild': ['🐦 Geelgors · Kneu · Torenvalk', '🦌 Ree · Haas · Egel', '🦋 Atalanta · Dagpauwoog', '🌼 Gewone margriet · Knoopkruid', '🌳 Zomereik · Meidoorn · Hazelaar'],
+ 'trail': ['Parkeren bij <b>Ootmarsum</b>; pad omhoog naar de top.',
+           'Lees de <b>oriënteertafel</b> — bij helder weer tot ver in Twente.',
+           'Combineer met de <b>Trage Tocht</b> via Hazelbekke en Springendal.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🔭 Uitzichtpunt · 🚶 Glooiende paden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Ice-pushed hill · viewpoint with orientation table', 'list 36 · no. 317'],
+ 'loc': '📍 Ootmarsum, North-east Twente · Ice-pushed ridge · 71 m',
+ 'desc': 'The <b>Kuiperberg</b> is a 71-metre hill west of Ootmarsum, part of the ice-pushed ridge continuing to <b>Uelsen</b> in Germany. Here the land ice shoved up the subsoil in the Saalian, and an <b>orientation table</b> has stood on the top since 1926: on clear days you see from Oldenzaal to Enschede and Hengelo. The lowest water tower in the Netherlands (9.05 m) could stay so low precisely because it stands at this height, and against the flank lies the <b>Jewish cemetery</b> of Ootmarsum (c. 1786). Along the slopes rolling es fields, hedge banks and copses alternate.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Year-round</b> (views), Apr–Jun (song), Oct (autumn)<br>\n    <b>Best time of day:</b> Late afternoon — the dale lies in golden light.',
+ 'why': ['An ice-pushed hill of <b>71 metres</b> — part of the ridge to Uelsen.',
+         '<b>Orientation table</b> on the summit since 1926.',
+         'Site of the <b>lowest water tower</b> in the Netherlands (9.05 m).',
+         'Flank with <b>Jewish cemetery</b> (1786) and rolling es fields.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Spring blossom</b> on the slopes.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Yellowhammer and linnet</b> in the hedge banks.',
+          '<span class="months">Jun–Aug</span> 🦋 <b>Butterflies</b> on the warm south flank.',
+          '<span class="months">Oct</span> 🍂 <b>Autumn colour</b> and far views.'],
+ 'wild': ['🐦 Yellowhammer · Linnet · Kestrel', '🦌 Roe deer · Hare · Hedgehog', '🦋 Red admiral · Peacock', '🌼 Oxeye daisy · Brown knapweed', '🌳 Pedunculate oak · Hawthorn · Hazel'],
+ 'trail': ['Park at <b>Ootmarsum</b>; path up to the summit.',
+           'Read the <b>orientation table</b> — on clear days far into Twente.',
+           'Combine with the <b>Trage Tocht</b> via Hazelbekke and Springendal.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🔭 Viewpoint · 🚶 Rolling paths'
+}))
+
+C.append(mk.card(1599, 'Haarlergrafveld', {
+ 'tags': ['Overijssel · Tubbergen', 'Heide · grafheuvelveld aan het Lädderken', 'list 36 · no. 318'],
+ 'loc': '📍 Tussen Tubbergen en Ootmarsum · Heide · Klein',
+ 'desc': 'Het <b>Haarlergrafveld</b> ligt aan het <b>Lädderken</b>, een van de oude verbindingsweggetjes tussen Tubbergen en Ootmarsum, en behoort tot de oudste bezittingen van het <b>Overijssels Landschap</b>. Het is een heidereservaat met grafheuvels uit het Laat-Neolithicum tot de Vroege IJzertijd (2000–500 v.Chr.), in 1976 tot beschermd monument verklaard. De heide is hier bijzonder schraal: de zeer zeldzame <b>cypres-wolfsklauw</b> heeft er een groeiplaats, en <b>IJslands mos en rendiermos</b> liggen als grijze kussens tussen de struikhei. In het gemengde bosje broedt de <b>bosuil</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jul–sep</b> (heidebloei), apr–jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Middag — de korstmossen glanzen in het licht.',
+ 'why': ['Grafheuvels van <b>2000–500 v.Chr.</b> in de heide.',
+         'Een van de <b>oudste gebieden</b> van het Overijssels Landschap.',
+         'Groeiplaats van de zeldzame <b>cypres-wolfsklauw</b>.',
+         '<b>IJslands mos en rendiermos</b> tussen de struikhei.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🦉 <b>Bosuil</b> broedt in het gemengde bosje.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Struikhei</b> bloeit paars.',
+          '<span class="months">Mei–Aug</span> 🦎 <b>Zandhagedis</b> op de heuvelflanken.',
+          '<span class="months">Sep–Okt</span> 🍄 <b>Paddenstoelen</b> langs de heide.'],
+ 'wild': ['🦉 Bosuil · Roodborsttapuit · Boompieper', '🦎 Zandhagedis · Hazelworm', '🦋 Heivlinder · Groentje', '🌸 Struikhei · Tormentil · Grasklokje', '🌲 Grove den · Berk · Jeneverbes'],
+ 'trail': ['Parkeren bij <b>Haarle</b>; pad langs het Lädderken.',
+           'Zoek de <b>rendiermossen</b> tussen de heide.',
+           'Respecteer de <b>grafheuvels</b> — blijf op het pad.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Beschermd monument — niet betreden · 🚶 Zandpaden'
+}, {
+ 'tags': ['Overijssel · Tubbergen', 'Heath · grave-mound field on the Lädderken', 'list 36 · no. 318'],
+ 'loc': '📍 Between Tubbergen and Ootmarsum · Heath · Small',
+ 'desc': 'The <b>Haarlergrafveld</b> lies on the <b>Lädderken</b>, one of the old connecting lanes between Tubbergen and Ootmarsum, and is among the oldest possessions of <b>Overijssels Landschap</b>. It is a heath reserve with burial mounds from the Late Neolithic to the Early Iron Age (2000–500 BC), declared a protected monument in 1976. The heath here is exceptionally poor: the very rare <b>fir clubmoss</b> has a stand here, and <b>Iceland moss and reindeer lichen</b> lie as grey cushions among the heather. In the mixed copse the <b>tawny owl</b> breeds.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jul–Sep</b> (heather bloom), Apr–Jun (song)<br>\n    <b>Best time of day:</b> Midday — the lichens glisten in the light.',
+ 'why': ['Burial mounds of <b>2000–500 BC</b> in the heath.',
+         'One of the <b>oldest areas</b> of Overijssels Landschap.',
+         'A stand of the rare <b>fir clubmoss</b>.',
+         '<b>Iceland moss and reindeer lichen</b> among the heather.'],
+ 'phen': ['<span class="months">Apr–Jun</span> 🦉 <b>Tawny owl</b> breeds in the mixed copse.',
+          '<span class="months">Jul–Sep</span> 🌸 <b>Heather</b> blooms purple.',
+          '<span class="months">May–Aug</span> 🦎 <b>Sand lizard</b> on the mound flanks.',
+          '<span class="months">Sep–Oct</span> 🍄 <b>Fungi</b> along the heath.'],
+ 'wild': ['🦉 Tawny owl · Stonechat · Tree pipit', '🦎 Sand lizard · Slow worm', '🦋 Grayling · Green hairstreak', '🌸 Heather · Tormentil · Harebell', '🌲 Scots pine · Birch · Juniper'],
+ 'trail': ['Park at <b>Haarle</b>; path along the Lädderken.',
+           'Look for the <b>reindeer lichens</b> among the heather.',
+           'Respect the <b>burial mounds</b> — keep to the path.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Protected monument — do not enter · 🚶 Sandy paths'
+}))
+
+mk.insert(C, '1594')
+mk.progress(1599)
+mk.check()

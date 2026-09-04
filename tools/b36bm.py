@@ -1,0 +1,200 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1600, 'Reutum', {
+ 'tags': ['Overijssel · Tubbergen', 'Esdorp · broekbossen en natte maten rond de Reutumse es', 'list 36 · no. 319'],
+ 'loc': '📍 Reutum, gemeente Tubbergen · Esdorp · Klein',
+ 'desc': '<b>Reutum</b> wordt al eind tiende eeuw vermeld als <i>Riatnon</i>, “nederzetting bij het riet” — en die naam klopt nog. Het dorp ligt tussen de hoge akkers van de <b>Reutumse es</b> en een laag, drassig land met namen als <b>Weuste Maten, Reutumerveen en Reutummerweuste</b>: vochtige graslanden en broekbos die van oudsher te nat waren om te ontginnen. Op de venige bodem groeien vooral <b>elzen en wilgen</b>, en in het voorjaar bloeien er <b>dotterbloem en pinksterbloem</b>. Tussen de maten door lopen oude zandwegen — een verstild, waterrijk Twents landschap.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Mrt–mei</b> (voorjaarsflora), apr–jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Ochtend langs de zandwegen.',
+ 'why': ['De naam <i>Riatnon</i> (eind tiende eeuw) betekent <b>“bij het riet”</b>.',
+         'Hoge <b>Reutumse es</b> tegenover natte maten en broekbos.',
+         'Namen als <b>Weuste Maten en Reutumerveen</b> vertellen het verhaal.',
+         '<b>Dotterbloem en pinksterbloem</b> in het voorjaar.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Dotterbloem en pinksterbloem</b> in de maten.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Geelgors en grasmus</b> in de wallen.',
+          '<span class="months">Mei–Jul</span> 🐸 <b>Bruine kikker</b> in de poelen.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> in de elzenbroekbosjes.'],
+ 'wild': ['🐦 Geelgors · Grasmus · Zwartkop', '🐸 Bruine kikker · Kleine watersalamander', '🦌 Ree · Haas · Egel', '🌼 Dotterbloem · Pinksterbloem · Moerasspirea', '🌳 Zwarte els · Wilg · Zomereik'],
+ 'trail': ['Parkeren bij <b>Reutum</b>; oude zandwegen tussen de maten.',
+           'Wandel de <b>Reutumse es</b> op voor uitzicht over het broekland.',
+           'Combineer met <b>Ootmarsum</b> op fietsafstand.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🌾 Esdorp · 🚶 Zandwegen'
+}, {
+ 'tags': ['Overijssel · Tubbergen', 'Es village · carr woodland and wet maten around the Reutumse es', 'list 36 · no. 319'],
+ 'loc': '📍 Reutum, Tubbergen municipality · Es village · Small',
+ 'desc': '<b>Reutum</b> is mentioned as early as the late tenth century as <i>Riatnon</i>, “settlement by the reed” — and the name still fits. The village lies between the high fields of the <b>Reutumse es</b> and a low, sodden land with names such as <b>Weuste Maten, Reutumerveen and Reutummerweuste</b>: wet grasslands and carr woodland too wet to reclaim. On the peaty soil mainly <b>alders and willows</b> grow, and in spring <b>marsh marigold and cuckooflower</b> flower. Old sandy lanes run between the maten — a hushed, watery Twente landscape.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Mar–May</b> (spring flora), Apr–Jun (song)<br>\n    <b>Best time of day:</b> Morning along the sandy lanes.',
+ 'why': ['The name <i>Riatnon</i> (late tenth century) means <b>“by the reed”</b>.',
+         'High <b>Reutumse es</b> against wet maten and carr woodland.',
+         'Names like <b>Weuste Maten and Reutumerveen</b> tell the story.',
+         '<b>Marsh marigold and cuckooflower</b> in spring.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Marsh marigold and cuckooflower</b> in the maten.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Yellowhammer and whitethroat</b> in the banks.',
+          '<span class="months">May–Jul</span> 🐸 <b>Common frog</b> in the ponds.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> in the alder carrs.'],
+ 'wild': ['🐦 Yellowhammer · Whitethroat · Blackcap', '🐸 Common frog · Smooth newt', '🦌 Roe deer · Hare · Hedgehog', '🌼 Marsh marigold · Cuckooflower · Meadowsweet', '🌳 Black alder · Willow · Pedunculate oak'],
+ 'trail': ['Park at <b>Reutum</b>; old sandy lanes between the maten.',
+           'Climb the <b>Reutumse es</b> for views over the brookland.',
+           'Combine with <b>Ootmarsum</b>, a short ride away.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🌾 Es village · 🚶 Sandy lanes'
+}))
+
+C.append(mk.card(1601, 'Herinckhave', {
+ 'tags': ['Overijssel · Tubbergen', 'Havezate · landgoed met watermolen, kapel en grachten', 'list 36 · no. 320'],
+ 'loc': '📍 Fleringen, gemeente Tubbergen · Havezate · Middelgroot',
+ 'desc': '<b>Herinckhave</b> is een havezate in de oude marke <b>Fleringen</b>, ten zuiden van Tubbergen, waarvan de geschiedenis teruggaat tot de veertiende eeuw. In <b>1532</b> “vrijde” Herman II zijn goed, waarmee hij van de schatting werd vrijgesteld; het landgoed met bouwhuizen, kapel, <b>watermolen</b>, tuinen, lanen en grachten is vrijwel geheel rijksmonument. Een grote brand verwoestte in <b>1959</b> een deel van de havezathe, maar bos en agrarische natuur beslaan nog ruim driekwart van het areaal. Het landgoed ligt in een <b>ecologische verbindingszone</b> en is opengesteld voor wandelaars.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (stinzenflora en zang), okt–nov (herfst)<br>\n    <b>Beste tijd van de dag:</b> Ochtend langs de grachten.',
+ 'why': ['Havezate in de oude marke <b>Fleringen</b> — veertiende-eeuwse wortels.',
+         'In <b>1532</b> “gevrijd” door Herman II.',
+         'Met <b>watermolen, kapel, bouwhuizen en grachten</b>.',
+         'Brand in <b>1959</b>; nu opengesteld landgoed in een verbindingszone.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Stinzenflora</b> onder de lanen.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Boomklever en specht</b> in het oude loofhout.',
+          '<span class="months">Mei–Aug</span> 🦇 <b>Vleermuizen</b> boven de grachten.',
+          '<span class="months">Okt–Nov</span> 🍂 <b>Herfstkleur</b> rond de havezathe.'],
+ 'wild': ['🐦 Grote bonte specht · Boomklever · Bosuil', '🦇 Vleermuizen in de oude gebouwen', '🦌 Ree · Eekhoorn · Egel', '🌼 Bosanemoon · Daslook · Sneeuwklokje', '🌳 Zomereik · Beuk · Linde'],
+ 'trail': ['Parkeren bij <b>Fleringen</b>; wandelroutes over het landgoed.',
+           'Bekijk de <b>watermolen</b> en de kapel vanaf de lanen.',
+           'Respecteer de <b>privégedeelten</b> rond de havezathe.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🏰 Havezate · 🚶 Lanen en paden'
+}, {
+ 'tags': ['Overijssel · Tubbergen', 'Havezate · estate with water mill, chapel and moats', 'list 36 · no. 320'],
+ 'loc': '📍 Fleringen, Tubbergen municipality · Havezate · Medium-sized',
+ 'desc': '<b>Herinckhave</b> is a havezate in the old marke of <b>Fleringen</b>, south of Tubbergen, whose history reaches back to the fourteenth century. In <b>1532</b> Herman II “freed” his property, thereby exempting it from taxation; the estate with its outbuildings, chapel, <b>water mill</b>, gardens, avenues and moats is almost entirely a national monument. A great fire destroyed part of the havezate in <b>1959</b>, but woodland and farmed nature still cover over three-quarters of the area. The estate lies in an <b>ecological corridor</b> and is open to walkers.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (stinzen flora and song), Oct–Nov (autumn)<br>\n    <b>Best time of day:</b> Morning along the moats.',
+ 'why': ['A havezate in the old marke of <b>Fleringen</b> — fourteenth-century roots.',
+         '“Freed” in <b>1532</b> by Herman II.',
+         'With <b>water mill, chapel, outbuildings and moats</b>.',
+         'Fire in <b>1959</b>; now an open estate in a corridor.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Stinzen flora</b> under the avenues.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Nuthatch and woodpecker</b> in the old broadleaf wood.',
+          '<span class="months">May–Aug</span> 🦇 <b>Bats</b> above the moats.',
+          '<span class="months">Oct–Nov</span> 🍂 <b>Autumn colour</b> around the havezate.'],
+ 'wild': ['🐦 Great spotted woodpecker · Nuthatch · Tawny owl', '🦇 Bats in the old buildings', '🦌 Roe deer · Squirrel · Hedgehog', '🌼 Wood anemone · Wild garlic · Snowdrop', '🌳 Pedunculate oak · Beech · Lime'],
+ 'trail': ['Park at <b>Fleringen</b>; walking routes across the estate.',
+           'View the <b>water mill</b> and chapel from the avenues.',
+           'Respect the <b>private parts</b> around the havezate.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🏰 Havezate · 🚶 Avenues and paths'
+}))
+
+C.append(mk.card(1602, 'Agelo-Reutum landschapselementen', {
+ 'tags': ['Overijssel · Tubbergen', 'Verzamelkaart · essen, houtwallen en beekdalen', 'list 36 · no. 321'],
+ 'loc': '📍 Tussen Agelo en Reutum · Landschapselementen · Verspreid',
+ 'desc': 'Deze kaart verzamelt de losse <b>landschapselementen</b> tussen <b>Agelo</b> en <b>Reutum</b>: bollende essen, houtwallen en singels, en de lage, natte <b>beekdalen</b> waar het water uit de stuwwal van Ootmarsum als kwel omhoog komt. Het is het klassieke Twentse hoevenlandschap — kleinschalig, met boerderijen op de overgang van hoog naar laag en een fijnmazig net van <b>zandwegen en hakhoutwallen</b>. Juist die afwisseling maakt het tot domein van <b>geelgors, steenuil en das</b>, en van wandelaars op het Twentse wandelnetwerk.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jul</b> (zang), sep–okt (bessen en doortrek)<br>\n    <b>Beste tijd van de dag:</b> Vroege ochtend en schemer.',
+ 'why': ['Twents <b>hoevenlandschap</b> met essen en houtwallen.',
+         '<b>Kwel</b> uit de stuwwal voedt de lage beekdalen.',
+         'Boerderijen op de grens van <b>hoog en laag</b>.',
+         'Een <b>verzamelkaart</b> — de elementen liggen verspreid.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Meidoorn en sleedoorn</b> bloeien in de wallen.',
+          '<span class="months">Apr–Jul</span> 🐦 <b>Geelgors en kneu</b> zingen vanaf de singels.',
+          '<span class="months">Jun–Aug</span> 🦉 <b>Steenuil</b> jaagt bij schemer.',
+          '<span class="months">Sep–Okt</span> 🍒 <b>Bessen</b> en paddenstoelen.'],
+ 'wild': ['🐦 Geelgors · Kneu · Steenuil · Torenvalk', '🦡 Das · Ree · Haas', '🦋 Dagpauwoog · Atalanta', '🌳 Zomereik · Meidoorn · Sleedoorn', '🌼 Pinksterbloem · Gewone margriet'],
+ 'trail': ['Parkeren in <b>Agelo</b> of <b>Reutum</b>; volg het wandelnetwerk.',
+           'Wandel de <b>zandwegen</b> tussen de wallen.',
+           'Kijk uit over de <b>essen</b> voor het coulisselandschap.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Verspreide elementen — plan een route · 🚶 Landweggetjes'
+}, {
+ 'tags': ['Overijssel · Tubbergen', 'Collective entry · es fields, hedge banks and brook valleys', 'list 36 · no. 321'],
+ 'loc': '📍 Between Agelo and Reutum · Landscape elements · Scattered',
+ 'desc': 'This entry gathers the loose <b>landscape elements</b> between <b>Agelo</b> and <b>Reutum</b>: domed es fields, hedge banks and hedgerows, and the low, wet <b>brook valleys</b> where water rises as seepage from the Ootmarsum ice-pushed ridge. It is the classic Twente farmstead landscape — small-scale, with farms on the transition from high to low and a fine-meshed network of <b>sandy lanes and coppice banks</b>. That very variety makes it the domain of <b>yellowhammer, little owl and badger</b>, and of walkers on the Twente walking network.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jul</b> (song), Sep–Oct (berries and passage)<br>\n    <b>Best time of day:</b> Early morning and dusk.',
+ 'why': ['Twente <b>farmstead landscape</b> with es fields and hedge banks.',
+         '<b>Seepage</b> from the ice-pushed ridge feeds the low brook valleys.',
+         'Farms on the boundary of <b>high and low</b>.',
+         'A <b>collective entry</b> — the elements lie scattered.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Hawthorn and blackthorn</b> flower in the banks.',
+          '<span class="months">Apr–Jul</span> 🐦 <b>Yellowhammer and linnet</b> sing from the hedges.',
+          '<span class="months">Jun–Aug</span> 🦉 <b>Little owl</b> hunts at dusk.',
+          '<span class="months">Sep–Oct</span> 🍒 <b>Berries</b> and fungi.'],
+ 'wild': ['🐦 Yellowhammer · Linnet · Little owl · Kestrel', '🦡 Badger · Roe deer · Hare', '🦋 Peacock · Red admiral', '🌳 Pedunculate oak · Hawthorn · Blackthorn', '🌼 Cuckooflower · Oxeye daisy'],
+ 'trail': ['Park in <b>Agelo</b> or <b>Reutum</b>; follow the walking network.',
+           'Walk the <b>sandy lanes</b> between the banks.',
+           'Look out over the <b>es fields</b> for the coulisse landscape.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Scattered elements — plan a route · 🚶 Country lanes'
+}))
+
+C.append(mk.card(1603, 'Achter de Voort', {
+ 'tags': ['Overijssel · Dinkelland', 'Broekbos · elzenbroek, moeras en natte graslanden', 'list 36 · no. 322'],
+ 'loc': '📍 Bij Tilligte, gemeente Dinkelland · Natura 2000 · Middelgroot',
+ 'desc': '<b>Achter de Voort</b> is een van de drie kernen van het Natura 2000-gebied <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>, in het beekdallandschap tussen de stuwwallen van Ootmarsum en Oldenzaal. Het is van oorsprong nat door <b>kwel uit de stuwwal</b> en door overstroming van beken als de Dinkel, en het staat bekend om zijn uitbundige <b>voorjaarsbloei</b> — waaronder de prachtige slanke sleutelbloem. Uitgestrekte <b>elzenbroekbossen</b>, moerassen, natte graslanden, poelen en oude houtwallen herbergen <b>kamsalamander en boomkikker</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–mei</b> (sleutelbloemen), mei–jul (amfibieën)<br>\n    <b>Beste tijd van de dag:</b> Ochtend — het broek ligt er fris en stil bij.',
+ 'why': ['Kern van Natura 2000 <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>.',
+         'Nat door <b>kwel</b> uit de stuwwal van Ootmarsum.',
+         'Beroemd om de <b>slanke sleutelbloem</b> in het voorjaar.',
+         'Leefgebied van <b>kamsalamander en boomkikker</b>.'],
+ 'phen': ['<span class="months">Apr–Mei</span> 🌼 <b>Slanke sleutelbloem</b> bloeit uitbundig.',
+          '<span class="months">Mei–Jun</span> 🐸 <b>Boomkikker</b> roept vanaf de bosranden.',
+          '<span class="months">Jun–Aug</span> 🦎 <b>Kamsalamander</b> in de poelen.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> in het elzenbroek.'],
+ 'wild': ['🐸 Boomkikker · Bruine kikker', '🦎 Kamsalamander · Kleine watersalamander', '🪰 Bosbeekjuffer · Weidebeekjuffer', '🌼 Slanke sleutelbloem · Dotterbloem · Gele lis', '🌳 Zwarte els · Wilg · Hazelaar'],
+ 'trail': ['Parkeren bij <b>Tilligte</b>; wandelroutes door het broek.',
+           'Zoek in april de <b>slanke sleutelbloem</b> langs de paden.',
+           'Blijf op de <b>paden</b> — de broekbodem is kwetsbaar.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · ⚠️ Nat broekland — paden volgen · 🚶 Wandelpaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Carr woodland · alder carr, marsh and wet grassland', 'list 36 · no. 322'],
+ 'loc': '📍 Near Tilligte, Dinkelland municipality · Natura 2000 · Medium-sized',
+ 'desc': '<b>Achter de Voort</b> is one of the three cores of the Natura 2000 site <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>, in the brook-valley landscape between the ice-pushed ridges of Ootmarsum and Oldenzaal. It is naturally wet through <b>seepage from the ridge</b> and flooding of streams such as the Dinkel, and it is famed for its exuberant <b>spring bloom</b> — including the beautiful oxlip. Vast <b>alder carrs</b>, marshes, wet grasslands, pools and old hedge banks hold <b>great crested newt and tree frog</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–May</b> (oxlips), May–Jul (amphibians)<br>\n    <b>Best time of day:</b> Morning — the brookland lies fresh and still.',
+ 'why': ['Core of Natura 2000 <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b>.',
+         'Wet through <b>seepage</b> from the Ootmarsum ridge.',
+         'Famed for the <b>oxlip</b> in spring.',
+         'Habitat of <b>great crested newt and tree frog</b>.'],
+ 'phen': ['<span class="months">Apr–May</span> 🌼 <b>Oxlip</b> flowers abundantly.',
+          '<span class="months">May–Jun</span> 🐸 <b>Tree frog</b> calls from the wood edges.',
+          '<span class="months">Jun–Aug</span> 🦎 <b>Great crested newt</b> in the pools.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> in the alder carr.'],
+ 'wild': ['🐸 Tree frog · Common frog', '🦎 Great crested newt · Smooth newt', '🪰 Beautiful demoiselle · Banded demoiselle', '🌼 Oxlip · Marsh marigold · Yellow iris', '🌳 Black alder · Willow · Hazel'],
+ 'trail': ['Park at <b>Tilligte</b>; walking routes through the carr.',
+           'Look for the <b>oxlip</b> along the paths in April.',
+           'Keep to the <b>paths</b> — the carr floor is fragile.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · ⚠️ Wet carr — follow the paths · 🚶 Footpaths'
+}, n2k='Natura 2000-gebied <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b> — aangewezen voor vochtige alluviale bossen, blauwgraslanden en soorten als kamsalamander en boomkikker.',
+   n2k_en='Natura 2000 site <b>Achter de Voort, Agelerbroek &amp; Voltherbroek</b> — designated for alluvial forests, fen meadows and species such as great crested newt and tree frog.'))
+
+C.append(mk.card(1604, 'Rossumermeden', {
+ 'tags': ['Overijssel · Dinkelland', 'Beekdal · hooilanden en schraalgrasland langs een beek', 'list 36 · no. 323'],
+ 'loc': '📍 Rossum, gemeente Dinkelland · Beekdal · Klein',
+ 'desc': 'De <b>Rossumermeden</b> dragen hun gebruik in de naam: <b>meden</b> (of maten) waren de natte <b>hooilanden</b> die de boeren van Rossum eeuwenlang langs de beek maaiden. Elke gemeenschap had zulke maten — bij Weerselo lagen de Lemselermaten, bij Volthe de Wiekermeden — en allemaal lagen ze in de brede dalen van de beken die uit de stuwwallen ontspringen. Vandaag zijn de Rossumermeden <b>natte bossen en schraalgraslanden</b> geworden, waar bijzondere planten groeien en waar het grondwater nog hoog staat. Een verstild beekdal met houtwallen en zandwegen.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr–jun</b> (bloei), mei–jul (beekjuffers)<br>\n    <b>Beste tijd van de dag:</b> Ochtend langs de beek.',
+ 'why': ['<b>Meden</b> zijn van oudsher natte hooilanden langs een beek.',
+         'Tegenwoordig <b>natte bossen en schraalgraslanden</b>.',
+         'Zusje van de <b>Lemselermaten</b> en Wiekermeden.',
+         'Hoog grondwater en <b>bijzondere beekdalplanten</b>.'],
+ 'phen': ['<span class="months">Mrt–Apr</span> 🌼 <b>Dotterbloem</b> langs de beek.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Gele kwikstaart</b> op de oevers.',
+          '<span class="months">Mei–Jul</span> 🪰 <b>Beekjuffers</b> boven het water.',
+          '<span class="months">Sep–Okt</span> 🍂 <b>Herfstkleur</b> in de elzen.'],
+ 'wild': ['🐦 Gele kwikstaart · Witte kwikstaart', '🪰 Weidebeekjuffer · Bosbeekjuffer', '🐸 Bruine kikker · Gewone pad', '🌼 Dotterbloem · Moerasspirea · Gele lis', '🌳 Zwarte els · Wilg · Zomereik'],
+ 'trail': ['Parkeren bij <b>Rossum</b>; zandwegen langs de maten.',
+           'Wandel het <b>hobbelige graspad</b> langs de beek.',
+           'Combineer met de <b>Lemselermaten</b> bij Weerselo.'],
+ 'foot': '🐕 Honden aan de lijn · 💶 Gratis · 🌊 Beekdal · 🚶 Zand- en graspaden'
+}, {
+ 'tags': ['Overijssel · Dinkelland', 'Brook valley · hay meadows and poor grassland along a brook', 'list 36 · no. 323'],
+ 'loc': '📍 Rossum, Dinkelland municipality · Brook valley · Small',
+ 'desc': 'The <b>Rossumermeden</b> carry their use in their name: <b>meden</b> (or maten) were the wet <b>hay meadows</b> that the farmers of Rossum mowed along the brook for centuries. Every community had such maten — near Weerselo lay the Lemselermaten, near Volthe the Wiekermeden — and all lay in the broad valleys of the brooks rising from the ice-pushed ridges. Today the Rossumermeden have become <b>wet woodland and poor grassland</b>, where special plants grow and the groundwater still stands high. A hushed brook valley with hedge banks and sandy lanes.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr–Jun</b> (blossom), May–Jul (demoiselles)<br>\n    <b>Best time of day:</b> Morning along the brook.',
+ 'why': ['<b>Meden</b> are traditionally wet hay meadows along a brook.',
+         'Now <b>wet woodland and poor grassland</b>.',
+         'A sibling of the <b>Lemselermaten</b> and Wiekermeden.',
+         'High groundwater and <b>special brook-valley plants</b>.'],
+ 'phen': ['<span class="months">Mar–Apr</span> 🌼 <b>Marsh marigold</b> along the brook.',
+          '<span class="months">Apr–Jun</span> 🐦 <b>Grey wagtail</b> on the banks.',
+          '<span class="months">May–Jul</span> 🪰 <b>Demoiselles</b> above the water.',
+          '<span class="months">Sep–Oct</span> 🍂 <b>Autumn colour</b> in the alders.'],
+ 'wild': ['🐦 Grey wagtail · White wagtail', '🪰 Banded demoiselle · Beautiful demoiselle', '🐸 Common frog · Common toad', '🌼 Marsh marigold · Meadowsweet · Yellow iris', '🌳 Black alder · Willow · Pedunculate oak'],
+ 'trail': ['Park at <b>Rossum</b>; sandy lanes along the maten.',
+           'Walk the <b>bumpy grass path</b> along the brook.',
+           'Combine with the <b>Lemselermaten</b> near Weerselo.'],
+ 'foot': '🐕 Dogs on lead · 💶 Free · 🌊 Brook valley · 🚶 Sandy and grass paths'
+}))
+
+mk.insert(C, '1599')
+mk.progress(1604)
+mk.check()

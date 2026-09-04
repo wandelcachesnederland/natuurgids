@@ -1,0 +1,203 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import mk
+C = []
+
+C.append(mk.card(1565, 'Boetelerveld', {
+ 'tags': ['Overijssel \u00b7 Raalte', 'Natte heide \u00b7 laatste ongestoorde heide van Salland', 'list 36 \u00b7 no. 284'],
+ 'loc': '\U0001f4cd Tussen Raalte en Nijverdal \u00b7 Natte heide \u00b7 Middelgroot',
+ 'desc': 'Het <b>Boetelerveld</b> is het laatste grote, nooit ontgonnen heidegebied van Salland en daarmee een venster op hoe deze streek er vóór 1900 uitzag. Het bijzondere zit onder de grond: op een paar meter diepte ligt een <b>keileemlaag</b>, achtergelaten door het landijs van de voorlaatste ijstijd. Keileem is vrijwel <b>ondoorlatend</b>, waardoor regenwater niet wegzakt maar blijft staan \u2014 vandaar de vennen, natte heide en <b>blauwgraslanden</b> op een verder zandige ondergrond. Zo\u2019n schijngrondwaterspiegel heet <b>schijnspiegel</b>. Er groeien <b>klokjesgentiaan, beenbreek en zonnedauw</b>, en er leven <b>heikikker, adder en gentiaanblauwtje</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jul\u2013sep</b> (gentiaan en heidebloei), mei\u2013jun (orchideeën)<br>\n    <b>Beste tijd van de dag:</b> Warme late ochtend \u2014 vlinders en reptielen actief.',
+ 'n2k': 'Natura 2000-gebied Boetelerveld \u2014 natte heide, blauwgraslanden en heischrale graslanden op keileem.',
+ 'why': ['Het laatste grote <b>nooit ontgonnen</b> heidegebied van Salland.',
+         'Op enkele meters diepte ligt een <b>keileemlaag</b> uit de ijstijd.',
+         'Keileem is <b>ondoorlatend</b>: regenwater blijft staan.',
+         'Zo ontstaat een <b>schijnspiegel</b> met vennen op zandgrond.'],
+ 'phen': ['<span class="months">Mei\u2013Jun</span> \U0001f33a <b>Orchideeën</b> in het blauwgrasland.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33f <b>Beenbreek en zonnedauw</b> in de natte heide.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f499 <b>Klokjesgentiaan</b> met gentiaanblauwtje.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heidebloei</b> over het hele veld.'],
+ 'wild': ['\U0001f499 Klokjesgentiaan \u00b7 Beenbreek \u00b7 Zonnedauw \u00b7 Orchideeën', '\U0001f98b Gentiaanblauwtje \u00b7 Heidevlinder \u00b7 Aardbeivlinder', '\U0001f438 Heikikker \u00b7 \U0001f98e Adder \u00b7 Levendbarende hagedis', '\U0001f426 Roodborsttapuit \u00b7 Boompieper \u00b7 Watersnip', '\U0001f33f Dophei \u00b7 Veenpluis \u00b7 Pijpenstrootje'],
+ 'trail': ['Parkeren bij <b>Boetele</b>; gemarkeerde paden over de heide.',
+           'Augustus voor de <b>klokjesgentiaan</b> en het gentiaanblauwtje.',
+           'Blijf op de paden \u2014 de natte heide is <b>uiterst kwetsbaar</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Zeer natte bodem'
+}, {
+ 'tags': ['Overijssel \u00b7 Raalte', 'Wet heath \u00b7 the last undisturbed heath of Salland', 'list 36 \u00b7 no. 284'],
+ 'loc': '\U0001f4cd Between Raalte and Nijverdal \u00b7 Wet heath \u00b7 Medium-sized',
+ 'desc': 'The <b>Boetelerveld</b> is the last large, never-reclaimed heath in Salland and thus a window on how this region looked before 1900. The special feature lies underground: a few metres down runs a layer of <b>boulder clay</b>, left by the land ice of the penultimate glaciation. Boulder clay is virtually <b>impermeable</b>, so rainwater does not sink away but stands \u2014 hence the pools, wet heath and <b>fen meadows</b> on an otherwise sandy subsoil. Such a raised water table is called a <b>perched water table</b>. <b>Marsh gentian, bog asphodel and sundew</b> grow here, with <b>moor frog, adder and alcon blue</b>.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jul\u2013Sep</b> (gentian and heather bloom), May\u2013Jun (orchids)<br>\n    <b>Best time of day:</b> Warm late morning \u2014 butterflies and reptiles active.',
+ 'n2k_en': 'Natura 2000 site Boetelerveld \u2014 wet heath, fen meadows and species-rich Nardus grassland on boulder clay.',
+ 'why': ['The last large <b>never-reclaimed</b> heath of Salland.',
+         'A few metres down lies an ice-age <b>boulder clay</b> layer.',
+         'Boulder clay is <b>impermeable</b>: rainwater stands on it.',
+         'That creates a <b>perched water table</b> with pools on sand.'],
+ 'phen': ['<span class="months">May\u2013Jun</span> \U0001f33a <b>Orchids</b> in the fen meadow.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f33f <b>Bog asphodel and sundew</b> in the wet heath.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f499 <b>Marsh gentian</b> with alcon blue.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heather bloom</b> across the whole field.'],
+ 'wild': ['\U0001f499 Marsh gentian \u00b7 Bog asphodel \u00b7 Sundew \u00b7 Orchids', '\U0001f98b Alcon blue \u00b7 Grayling \u00b7 Green hairstreak', '\U0001f438 Moor frog \u00b7 \U0001f98e Adder \u00b7 Viviparous lizard', '\U0001f426 Stonechat \u00b7 Tree pipit \u00b7 Snipe', '\U0001f33f Cross-leaved heath \u00b7 Cottongrass \u00b7 Purple moor-grass'],
+ 'trail': ['Park at <b>Boetele</b>; waymarked paths cross the heath.',
+           'August for the <b>marsh gentian</b> and the alcon blue.',
+           'Keep to the paths \u2014 wet heath is <b>extremely fragile</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Very wet ground'
+}, card_class='card heath'))
+
+C.append(mk.card(1566, 'Sprengenberg', {
+ 'tags': ['Overijssel \u00b7 Hellendoorn', 'Stuwwal \u00b7 heide en bos op de Sallandse Heuvelrug', 'list 36 \u00b7 no. 285'],
+ 'loc': '\U0001f4cd Haarle bij Hellendoorn \u00b7 Stuwwal \u00b7 Groot',
+ 'desc': 'De <b>Sprengenberg</b> is de zuidflank van de Sallandse Heuvelrug en draagt een van de laatste <b>hoge droge heiden</b> van Nederland. Dat maakt hem cruciaal, want hier leeft de laatste populatie <b>korhoenders</b> van het land \u2014 een soort die tot in de jaren vijftig algemeen was op alle Nederlandse heidevelden en nu op de rand van uitsterven staat. Het korhoen heeft een zeldzame combinatie nodig: uitgestrekte heide met veel <b>bosbes</b>, kruidenrijke randen vol insecten voor de kuikens, en absolute rust in het broedseizoen. De naam Sprengenberg verwijst naar de <b>sprengen</b> die aan de voet ontspringen. Er leven ook <b>nachtzwaluw, roodborsttapuit en adder</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Aug\u2013sep</b> (heidebloei), apr\u2013jun (zang; korhoen niet verstoren)<br>\n    <b>Beste tijd van de dag:</b> Zonsopkomst \u2014 uitzicht en zang; blijf op de hoofdpaden.',
+ 'n2k': 'Natura 2000-gebied Sallandse Heuvelrug \u2014 droge heiden en het laatste korhoenleefgebied van Nederland.',
+ 'why': ['Draagt een van de laatste <b>hoge droge heiden</b> van Nederland.',
+         'Hier leeft de laatste populatie <b>korhoenders</b> van het land.',
+         'Het korhoen heeft heide met veel <b>bosbes</b> en insectenrijke randen nodig.',
+         'De naam verwijst naar de <b>sprengen</b> aan de voet van de berg.'],
+ 'phen': ['<span class="months">Mrt\u2013Mei</span> \U0001f426 <b>Baltstijd van het korhoen</b> \u2014 strikte rust vereist.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f989 <b>Nachtzwaluw</b> in de schemer.',
+          '<span class="months">Jul\u2013Aug</span> \U0001fad0 <b>Bosbessen</b> rijpen onder de hei.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heidebloei</b> over de hele flank.'],
+ 'wild': ['\U0001f426 Korhoen (laatste populatie) \u00b7 Nachtzwaluw \u00b7 Roodborsttapuit', '\U0001f985 Buizerd \u00b7 Havik \u00b7 Boomvalk', '\U0001f98e Adder \u00b7 Levendbarende hagedis \u00b7 Hazelworm', '\U0001f98c Ree \u00b7 \U0001f98a Vos \u00b7 Das', '\U0001f49c Struikhei \u00b7 Bosbes \u00b7 Kruipbrem'],
+ 'trail': ['Parkeren bij <b>Haarle</b> of Nijverdal; gemarkeerde routes over de flank.',
+           'Blijf strikt op de <b>hoofdpaden</b> \u2014 het korhoen verdraagt geen verstoring.',
+           'Klim naar de hoogste punten voor het <b>uitzicht over Salland</b>.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Verstoringsgevoelig korhoengebied'
+}, {
+ 'tags': ['Overijssel \u00b7 Hellendoorn', 'Ice-pushed ridge \u00b7 heath and wood on the Salland Ridge', 'list 36 \u00b7 no. 285'],
+ 'loc': '\U0001f4cd Haarle near Hellendoorn \u00b7 Ice-pushed ridge \u00b7 Large',
+ 'desc': 'The <b>Sprengenberg</b> is the southern flank of the Salland Ridge and carries one of the last <b>high dry heaths</b> in the Netherlands. That makes it crucial, for here lives the country\u2019s last population of <b>black grouse</b> \u2014 a species that was common on every Dutch heath until the 1950s and now stands on the brink of extinction. The black grouse needs a rare combination: extensive heath rich in <b>bilberry</b>, herb-rich margins full of insects for the chicks, and absolute quiet in the breeding season. The name refers to the <b>spring brooks</b> rising at the foot. <b>Nightjar, stonechat and adder</b> also live here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Aug\u2013Sep</b> (heather bloom), Apr\u2013Jun (song; do not disturb grouse)<br>\n    <b>Best time of day:</b> Sunrise \u2014 views and song; keep to the main paths.',
+ 'n2k_en': 'Natura 2000 site Sallandse Heuvelrug \u2014 dry heaths and the last black grouse habitat in the Netherlands.',
+ 'why': ['Carries one of the last <b>high dry heaths</b> in the Netherlands.',
+         'Home to the country\u2019s last population of <b>black grouse</b>.',
+         'The grouse needs heath rich in <b>bilberry</b> and insect-rich margins.',
+         'The name refers to the <b>spring brooks</b> at the foot of the hill.'],
+ 'phen': ['<span class="months">Mar\u2013May</span> \U0001f426 <b>Black grouse lek</b> \u2014 strict quiet required.',
+          '<span class="months">Jun\u2013Jul</span> \U0001f989 <b>Nightjar</b> at dusk.',
+          '<span class="months">Jul\u2013Aug</span> \U0001fad0 <b>Bilberries</b> ripen beneath the heather.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heather bloom</b> across the flank.'],
+ 'wild': ['\U0001f426 Black grouse (last population) \u00b7 Nightjar \u00b7 Stonechat', '\U0001f985 Buzzard \u00b7 Goshawk \u00b7 Hobby', '\U0001f98e Adder \u00b7 Viviparous lizard \u00b7 Slow worm', '\U0001f98c Roe deer \u00b7 \U0001f98a Fox \u00b7 Badger', '\U0001f49c Heather \u00b7 Bilberry \u00b7 Hairy greenweed'],
+ 'trail': ['Park at <b>Haarle</b> or Nijverdal; waymarked routes cross the flank.',
+           'Keep strictly to the <b>main paths</b> \u2014 black grouse tolerate no disturbance.',
+           'Climb to the highest points for the <b>view over Salland</b>.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f30d Natura 2000 \u00b7 \u26a0\ufe0f Disturbance-sensitive grouse habitat'
+}, card_class='card heath'))
+
+C.append(mk.card(1567, 'Wechelerveld', {
+ 'tags': ['Overijssel \u00b7 Deventer', 'Heiderestant \u00b7 vennen en schrale graslanden', 'list 36 \u00b7 no. 286'],
+ 'loc': '\U0001f4cd Bij Lettele, gemeente Deventer \u00b7 Heiderestant \u00b7 Klein',
+ 'desc': 'Het <b>Wechelerveld</b> is een klein heideveld met vennen in het coulisselandschap bij Lettele. Zulke geïsoleerde snippers stellen natuurbeheerders voor een klassiek probleem: hoe overleven planten en dieren op een <b>eiland</b> in een zee van landbouwgrond? De <b>eilandtheorie</b> uit de ecologie voorspelt dat kleine, geïsoleerde gebieden voortdurend soorten verliezen zonder dat er nieuwe kunnen bijkomen. Daarom richt het beheer zich niet alleen op het veld zelf maar op <b>verbindingen</b>: houtwallen, bermen en poelen die als stapstenen dienen. In de vennen leven <b>heikikker, kamsalamander en libellen</b>; er broeden <b>roodborsttapuit en boompieper</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Jun\u2013sep</b> (libellen en heidebloei), mrt\u2013apr (amfibieën)<br>\n    <b>Beste tijd van de dag:</b> Warme middag \u2014 libellen boven de vennen.',
+ 'why': ['Klein heideveld als <b>eiland</b> in een zee van landbouwgrond.',
+         'De <b>eilandtheorie</b>: kleine gebieden verliezen soorten zonder aanvoer.',
+         'Beheer richt zich daarom ook op <b>verbindingen</b> tussen gebieden.',
+         'Houtwallen, bermen en poelen dienen als <b>stapstenen</b>.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f438 <b>Heikikkers</b> kleuren blauw in de paartijd.',
+          '<span class="months">Mei\u2013Jul</span> \U0001f426 <b>Roodborsttapuit en boompieper</b> zingen.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98b <b>Libellen</b> boven de vennen.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heidebloei</b> op de droge delen.'],
+ 'wild': ['\U0001f438 Heikikker \u00b7 Kamsalamander \u00b7 Poelkikker', '\U0001f98b Libellen \u00b7 Heidevlinder \u00b7 Kleine vuurvlinder', '\U0001f426 Roodborsttapuit \u00b7 Boompieper \u00b7 Geelgors', '\U0001f98e Levendbarende hagedis \u00b7 Hazelworm', '\U0001f33f Zonnedauw \u00b7 Pijpenstrootje \u00b7 Struikhei'],
+ 'trail': ['Parkeren bij <b>Lettele</b>; korte paden over het veld.',
+           'Maart\u2013april voor de <b>blauwe heikikkers</b> in de vennen.',
+           'Let onderweg op de <b>houtwallen</b> \u2014 de verbindingen tussen de snippers.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f6b6 Korte routes \u00b7 \u26a0\ufe0f Kwetsbare vennen'
+}, {
+ 'tags': ['Overijssel \u00b7 Deventer', 'Heath remnant \u00b7 pools and poor grasslands', 'list 36 \u00b7 no. 286'],
+ 'loc': '\U0001f4cd Near Lettele, Deventer municipality \u00b7 Heath remnant \u00b7 Small',
+ 'desc': 'The <b>Wechelerveld</b> is a small heath with pools in the hedged landscape near Lettele. Such isolated scraps pose managers a classic problem: how do plants and animals survive on an <b>island</b> in a sea of farmland? <b>Island biogeography theory</b> predicts that small, isolated areas continuously lose species without new ones arriving. Management therefore targets not only the field itself but the <b>connections</b>: hedge banks, verges and ponds serving as stepping stones. <b>Moor frog, great crested newt and dragonflies</b> live in the pools; <b>stonechat and tree pipit</b> breed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Jun\u2013Sep</b> (dragonflies and heather), Mar\u2013Apr (amphibians)<br>\n    <b>Best time of day:</b> Warm afternoon \u2014 dragonflies above the pools.',
+ 'why': ['A small heath as an <b>island</b> in a sea of farmland.',
+         '<b>Island theory</b>: small areas lose species without immigration.',
+         'Management therefore also targets <b>connections</b> between areas.',
+         'Hedge banks, verges and ponds act as <b>stepping stones</b>.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f438 <b>Moor frogs</b> turn blue in the breeding season.',
+          '<span class="months">May\u2013Jul</span> \U0001f426 <b>Stonechat and tree pipit</b> sing.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f98b <b>Dragonflies</b> above the pools.',
+          '<span class="months">Aug\u2013Sep</span> \U0001f49c <b>Heather bloom</b> on the dry parts.'],
+ 'wild': ['\U0001f438 Moor frog \u00b7 Great crested newt \u00b7 Pool frog', '\U0001f98b Dragonflies \u00b7 Grayling \u00b7 Small copper', '\U0001f426 Stonechat \u00b7 Tree pipit \u00b7 Yellowhammer', '\U0001f98e Viviparous lizard \u00b7 Slow worm', '\U0001f33f Sundew \u00b7 Purple moor-grass \u00b7 Heather'],
+ 'trail': ['Park at <b>Lettele</b>; short paths cross the field.',
+           'March\u2013April for the <b>blue moor frogs</b> in the pools.',
+           'Note the <b>hedge banks</b> en route \u2014 the links between the fragments.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f6b6 Short routes \u00b7 \u26a0\ufe0f Fragile pools'
+}, card_class='card heath'))
+
+C.append(mk.card(1568, 'Frieswijk', {
+ 'tags': ['Overijssel \u00b7 Deventer', 'Landgoed \u00b7 oude bossen, lanen en akkers', 'list 36 \u00b7 no. 287'],
+ 'loc': '\U0001f4cd Schalkhaar bij Deventer \u00b7 Landgoed \u00b7 Middelgroot',
+ 'desc': '<b>Frieswijk</b> is een Sallands landgoed met eeuwenoude bossen, lanen en akkers. Wat zulke landgoedbossen ecologisch zo waardevol maakt is de <b>continuïteit</b>: waar een bos honderden jaren bos is gebleven, heeft de bodem een intact netwerk van <b>schimmels</b> kunnen opbouwen. Die schimmels leven in symbiose met boomwortels \u2014 <b>mycorrhiza</b> \u2014 en leveren de boom water en mineralen in ruil voor suikers. Dat netwerk herstelt zich niet zomaar; een nieuw aangeplant bos op oude akker heeft er eeuwen voor nodig. Vandaar dat oude bossen zoveel meer <b>paddenstoelen en bosplanten</b> hebben. Er leven <b>das, ree, boomklever en bosuil</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Sep\u2013nov</b> (paddenstoelen), apr\u2013jun (zang)<br>\n    <b>Beste tijd van de dag:</b> Ochtend en schemer \u2014 vogels en das.',
+ 'why': ['Landgoedbos met eeuwenlange <b>continuïteit</b> als bos.',
+         'Daardoor bestaat er een intact netwerk van <b>bodemschimmels</b>.',
+         '<b>Mycorrhiza</b>: schimmels ruilen water en mineralen tegen suikers.',
+         'Nieuw bos op oude akker heeft daar <b>eeuwen</b> voor nodig.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Bosanemoon en speenkruid</b> op de bosbodem.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever, bosuil en spechten</b> broeden.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> langs de lanen.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Paddenstoelen</b> \u2014 het rijkst in oude bossen.'],
+ 'wild': ['\U0001f98c Das \u00b7 Ree \u00b7 \U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98a Vos', '\U0001f426 Boomklever \u00b7 Grote bonte specht \u00b7 Appelvink', '\U0001f989 Bosuil \u00b7 Ransuil \u00b7 \U0001f985 Havik', '\U0001f344 Rijke paddenstoelenflora \u00b7 mycorrhiza-soorten', '\U0001f333 Oude beuk \u00b7 Eik \u00b7 Linde'],
+ 'trail': ['Parkeren bij <b>Schalkhaar</b>; lanen en bospaden.',
+           'Oktober voor de <b>paddenstoelen</b> onder de oude beuken.',
+           'Schemer voor de <b>das</b>; blijf stil op de paden.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f344 Oud bos \u00b7 \U0001f6b6 Vlakke lanen'
+}, {
+ 'tags': ['Overijssel \u00b7 Deventer', 'Country estate \u00b7 ancient woods, avenues and fields', 'list 36 \u00b7 no. 287'],
+ 'loc': '\U0001f4cd Schalkhaar near Deventer \u00b7 Country estate \u00b7 Medium-sized',
+ 'desc': '<b>Frieswijk</b> is a Salland estate with centuries-old woods, avenues and fields. What makes such estate woods so valuable ecologically is <b>continuity</b>: where a wood has remained wood for hundreds of years, the soil has been able to build an intact network of <b>fungi</b>. Those fungi live in symbiosis with tree roots \u2014 <b>mycorrhiza</b> \u2014 supplying the tree with water and minerals in exchange for sugars. That network does not simply recover; a newly planted wood on former arable needs centuries. Hence old woods hold far more <b>fungi and woodland plants</b>. <b>Badger, roe deer, nuthatch and tawny owl</b> live here.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Sep\u2013Nov</b> (fungi), Apr\u2013Jun (song)<br>\n    <b>Best time of day:</b> Morning and dusk \u2014 birds and badger.',
+ 'why': ['Estate wood with centuries of <b>continuity</b> as woodland.',
+         'That allows an intact network of <b>soil fungi</b>.',
+         '<b>Mycorrhiza</b>: fungi trade water and minerals for sugars.',
+         'New wood on former arable needs <b>centuries</b> to catch up.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Wood anemone and celandine</b> on the woodland floor.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch, tawny owl and woodpeckers</b> breed.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Bats</b> along the avenues.',
+          '<span class="months">Sep\u2013Nov</span> \U0001f344 <b>Fungi</b> \u2014 richest in ancient woods.'],
+ 'wild': ['\U0001f98c Badger \u00b7 Roe deer \u00b7 \U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98a Fox', '\U0001f426 Nuthatch \u00b7 Great spotted woodpecker \u00b7 Hawfinch', '\U0001f989 Tawny owl \u00b7 Long-eared owl \u00b7 \U0001f985 Goshawk', '\U0001f344 Rich fungal flora \u00b7 mycorrhizal species', '\U0001f333 Old beech \u00b7 Oak \u00b7 Lime'],
+ 'trail': ['Park at <b>Schalkhaar</b>; avenues and woodland paths.',
+           'October for the <b>fungi</b> beneath the old beeches.',
+           'Dusk for the <b>badger</b>; stay quiet on the paths.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f344 Ancient woodland \u00b7 \U0001f6b6 Level avenues'
+}))
+
+C.append(mk.card(1569, 'Rande', {
+ 'tags': ['Overijssel \u00b7 Deventer', 'Landgoed \u00b7 kasteelpark aan de IJssel', 'list 36 \u00b7 no. 288'],
+ 'loc': '\U0001f4cd Diepenveen bij Deventer \u00b7 Landgoed \u00b7 Klein',
+ 'desc': 'Landgoed <b>Rande</b> ligt bij Diepenveen op de <b>rand</b> waar de dekzandrug van Salland overgaat in de IJsselvlakte \u2014 en daar komt de naam vandaan. Zulke overgangen waren voor de aanleg van landgoederen ideaal: het huis op het droge hoge deel, de weilanden op de vruchtbare lage grond, en er tussenin een <b>helling</b> waarop tuinarchitecten hun vergezichten konden ensceneren. De achttiende- en negentiende-eeuwse <b>landschapsstijl</b> maakte daar dankbaar gebruik van: geen strakke lanen meer maar slingerende paden, glooiende weiden en zorgvuldig geplaatste boomgroepen. Er broeden <b>boomklever, ijsvogel en groene specht</b>.',
+ 'meta': '<b>Beste seizoen &amp; piekmaanden:</b> <b>Apr\u2013jun</b> (zang), okt\u2013nov (herfstkleur)<br>\n    <b>Beste tijd van de dag:</b> Ochtend \u2014 licht over de glooiende weiden.',
+ 'why': ['<b>Rande</b> verwijst naar de rand van de dekzandrug bij de IJsselvlakte.',
+         'Ideaal voor een landgoed: huis hoog, weiland laag, <b>helling</b> ertussen.',
+         'De <b>landschapsstijl</b> gebruikte dat reliëf voor vergezichten.',
+         'Slingerende paden en boomgroepen in plaats van strakke lanen.'],
+ 'phen': ['<span class="months">Mrt\u2013Apr</span> \U0001f33c <b>Stinzenflora</b> onder de parkbomen.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Boomklever en groene specht</b> broeden.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Vleermuizen</b> boven de vijvers.',
+          '<span class="months">Okt\u2013Nov</span> \U0001f342 <b>Herfstkleur</b> in de solitaire beuken.'],
+ 'wild': ['\U0001f426 Boomklever \u00b7 IJsvogel \u00b7 Groene specht', '\U0001f989 Bosuil \u00b7 \U0001f985 Buizerd \u00b7 Havik', '\U0001f98c Ree \u00b7 \U0001f43f\ufe0f Eekhoorn \u00b7 \U0001f98a Vos', '\U0001f33c Stinzenflora in het park', '\U0001f333 Monumentale beuk \u00b7 Eik \u00b7 Linde'],
+ 'trail': ['Parkeren bij <b>Diepenveen</b>; slingerpaden door het park.',
+           'Zoek de <b>zichtlijnen</b> vanaf het huis richting de IJsselvlakte.',
+           'Combineer met de <b>uiterwaarden</b> even verderop.'],
+ 'foot': '\U0001f436 Honden aan de lijn \u00b7 \U0001f4b6 Gratis \u00b7 \U0001f3db\ufe0f Landschapsstijl \u00b7 \U0001f6b6 Licht glooiend'
+}, {
+ 'tags': ['Overijssel \u00b7 Deventer', 'Country estate \u00b7 castle park by the IJssel', 'list 36 \u00b7 no. 288'],
+ 'loc': '\U0001f4cd Diepenveen near Deventer \u00b7 Country estate \u00b7 Small',
+ 'desc': 'The <b>Rande</b> estate lies near Diepenveen on the <b>edge</b> where the Salland cover-sand ridge passes into the IJssel plain \u2014 and that is where the name comes from. Such transitions were ideal for estate building: the house on the dry high ground, the meadows on the fertile low ground, and between them a <b>slope</b> on which garden designers could stage their vistas. The eighteenth- and nineteenth-century <b>landscape style</b> made grateful use of that: no more rigid avenues but winding paths, rolling meadows and carefully placed tree groups. <b>Nuthatch, kingfisher and green woodpecker</b> breed.',
+ 'meta': '<b>Best season &amp; peak months:</b> <b>Apr\u2013Jun</b> (song), Oct\u2013Nov (autumn colour)<br>\n    <b>Best time of day:</b> Morning \u2014 light across the rolling meadows.',
+ 'why': ['<b>Rande</b> refers to the edge of the sand ridge by the IJssel plain.',
+         'Ideal for an estate: house high, meadow low, a <b>slope</b> between.',
+         'The <b>landscape style</b> used that relief for vistas.',
+         'Winding paths and tree groups instead of rigid avenues.'],
+ 'phen': ['<span class="months">Mar\u2013Apr</span> \U0001f33c <b>Stinzen flora</b> beneath the park trees.',
+          '<span class="months">Apr\u2013Jun</span> \U0001f426 <b>Nuthatch and green woodpecker</b> breed.',
+          '<span class="months">Jun\u2013Aug</span> \U0001f987 <b>Bats</b> above the ponds.',
+          '<span class="months">Oct\u2013Nov</span> \U0001f342 <b>Autumn colour</b> in the solitary beeches.'],
+ 'wild': ['\U0001f426 Nuthatch \u00b7 Kingfisher \u00b7 Green woodpecker', '\U0001f989 Tawny owl \u00b7 \U0001f985 Buzzard \u00b7 Goshawk', '\U0001f98c Roe deer \u00b7 \U0001f43f\ufe0f Red squirrel \u00b7 \U0001f98a Fox', '\U0001f33c Stinzen flora in the park', '\U0001f333 Monumental beech \u00b7 Oak \u00b7 Lime'],
+ 'trail': ['Park at <b>Diepenveen</b>; winding paths cross the park.',
+           'Find the <b>sight lines</b> from the house towards the IJssel plain.',
+           'Combine with the <b>floodplains</b> a little further on.'],
+ 'foot': '\U0001f436 Dogs on lead \u00b7 \U0001f4b6 Free \u00b7 \U0001f3db\ufe0f Landscape style \u00b7 \U0001f6b6 Gently rolling'
+}))
+
+mk.insert(C, '1564')
+mk.progress(1569)
+mk.check()
