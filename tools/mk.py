@@ -26,9 +26,25 @@ INDEX = 'nature-data/index.json'
 
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
 try:
-    from split_data import half_summary  # noqa: E402
+    import importlib.util
+    _spec = importlib.util.spec_from_file_location(
+        'split_data', os.path.join(ROOT, 'tools', 'split-data.py'))
+    _mod = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(_mod)
+    half_summary = _mod.half_summary
 except Exception:
     half_summary = None
+
+
+def _summary(html, lang):
+    """Lees de tekst-samenvatting uit een c-nl/c-en blok; nooit een harde fout."""
+    if not half_summary:
+        return {}
+    try:
+        out = half_summary(html.strip(), lang)
+        return out if isinstance(out, dict) else {}
+    except Exception:
+        return {}
 
 
 def _read(p):
@@ -150,11 +166,8 @@ def _record_of(c):
     rec = {'id': c['num'], 'name': c['name'], 'number': c['number'],
            'nl': None, 'en': None,
            'nl_html': c['nl_html'], 'en_html': c['en_html']}
-    if half_summary:
-        rec['nl'] = half_summary(c['nl_html'], 'nl') or {}
-        rec['en'] = half_summary(c['en_html'], 'en') or {}
-    else:
-        rec['nl'], rec['en'] = {}, {}
+    rec['nl'] = _summary(c['nl_html'], 'nl')
+    rec['en'] = _summary(c['en_html'], 'en')
     if c.get('card_class'):
         rec['card_class'] = c['card_class']
     return rec
