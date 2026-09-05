@@ -84,3 +84,4 @@
 | 21:14:18 | 23:14:18 | batch 2173-2192 klaar: Land van Cuijk + Maashorst + Mookerheide-gordel + Oeffelter Meent N2000-141 (20 kaarten, 92.4%) | 48e2667 | 8 | 19:07:02 | 234 |
 | 21:27:32 | 23:27:32 | batch 2193-2212 klaar: Peel-hart + Meierij + Zeeland start (Zwin N2000) (20 kaarten, 93.2%) | c29c773 | 0 | 19:07:02 | 239 |
 | 21:40:09 | 23:40:09 | batch 2213-2232 klaar: Zeeland list 83-84 (20 kaarten, 94.1%) + blog 100 | e67d354 | 0 | 19:07:02 | 244 |
+| 21:53:53 | 23:53:53 | batch 2233-2252 klaar: list 84 compleet, Zak + Westerschelde (20 kaarten, 94.9%) + blog 101 | b950111 | 0 | 19:07:02 | 249 |
