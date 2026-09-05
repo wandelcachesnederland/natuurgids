@@ -80,3 +80,4 @@
 | 19:48:39 | 21:48:39 | batch 2095-2114 klaar: Rijk van Nijmegen + Achterhoek Aalten + blog 94 + 89,1% | 594adb7 | 8 | 19:07:02 | 214 |
 | 20:18:17 | 22:18:17 | batch 2115-2134 klaar: Winterswijk havezaten/veen/spoornatuur + N2000 61+63 + blog 95 + 89,9% (+ TOC-dubbelblok 2095-2114 gefixd) | 03256dd | 8 | 19:07:02 | 219 |
 | 20:33:48 | 22:33:48 | batch 2135-2152 klaar: Woold/veen/grens + Landfort (18 kaarten, 90.7%) | fcb269c | 8 | 19:07:02 | 224 |
+| 20:48:00 | 22:48:00 | batch 2153-2172 klaar: Manteling N2000-117 + Zeeduin + Flakkee + Gouwe-restanten + Tholen/SPhilipsland + gorzen (20 kaarten, 91.5%) | c5f484a | 8 | 19:07:02 | 229 |

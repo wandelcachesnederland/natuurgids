@@ -1,7 +1,7 @@
 {
     "description": "Nature reserve data split into manageable chunks by ID range",
     "chunk_size": 100,
-    "total_reserves": 2152,
+    "total_reserves": 2172,
     "files": [
         "reserves-1-100.json",
         "reserves-101-200.json",
@@ -142,8 +142,8 @@
         },
         {
             "file": "reserves-2135-2234.json",
-            "id_range": "2135-2152",
-            "count": 18
+            "id_range": "2135-2172",
+            "count": 38
         }
     ],
     "book_total": 2373
