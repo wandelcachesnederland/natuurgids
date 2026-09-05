@@ -88,3 +88,4 @@
 | 22:07:15 | 00:07:15 | b42a-d: kaarten 2253-2272 (list 84 slot + list 85 t/m De Heide), blog #102, balk 95.7% | e93e08c | 0 | 19:07:02 | 254 |
 | 22:23:18 | 00:23:18 | b43a-d: kaarten 2273-2292 (list 85 Zoomland t/m De Grote Putting; 85|35 scan-dup skip), blog #103, balk 96.6% | 50b6af2 | 0 | 19:07:02 | 259 |
 | 22:53:02 | 00:53:02 | batch 44 klaar: 2312/2373 (97.4%), Molenbeek-dup hersteld, Valkenberg toegevoegd | cf51cfe | 0 | 19:07:02 | 265 |
+| 23:11:38 | 01:11:38 | batch 45 klaar: 2332/2373 (98.3%), n2k Kempenland-West op 3 kaarten | 95088f2 | 0 | 19:07:02 | 270 |
