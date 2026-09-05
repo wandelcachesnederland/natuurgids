@@ -1,10 +1,20 @@
 # -*- coding: utf-8 -*-
-"""HTML -> JSON chunk. Draai vanuit repo-root: python3 tools/export.py 1132 1231"""
+"""OUD: haalde kaarten uit de HTML en schreef ze als JSON-chunk.
+
+Sinds de data-migratie (tools/split-data.py) is de kaartdata verplaatst naar
+nature-data/reserves-*.json; nieuwe kaarten worden daar door tools/mk.py
+direct in geschreven. Deze tool bestaat alleen nog voor het geval iemand een
+oude full-HTML-versie (met <article>-kaarten) naar JSON wil omzetten.
+"""
 import re, io, json, sys
 from html import unescape
 
 lo, hi = int(sys.argv[1]), int(sys.argv[2])
 h = io.open('natuurgids-nederland.html', encoding='utf-8').read()
+if '<article class=' not in h:
+    print('geen <article>-kaarten in de HTML — data zit in nature-data/*.json '
+          '(zie tools/split-data.py en tools/mk.py)')
+    sys.exit(0)
 
 def strip(s):
     return re.sub(r'\s+', ' ', unescape(re.sub(r'<[^>]+>', '', s))).strip()

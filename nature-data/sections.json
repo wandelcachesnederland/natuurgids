@@ -1,0 +1,26 @@
+[
+ {
+  "before": 1,
+  "html": "<h2 class=\"grouphdr\" style=\"margin-top:24px\">Salland — List 1 opener (cards 1–31)</h2>"
+ },
+ {
+  "before": 1,
+  "html": "<h2 class=\"grouphdr\">Salland — the ridge &amp; its foothills</h2>"
+ },
+ {
+  "before": 32,
+  "html": "<h2 class=\"grouphdr\" style=\"margin-top:34px\">De Peel &amp; de Brabantse Kempen — your List 2 (cards 32–97)</h2>"
+ },
+ {
+  "before": 98,
+  "html": "<h2 class=\"grouphdr\" style=\"margin-top:34px\">The Wadden Sea &amp; Friesland — your List 3 (cards 98–103)</h2>"
+ },
+ {
+  "before": 104,
+  "html": "<h2 class=\"grouphdr\" style=\"margin-top:34px\">Texel &amp; the Kop van Noord-Holland — your List 4 (cards 104–116)</h2>"
+ },
+ {
+  "before": 117,
+  "html": "<h2 class=\"grouphdr\" style=\"margin-top:34px\">Groningen West, the city region &amp; the Drenthe border — your List 5 (cards 117–161)</h2>"
+ }
+]

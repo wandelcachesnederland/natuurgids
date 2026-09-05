@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Vergelijk bronlijst met de HTML. Draai vanuit repo-root: python3 tools/diff.py"""
-import re, io, json, unicodedata
+"""Vergelijk bronlijst met de kaarten in nature-data/reserves-*.json.
+Draai vanuit repo-root: python3 tools/diff.py"""
+import re, io, json, unicodedata, os
 
-h = io.open('natuurgids-nederland.html', encoding='utf-8').read()
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def norm(s):
     s = unicodedata.normalize('NFKD', s)
@@ -11,14 +12,18 @@ def norm(s):
     s = re.sub(r"^(de|het|'t|'s|een)\s+", '', s.strip())
     return re.sub(r'[^a-z0-9]', '', s)
 
+# laad alle records uit de chunks
+meta = json.load(io.open(os.path.join(ROOT, 'nature-data', 'index.json'), encoding='utf-8'))
 cards = {}
-for m in re.finditer(r'<article class="([^"]*)" id="nr(\d+)">(.*?)</article>', h, re.S):
-    nm = re.search(r'<h2>.*?</span>\s*(.*?)</h2>', m.group(3), re.S)
-    if nm:
-        cards[norm(nm.group(1))] = int(m.group(2))
+for fn in meta['files']:
+    data = json.load(io.open(os.path.join(ROOT, 'nature-data', fn), encoding='utf-8'))
+    for rec in sorted(data, key=lambda r: r.get('id', 0)):
+        name = rec.get('name') or ''
+        if name:
+            cards.setdefault(norm(name), rec['id'])
 
 missing, seen = [], set()
-for line in io.open('nature-data/bronlijst-boek.txt', encoding='utf-8'):
+for line in io.open(os.path.join(ROOT, 'nature-data', 'bronlijst-boek.txt'), encoding='utf-8'):
     line = line.strip()
     if not line or line.startswith('#'):
         continue
