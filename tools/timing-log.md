@@ -86,3 +86,4 @@
 | 21:40:09 | 23:40:09 | batch 2213-2232 klaar: Zeeland list 83-84 (20 kaarten, 94.1%) + blog 100 | e67d354 | 0 | 19:07:02 | 244 |
 | 21:53:53 | 23:53:53 | batch 2233-2252 klaar: list 84 compleet, Zak + Westerschelde (20 kaarten, 94.9%) + blog 101 | b950111 | 0 | 19:07:02 | 249 |
 | 22:07:15 | 00:07:15 | b42a-d: kaarten 2253-2272 (list 84 slot + list 85 t/m De Heide), blog #102, balk 95.7% | e93e08c | 0 | 19:07:02 | 254 |
+| 22:23:18 | 00:23:18 | b43a-d: kaarten 2273-2292 (list 85 Zoomland t/m De Grote Putting; 85|35 scan-dup skip), blog #103, balk 96.6% | 50b6af2 | 0 | 19:07:02 | 259 |
