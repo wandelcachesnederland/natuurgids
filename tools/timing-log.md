@@ -71,3 +71,4 @@
 | 10:35:38 | 12:35:38 | turn-start 36bf | c9f30e1 | 1 | 05:27:30 | 76 |
 | 19:06:28 | 21:06:28 | b36cn-cq klaar (1754) + blog + export | 1154f4b | 9 | 18:38:51 | 123 |
 | 19:25:42 | 21:25:42 | data-migratie: kaarten naar JSON, HTML shell ~360 KB | 51eae0e | 28 | 18:38:51 | 124 |
+| 17:21:59 | 19:21:59 | batch 2015-2034 klaar + blog | 970d0b4 | 8 | 16:59:45 | 194 |
