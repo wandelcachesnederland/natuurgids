@@ -71,3 +71,23 @@
 | 10:35:38 | 12:35:38 | turn-start 36bf | c9f30e1 | 1 | 05:27:30 | 76 |
 | 19:06:28 | 21:06:28 | b36cn-cq klaar (1754) + blog + export | 1154f4b | 9 | 18:38:51 | 123 |
 | 19:25:42 | 21:25:42 | data-migratie: kaarten naar JSON, HTML shell ~360 KB | 51eae0e | 28 | 18:38:51 | 124 |
+| 17:21:59 | 19:21:59 | batch 2015-2034 klaar + blog | 970d0b4 | 8 | 16:59:45 | 194 |
+| 17:23:37 | 19:23:37 | turn-end 2015-2034 gepusht, PR #3 | 6ea91ae | 0 | 16:59:45 | 194 |
+| 17:52:17 | 19:52:17 |  | 958826b | 9 | 16:59:45 | 199 |
+| 18:23:02 | 20:23:02 |  | 667f6bb | 8 | 16:59:45 | 204 |
+| 18:23:23 | 20:23:23 | batch 2055-2074 klaar: Bommelerwaard + Rijnband + Overbetuwe + blog 92 + 87,4% | 667f6bb | 9 | 16:59:45 | 204 |
+| 19:21:28 | 21:21:28 | batch 2075-2094 klaar: Waalband + Gelderse Poort + Maas en Waal + blog 93 + 88,2% | 970d0b4 | 25 | 19:07:02 | 209 |
+| 19:48:39 | 21:48:39 | batch 2095-2114 klaar: Rijk van Nijmegen + Achterhoek Aalten + blog 94 + 89,1% | 594adb7 | 8 | 19:07:02 | 214 |
+| 20:18:17 | 22:18:17 | batch 2115-2134 klaar: Winterswijk havezaten/veen/spoornatuur + N2000 61+63 + blog 95 + 89,9% (+ TOC-dubbelblok 2095-2114 gefixd) | 03256dd | 8 | 19:07:02 | 219 |
+| 20:33:48 | 22:33:48 | batch 2135-2152 klaar: Woold/veen/grens + Landfort (18 kaarten, 90.7%) | fcb269c | 8 | 19:07:02 | 224 |
+| 20:48:00 | 22:48:00 | batch 2153-2172 klaar: Manteling N2000-117 + Zeeduin + Flakkee + Gouwe-restanten + Tholen/SPhilipsland + gorzen (20 kaarten, 91.5%) | c5f484a | 8 | 19:07:02 | 229 |
+| 21:14:18 | 23:14:18 | batch 2173-2192 klaar: Land van Cuijk + Maashorst + Mookerheide-gordel + Oeffelter Meent N2000-141 (20 kaarten, 92.4%) | 48e2667 | 8 | 19:07:02 | 234 |
+| 21:27:32 | 23:27:32 | batch 2193-2212 klaar: Peel-hart + Meierij + Zeeland start (Zwin N2000) (20 kaarten, 93.2%) | c29c773 | 0 | 19:07:02 | 239 |
+| 21:40:09 | 23:40:09 | batch 2213-2232 klaar: Zeeland list 83-84 (20 kaarten, 94.1%) + blog 100 | e67d354 | 0 | 19:07:02 | 244 |
+| 21:53:53 | 23:53:53 | batch 2233-2252 klaar: list 84 compleet, Zak + Westerschelde (20 kaarten, 94.9%) + blog 101 | b950111 | 0 | 19:07:02 | 249 |
+| 22:07:15 | 00:07:15 | b42a-d: kaarten 2253-2272 (list 84 slot + list 85 t/m De Heide), blog #102, balk 95.7% | e93e08c | 0 | 19:07:02 | 254 |
+| 22:23:18 | 00:23:18 | b43a-d: kaarten 2273-2292 (list 85 Zoomland t/m De Grote Putting; 85|35 scan-dup skip), blog #103, balk 96.6% | 50b6af2 | 0 | 19:07:02 | 259 |
+| 22:53:02 | 00:53:02 | batch 44 klaar: 2312/2373 (97.4%), Molenbeek-dup hersteld, Valkenberg toegevoegd | cf51cfe | 0 | 19:07:02 | 265 |
+| 23:11:38 | 01:11:38 | batch 45 klaar: 2332/2373 (98.3%), n2k Kempenland-West op 3 kaarten | 95088f2 | 0 | 19:07:02 | 270 |
+| 23:33:34 | 01:33:34 | batch 46 klaar: 2352/2373 (99.1%), n2k Kempenland-West op 3 kaarten, Katschut-note | 02d7750 | 0 | 19:07:02 | 275 |
+| 23:57:02 | 01:57:02 | batch 47 + GIDS COMPLEET: 2373/2373 (100%), blog #107 slot, balk 100.0 | 8bd8c6d | 0 | 19:07:02 | 280 |
