@@ -82,3 +82,4 @@
 | 20:33:48 | 22:33:48 | batch 2135-2152 klaar: Woold/veen/grens + Landfort (18 kaarten, 90.7%) | fcb269c | 8 | 19:07:02 | 224 |
 | 20:48:00 | 22:48:00 | batch 2153-2172 klaar: Manteling N2000-117 + Zeeduin + Flakkee + Gouwe-restanten + Tholen/SPhilipsland + gorzen (20 kaarten, 91.5%) | c5f484a | 8 | 19:07:02 | 229 |
 | 21:14:18 | 23:14:18 | batch 2173-2192 klaar: Land van Cuijk + Maashorst + Mookerheide-gordel + Oeffelter Meent N2000-141 (20 kaarten, 92.4%) | 48e2667 | 8 | 19:07:02 | 234 |
+| 21:27:32 | 23:27:32 | batch 2193-2212 klaar: Peel-hart + Meierij + Zeeland start (Zwin N2000) (20 kaarten, 93.2%) | c29c773 | 0 | 19:07:02 | 239 |
