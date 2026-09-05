@@ -90,3 +90,4 @@
 | 22:53:02 | 00:53:02 | batch 44 klaar: 2312/2373 (97.4%), Molenbeek-dup hersteld, Valkenberg toegevoegd | cf51cfe | 0 | 19:07:02 | 265 |
 | 23:11:38 | 01:11:38 | batch 45 klaar: 2332/2373 (98.3%), n2k Kempenland-West op 3 kaarten | 95088f2 | 0 | 19:07:02 | 270 |
 | 23:33:34 | 01:33:34 | batch 46 klaar: 2352/2373 (99.1%), n2k Kempenland-West op 3 kaarten, Katschut-note | 02d7750 | 0 | 19:07:02 | 275 |
+| 23:57:02 | 01:57:02 | batch 47 + GIDS COMPLEET: 2373/2373 (100%), blog #107 slot, balk 100.0 | 8bd8c6d | 0 | 19:07:02 | 280 |
