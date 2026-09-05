@@ -78,3 +78,4 @@
 | 18:23:23 | 20:23:23 | batch 2055-2074 klaar: Bommelerwaard + Rijnband + Overbetuwe + blog 92 + 87,4% | 667f6bb | 9 | 16:59:45 | 204 |
 | 19:21:28 | 21:21:28 | batch 2075-2094 klaar: Waalband + Gelderse Poort + Maas en Waal + blog 93 + 88,2% | 970d0b4 | 25 | 19:07:02 | 209 |
 | 19:48:39 | 21:48:39 | batch 2095-2114 klaar: Rijk van Nijmegen + Achterhoek Aalten + blog 94 + 89,1% | 594adb7 | 8 | 19:07:02 | 214 |
+| 20:18:17 | 22:18:17 | batch 2115-2134 klaar: Winterswijk havezaten/veen/spoornatuur + N2000 61+63 + blog 95 + 89,9% (+ TOC-dubbelblok 2095-2114 gefixd) | 03256dd | 8 | 19:07:02 | 219 |
